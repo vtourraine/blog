@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="fr" itemscope itemtype="http://schema.org/Blog">
+	<head>
+		<meta charset="utf-8" />
+		<title>iOS 6 : quoi de nouveau pour les développeurs ?</title>
+		
+		<link rel="stylesheet" type="text/css" href="../style/main.css"/>
+		<link rel="stylesheet" type="text/css" href="../style/main-large.css" media="all and (min-device-width:800px)"/>
+		
+		<link rel="shortcut icon" href="../img/vt-16.png" />
+		<link rel="apple-touch-icon-precomposed" href="../img/vt-114.png" />
+		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="../img/vt-72.png" />
+		
+		<link href='http://fonts.googleapis.com/css?family=Nunito:300,700' rel='stylesheet' type='text/css'>
+		<link href="feed.xml" type="application/atom+xml" rel="alternate" title="Blog (Atom)" />
+		<meta name="viewport" content="width=device-width, user-scalable=no" />
+		<meta itemprop="image" content="../img/vt-512.png">
+		
+		<!--[if lte IE 8]>
+		<script src="../script/html5ie.js" type="text/javascript"></script>
+		<![endif]-->
+		
+		<script type="text/javascript">
+		  window.___gcfg = {lang: 'fr'};
+		
+		  (function() {
+		    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+		    po.src = 'https://apis.google.com/js/plusone.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+		  })();
+		</script>
+		<script type="text/javascript">
+		
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-18279263-3']);
+		  _gaq.push(['_trackPageview']);
+		
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+		
+		</script>
+	</head>
+	<body class="post">
+		<header>
+			<h1>
+				<a class="headline" href="../"><span>Vincent Tourraine</span></a>
+				<span id="main"><a href="./"><span class="icon"><img src="../style/img/notepad.24.png" alt="" /></span> <span>Blog</span></a></span>
+			</h1>
+		</header>
+		<section class="post">
+			<h1 itemprop="name">iOS 6 : quoi de nouveau pour les développeurs ?</h1>
+			<div class="meta"><time datetime="2012-09-18T22:57:52+02:00">18 September 2012</time>, <a class="tag" href="../blog/tags/ios">#iOS</a></div>
+			<div itemprop="description" class="description">La dernière version d’iOS apporte son lot de nouveautés, pour la plupart déjà bien connues. Les développeurs ne sont pas en reste, avec de nombreuses API à (re)découvrir. J’en profite pour exposer les points qui me paraissent les plus intéressants.</div>
+			<div class="content"><h2>Maps</h2>
+<p>
+    <em>TL;DR : nouvelles cartes, même code</em>
+</p>
+
+<p>C’est une des grandes nouveautés d’iOS 6. Apple est très fière de son nouveau service, et on peut le comprendre. Reste à savoir si l'utilisateur s'y retrouvera. Une chose est sûre : côté développeur, rien ne change. Le framework reste le même, et affichera simplement les nouvelles cartes Apple sur les appareils équipés d’iOS 6, tout en gardant les cartes Google Maps pour les versions précédentes de l’OS.</p>
+
+<p>On trouve bien quelques nouveautés, notamment pour les applis de calcul d’itinéraire. Mais dans la plupart de cas, pas une seule ligne à changer.</p>
+
+<h2>Pass Kit</h2>
+<p>TL;DR : intéressant mais compliqué à mettre en œuvre</p>
+
+<p>Le paiement par mobile, c’est l’avenir, mais comme Apple préfère prendre son temps, il faudra se contenter des tickets et des cartes de réduction pour l’instant avec l'application Passbook. La promesse est déjà énorme. Seulement voilà, la solution est relativement complexe à mettre en place, et surtout dépend entièrement de la bonne volonté des entreprises concernées.</p>
+
+<p>Techniquement, le framework (Pass Kit) est comparable à celui des Push Notifications, ou à Newsstand (oui, c'est une comparaison assez vague, je le reconnais). Disons qu'il ne suffit pas d’avoir une appli, il faut surtout avoir le web service qui va avec. Techniquement, les solutions prêtes-à-l'emploi <a href="https://github.com/mattt/passbook_rails_example" title="">existent déjà</a>. Mais quand on constate qu’aucun des grands quotidiens français n’est compatible Newsstand, entre contraintes économiques et techniques, on peut craindre un avenir similaire pour Passbook. Les États-Unis, c'est une chose, la France, c'est autre chose. Si la SNCF pouvait me donner tort, ce serait déjà magnifique.</p>
+
+<h2>Reminders</h2>
+<p>TL;DR : une API pour les rappels</p>
+
+<p>Tout simplement une API pour consulter et modifier la liste des rappels gérés par l'application officielle du même nom. Date, heure, position géographique, tout y est.</p>
+
+<p>Idéalement, les très nombreuses applications tierces proposant la même chose pourraient ainsi en profiter pour mettre en commun leurs données (plus simple et plus adapté que de gérer une synchro iCloud, c'est appréciable). Ceci dit, il est peu probable que les applis les plus populaires renoncent ainsi à leurs données. Cela fait plusieurs mois que je jongle entre <a href="http://culturedcode.com/things/" title="">Things</a> et Reminders, aussi bien sur iOS que sur OS X, et je pense que ma vie serait plus simple avec un seul gestionnaire de tâches.</p>
+
+<p>Ce n’est pas grand chose, mais on peut imaginer de nombreux usages plus ou moins détournés. Une appli de cuisine pourrait regarder votre liste de courses (et <s>afficher des publicités ciblées</s> très mauvaise idée) et vous proposer des recettes adaptées. Sans oublier l’interaction, même indirecte, avec Siri. Une commande vocale pour créer un rappel, une appli tierce pour le consulter et en faire quelque chose.</p>
+
+<h2>Vue “collection”</h2>
+<p>TL;DR : enfin une UITableView bi-directionnelle</p>
+
+<p>L’affichage des listes avec UITableView, c’est bien, c’est même incontournable. Et ça permet de s'adapter à un écran 4 pouces sans trop toucher au code existant. Mais pour certains éléments, et en particulier sur l’iPad, une vue en “grille” est beaucoup plus adaptée.</p>
+
+<p>Bonne nouvelle, donc, Apple propose enfin une vue dédiée, la UICollectionView, et son copain le UICollectionViewController. Seconde bonne nouvelle, le fonctionnement est strictement identique à celui d’une UITableView, à savoir utilisation d’un data source et d'un delegate. Facile à maîtriser, très utile : vous allez adorer.</p>
+
+<h2>Auto layout</h2>
+<p>TL;DR : autoresizemask, en plus complet</p>
+
+<p>Pour adapter une même vue à plusieurs tailles d'écran (c'est-à-dire portrait/paysage, iPhone/iPad), il convenait jusqu’ici d’utiliser le champs autoresizeMask. Cette simple variable ne permettant pas de s'adapter à toutes les configurations possibles, iOS 6 apporte donc un mode de positionnement alternatif, baptisé “auto layout”.</p>
+
+<p>L'idée est de pouvoir fixer un ensemble de contraintes de différentes natures à chacune des vues, ou à partager des caractéristiques communes. Il est donc désormais possible de fixer des dispositions plus complexes, pour mieux s'adapter à chaque écran. On peut par exemple fixer un alignement en fonction d'une autre vue (et pas seulement de la vue parente), ou coordonner plusieurs vues avec une même largeur.</p>
+
+<p>Si vous utilisiez déjà du code spécifique pour le dimensionnement de vos et/ou si l'arrivée d'un écran 4 pouces vous fait peur, auto layout est fait pour vous.</p>
+
+<h2>Xcode 4.4+</h2>
+<p>TL;DR : moins de code</p>
+
+<p>Je profite de l'article pour rappeler que les dernières versions d’Xcode embarquent quelques nouveautés très intéressantes pour les développeurs, à savoir l'extension des literals à la plupart des types Foundation. Adieu [NSNumber numberWithInt:], adieu [NSDictionary dictionaryWithKeysAndObjects:], etc, bonjour @. Vous pourrez également vous passer des @synthesize pour vos propriétés.</p>
+
+<p>Moins de code (déjà illisible) pour faire la même chose, c'est toujours une excellente nouvelle. Et ces nouveautés ne concernant pas iOS 6 en particulier, vous pouvez en profiter sur tous vos projets.</p>
+
+<h2>Conclusion</h2>
+<p>Encore une fois, Apple continue à étendre les capacités de son OS et des API qui l'accompagnent. Rien de bouleversant, comme pour l'iPhone lui-même, mais beaucoup de nouveautés appréciables qui s'intégreront progressivement à l'écosystème déjà présent.</p>
+
+
+
+<p>https://developer.apple.com/library/prerelease/ios/#releasenotes/General/WhatsNewIniPhoneOS/Articles/iOS6.html</p>
+
+<p>https://developer.apple.com/library/prerelease/ios/#releasenotes/General/iOS60APIDiffs/index.html</p></div>
+			<div class="share">
+				<a href="https://twitter.com/share" class="twitter-share-button" data-text="&quot;iOS 6 : quoi de nouveau pour les développeurs ?&quot; par @vtourraine" data-count="horizontal" data-lang="fr">Tweet</a><script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
+				<div class="g-plusone" data-size="medium" ></div>	
+				<a href="https://plus.google.com/u/0/117326560329576507699/posts" class="profile" rel="author me">Google+</a>
+			</div>
+			<div class="comments">
+				<div id="disqus_thread"></div>
+				<script type="text/javascript">
+				    var disqus_shortname = 'vtourraine';
+				
+				    (function() {
+				        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+				        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+				        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+				    })();
+				</script>
+				<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+				<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+			</div>
+		</section>
+		
+		<section>
+			<div>
+				<div class="postprevious">
+					<a href="http://www.vtourraine.net/blog/ios-fluidite-animation-uitableview"><span>← Billet précédent</span><br/>iOS : en quête de fluidité</a>
+				</div>
+				<div class="postnext">
+					
+				</div>
+			</div>
+		</section>
+		<footer>
+			<nav>
+				<a href="../">Vincent Tourraine</a> / <a href="../projects/">Projets</a> / <a href="./"><span>Blog</span></a>
+			</nav>
+			<div id="mail">
+				<a href="mailto:me@vtourraine.net">me@vtourraine.net</a>
+			</div>
+		</footer>
+	</body>
+</html>

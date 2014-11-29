@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="fr" itemscope itemtype="http://schema.org/Blog">
+	<head>
+		<meta charset="utf-8" />
+		<title>"Tiny Tower" : le jeu pour mobiles sur mesure</title>
+		
+		<link rel="stylesheet" type="text/css" href="../style/main.css?quote"/>
+		<link rel="stylesheet" type="text/css" href="../style/main-large.css" media="all and (min-device-width:800px)"/>
+		
+		<link rel="shortcut icon" href="../img/vt-16.png" />
+		<link rel="apple-touch-icon-precomposed" href="../img/vt-114.png" />
+		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="../img/vt-72.png" />
+		
+		<link href='http://fonts.googleapis.com/css?family=Nunito:300,700' rel='stylesheet' type='text/css'>
+		<link href="feed.xml" type="application/atom+xml" rel="alternate" title="Blog (Atom)" />
+		<meta name="viewport" content="width=device-width, user-scalable=no" />
+		<meta itemprop="image" content="http://www.vtourraine.net/blog/img/tiny-tower-jeu-mobile/tower-overview.png">
+		
+		<!--[if lte IE 8]>
+		<script src="../script/html5ie.js" type="text/javascript"></script>
+		<![endif]-->
+		
+		<script type="text/javascript">
+		  window.___gcfg = {lang: 'fr'};
+		
+		  (function() {
+		    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+		    po.src = 'https://apis.google.com/js/plusone.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+		  })();
+		</script>
+		<script type="text/javascript">
+		
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-18279263-3']);
+		  _gaq.push(['_trackPageview']);
+		
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+		
+		</script>
+	</head>
+	<body class="post">
+		<header>
+			<h1>
+				<a class="headline" href="../"><span>Vincent Tourraine</span></a>
+				<span id="main"><a href="./"><span class="icon"><img src="../style/img/notepad-28-2x.png" alt="" /></span> <span>Blog</span></a></span>
+			</h1>
+		</header>
+		<section class="post">
+			<h1 itemprop="name">"Tiny Tower" : le jeu pour mobiles sur mesure</h1>
+			<div class="meta"><time datetime="2011-12-16T14:23:15+01:00">16 December 2011</time>, <a class="tag" href="../blog/tags/tiny-tower">#Tiny Tower</a> <a class="tag" href="../blog/tags/jeux-video">#jeux vidéo</a> <a class="tag" href="../blog/tags/ios">#iOS</a> <a class="tag" href="../blog/tags/android">#Android</a> <a class="tag" href="../blog/tags/pixel">#pixel</a></div>
+			<div itemprop="description" class="description">Je viens de découvrir "Tiny Tower", un jeu disponible pour iOS et Android, et j’essaie maintenant de comprendre comment un jeu si simple peut se révéler aussi addictif (le fourbe !), en particulier sur mobiles.</div>
+			<div class="content"><p>
+	Je ne vais pas vous faire une analyse approfondie des mécanismes de jeu, ni même un simple test, juste revenir sur quelques points qui illustrent parfaitement, à mon avis, les éléments propres à ce type de plateforme. 
+</p>
+<div class="slideshow">
+	<img src="img/tiny-tower-jeu-mobile/tiny-tower-icone.png" class="nostyle" alt="Tiny Tower icon" />
+</div>
+<div class="slideshow">
+	<img src="img/tiny-tower-jeu-mobile/tower-overview.png" class="nostyle" alt="Tiny Tower screenshot" />
+	<img src="img/tiny-tower-jeu-mobile/tower.png" class="nostyle" alt="Tiny Tower screenshot" />
+</div>
+
+<h2>Un principe simple</h2>
+<p>
+	Il faut un mécanisme de jeu aussi simple que possible, avec éventuellement un mini-tutorial ne durant qu'une poignée de secondes. On pourrait appeler ça le "fast-game". Ici, une sorte de STR ramené à l'échelle d'un unique building. 
+</p>
+
+<h2>Un gameplay fragmenté</h2>
+<p>
+	Il faut pouvoir jouer sur des sessions très courtes, de seulement quelques minutes. C'est un peu comme les chapitres d'un manga qui sont, paraît-il, calibrés pour durer le temps d'un trajet entre 2 stations de métro. Au passage, il ne faut pas avoir trop peur de la répétition. Ici, constamment monter et descendre avec un ascenseur. 
+</p>
+
+<h2>Un espace 1D</h2>
+<p>
+	Tout comme pour les applications classiques sur un smartphone, la navigation à l'intérieur de l'espace de jeu s'effectue dans une seule direction. Vous avez dit <a href="http://developer.apple.com/library/ios/#documentation/uikit/reference/UITableView_Class/Reference/Reference.html">UITableView</a> ? Ici, tout se passe de haut en bas. 
+</p>
+
+<h2>Des notifications</h2>
+<p>
+	Pour inciter le joueur à revenir, il suffit d'une notification, associée bien sûr à un mécanisme de jeu. Au risque de paraître intrusif, c'est le moyen idéal pour replonger dans une nouvelle micro-session. Ici, à chaque fois qu'une construction est prête. 
+</p>
+
+<h2>Des achats in-app</h2>
+<p>
+	Rien de mieux qu'un jeu gratuit pour attirer de nouveaux joueurs. C'est tellement plus simple de lui vendre du temps de jeu après qu'il soit devenu accro. Ici, c'est assez classique, vente d'une monnaie virtuelle pour acheter des vêtements, entre autres choses. 
+</p>
+<div class="slideshow">
+	<img src="img/tiny-tower-jeu-mobile/more-bux.png" class="nostyle" alt="Tiny Tower screenshot" />
+	<img src="img/tiny-tower-jeu-mobile/costume-shop.png" class="nostyle" alt="Tiny Tower screenshot" />
+</div>
+<p>
+	Voici donc quelques points bien précis qui me paraissent clés dans la conception d'un jeu pour mobiles. 
+</p>
+<p>
+	Je pourrais ajouter le fait d'avoir des graphismes à la mode <em>pixel-art</em>, qui donnent toute sa crédibilité artistique au jeu, mais ce critère est sans doute excessivement subjectif. En tout cas, j'adore. 
+</p>
+
+<h2>Téléchargements</h2>
+<ul>
+	<li>
+		<a href="http://itunes.apple.com/app/tiny-tower/id422667065?mt=8">"Tiny Tower" sur l'App Store</a>
+	<li>
+		<a href="https://market.android.com/details?id=com.mobage.ww.a560.tinytower_android">"Tiny Tower" sur l'Android Market</a>
+	</li>
+</ul></div>
+			<div class="share">
+				<a href="https://twitter.com/share" class="twitter-share-button" data-text="&quot;"Tiny Tower" : le jeu pour mobiles sur mesure&quot; par @vtourraine" data-count="horizontal" data-lang="fr">Tweet</a><script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
+				<div class="g-plusone" data-size="medium" ></div>	
+				<a href="https://plus.google.com/u/0/117326560329576507699/posts" class="profile" rel="author me">Google+</a>
+			</div>
+			<div class="comments">
+				<div id="disqus_thread"></div>
+				<script type="text/javascript">
+				    var disqus_shortname = 'vtourraine';
+				
+				    (function() {
+				        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+				        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+				        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+				    })();
+				</script>
+				<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+				<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+			</div>
+		</section>
+		
+		<section>
+			<div>
+				<div class="postprevious">
+					<a href="http://www.vtourraine.net/blog/palm-webos-hp-mauvais-exemple"><span>← Billet précédent</span><br/>webOS : l’exemple à ne pas suivre</a>
+				</div>
+				<div class="postnext">
+					<a href="http://www.vtourraine.net/blog/2011-bilan"><span>Billet suivant →</span><br />Petit bilan personnel de l’année 2011</a>
+				</div>
+			</div>
+		</section>
+		<footer>
+			<nav>
+				<a href="../">Vincent Tourraine</a> / <a href="../projects/">Projets</a> / <a href="./"><span>Blog</span></a>
+			</nav>
+			<div id="mail">
+				<a href="mailto:me@vtourraine.net">me@vtourraine.net</a>
+			</div>
+		</footer>
+	</body>
+</html>

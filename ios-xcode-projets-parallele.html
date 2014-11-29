@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="fr" itemscope itemtype="http://schema.org/Blog">
+	<head>
+		<meta charset="utf-8" />
+		<title>Making-of MemO’clock&zwnj;/&zwnj;GeO’clock : Projets parallèles</title>
+		
+		<link rel="stylesheet" type="text/css" href="../style/main.css?quote"/>
+		<link rel="stylesheet" type="text/css" href="../style/main-large.css" media="all and (min-device-width:800px)"/>
+		
+		<link rel="shortcut icon" href="../img/vt-16.png" />
+		<link rel="apple-touch-icon-precomposed" href="../img/vt-114.png" />
+		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="../img/vt-72.png" />
+		
+		<link href='http://fonts.googleapis.com/css?family=Nunito:300,700' rel='stylesheet' type='text/css'>
+		<link href="feed.xml" type="application/atom+xml" rel="alternate" title="Blog (Atom)" />
+		<meta name="viewport" content="width=device-width, user-scalable=no" />
+		<meta itemprop="image" content="http://www.vtourraine.net/blog/img/ios-xcode-projets-parallele/drag-file-to-project.jpg">
+		
+		<!--[if lte IE 8]>
+		<script src="../script/html5ie.js" type="text/javascript"></script>
+		<![endif]-->
+		
+		<script type="text/javascript">
+		  window.___gcfg = {lang: 'fr'};
+		
+		  (function() {
+		    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+		    po.src = 'https://apis.google.com/js/plusone.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+		  })();
+		</script>
+		<script type="text/javascript">
+		
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-18279263-3']);
+		  _gaq.push(['_trackPageview']);
+		
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+		
+		</script>
+	</head>
+	<body class="post">
+		<header>
+			<h1>
+				<a class="headline" href="../"><span>Vincent Tourraine</span></a>
+				<span id="main"><a href="./"><span class="icon"><img src="../style/img/notepad-28-2x.png" alt="" /></span> <span>Blog</span></a></span>
+			</h1>
+		</header>
+		<section class="post">
+			<h1 itemprop="name">Making-of MemO’clock&zwnj;/&zwnj;GeO’clock : Projets parallèles</h1>
+			<div class="meta"><time datetime="2011-11-02T18:32:22+01:00"> 2 November 2011</time>, <a class="tag" href="../blog/tags/ios">#iOS</a> <a class="tag" href="../blog/tags/making-of">#Making-of</a> <a class="tag" href="../blog/tags/gestion-de-projets">#gestion de projets</a> <a class="tag" href="../blog/tags/xcode">#Xcode</a></div>
+			<div itemprop="description" class="description">Voici la première partie d’une série de billets présentant certains aspects de la création de mes dernières applications : ce qu’on pourrait donc appeler le making-of de MemO’clock et GeO’clock.
+Pour commencer, je vais justement aborder le problème d’avoir à gérer plusieurs applications similaires en parallèle.</div>
+			<div class="content"><p>
+	Il existe différentes situations face auxquelles il est nécessaire de disposer de plusieurs versions d'une même application, par exemple pour proposer une version de démonstration. Dans le cas présent, il s'agissait de produire deux applications partageant de nombreuses fonctionnalités, avec une différenciation avancée sur le type des alarmes gérées (temporaires ou bien géographiques). 
+</p>
+<p>
+	Plusieurs solutions sont envisageables pour gérer ce problème, et il importe de choisir celle qui vous conviendra le mieux, car cette décision aura probablement un impact à long terme sur le projet.
+</p>
+
+<h2>Partage de fichiers</h2>
+<p>
+	D'une manière générale, il est bien sûr important de ne pas réécrire un code déjà existant. Heureusement, un projet Xcode gère ses fichiers par références, ce qui signifie que l'on peut facilement inclure un même fichier source dans plusieurs projets différents (donc sans recopier le fichier sur le disque). Il suffit pour cela de glisser le fichier dans l'arborescence du projet :
+</p>
+<div class="slideshow">
+	<img src="img/ios-xcode-projets-parallele/drag-file-to-project.jpg" alt="Xcode drag file" />
+</div>
+<p>
+	Parmi les options proposées, il faut bien décocher la fonction de copie (première ligne), pour garder une seule version du fichier manipulé :
+</p>
+<div class="slideshow">
+	<img src="img/ios-xcode-projets-parallele/add-file-by-reference.jpg" alt="Xcode file reference" />
+</div>
+<p>
+	Si, pour une quelconque raison, ces références ont besoin d'être modifiées plus tard, vous pouvez toujours accéder aux valeurs en question avec l'inspecteur, lorsque le fichier est sélectionné :
+</p>
+<div class="slideshow">
+	<img src="img/ios-xcode-projets-parallele/inspect-file.jpg" alt="Xcode inspect file" />
+</div>
+<p>
+	Cette approche ne s'arrête pas au code source. Si vous en avez l'utilité, n'hésitez pas à partager des ressources graphiques entre les projets, ou tout autre fichier commun aux applications concernées.
+</p>
+
+<h2>Constantes préprocesseur</h2>
+<p>
+	Les projets ainsi couplés utilisent donc souvent des fichiers communs, mais qu'il faudra paramétrer au moment de vouloir les différencier selon le projet concerné. Il peut s'agir, par exemple, d'inclure des boutons différents à un même endroit de l'écran, ou simplement d'afficher un texte spécifique. 
+</p>
+<p>
+	La solution que j'ai retenue dans ce cas consiste à évaluer la présence d'une constante préprocesseur associée au projet en particulier. Il s'agit d'une vieille solution, dans la tradition du langage C qui constitue, on peut toujours le rappeler, la base des projets iOS. 
+</p>
+<p>
+	Il faut donc ajouter une constante au niveau de la configuration de chaque projet avec Xcode. Pour cela, allez dans les paramètres du projet/cible, à l'onglet <em>Build Setting</em>, vous trouverez le paramètre <em>Preprocessing</em> - <em>Preprocessor Macros</em>. C'est ici que vous pouvez spécifier une constante qui vous servira à identifier le projet, pour tous les profils de compilation :
+</p>
+<div class="slideshow">
+	<img src="img/ios-xcode-projets-parallele/preprocessor.jpg" alt="Xcode preprocessor" />
+</div>
+<p>
+	À partir de là, la valeur de cette constante pourra donc être évaluée au moment de la compilation, en fonction du projet. Dans vos fichiers sources, il suffit d'utiliser les routines <em>#ifdef</em> et <em>#endif</em>, de la manière suivante :
+</p>
+<code>
+	#ifdef GEOCLOCK<br/>
+	&nbsp;&nbsp;// faire quelque chose<br/>
+	#endif<br/>
+	<br/>
+	#ifdef GEOCLOCK<br/>
+	&nbsp;&nbsp;// faire quelque chose<br/>
+	#else<br/>
+	&nbsp;&nbsp;// faire autre chose<br/>
+	#endif<br/>
+</code>
+<p>
+	Et voilà. La démarche est assez simple, et les commandes préprocesseur peuvent être utilisées partout dans le code, vous pouvez donc en contrôler facilement n'importe quelle partie. 
+</p>
+<h2>Conclusion</h2>
+<p>
+	Selon votre expérience des langages de programmation, cette solution pourra vous paraître surprenante, voire inappropriée. Elle permet en tout cas de maîtriser précisément votre code au moment de sa compilation. Libre à vous de l'utiliser selon votre besoin. Cette technique peut d'ailleurs trouver son utilité dans d'autres cas, rien ne vous empêche de vous en inspirer pour répondre à des problèmes différents. 
+</p></div>
+			<div class="share">
+				<a href="https://twitter.com/share" class="twitter-share-button" data-text="&quot;Making-of MemO’clock&zwnj;/&zwnj;GeO’clock : Projets parallèles&quot; par @vtourraine" data-count="horizontal" data-lang="fr">Tweet</a><script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
+				<div class="g-plusone" data-size="medium" ></div>	
+				<a href="https://plus.google.com/u/0/117326560329576507699/posts" class="profile" rel="author me">Google+</a>
+			</div>
+			<div class="comments">
+				<div id="disqus_thread"></div>
+				<script type="text/javascript">
+				    var disqus_shortname = 'vtourraine';
+				
+				    (function() {
+				        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+				        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+				        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+				    })();
+				</script>
+				<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+				<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+			</div>
+		</section>
+		<section id="projects"><h2>Projets associés</h2><div><div class="app ios">
+			<h3><a href="../projects/memoclock/"><span>MemO’clock</span></a></h3>
+			<div class="meta">
+				Application iOS<br/>
+				Mindextent, 2011
+			</div>
+			<img src="../projects/memoclock/img/note-120.png" class="screenshot" alt="main screenshot" />
+			<div>
+				<p class="description">
+					Prise de notes sous forme de texte, photo, vidéo, audio ou croquis, organisation par labels ou carnets, plusieurs modes d’édition des mémos, et gestion d’alarmes de rappel.
+				</p>
+			</div>
+		</div><div class="app ios">
+			<h3><a href="../projects/geoclock/"><span>GeO’clock</span></a></h3>
+			<div class="meta">
+				Application iOS<br/>
+				Mindextent, 2011/2012
+			</div>
+			<img src="../projects/geoclock/img/map-120.png" class="screenshot" alt="main screenshot" />
+			<div>
+				<p class="description">
+					Prise de notes sous forme de texte, photo, vidéo, audio ou croquis, organisation par labels, plusieurs modes d’édition des mémos, et gestion d’alarmes géolocalisées permettant de notifier l’utilisateur selon sa position actuelle.
+				</p>
+			</div>
+		</div></div></section>
+		<section>
+			<div>
+				<div class="postprevious">
+					<a href="http://www.vtourraine.net/blog/ios-contacts-twitter-carnet-adresses"><span>← Billet précédent</span><br/>iOS : Extraire un compte Twitter du carnet d’adresses</a>
+				</div>
+				<div class="postnext">
+					<a href="http://www.vtourraine.net/blog/rejoins-equipe-shazino"><span>Billet suivant →</span><br />Je rejoins l’équipe de Shazino</a>
+				</div>
+			</div>
+		</section>
+		<footer>
+			<nav>
+				<a href="../">Vincent Tourraine</a> / <a href="../projects/">Projets</a> / <a href="./"><span>Blog</span></a>
+			</nav>
+			<div id="mail">
+				<a href="mailto:me@vtourraine.net">me@vtourraine.net</a>
+			</div>
+		</footer>
+	</body>
+</html>

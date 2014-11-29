@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="fr" itemscope itemtype="http://schema.org/Blog">
+	<head>
+		<meta charset="utf-8" />
+		<title>iOS 7 : background fetching pour tout le monde</title>
+		
+		<link rel="stylesheet" type="text/css" href="../style/main.css?quote"/>
+		<link rel="stylesheet" type="text/css" href="../style/main-large.css" media="all and (min-device-width:800px)"/>
+		
+		<link rel="shortcut icon" href="../img/vt-16.png" />
+		<link rel="apple-touch-icon-precomposed" href="../img/vt-114.png" />
+		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="../img/vt-72.png" />
+		
+		<link href='http://fonts.googleapis.com/css?family=Nunito:300,700' rel='stylesheet' type='text/css'>
+		<link href="feed.xml" type="application/atom+xml" rel="alternate" title="Blog (Atom)" />
+		<meta name="viewport" content="width=device-width, user-scalable=no" />
+		<meta itemprop="image" content="http://www.vtourraine.net/blog/img/ios-7-background-fetching/xcodeproj-back-fetch.png">
+		
+		<!--[if lte IE 8]>
+		<script src="../script/html5ie.js" type="text/javascript"></script>
+		<![endif]-->
+		
+		<script type="text/javascript">
+		  window.___gcfg = {lang: 'fr'};
+		
+		  (function() {
+		    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+		    po.src = 'https://apis.google.com/js/plusone.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+		  })();
+		</script>
+		<script type="text/javascript">
+		
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-18279263-3']);
+		  _gaq.push(['_trackPageview']);
+		
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+		
+		</script>
+	</head>
+	<body class="post">
+		<header>
+			<h1>
+				<a class="headline" href="../"><span>Vincent Tourraine</span></a>
+				<span id="main"><a href="./"><span class="icon"><img src="../style/img/notepad-28-2x.png" alt="" /></span> <span>Blog</span></a></span>
+			</h1>
+		</header>
+		<section class="post">
+			<h1 itemprop="name">iOS 7 : background fetching pour tout le monde</h1>
+			<div class="meta"><time datetime="2013-10-11T10:42:16+02:00">11 October 2013</time>, <a class="tag" href="../blog/tags/ios">#iOS</a> <a class="tag" href="../blog/tags/iphone">#iPhone</a> <a class="tag" href="../blog/tags/ipad">#iPad</a> <a class="tag" href="../blog/tags/xcode">#Xcode</a> <a class="tag" href="../blog/tags/objective-c">#Objective-C</a></div>
+			<div itemprop="description" class="description">Entre iOS et les applications qui veulent travailler en tâche de fond, c’est compliqué. Le système a de bonnes raisons pour économiser les cycles de son processeur, tandis que les développeurs en veulent toujours plus. Bonne nouvelle, tout change avec iOS 7, le “background fetching” est maintenant ouvert à tous.</div>
+			<div class="content"><p>
+  Note : je ne sais pas trop comment traduire “background fetching”, le terme utilisé par Apple, en français. Le but, c’est de récupérer des données lorsque l’application tourne en tâche de fond. Ceci dit, vous n’êtes pas non plus limités au téléchargement, même si ce mode d’exécution a ses limites. Bref, pour l’instant, je vais garder la version originale.
+</p>
+
+
+<h2>Configuration du projet</h2>
+
+<p>La mise en place du background fetching est très simple.</p>
+
+<p>Il faut d’abord activer la capacité dans les réglages du projet. Avec Xcode 5, vous allez dans “Capabilities”, vous activez “Background Modes”, et enfin “Background fetch”.</p>
+
+<div class="slideshow">
+	<img src="img/ios-7-background-fetching/xcodeproj-back-fetch-annotated.png" class="nostyle" alt="Edit Project" />
+</div>
+
+<p>Concrètement, cette activation correspond à l’ajout d’une valeur dans le <code>Info.plist</code> de votre projet : </p>
+<code>
+&lt;key&gt;UIBackgroundModes&lt;/key&gt;<br/>
+&lt;array&gt;<br/>
+&nbsp;&nbsp;&lt;string&gt;fetch&lt;/string&gt;<br/>
+&lt;/array&gt;
+</code>
+
+<p>Il est intéressant de noter que contrairement à la plupart des réglages à ce niveau, le background fetching ne demandera pas l’accord de l’utilisateur pour fonctionner. À la place d’un opt-in, Apple a opté pour un opt-out. Il suffit de faire un tour dans les réglages iOS (“Settings” > “General” > “Background App Refresh”) pour trouver la liste des applications qui utilisent déjà le background fetching sur votre appareil, et éventuellement désactiver les indésirables.</p>
+
+<div class="slideshow">
+	<img src="img/ios-7-background-fetching/back-fetch-settings-scaled.png" alt="Fetch settings" />
+</div>
+
+<h2>Mise en place de la fréquence d’utilisation</h2>
+
+<p>Votre application peut maintenant demander à iOS à être sollicitée en tâche de fond. Pour cela, il ne manque qu’une seule information : la fréquence à laquelle l’app souhaite fonctionner.</p>
+
+<p>Il suffit d’utiliser la méthode <code>setMinimumBackgroundFetchInterval:</code> sur votre <code>UIApplication</code>. La valeur par défaut est <code>UIApplicationBackgroundFetchIntervalNever</code>, il vous faudra donc spécifier un autre intervalle. </p>
+
+<p>Comme vous pouvez le deviner, ce paramètre a seulement une valeur indicative. Donc ? Donc vous ne pouvez jamais savoir si et quand votre application sera lancée en tâche de fond. L’utilisateur pourrait simplement la désactiver, comme je l’évoquais ci-dessus. </p>
+
+<p>iOS va plus loin : Apple a mis au point un algorithme qui détermine si une application doit être invoquée en fonction de l’utilisateur, ainsi que des précédentes sessions d’exécution. Tout ça est un peu abstrait, et Apple se garde bien d’expliciter l’algorithme en question, qui d’ailleurs évoluera sûrement avec les prochaines versions du système. </p>
+
+<p>L’objectif est honnête : économiser intelligemment les ressources pour le background fetching. Inutile de rafraîchir les données entre minuit et 6h du matin si vous dormez. Si vous utilisez cette application une fois par jour à 12h, l’idéal est de fetcher les nouvelles données une fois par jour à 11h55. Vous voyez le principe. Le système prend aussi en compte les sessions  précédentes. Si les dernières exécutions en tâche de fond étaient rapides, c’est un plus ; si vous avez utilisé le processeur longtemps avec beaucoup de traitements, c’est un moins. </p>
+
+<p>Avec un code optimisé, vos utilisateurs les plus assidus bénéficieront donc en théorie d’un résultat optimal. Pour le reste, c’est iOS qui décide.</p>
+
+<p>Si vous souhaitez être activé aussi souvent que possible, il est conseillé d’utiliser la constante <code>UIApplicationBackgroundFetchIntervalMinimum</code>, qui porte bien son nom. Dans la pratique, vous pouvez donc attribuer cette valeur dans votre AppDelegate, en fin de lancement :</p>
+
+<code>
+- (BOOL)application:(UIApplication *)application <br/>
+&nbsp;didFinishLaunchingWithOptions:(NSDictionary *)launchOptions<br />
+{<br />
+&nbsp;&nbsp;// ...<br />
+&nbsp;&nbsp;[application setMinimumBackgroundFetchInterval: UIApplicationBackgroundFetchIntervalMinimum];<br />
+&nbsp;&nbsp;// ... <br />
+}
+</code>
+
+<p>Tout est prêt, il ne reste plus qu’à attendre que le système nous donne la main.</p>
+
+
+<h2>À toi de fetcher</h2>
+
+<p>Le moment tant attendu est enfin arrivé : iOS décide de lancer votre application pour le background fetching. Ce qui compte, c’est d’implémenter la méthode <code>application:performFetchWithCompletionHandler:</code> de votre AppDelegate. </p>
+
+<p>En recevant cet appel, votre application dispose de 30 secondes pour effectuer ses téléchargements et autres traitements. Dès que vous avez terminé le fetching, vous devez appeler le block passé en paramètre de cette méthode, en lui transmettant le résultat de l’opération : nouvelles données, pas  nouvelles données, ou échec. Si ce block n’est pas exécuté dans les 30 secondes imparties, votre application sera immédiatement interrompue, et l’icône de votre application portera un bonnet d’âne pour la semaine à venir (il paraît). </p>
+
+<p>Apple recommande d’utiliser les <code>NSURLSession</code> pour faciliter la gestion des téléchargements. Vous pouvez également utiliser <a href="https://github.com/AFNetworking/AFNetworking">AFNetworking</a>, qui est parfaitement adapté pour ce genre d’opérations, comme le montre cet exemple d’implémentation :</p>
+
+<code>
+- (void)application:(UIApplication *)application performFetchWithCompletionHandler:(void (^)(UIBackgroundFetchResult))completionHandler<br />
+{<br />
+&nbsp;&nbsp;AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];<br />
+<br />
+&nbsp;&nbsp;[manager GET:@&quot;http://example.com/resources.json&quot; parameters:nil success:^(AFHTTPRequestOperation *operation, id responseObject) {<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;// ...<br />
+&nbsp;&nbsp;&nbsp;&nbsp;if (completionHandler)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;completionHandler(UIBackgroundFetchResultNewData);<br />
+<br />
+&nbsp;&nbsp;} failure:^(AFHTTPRequestOperation *operation, NSError *error) {<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;// ...<br />
+&nbsp;&nbsp;&nbsp;&nbsp;if (completionHandler)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;completionHandler(UIBackgroundFetchResultFailed);<br />
+<br />
+&nbsp;&nbsp;}];<br />
+}
+</code>
+
+
+<h2>Debug</h2>
+
+<p>Pour tester le comportement de votre application lors d’un appel en tâche de fond, Xcode 5 dispose d’une option permettant de simuler directement un lancement dans ces conditions.</p>
+
+<p>Ce réglage un peu particulier se situe au niveau du “scheme”, vous pouvez éventuellement dupliquer le scheme de base, ou simplement en modifier la valeur ponctuellement. Dans la section “Run”, onglet “Options”, vous trouverez “Launch due to a background fetch event”. Une fois activé, le lancement de votre application depuis Xcode provoquera donc l’appel idoine sur votre AppDelegate. </p>
+
+<div class="slideshow">
+	<img src="img/ios-7-background-fetching/xcodeproj-back-fetch-scheme-annotated.png" class="nostyle" alt="Edit Scheme" />
+</div>
+
+
+<h2>Conclusion</h2>
+
+<p>À mes yeux, cette fonctionnalité (propre à iOS 7, rappelons-le) est peut-être la nouveauté la plus marquante, et surtout la plus utile, du nouveau SDK. </p>
+
+<p>Toutes les applications connectées à un web service (souvent les apps les plus utilisées) peuvent en profiter pour améliorer l’expérience utilisateur de façon invisible. Et je ne dis pas ça pour collectionner les buzzwords.</p>
+
+<p>Enlevez les textures et ajouter le background fetching : voilà une vraie application “optimisée” pour iOS 7.</p>
+
+
+<h2>Références</h2>
+
+<ul>
+  <li><a href="https://developer.apple.com/library/ios/documentation/uikit/reference/UIApplication_Class/Reference/Reference.html">UIApplication Class Reference</a></li>
+  <li><a href="https://developer.apple.com/library/ios/documentation/uikit/reference/UIApplicationDelegate_Protocol/Reference/Reference.html">UIApplicationDelegate Protocol Reference</a></li>
+</ul>
+</div>
+			<div class="share">
+				<a href="https://twitter.com/share" class="twitter-share-button" data-text="&quot;iOS 7 : background fetching pour tout le monde&quot; par @vtourraine" data-count="horizontal" data-lang="fr">Tweet</a><script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
+				<div class="g-plusone" data-size="medium" ></div>	
+				<a href="https://plus.google.com/u/0/117326560329576507699/posts" class="profile" rel="author me">Google+</a>
+			</div>
+			<div class="comments">
+				<div id="disqus_thread"></div>
+				<script type="text/javascript">
+				    var disqus_shortname = 'vtourraine';
+				
+				    (function() {
+				        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+				        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+				        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+				    })();
+				</script>
+				<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+				<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+			</div>
+		</section>
+		
+		<section>
+			<div>
+				<div class="postprevious">
+					<a href="http://www.vtourraine.net/blog/markdown-trackup-format"><span>← Billet précédent</span><br/>Trackup</a>
+				</div>
+				<div class="postnext">
+					<a href="http://www.vtourraine.net/blog/2013-bilan"><span>Billet suivant →</span><br />Petit bilan personnel de l’année 2013</a>
+				</div>
+			</div>
+		</section>
+		<footer>
+			<nav>
+				<a href="../">Vincent Tourraine</a> / <a href="../projects/">Projets</a> / <a href="./"><span>Blog</span></a>
+			</nav>
+			<div id="mail">
+				<a href="mailto:me@vtourraine.net">me@vtourraine.net</a>
+			</div>
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="fr" itemscope itemtype="http://schema.org/Blog">
+	<head>
+		<meta charset="utf-8" />
+		<title>iOS, Retina, et le pixel parfait</title>
+		
+		<link rel="stylesheet" type="text/css" href="../style/main.css?quote"/>
+		<link rel="stylesheet" type="text/css" href="../style/main-large.css" media="all and (min-device-width:800px)"/>
+		
+		<link rel="shortcut icon" href="../img/vt-16.png" />
+		<link rel="apple-touch-icon-precomposed" href="../img/vt-114.png" />
+		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="../img/vt-72.png" />
+		
+		<link href='http://fonts.googleapis.com/css?family=Nunito:300,700' rel='stylesheet' type='text/css'>
+		<link href="feed.xml" type="application/atom+xml" rel="alternate" title="Blog (Atom)" />
+		<meta name="viewport" content="width=device-width, user-scalable=no" />
+		<meta itemprop="image" content="../img/vt-512.png">
+		
+		<!--[if lte IE 8]>
+		<script src="../script/html5ie.js" type="text/javascript"></script>
+		<![endif]-->
+		
+		<script type="text/javascript">
+		  window.___gcfg = {lang: 'fr'};
+		
+		  (function() {
+		    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+		    po.src = 'https://apis.google.com/js/plusone.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+		  })();
+		</script>
+		<script type="text/javascript">
+		
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-18279263-3']);
+		  _gaq.push(['_trackPageview']);
+		
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+		
+		</script>
+	</head>
+	<body class="post">
+		<header>
+			<h1>
+				<a class="headline" href="../"><span>Vincent Tourraine</span></a>
+				<span id="main"><a href="./"><span class="icon"><img src="../style/img/notepad-28-2x.png" alt="" /></span> <span>Blog</span></a></span>
+			</h1>
+		</header>
+		<section class="post">
+			<h1 itemprop="name">iOS, Retina, et le pixel parfait</h1>
+			<div class="meta"><time datetime="2011-10-07T12:17:37+02:00"> 7 October 2011</time>, <a class="tag" href="../blog/tags/ios">#iOS</a> <a class="tag" href="../blog/tags/retina">#Retina</a> <a class="tag" href="../blog/tags/resolution">#résolution</a> <a class="tag" href="../blog/tags/taille">#taille</a> <a class="tag" href="../blog/tags/iphone">#iPhone</a> <a class="tag" href="../blog/tags/ipad">#iPad</a></div>
+			<div itemprop="description" class="description">Les qualités esthétiques et ergonomiques des applications iOS dépendent très largement d’un simple et unique facteur : la taille invariable de l’écran. <br/>C’est peut-être la caractéristique qui différencie le plus iOS de ses concurrents, mais aussi du web en général. <br/>Voyons comment gérer efficacement les pixels à votre disposition.</div>
+			<div class="content"><h2>Tout commence avec le 320x480</h2>
+<p>
+	L'iPhone possède à l'origine un écran de 320 par 480 pixels. Vous pouvez aussi retenir la hauteur pour la barre de statut : 20 pixels, la barre de navigation : 44 pixels, ou encore la TabBar de 50 pixels.
+</p>
+<p>
+	La plupart des applications iOS adossées à l'API standard (CocoaTouch) sont donc conçues à l'intérieur de ce canevas, pourtant très restrictif. Cette limitation constitue un atout formidable, facilitant chaque étape de la création d'une application : le designer pense pour une seule taille d'écran, le graphiste fixe les dimensions des fichiers PSD, et le développeur positionne tous ces éléments avec la précision voulue, et l'assurance que tous les utilisateurs bénéficieront du même résultat.
+</p>
+<p>
+	<em>Au pixel près</em>.
+</p>
+<p>
+	C'est d'ailleurs un facteur clé dans la comparaison entre applications natives et applications web, y compris en dehors du mobile. Un fantasme qu'il faut dépasser à l'intérieur d'un navigateur ou pour un mobile générique, mais qui trouve tout son sens sur un écran d'iPhone. Avec la réussite qu'on lui connaît.
+</p>
+<h2>L'iPhone 4 et le 640x960, a.k.a. "Retina Display"</h2>
+<p>
+	Lors de la présentation de l'iPhone 4, Apple a largement commenté son nouvel écran, baptisé "Retina Display". Tenu à une certaine distance, les pixels deviennent imperceptibles à l'oeil nu, et c'est ce seuil physiologique qu'Apple prétend avoir dépassé, mettant par conséquent un terme à la course aux pixels des autres constructeurs.
+</p>
+<p>
+	Cette vision contient sa part de réalité, mais l'argument décisif est ailleurs. Comment conserver la force du 320x480 des premiers iPhone, tout en améliorant l'écran ? Simple : doubler le nombre de pixels. On obtient donc un 640 par 960 pixels, qui intègre trivialement les ressources taillées pour la taille précédente.
+</p>
+<p>
+	Alors comment faire ?
+</p>
+<p>
+	Il existe une méthode permettant de récupérer à tout moment la taille de l'écran :
+</p>
+<code>
+	CGSize screenSize = [[UIScreen mainScreen] bounds].size;
+</code>
+<p>
+	Seulement voilà, le résultat sera le <em>même</em> sur tous les modèles d'iPhone, Retina ou non : {320, 480}.
+</p>
+<p>
+	C'est un peu déroutant, mais cela permet de faire correspondre exactement le code pour les 2 versions de l'écran. Pour différencier un écran Retina, il faudra faire appel à une autre méthode :
+</p>
+<code>
+	CGFloat scale = [[UIScreen mainScreen] scale];
+</code>
+<p>
+	Cette valeur est égale à "1" pour un écran normal, à "2" pour un écran Retina. Mais il est peu probable que cette méthode vous soit utile directement. En effet, <em>il est important de ne pas concevoir une application pour iPhone 4(S) spécifiquement</em>. Celle-ci doit fonctionner de la même manière sur tous les modèles d'iPhone, affichage compris.
+</p>
+<p>
+	Lorsque vous souhaitez tirer parti de l'écran Retina (parce que c'est quand même très joli), il suffit de fournir un double pour chacune des images utilisées par votre application, avec une seconde version faisant le double de la taille de la première, et en ajoutant le suffixe "@2x" au nom du fichier. <em>C'est tout.</em> Par exemple :
+</p>
+<code>
+	./img/logo.png<br/>
+	./img/logo@2x.png
+</code>
+<p>
+	Je veux insister encore une fois sur la simplicité de cette démarche : concevez l'application sans vous soucier du Retina, et ajoutez simplement le double de chaque image aux ressources du projet. Tout le reste est très bien géré par iOS, profitons-en.
+</p>
+
+<h2>Et enfin l'iPad.</h2>
+<p>
+	Les choses se compliquent sensiblement avec l'iPad (arrivé quelques mois avant l'iPhone 4, mais peu importe).
+</p>
+<p>
+	L'iPad possède un écran de 1024 par 768 pixels. On notera tout de suite que le ratio est différent de celui de l'iPhone, ce qui interdit une transposition directe. Les applications conçues pour l'iPhone sont donc exécutées en 320x480, avec possibilité d'appliquer un zoom x2 pour se rapprocher de la taille de l'écran.
+</p>
+<p>
+	Il y a là une grande fourberie de la part d'Apple. En mode "2x", les applications se trouvent donc à être affichées en 640x960, ce qui nous ramène très précisément au Retina précédemment évoqué. Problème résolu ? Absolument pas. <em>iOS ignore délibérément les ressources Retina à sa disposition</em>, condamnant l'utilisateur à un rendu aux pixels bien en évidence.
+</p>
+<p>
+	Je ne vois qu'une explication à ce choix. Une application conçue pour un écran d'iPhone n'exploitera jamais de manière satisfaisante l'espace offert par un écran d'iPad. Et pour inciter les développeurs à revoir la conception de leurs applications, mieux vaut ne pas trop embellir le portage à minima tel qu'il est proposé actuellement.
+</p>
+<p>
+	On l'aura donc compris : une application pour iPad nécessite un travail bien plus conséquent que pour une adaptation au Retina. Pour déterminer le type d'appareil au moment de l'exécution, la solution la plus robuste consiste à utiliser la macro proposée par le SDK :
+</p>
+<code>
+	if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) {<br/>
+  &nbsp;&nbsp;// Pour iPad<br/>
+}<br/>
+else {<br/>
+  &nbsp;&nbsp;// Pour iPhone et iPod touch<br/>
+}
+</code>
+<p>
+	Il existe toutefois une approche permettant de valoriser les ressources pour Retina sur un iPad. Vous pouvez en effet faire appel directement aux ressources suffixées par "@2x", et utiliser un positionnement relatif des éléments à l'écran en fonction de ses dimensions, permettant ainsi d'étirer l'application sur l'iPad, avec une résolution d'image normale, et sans avoir à ajouter de nouvelles ressources. Cette approche ne saurait se substituer à la conception d'une version spécifique à la tablette, mais elle peut s'avérer satisfaisante pour certains types de projets.
+</p>
+<h2>Conclusion</h2>
+<p>
+	Ce n'est certainement pas un hasard si le nombre de pixel de l'écran Retina correspond rigoureusement au double de celui de la génération précédente. C'est pour cette même raison qu'Apple ne souhaite pas agrandir l'écran pour un iPhone 5, pour cela que l'écran de l'iPad 2 est identique à celui du premier. La seule amélioration concevable serait celle d'un écran de 2048 par 1536 pixels, ni plus, ni moins. Pour l'année prochaine ?
+</p></div>
+			<div class="share">
+				<a href="https://twitter.com/share" class="twitter-share-button" data-text="&quot;iOS, Retina, et le pixel parfait&quot; par @vtourraine" data-count="horizontal" data-lang="fr">Tweet</a><script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
+				<div class="g-plusone" data-size="medium" ></div>	
+				<a href="https://plus.google.com/u/0/117326560329576507699/posts" class="profile" rel="author me">Google+</a>
+			</div>
+			<div class="comments">
+				<div id="disqus_thread"></div>
+				<script type="text/javascript">
+				    var disqus_shortname = 'vtourraine';
+				
+				    (function() {
+				        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+				        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+				        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+				    })();
+				</script>
+				<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+				<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+			</div>
+		</section>
+		
+		<section>
+			<div>
+				<div class="postprevious">
+					<a href="http://www.vtourraine.net/blog/ouverture-blog"><span>← Billet précédent</span><br/>Ouverture du blog</a>
+				</div>
+				<div class="postnext">
+					<a href="http://www.vtourraine.net/blog/ios-contacts-twitter-carnet-adresses"><span>Billet suivant →</span><br />iOS : Extraire un compte Twitter du carnet d’adresses</a>
+				</div>
+			</div>
+		</section>
+		<footer>
+			<nav>
+				<a href="../">Vincent Tourraine</a> / <a href="../projects/">Projets</a> / <a href="./"><span>Blog</span></a>
+			</nav>
+			<div id="mail">
+				<a href="mailto:me@vtourraine.net">me@vtourraine.net</a>
+			</div>
+		</footer>
+	</body>
+</html>

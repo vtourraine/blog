@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="fr" itemscope itemtype="http://schema.org/Blog">
+	<head>
+		<meta charset="utf-8" />
+		<title>La métaphore du bonsai</title>
+		
+		<link rel="stylesheet" type="text/css" href="../style/main.css?quote"/>
+		<link rel="stylesheet" type="text/css" href="../style/main-large.css" media="all and (min-device-width:800px)"/>
+		
+		<link rel="shortcut icon" href="../img/vt-16.png" />
+		<link rel="apple-touch-icon-precomposed" href="../img/vt-114.png" />
+		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="../img/vt-72.png" />
+		
+		<link href='http://fonts.googleapis.com/css?family=Nunito:300,700' rel='stylesheet' type='text/css'>
+		<link href="feed.xml" type="application/atom+xml" rel="alternate" title="Blog (Atom)" />
+		<meta name="viewport" content="width=device-width, user-scalable=no" />
+		<meta itemprop="image" content="http://www.vtourraine.net/blog/img/bonsai-developpement-code/cotoneaster.jpg">
+		
+		<!--[if lte IE 8]>
+		<script src="../script/html5ie.js" type="text/javascript"></script>
+		<![endif]-->
+		
+		<script type="text/javascript">
+		  window.___gcfg = {lang: 'fr'};
+		
+		  (function() {
+		    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+		    po.src = 'https://apis.google.com/js/plusone.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+		  })();
+		</script>
+		<script type="text/javascript">
+		
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-18279263-3']);
+		  _gaq.push(['_trackPageview']);
+		
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+		
+		</script>
+	</head>
+	<body class="post">
+		<header>
+			<h1>
+				<a class="headline" href="../"><span>Vincent Tourraine</span></a>
+				<span id="main"><a href="./"><span class="icon"><img src="../style/img/notepad-28-2x.png" alt="" /></span> <span>Blog</span></a></span>
+			</h1>
+		</header>
+		<section class="post">
+			<h1 itemprop="name">La métaphore du bonsai</h1>
+			<div class="meta"><time datetime="2014-03-28T08:42:16+01:00">28 March 2014</time>, <a class="tag" href="../blog/tags/gestion-de-projets">#gestion de projets</a> <a class="tag" href="../blog/tags/projet">#projet</a></div>
+			<div itemprop="description" class="description">Tout le monde adore les métaphores, n’est-ce-pas ? Un ordinateur c’est comme une voiture. Ou un camion. Aujourd’hui j’ai l’impression que coder, c’est un peu comme entretenir un bonsai. Certains le considèrent comme du jardinage, d’autres comme un art. Et parfois, on peut ressentir une envie incontrôlable de tout brûler.</div>
+			<div class="content"><figure class="slideshow">
+  <img src="img/bonsai-developpement-code/cotoneaster.jpg" alt="Cotoneaster">
+  <figcaption><a href="https://www.flickr.com/photos/openeye/5428831/">“Cotoneaster” by Mike</a>,  © Attribution-ShareAlike License</figcaption>
+</figure>
+
+<h2>Lutter contre une croissance incontrôlée</h2>
+
+<p>Lorsqu’on travaille sur un projet, les améliorations les plus évidentes consistent à ajouter du code. Nouvelles fonctions, gestion de cas particuliers, support de différentes configurations, même la correction d’un bug passe souvent par l’ajout d’un nouveau bloc d’instructions. </p>
+<p>Cette croissance sans fin apporte malheureusement autant de problèmes qu’elle n’en résout. Concrètement, chaque ligne de code cache un bug potentiel. En ce qui concerne l’expérience utilisateur, chaque nouvelle fonction apporte son lot de confusions. L’accumulation de ces développements conduit à une inertie globale du projet tout en complexifiant son utilisation, et donc en réduisant l’intérêt et la valeur.</p>
+<p>Prenons un petit exemple. Tout le monde considère Instagram comme une application “simple”. Facile à utiliser, et forcément facile à développer (je te fais ça en un week-end). <a href="http://parislemon.com/post/74043316441/where-is-this-geotagged-place-wonders-instagram">MG Siegler remarquait</a> qu’à chaque fois qu’il poste une photo, il se trouve toujours quelqu’un pour lui demander “where was this picture taken?”. Le problème, c’est que chaque photo est justement géo-tagguée, merci le GPS de l’iPhone, et que le nom du lieu est même inscrit en toutes lettres au-dessus de chaque entrée, merci les API de <a href="http://en.wikipedia.org/wiki/Reverse_geocoding">reverse geocoding</a>. Voir   l’application ajouter de nouvelles fonctionnalités comme Instagram Direct pour envoyer des photos en privé, avant tout dans un souci de répondre à la concurrence, soulève une certaine inquiétude sur sa stratégie à long terme.</p>
+
+<h2>Un entretien régulier</h2>
+
+<p>Pour en revenir à notre bonsai, il convient donc de se débarrasser régulièrement des branches qui deviennent trop encombrantes. On peut toujours prendre du recul pour mieux apprécier l’étendue d’un projet, et estimer quelles parties sont dispensables. C’est vrai de façon ponctuelle, où certaines fonctions peuvent être réécrites de façon plus concise, et à une échelle plus globale, où des fonctionnalités deviennent redondantes et peuvent être remplacées avantageusement.</p>
+<p>J’ai ressorti le mois dernier <a href="http://www.studioamanga.com/wizbox/">un projet iOS</a> que j’avais entamé en 2009, et qui n’avait pas été modifié depuis 2011. Au delà de ce qu’on peut objectivement qualifier d’erreurs, souvent liées à une mauvaise compréhension du langage et des frameworks, le développement iOS s’est tout simplement amélioré depuis, et il convient de faire évoluer son code en conséquence. J’utilisais uniquement des <code>ivars</code>, je peux maintenant utiliser des <code>properties</code>. Ma gestion de la mémoire était... hésitante, longue vie à ARC. Autant de changements qui demandent du travail, mais qui me paraissent incontournables aujourd’hui avant de pouvoir envisager de toucher aux fonctionnalités elles-mêmes et améliorer l’expérience utilisateur.</p>
+<p>Le plus difficile est de choisir d’enlever quelque chose sans chercher à le remplacer. Une application ne devrait pas être une accumulation pure et simple de fonctionnalités. Il faut savoir la faire évoluer, et accepter de perdre certaines choses pour en gagner d’autres. Il y aura toujours une raison de conserver l’existant, mais ce sont autant d’entraves à la qualité du projet sur le long terme.</p>
+</div>
+			<div class="share">
+				<a href="https://twitter.com/share" class="twitter-share-button" data-text="&quot;La métaphore du bonsai&quot; par @vtourraine" data-count="horizontal" data-lang="fr">Tweet</a><script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
+				<div class="g-plusone" data-size="medium" ></div>	
+				<a href="https://plus.google.com/u/0/117326560329576507699/posts" class="profile" rel="author me">Google+</a>
+			</div>
+			<div class="comments">
+				<div id="disqus_thread"></div>
+				<script type="text/javascript">
+				    var disqus_shortname = 'vtourraine';
+				
+				    (function() {
+				        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+				        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+				        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+				    })();
+				</script>
+				<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+				<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+			</div>
+		</section>
+		<section id="projects"><h2>Projet associé</h2><div><div class="app ios">
+			<h3><a href="../projects/wizbox/"><span>WizBox</span></a></h3>
+			<div class="meta">
+				Application iOS<br/>
+				Studio AMANgA, 2009/2014
+			</div>
+			<img src="../projects/wizbox/img/main-120.png" class="screenshot" alt="main screenshot" />
+			<div>
+				<p class="description">
+					Compagnon de jeu pour “Magic&nbsp;:&nbsp;L’Assemblée”, gestion des profils de joueurs, historique des parties, et aide-mémoires hautement spécifiques.
+				</p>
+			</div>
+		</div></div></section>
+		<section>
+			<div>
+				<div class="postprevious">
+					<a href="http://www.vtourraine.net/blog/podcasts-tech-apple-news"><span>← Billet précédent</span><br/>S’informer avec les podcasts</a>
+				</div>
+				<div class="postnext">
+					<a href="http://www.vtourraine.net/blog/mixit-futur-interfaces-science-fiction"><span>Billet suivant →</span><br />Le futur des Interfaces dans la Science-Fiction</a>
+				</div>
+			</div>
+		</section>
+		<footer>
+			<nav>
+				<a href="../">Vincent Tourraine</a> / <a href="../projects/">Projets</a> / <a href="./"><span>Blog</span></a>
+			</nav>
+			<div id="mail">
+				<a href="mailto:me@vtourraine.net">me@vtourraine.net</a>
+			</div>
+		</footer>
+	</body>
+</html>

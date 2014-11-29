@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="fr" itemscope itemtype="http://schema.org/Blog">
+	<head>
+		<meta charset="utf-8" />
+		<title>iOS : des screenshots par milliers</title>
+		
+		<link rel="stylesheet" type="text/css" href="../style/main.css?quote"/>
+		<link rel="stylesheet" type="text/css" href="../style/main-large.css" media="all and (min-device-width:800px)"/>
+		
+		<link rel="shortcut icon" href="../img/vt-16.png" />
+		<link rel="apple-touch-icon-precomposed" href="../img/vt-114.png" />
+		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="../img/vt-72.png" />
+		
+		<link href='http://fonts.googleapis.com/css?family=Nunito:300,700' rel='stylesheet' type='text/css'>
+		<link href="feed.xml" type="application/atom+xml" rel="alternate" title="Blog (Atom)" />
+		<meta name="viewport" content="width=device-width, user-scalable=no" />
+		<meta itemprop="image" content="../img/vt-512.png">
+		
+		<!--[if lte IE 8]>
+		<script src="../script/html5ie.js" type="text/javascript"></script>
+		<![endif]-->
+		
+		<script type="text/javascript">
+		  window.___gcfg = {lang: 'fr'};
+		
+		  (function() {
+		    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+		    po.src = 'https://apis.google.com/js/plusone.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+		  })();
+		</script>
+		<script type="text/javascript">
+		
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-18279263-3']);
+		  _gaq.push(['_trackPageview']);
+		
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+		
+		</script>
+	</head>
+	<body class="post">
+		<header>
+			<h1>
+				<a class="headline" href="../"><span>Vincent Tourraine</span></a>
+				<span id="main"><a href="./"><span class="icon"><img src="../style/img/notepad-28-2x.png" alt="" /></span> <span>Blog</span></a></span>
+			</h1>
+		</header>
+		<section class="post">
+			<h1 itemprop="name">iOS : des screenshots par milliers</h1>
+			<div class="meta"><time datetime="2012-12-10T21:54:08+01:00">10 December 2012</time>, <a class="tag" href="../blog/tags/ios">#iOS</a> <a class="tag" href="../blog/tags/app-store">#App Store</a> <a class="tag" href="../blog/tags/gestion-de-projets">#gestion de projets</a></div>
+			<div itemprop="description" class="description">Publier une application sur l’App Store, c’est à la fois très simple et très compliqué. Je vais donc m’attarder sur l’une de ces difficultés : les screenshots.</div>
+			<div class="content"><p>
+  Je sais, ça paraît trivial. En fait, ça l’est, jusqu’au moment où vous voulez mettre à jour votre appli, ou qu’Apple décide d’ajouter une nouvelle résolution d’écran (bonjour Retina), ou un nouveau format (bonjour iPhone 5). Vous obtenez facilement une dizaine de screenshots par version. Oh, et bien sûr vous pouvez encore multiplier tout ça par le nombre de langues supportées.
+</p>
+
+<p>
+  C’est le genre de chose qui fait sourire la première fois, qu’on fait à la main parce que ça change du code, tout ça, mais qui rend fou assez rapidement.
+</p>
+
+<h2>Mock Manager</h2>
+
+<p>
+  Une application repose généralement sur des données saisies par l’utilisateur. Pour vos screenshots, vous aurez donc besoin de contenu, histoire de mettre en valeur l’application et son interface. Et puisque vous allez être amené à refaire ces screenshots une centaine de fois au cours de l’évolution de votre appli, il vous faut un moyen simple et efficace pour produire des screenshots avec ce précieux contenu.
+</p>
+
+<p>
+  Pour prendre exemple sur ma dernière <a href="http://www.studioamanga.com/onelist" title="http://www.studioamanga.com/onelist">application</a>, le controller principal affiche ses données sur la base d’un manager, qui s’occupe de fournir les informations issues du model. <em>MVC</em>, toujours là pour vous. Il me suffit donc de créer une classe fille pour mon manager, disons “DemoManager”, et de lui faire retourner invariablement mes données de démo. Côté controller, une petite condition à l’instaciation du manager permet de choisir entre le mode normal et le mode démo. 
+</p>
+<br/>
+
+<p>Exemple d’implémentation du DemoManager (<em>DemoManager.m</em>) :</p>
+
+<code>
+  - (NSArray *)suggestions<br/>
+  {<br/>
+  &nbsp;&nbsp;return @[@&quot;Milk&quot;, @&quot;Coffee&quot;, @&quot;Tea&quot;, @&quot;Black Tea&quot;, @&quot;Green Tea&quot;, @&quot;Oolong Tea&quot;, @&quot;White Tea&quot;];<br/>
+  }
+</code>
+
+<p>Exemple d’instanciation du manager à partir du controller principal (<em>MainController.m</em>)</p>
+<code>
+  #ifdef DEMO<br/>
+  &nbsp;&nbsp;self.manager = [DemoManager newManager];<br/>
+  #else<br/>
+  &nbsp;&nbsp;self.manager = [RemindersManager newManager];<br/>
+  #endif
+</code>
+
+<p>
+  J’ai toujours un petit faible pour les constantes pré-processeur, mais vous pouvez adapter ces extraits selon vos préférences. L’objectif est simple : il faut gagner du temps pour plus tard. Votre application doit pouvoir basculer en mode démo avec une simple constante, peu importe comment.
+</p>
+
+<h2>Conclusion</h2>
+
+<p>
+  Autant que je sache, il n’est pas possible d’automatiser entièrement la production des screenshots, surtout lorsque vous devez gérer plusieurs types de devices, ou plusieurs langues. Ceci étant dit, entre UIAutomation et des outils comme <a href="https://github.com/phonegap/ios-sim" title="https://github.com/phonegap/ios-sim">ios-sim</a>, la tâche est peut-être surmontable.
+</p>
+
+<p>
+  Ce qui est important, c’est de rationaliser autant que possible le processus de production de vos screenshots. Quelques lignes de code supplémentaires vous permettront de gagner du temps, beaucoup de temps, et vous aideront à mettre en valeur votre application.
+</p></div>
+			<div class="share">
+				<a href="https://twitter.com/share" class="twitter-share-button" data-text="&quot;iOS : des screenshots par milliers&quot; par @vtourraine" data-count="horizontal" data-lang="fr">Tweet</a><script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
+				<div class="g-plusone" data-size="medium" ></div>	
+				<a href="https://plus.google.com/u/0/117326560329576507699/posts" class="profile" rel="author me">Google+</a>
+			</div>
+			<div class="comments">
+				<div id="disqus_thread"></div>
+				<script type="text/javascript">
+				    var disqus_shortname = 'vtourraine';
+				
+				    (function() {
+				        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+				        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+				        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+				    })();
+				</script>
+				<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+				<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+			</div>
+		</section>
+		<section id="projects"><h2>Projet associé</h2><div><div class="app ios">
+			<h3><a href="../projects/onelist/"><span>1List</span></a></h3>
+			<div class="meta">
+				Application iOS<br/>
+				Studio AMANgA, 2012/2014
+			</div>
+			<img src="../projects/onelist/img/home-120.png" class="screenshot" alt="main screenshot" />
+			<div>
+				<p class="description">
+					Gestionnaire d’une liste de rappels, intégration avec iCloud et Siri.
+				</p>
+			</div>
+		</div></div></section>
+		<section>
+			<div>
+				<div class="postprevious">
+					<a href="http://www.vtourraine.net/blog/the-magazine-newsstand"><span>← Billet précédent</span><br/>“The Magazine”, Newsstand reloaded</a>
+				</div>
+				<div class="postnext">
+					<a href="http://www.vtourraine.net/blog/2012-bilan"><span>Billet suivant →</span><br />Petit bilan personnel de l’année 2012</a>
+				</div>
+			</div>
+		</section>
+		<footer>
+			<nav>
+				<a href="../">Vincent Tourraine</a> / <a href="../projects/">Projets</a> / <a href="./"><span>Blog</span></a>
+			</nav>
+			<div id="mail">
+				<a href="mailto:me@vtourraine.net">me@vtourraine.net</a>
+			</div>
+		</footer>
+	</body>
+</html>

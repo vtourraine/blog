@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="fr" itemscope itemtype="http://schema.org/Blog">
+	<head>
+		<meta charset="utf-8" />
+		<title>Tests unitaires pour iOS</title>
+		
+		<link rel="stylesheet" type="text/css" href="../style/main.css?quote"/>
+		<link rel="stylesheet" type="text/css" href="../style/main-large.css" media="all and (min-device-width:800px)"/>
+		
+		<link rel="shortcut icon" href="../img/vt-16.png" />
+		<link rel="apple-touch-icon-precomposed" href="../img/vt-114.png" />
+		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="../img/vt-72.png" />
+		
+		<link href='http://fonts.googleapis.com/css?family=Nunito:300,700' rel='stylesheet' type='text/css'>
+		<link href="feed.xml" type="application/atom+xml" rel="alternate" title="Blog (Atom)" />
+		<meta name="viewport" content="width=device-width, user-scalable=no" />
+		<meta itemprop="image" content="http://www.vtourraine.net/blog/img/ios-tdd-tests-unitaires/xcode-ocunit.png">
+		
+		<!--[if lte IE 8]>
+		<script src="../script/html5ie.js" type="text/javascript"></script>
+		<![endif]-->
+		
+		<script type="text/javascript">
+		  window.___gcfg = {lang: 'fr'};
+		
+		  (function() {
+		    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+		    po.src = 'https://apis.google.com/js/plusone.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+		  })();
+		</script>
+		<script type="text/javascript">
+		
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-18279263-3']);
+		  _gaq.push(['_trackPageview']);
+		
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+		
+		</script>
+	</head>
+	<body class="post">
+		<header>
+			<h1>
+				<a class="headline" href="../"><span>Vincent Tourraine</span></a>
+				<span id="main"><a href="./"><span class="icon"><img src="../style/img/notepad-28-2x.png" alt="" /></span> <span>Blog</span></a></span>
+			</h1>
+		</header>
+		<section class="post">
+			<h1 itemprop="name">Tests unitaires pour iOS</h1>
+			<div class="meta"><time datetime="2012-04-18T23:59:05+02:00">18 April 2012</time>, <a class="tag" href="../blog/tags/ios">#iOS</a> <a class="tag" href="../blog/tags/xcode">#Xcode</a> <a class="tag" href="../blog/tags/objective-c">#Objective-C</a> <a class="tag" href="../blog/tags/tdd">#TDD</a> <a class="tag" href="../blog/tags/ocunit">#OCUnit</a></div>
+			<div itemprop="description" class="description">Le développement iOS bénéficie d’un langage solide (Objective-C) et d’un SDK moderne (Cocoa Touch). Il existe pourtant un aspect technique, généralement considéré comme essentiel, sur lequel la plateforme est en retard flagrant : les tests unitaires, et le “Test-Driven Development” (TDD) en particulier. C’est le moment de s’y mettre.</div>
+			<div class="content"><h2>Pas assez "amazing" ?</h2>
+
+<p>
+    Le problème, c'est peut-être qu'Apple ne fait pas beaucoup d'efforts. La <a href="http://developer.apple.com/library/ios/#documentation/DeveloperTools/Conceptual/UnitTesting/00-About_Unit_Testing/about.html">documentation</a> est modeste, le sujet n'est pas évoqué lors des <a href="https://developer.apple.com/wwdc/">WWDC</a> et les <a href="https://developer.apple.com/library/ios/navigation/index.html?section=Resource+Types&topic=Sample+Code">codes d'exemples</a> n'en contiennent jamais. À croire que les tests unitaires n'existent pas à Cupertino.
+</p>
+<p>
+    Le seul progrès récent dans ce domaine concerne l'intégration relativement poussée d'<a href="http://www.sente.ch/software/ocunit/">OCUnit</a> (SenTest, le framework ‘officiel’ pour les tests Objective-C) à Xcode 4. Lors de la création d'un nouveau projet, l'option “inclure tests unitaires” permet la configuration automatique du projet, avec <em>target</em> dédiée. Bien. Et le raccourci <em>‘Cmd’+‘U’</em> permet effectivement de lancer facilement l'exécution des tests, sur un appareil ou avec le simulateur. 
+</p>
+<div class="slideshow">
+	<img src="img/ios-tdd-tests-unitaires/xcode-ocunit.png" alt="OCUnit in Xcode" />
+</div>
+<p>
+    Pourtant, même si on ne dispose pas vraiment de statistiques sur le sujet, le constat est facile à établir : la très grande majorité des développeurs iOS (Mac ?) codent sans tests.
+</p>
+
+<h2>Se mettre aux tests</h2>
+
+<p>
+    Je vais prendre un exemple que je maîtrise plutôt bien : moi. J'ai passé 3 ans à développer des applications iOS sans écrire le moindre test. J'avais sans doute passé plus de temps avec JUnit qu'avec OCUnit, chose assez incroyable. 
+</p>
+<p>
+    Mais depuis quelques mois, je me soigne. Le TDD est mon ami, et comme avec tous les amis il faut lui consacrer beaucoup de temps, mais il le rend bien. Et on rigole souvent à la fin de la journée de toutes ces galères communes.
+</p>
+<p>
+    Les ressources pour se former à la pratique des tests unitaires sur iOS sont rares, on peut donc facilement en faire le tour. À ma connaissance, c'est Graham Lee (<a href="http://twitter.com/secboffin">@secboffin</a>, a.k.a. “Rouflaquette”) qui remporte le titre de référence en la matière. Vous pouvez le retrouver dans une Master class sur le site <a href="http://ideveloper.tv/video/unittestingcourse.html">iDeveloper TV</a>, avec des présentations vidéos très instructives. N'hésitez pas à vous les procurer. Il vient également tout juste de publier le premier livre consacré à ce sujet, <a href="http://www.amazon.com/Test-Driven-iOS-Development-Developers-Library/dp/0321774183/ref=sr_1_2">“Test-Driven iOS Development”</a>. Le contenu reprend largement celui des vidéos, mais s'attarde particulièrement sur les grands principes du TDD avec des exemples très détaillés, sans pour autant entrer davantage dans les détails techniques particuliers à iOS. Comme expliqué en haut de ce billet, cette pédagogie est sans doute nécessaire pour la plupart des développeurs concernés.
+</p>
+<div class="slideshow">
+	<img src="img/ios-tdd-tests-unitaires/graham-lee-tdd-ios.png" alt="Test-Driven iOS Development" />
+</div>
+
+<p>
+    Une fois les bases assimilées, il ne reste plus qu'à plonger dans <a href="http://ocmock.org/">OCMock</a>, <a href="http://jonreid.github.com/OCHamcrest/">OCHamcrest</a> et autres <a href="https://github.com/pivotal/cedar">Cedar</a>. Autant de sujets qui méritent des billets dédiés, peut-être pour plus tard. Ça vous laisse le temps pour vous familiariser avec OCUnit. <em>‘Cmd’+‘U’</em>.
+</p></div>
+			<div class="share">
+				<a href="https://twitter.com/share" class="twitter-share-button" data-text="&quot;Tests unitaires pour iOS&quot; par @vtourraine" data-count="horizontal" data-lang="fr">Tweet</a><script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
+				<div class="g-plusone" data-size="medium" ></div>	
+				<a href="https://plus.google.com/u/0/117326560329576507699/posts" class="profile" rel="author me">Google+</a>
+			</div>
+			<div class="comments">
+				<div id="disqus_thread"></div>
+				<script type="text/javascript">
+				    var disqus_shortname = 'vtourraine';
+				
+				    (function() {
+				        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+				        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+				        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+				    })();
+				</script>
+				<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+				<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+			</div>
+		</section>
+		
+		<section>
+			<div>
+				<div class="postprevious">
+					<a href="http://www.vtourraine.net/blog/app-mobile-ui-appui-prolonge"><span>← Billet précédent</span><br/>Le mystère de l’appui prolongé</a>
+				</div>
+				<div class="postnext">
+					<a href="http://www.vtourraine.net/blog/ipad-comic-books-retina-cmxhd"><span>Billet suivant →</span><br />Comic books et Retina, comparaison avec CMX-HD</a>
+				</div>
+			</div>
+		</section>
+		<footer>
+			<nav>
+				<a href="../">Vincent Tourraine</a> / <a href="../projects/">Projets</a> / <a href="./"><span>Blog</span></a>
+			</nav>
+			<div id="mail">
+				<a href="mailto:me@vtourraine.net">me@vtourraine.net</a>
+			</div>
+		</footer>
+	</body>
+</html>

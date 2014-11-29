@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="fr" itemscope itemtype="http://schema.org/Blog">
+	<head>
+		<meta charset="utf-8" />
+		<title>Making-of Contact[s], le retour</title>
+		
+		<link rel="stylesheet" type="text/css" href="../style/main.css?quote"/>
+		<link rel="stylesheet" type="text/css" href="../style/main-large.css" media="all and (min-device-width:800px)"/>
+		
+		<link rel="shortcut icon" href="../img/vt-16.png" />
+		<link rel="apple-touch-icon-precomposed" href="../img/vt-114.png" />
+		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="../img/vt-72.png" />
+		
+		<link href='http://fonts.googleapis.com/css?family=Nunito:300,700' rel='stylesheet' type='text/css'>
+		<link href="feed.xml" type="application/atom+xml" rel="alternate" title="Blog (Atom)" />
+		<meta name="viewport" content="width=device-width, user-scalable=no" />
+		<meta itemprop="image" content="http://www.vtourraine.net/blog/img/app-contacts-sync-url-schemes/contacts-coffee.jpg">
+		
+		<!--[if lte IE 8]>
+		<script src="../script/html5ie.js" type="text/javascript"></script>
+		<![endif]-->
+		
+		<script type="text/javascript">
+		  window.___gcfg = {lang: 'fr'};
+		
+		  (function() {
+		    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+		    po.src = 'https://apis.google.com/js/plusone.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+		  })();
+		</script>
+		<script type="text/javascript">
+		
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-18279263-3']);
+		  _gaq.push(['_trackPageview']);
+		
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+		
+		</script>
+	</head>
+	<body class="post">
+		<header>
+			<h1>
+				<a class="headline" href="../"><span>Vincent Tourraine</span></a>
+				<span id="main"><a href="./"><span class="icon"><img src="../style/img/notepad-28-2x.png" alt="" /></span> <span>Blog</span></a></span>
+			</h1>
+		</header>
+		<section class="post">
+			<h1 itemprop="name">Making-of Contact[s], le retour</h1>
+			<div class="meta"><time datetime="2013-05-17T16:42:16+02:00">17 May 2013</time>, <a class="tag" href="../blog/tags/ios">#iOS</a> <a class="tag" href="../blog/tags/making-of">#Making-of</a> <a class="tag" href="../blog/tags/sync">#sync</a> <a class="tag" href="../blog/tags/contacts">#Contacts</a> <a class="tag" href="../blog/tags/iphone">#iPhone</a></div>
+			<div itemprop="description" class="description">Inscrire un projet dans la durée, c’est bien. On aimerait pouvoir rester en état de refactoring permanent, construisant ligne après ligne le soft parfait. Seulement voilà, parfois, la meilleure solution est de tout supprimer, et de repartir de zéro.</div>
+			<div class="content"><p>“Contact[s]” est une application très simple : il s’agit de proposer une alternative au carnet d'adresses standard iOS, en se concentrant sur les personnes qui importent le plus. Les favoris, les V.I.P., peu importe la façon de les appeler, il est très probable que 90% de vos interactions concernent moins de 10% de votre liste de contacts (chiffres sortis de nulle part, vous voyez le principe).</p>
+
+<p>Mettre en valeur les favoris, et faciliter la mise en contact. C’est un peu le “people first” à la Facebook, ou Windows Phone (on ne sait plus très bien). Voici donc “Contact[s]”, sortie en 2011.</p>
+
+<p>Après un début relativement prometteur, le nombre de téléchargements a rapidement diminué, mais surtout les retours se sont fait plutôt négatifs. En commentaires sur l’App Store ou directement par emails, les utilisateurs étaient visiblement intéressés mais déçus.</p>
+
+<p>La meilleure solution me semble donc de proposer <a href="http://www.studioamanga.com/contacts">“Contact[s] 2”</a>, une refonte totale de l’application. </p>
+
+<div class="slideshow">
+	<img src="img/app-contacts-sync-url-schemes/contacts-wood.png" alt="Contacts Wood" class="nostyle" />
+</div>
+
+<h2>Synchronisation (iCloud ?)</h2>
+
+<p>Difficile d’imaginer une application personnelle sans un processus de synchronisation, aussi bien pour la sauvegarde que pour l’accès aux informations. Pour Contact[s] premier du nom, c’était justement l’année du lancement d’iCloud, une appellation fourre-tout qui comprend notamment la synchro de données gérées avec Core Data, comme c’	était le cas avec Contact[s]. La solution était donc toute trouvée. L’idée était attractive, notamment en sachant qu’Apple aime mettre en valeur les applications utilisant ses nouvelles technologies. Cette réflexion ira jusqu’à inspirer <a href="https://twitter.com/StudioAMANgA/status/130426884843507713">l’icône de l’application</a>, avec son métal brossé circulaire très identifiable.</p>
+
+<p>Pas de chance, <a href="http://www.theverge.com/2013/3/26/4148628/why-doesnt-icloud-just-work" title="http://www.theverge.com/2013/3/26/4148628/why-doesnt-icloud-just-work">comme beaucoup le reconnaissent maintenant</a>, c’est précisément la fonctionnalité d’iCloud la plus problématique. Ce qui ressemblait au départ à un simple manque de documentation s’apparente maintenant à un problème systémique digne des plus gros ratés d’Apple en matière de services en ligne. Il faut dire que le problème de la synchronisation d’une base de données entre plusieurs appareils, avec gestion du mode offline, des migrations, et de tous les conflits de conciliation qui peuvent surgir est un problème complexe (le mot est faible). La solution proposée par Apple n’est pas à la hauteur de ses promesses, tout simplement. </p>
+
+<p>Ce reboot de Contact[s], c’est donc l’opportunité de se débarrasser de ce choix technologique devenu embarrassant. Pour utiliser quoi ? On peut bien sûr créer son propre web service, mais dans un cas aussi commun qu’un carnet d'adresses, cette solution ne me paraît pas la plus intéressante (sans parler de la charge de travail qu’elle impliquerait). </p>
+
+<p>Pourquoi reconstruire ce qui existe déjà ? Le SDK iOS propose une API relativement complète pour interagir avec le carnet d’adresses système. </p>
+
+<p>La seule limitation dans le cas de Contact[s], c’est qu’il est impossible de connaître la liste des favoris déjà établie avec l’application standard. Dommage. L’utilisateur est donc obligé de recréer une liste de favoris à l’intérieur de Contact[s], mais sur la base d’un carnet d’adresses déjà existant. Les identifiants des favoris sont simplement stockés sous la forme d’un tableau de <code>NSString</code> dans le <code>NSUserDefault</code>. Basique, je sais, mais suffisant, et avec une efficacité prouvée. Pour une future mise-à-jour, on pourrait d’ailleurs imaginer stocker ce tableau avec le mécanisme de clés-valeurs iCloud, qui contrairement à son penchant à base de Core Data, fonctionne correctement.</p>
+
+<p>C’est d’ailleurs la solution que j’ai retenue pour ma précédente application, le gestionnaire de tâches <a href="http://www.studioamanga.com/onelist">1List</a>. Situation similaire : l’API système existe, pourquoi réinventer la roue ? Cette approche a de plus l’avantage de bénéficier d’une intégration complète à l’OS. Synchronisation automatique avec tous les services déjà gérés, intégration à Siri, et applications tierces compatibles. Tout le monde est gagnant.</p>
+
+<h2>Communication entre applications</h2>
+
+<p>On le reproche souvent à iOS : il y a un vrai problème de communication entre les applis. Beaucoup de bonnes raisons, ne l’oublions pas, mais aussi une frustration constante dès qu’il s’agit de partager une ressource, aussi élémentaire soit-elle. Pourtant, des solutions ponctuelles existent déjà. </p>
+
+<p>C’est le cas des <a href="http://developer.apple.com/library/ios/#featuredarticles/iPhoneURLScheme_Reference/Introduction/Introduction.html">“URL schemes”</a>. Le fonctionnement est simple : une application peut se déclarer compatible avec un ensemble d’URLs sur la base d’un protocole identifié. Quelle qu’en soit l’origine, l’invocation d’URL correspondante (via Safari mobile, ou bien programmatiquement via une autre application, <code>UIApplication::openURL:</code>) déclenche l’ouverture de l’application déclarée compatible, en lui passant éventuellement les paramètres de la requête. </p>
+
+<p>Ce mécanisme, invisible pour l’utilisateur, est déjà pris en charge par de nombreuses applications. Ce qui m’intéresse en particulier avec Contact[s], c’est de permettre l’utilisation d’un client mail alternatif. Vous utilisez Sparrow ou Gmail ? Ça tombe bien, elles disposent justement d’URL schemes permettant la rédaction directe d’un email avec le ou les destinataires souhaité(s). Juste ce qu’il faut à Contact[s] pour vous permettre de passer directement à votre client mail préféré lorsque vous appuyez sur l’icône en forme d’enveloppe. </p>
+
+<p>Il reste juste un petit détail : on peut détecter si l’utilisateur a installé un client mail alternatif, mais ça ne signifie par forcément qu’il souhaite l’utiliser. Tant que ce paramètre n’existe pas au niveau système, il faut donc ajouter un réglage dans l’application pour lui permettre de faire son choix. Pour autant, inutile d’encombrer le panneau de réglages : si aucun client tiers n’est détecté, l’option n’apparaît pas, et c’est Apple Mail qui s’occupera de tout. Un appel à <code>UIApplication::canOpenURL:</code> suffit pour déterminer si une application est disponible ou non (d’accord, on ne teste pas vraiment la présence de l’application elle-même, mais d’une application répondant au protocole concerné, ce qui fonctionne parfaitement dans notre cas).</p>
+
+<p>Nous verrons si la situation évolue avec iOS 7. En attendant on peut imaginer pour une future mise à jour de Contact[s] la prise en charge d’autres clients mail, voire même de clients Twitter. Facebook, on attend toujours un scheme pour les messages, c’est quand tu veux.</p>
+
+<div class="slideshow">
+	<img src="img/app-contacts-sync-url-schemes/contacts-coffee.jpg" alt="Contacts at Coffee" />
+	<figcaption>Image <a href="http://placeit.breezi.com">PlaceIt</a></figcaption>
+</div>
+
+<h2>Contact[s], et ça repart</h2>
+
+<p>Voilà pour les points les plus importants. Pour le reste, je vous laisse <a href="http://www.studioamanga.com/contacts">découvrir l’application</a>. Je pense que personne ne regrettera la version précédente, reste à voir comment ce reboot va évoluer.</p></div>
+			<div class="share">
+				<a href="https://twitter.com/share" class="twitter-share-button" data-text="&quot;Making-of Contact[s], le retour&quot; par @vtourraine" data-count="horizontal" data-lang="fr">Tweet</a><script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
+				<div class="g-plusone" data-size="medium" ></div>	
+				<a href="https://plus.google.com/u/0/117326560329576507699/posts" class="profile" rel="author me">Google+</a>
+			</div>
+			<div class="comments">
+				<div id="disqus_thread"></div>
+				<script type="text/javascript">
+				    var disqus_shortname = 'vtourraine';
+				
+				    (function() {
+				        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+				        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+				        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+				    })();
+				</script>
+				<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+				<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+			</div>
+		</section>
+		<section id="projects"><h2>Projet associé</h2><div><div class="app ios">
+			<h3><a href="../projects/contacts/"><span>Contact[s]</span></a></h3>
+			<div class="meta">
+				Application iOS<br/>
+				Studio AMANgA, 2011/2014
+			</div>
+			<img src="../projects/contacts/img/favorites-120.png" class="screenshot" alt="main screenshot" />
+			<div>
+				<p class="description">
+					Carnet d’adresses conçu pour la mise en valeur des contacts les plus importants. Intégration complète aux interfaces de communication d’iOS : téléphone, messages, e-mail et Twitter ; synchronisation des données avec iCloud.
+				</p>
+			</div>
+		</div></div></section>
+		<section>
+			<div>
+				<div class="postprevious">
+					<a href="http://www.vtourraine.net/blog/osx-ios-tests-unitaires-travis"><span>← Billet précédent</span><br/>Intégration continue OS X et iOS avec Travis CI</a>
+				</div>
+				<div class="postnext">
+					<a href="http://www.vtourraine.net/blog/rappels-todo-gtd"><span>Billet suivant →</span><br />Bien gérer mes rappels, tous mes rappels</a>
+				</div>
+			</div>
+		</section>
+		<footer>
+			<nav>
+				<a href="../">Vincent Tourraine</a> / <a href="../projects/">Projets</a> / <a href="./"><span>Blog</span></a>
+			</nav>
+			<div id="mail">
+				<a href="mailto:me@vtourraine.net">me@vtourraine.net</a>
+			</div>
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="fr" itemscope itemtype="http://schema.org/Blog">
+	<head>
+		<meta charset="utf-8" />
+		<title>iOS : les animations</title>
+		
+		<link rel="stylesheet" type="text/css" href="../style/main.css?quote"/>
+		<link rel="stylesheet" type="text/css" href="../style/main-large.css" media="all and (min-device-width:800px)"/>
+		
+		<link rel="shortcut icon" href="../img/vt-16.png" />
+		<link rel="apple-touch-icon-precomposed" href="../img/vt-114.png" />
+		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="../img/vt-72.png" />
+		
+		<link href='http://fonts.googleapis.com/css?family=Nunito:300,700' rel='stylesheet' type='text/css'>
+		<link href="feed.xml" type="application/atom+xml" rel="alternate" title="Blog (Atom)" />
+		<meta name="viewport" content="width=device-width, user-scalable=no" />
+		<meta itemprop="image" content="http://www.vtourraine.net/blog/img/ios-animations-blocs/core-animation.png">
+		
+		<!--[if lte IE 8]>
+		<script src="../script/html5ie.js" type="text/javascript"></script>
+		<![endif]-->
+		
+		<script type="text/javascript">
+		  window.___gcfg = {lang: 'fr'};
+		
+		  (function() {
+		    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+		    po.src = 'https://apis.google.com/js/plusone.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+		  })();
+		</script>
+		<script type="text/javascript">
+		
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-18279263-3']);
+		  _gaq.push(['_trackPageview']);
+		
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+		
+		</script>
+	</head>
+	<body class="post">
+		<header>
+			<h1>
+				<a class="headline" href="../"><span>Vincent Tourraine</span></a>
+				<span id="main"><a href="./"><span class="icon"><img src="../style/img/notepad-28-2x.png" alt="" /></span> <span>Blog</span></a></span>
+			</h1>
+		</header>
+		<section class="post">
+			<h1 itemprop="name">iOS : les animations</h1>
+			<div class="meta"><time datetime="2011-12-06T01:10:06+01:00"> 6 December 2011</time>, <a class="tag" href="../blog/tags/ios">#iOS</a> <a class="tag" href="../blog/tags/mac-os-x">#Mac OS X</a> <a class="tag" href="../blog/tags/ui">#UI</a> <a class="tag" href="../blog/tags/animation">#animation</a> <a class="tag" href="../blog/tags/blocs">#blocs</a></div>
+			<div itemprop="description" class="description">Comment créer une application attractive ? Vaste question, mais il me semble qu’il existe un critère, complètement objectif, vous permettant d’atteindre un certain niveau de finition : tous les éléments de l’interface doivent être animés. La bonne nouvelle, c’est qu’iOS le gère très facilement, comme nous allons le voir.</div>
+			<div class="content"><h2>Toujours, toujours animer</h2>
+<p>
+	Sans aller jusqu'à ajouter des textures photo-réalistes partout, il faut que votre interface soit "physiquement" cohérente, presque tangible. 
+</p>
+<p>
+	Typiquement, un élément ne peut pas apparaître brutalement sur l'écran, comme par magie. Les controlleurs de navigation sur iOS (<em>cf</em> <a href="http://developer.apple.com/library/ios/#documentation/uikit/reference/UINavigationController_Class/Reference/Reference.html">UINavigationController</a>) se comportent de façon "naturelle" parce qu'ils animent automatiquement la venue d'un nouvel écran en chassant le précédent de la droite vers la gauche, et inversement lorsqu'on dépile la navigation. C'est le genre de détail qui change complètement l'expérience utilisateur. Il faut toujours veiller à présenter une nouvelle vue lorsqu'elle apparaît sur l'écran, si possible de manière cohérente avec le comportement associé (navigation dans le sens de lecture, panneau de réglage caché derrière la vue principale, etc).
+</p>
+<div class="slideshow">
+	<img src="img/ios-animations-blocs/navigation-interface.png" class="nostyle" alt="Navigation interface" />
+</div>
+<p>
+	De la même manière, lorsque vous modifiez un élément déjà visible à l'écran, vous devez assurer la transition visuelle entre les deux états. Si vous déplacez un bouton d'un point A vers un point B, vous devez absolument animer ce mouvement. Idem pour un redimensionnement, ou tout autre changement d'état. 
+</p>
+<p>
+	J'imagine que tout le monde est d'accord avec ces principes, alors pourquoi sont-ils si rarement respectés ?
+</p>
+
+<h2>Juste un "bloc"</h2>
+<p>
+	Pour un développeur iOS/Mac OS X, le déplacement d'une vue se traduira naturellement par :
+</p>
+<code>
+	[maVue setCenter:CGPointMake(160, 160)];
+</code>
+<p>
+	C'est évidemment trivial. Il existe plusieurs moyens pour animer ce déplacement, mais vous pouvez retenir une solution toute aussi triviale : utiliser les "blocs". Si vous ne connaissez pas bien cette technologie, ne vous inquiétez pas, et regardez plutôt le résultat :
+</p>
+<code>
+	[UIView animateWithDuration:0.3 animations:^{<br/>
+  &nbsp;&nbsp;[maVue setCenter:CGPointMake(160, 160)];<br/>
+  }];
+</code>
+<p>
+	Et voilà, le tour est joué. Vous choisissez simplement la durée de votre animation, et vous ajustez votre interface à l'intérieur du bloc. Une simple ligne de code supplémentaire.
+</p>
+<p>
+	Dans certains cas, vous souhaiterez peut-être exécuter certaines actions une fois l'animation terminée. Prenons l'exemple d'un fade-out (une vue qui disparaît progressivement). Vous allez animer la valeur 'alpha' de "1", la valeur par défaut, jusqu'à "0", pour enfin retirer complètement la vue. 
+</p>
+<code>
+	[UIView animateWithDuration:0.3 animations:^{<br/>
+  &nbsp;&nbsp;[maVue setAlpha:0];<br/>
+  } completion:^(BOOL finished){<br/>
+  &nbsp;&nbsp;[maVue removeFromSuperview];<br/>
+  }];
+</code>
+<p>
+	Et voilà le travail. Vous n'aurez aucun mal à intégrer cette technique à l'intérieur d'applications existantes, ou bien sûr pour vos futurs projets.
+</p>
+<p>
+	Vos utilisateurs appréciront sans doute la valeur ajoutée par ces animations. Il ne vous reste plus qu'à réfléchir aux transitions les plus appropriées pour chaque événement. Merci <em>Core Animation</em>.
+</p>
+<div class="slideshow">
+	<img src="img/ios-animations-blocs/core-animation.png" class="nostyle" alt="Core Animation logo" />
+</div>
+<h2>Références</h2>
+<ul>
+	<li>
+		<a href="http://developer.apple.com/library/IOs/#documentation/WindowsViews/Conceptual/ViewPG_iPhoneOS/AnimatingViews/AnimatingViews.html">View Programming Guide for iOS: Animations</a>
+	</li>
+	<li>
+		<a href="http://developer.apple.com/library/ios/#documentation/Cocoa/Conceptual/CoreAnimation_guide/Introduction/Introduction.html">
+			Introduction to Core Animation Programming Guide
+		</a>
+</ul></div>
+			<div class="share">
+				<a href="https://twitter.com/share" class="twitter-share-button" data-text="&quot;iOS : les animations&quot; par @vtourraine" data-count="horizontal" data-lang="fr">Tweet</a><script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
+				<div class="g-plusone" data-size="medium" ></div>	
+				<a href="https://plus.google.com/u/0/117326560329576507699/posts" class="profile" rel="author me">Google+</a>
+			</div>
+			<div class="comments">
+				<div id="disqus_thread"></div>
+				<script type="text/javascript">
+				    var disqus_shortname = 'vtourraine';
+				
+				    (function() {
+				        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+				        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+				        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+				    })();
+				</script>
+				<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+				<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+			</div>
+		</section>
+		
+		<section>
+			<div>
+				<div class="postprevious">
+					<a href="http://www.vtourraine.net/blog/rejoins-equipe-shazino"><span>← Billet précédent</span><br/>Je rejoins l’équipe de Shazino</a>
+				</div>
+				<div class="postnext">
+					<a href="http://www.vtourraine.net/blog/palm-webos-hp-mauvais-exemple"><span>Billet suivant →</span><br />webOS : l’exemple à ne pas suivre</a>
+				</div>
+			</div>
+		</section>
+		<footer>
+			<nav>
+				<a href="../">Vincent Tourraine</a> / <a href="../projects/">Projets</a> / <a href="./"><span>Blog</span></a>
+			</nav>
+			<div id="mail">
+				<a href="mailto:me@vtourraine.net">me@vtourraine.net</a>
+			</div>
+		</footer>
+	</body>
+</html>
