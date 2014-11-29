@@ -1,3 +1,14 @@
+Title:    Ouverture du blog
+Author:   Vincent Tourraine  
+Email:    me@vtourraine.net  
+Date:     September 30, 2011  
+Update:   
+Keywords: général
+Summary:  Voici le premier billet du blog, je vais donc commencer par une courte introduction. Qui suis-je ? Pourquoi ce site ? Qu’allez-vous y trouver ?
+Image:    
+Language: fr
+
+<p>Voici le premier billet du blog, je vais donc commencer par une courte introduction. Qui suis-je ? Pourquoi ce site ? Qu’allez-vous y trouver ?</p>
 <p>
 	Cela fait maintenant quelques années que je travaille sur des projets appliqués au mobile et au web.
 </p>

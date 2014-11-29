@@ -1,3 +1,15 @@
+Title:    “Tiny Tower” : le jeu pour mobiles sur mesure
+Author:   Vincent Tourraine  
+Email:    me@vtourraine.net  
+Date:     December 16, 2011  
+Update:   
+Keywords: Tiny Tower, jeux vidéo, iOS, Android, pixel
+Summary:  Je viens de découvrir "Tiny Tower", un jeu disponible pour iOS et Android, et j’essaie maintenant de comprendre comment un jeu si simple peut se révéler aussi addictif (le fourbe !), en particulier sur mobiles.  
+Image:    http://www.vtourraine.net/blog/img/tiny-tower-jeu-mobile/tower-overview.png  
+Language: fr
+
+<p>Je viens de découvrir "Tiny Tower", un jeu disponible pour iOS et Android, et j’essaie maintenant de comprendre comment un jeu si simple peut se révéler aussi addictif (le fourbe !), en particulier sur mobiles.</p>
+
 <p>
 	Je ne vais pas vous faire une analyse approfondie des mécanismes de jeu, ni même un simple test, juste revenir sur quelques points qui illustrent parfaitement, à mon avis, les éléments propres à ce type de plateforme. 
 </p>

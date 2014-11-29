@@ -1,3 +1,15 @@
+Title:    Making-of MemO’clock/GeO’clock : Projets parallèles
+Author:   Vincent Tourraine  
+Email:    me@vtourraine.net  
+Date:     November 02, 2011  
+Update:   
+Keywords: iOS, Making-of, gestion de projets, Xcode
+Summary:  Voici la première partie d’une série de billets présentant certains aspects de la création de mes dernières applications : ce qu’on pourrait donc appeler le making-of de MemO’clock et GeO’clock. Pour commencer, je vais justement aborder le problème d’avoir à gérer plusieurs applications similaires en parallèle.
+Image:    http://www.vtourraine.net/blog/img/ios-xcode-projets-parallele/drag-file-to-project.jpg
+Language: fr
+
+<p>Voici la première partie d’une série de billets présentant certains aspects de la création de mes dernières applications : ce qu’on pourrait donc appeler le making-of de MemO’clock et GeO’clock. Pour commencer, je vais justement aborder le problème d’avoir à gérer plusieurs applications similaires en parallèle.</p>
+
 <p>
 	Il existe différentes situations face auxquelles il est nécessaire de disposer de plusieurs versions d'une même application, par exemple pour proposer une version de démonstration. Dans le cas présent, il s'agissait de produire deux applications partageant de nombreuses fonctionnalités, avec une différenciation avancée sur le type des alarmes gérées (temporaires ou bien géographiques). 
 </p>

@@ -1,3 +1,15 @@
+Title:    iOS : Extraire un compte Twitter du carnet d’adresses
+Author:   Vincent Tourraine  
+Email:    me@vtourraine.net  
+Date:     October 18, 2011  
+Update:   
+Keywords: iOS, iOS 5, Contacts, Twitter
+Summary:  Avec iOS 5, le carnet d’adresses bénéficie de nouveaux champs de saisie pour les réseaux sociaux. Voyons comment récupérer ces informations.
+Image:    http://www.vtourraine.net/blog/img/ios-contacts-twitter-carnet-adresses/contact.jpg
+Language: fr
+
+<p>Avec iOS 5, le carnet d’adresses bénéficie de nouveaux champs de saisie pour les réseaux sociaux. Voyons comment récupérer ces informations.</p>
+
 <p>
 	Le framework <em>AddressBook</em> est une mine d'informations depuis la première version du SDK, et iOS 5 continue d'apporter quelques renseignements intéressants. Soit dit en passant, je suis toujours étonné qu'aucune protection n'existe pour avertir l'utilisateur qu'une application parcourt son carnet d'adresses, comme c'est le cas pour la géolocalisation par exemple, mais ceci est un autre débat.
 </p>

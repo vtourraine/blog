@@ -1,3 +1,15 @@
+Title:    iOS, Retina, et le pixel parfait
+Author:   Vincent Tourraine  
+Email:    me@vtourraine.net  
+Date:     October 07, 2011  
+Update:   
+Keywords: iOS, Retina, résolution, taille, iPhone, iPad
+Summary:  Les qualités esthétiques et ergonomiques des applications iOS dépendent très largement d’un simple et unique facteur : la taille invariable de l’écran. C’est peut-être la caractéristique qui différencie le plus iOS de ses concurrents, mais aussi du web en général. Voyons comment gérer efficacement les pixels à votre disposition.
+Image:    
+Language: fr
+
+<p>Les qualités esthétiques et ergonomiques des applications iOS dépendent très largement d’un simple et unique facteur : la taille invariable de l’écran. C’est peut-être la caractéristique qui différencie le plus iOS de ses concurrents, mais aussi du web en général. Voyons comment gérer efficacement les pixels à votre disposition.</p>
+
 <h2>Tout commence avec le 320x480</h2>
 <p>
 	L'iPhone possède à l'origine un écran de 320 par 480 pixels. Vous pouvez aussi retenir la hauteur pour la barre de statut : 20 pixels, la barre de navigation : 44 pixels, ou encore la TabBar de 50 pixels.

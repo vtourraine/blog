@@ -1,3 +1,15 @@
+Title:    Je rejoins l’équipe de Shazino
+Author:   Vincent Tourraine  
+Email:    me@vtourraine.net  
+Date:     November 09, 2011  
+Update:   
+Keywords: général, Shazino
+Summary:  Je m’apprête à rejoindre l’équipe de Shazino, pour le développement d’applications iOS, Mac et web, liées à la recherche scientifique.
+Image:    
+Language: fr
+
+<p>Je m’apprête à rejoindre l’équipe de Shazino, pour le développement d’applications iOS, Mac et web, liées à la recherche scientifique.</p>
+
 <p>
 	Je suis ravi d'annoncer que je vais bientôt rejoindre l'équipe de <a href="http://www.shazino.com">Shazino</a>. 
 </p>

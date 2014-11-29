@@ -1,3 +1,15 @@
+Title:    webOS : l’exemple à ne pas suivre
+Author:   Vincent Tourraine  
+Email:    me@vtourraine.net  
+Date:     December 11, 2011  
+Update:   
+Keywords: webOS, Palm, HP  
+Summary:  Cette fois, l’affaire est pliée. HP se décide finalement à débrancher webOS (pardon, open-sourcer), au terme d’une année fatale pour Palm et son environnement mobile. L’heure du bilan qui fait mal.
+Image:    http://www.vtourraine.net/blog/img/palm-webos-hp-mauvais-exemple/palm-m100-ipod-touch.jpg  
+Language: fr
+
+<p>Cette fois, l’affaire est pliée. HP se décide finalement à débrancher webOS (pardon, open-sourcer), au terme d’une année fatale pour Palm et son environnement mobile. L’heure du bilan qui fait mal.</p>
+
 <h2>Open-source, donc condamné</h2>
 <p>
 	On ne finissait plus d’attendre la décision d’HP concernant webOS, la nouvelle est <a href="http://www.theverge.com/2011/12/9/2623943/webos-being-open-sourced-says-hp/in/2388197">tombée cette semaine</a>.

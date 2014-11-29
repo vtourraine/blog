@@ -1,3 +1,15 @@
+Title:    iOS : les animations  
+Author:   Vincent Tourraine  
+Email:    me@vtourraine.net  
+Date:     December 06, 2011  
+Update:   
+Keywords: iOS, OS X, UI, animation, blocs
+Summary:  Comment créer une application attractive ? Vaste question, mais il me semble qu’il existe un critère, complètement objectif, vous permettant d’atteindre un certain niveau de finition : tous les éléments de l’interface doivent être animés. La bonne nouvelle, c’est qu’iOS le gère très facilement, comme nous allons le voir.
+Image:    http://www.vtourraine.net/blog/img/ios-animations-blocs/core-animation.png
+Language: fr
+
+<p>Comment créer une application attractive ? Vaste question, mais il me semble qu’il existe un critère, complètement objectif, vous permettant d’atteindre un certain niveau de finition : tous les éléments de l’interface doivent être animés. La bonne nouvelle, c’est qu’iOS le gère très facilement, comme nous allons le voir.</p>
+
 <h2>Toujours, toujours animer</h2>
 <p>
 	Sans aller jusqu'à ajouter des textures photo-réalistes partout, il faut que votre interface soit "physiquement" cohérente, presque tangible. 
