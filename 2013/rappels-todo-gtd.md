@@ -1,3 +1,16 @@
+Title:    Bien gérer mes rappels, tous mes rappels  
+Author:   Vincent Tourraine  
+Email:    me@vtourraine.net  
+Date:     July 05, 2013  
+Update:   
+Keywords: rappels, todo, GTD, app  
+Summary:  S’il y a bien une chose que j’envie aux ordinateurs, c’est leur mémoire. Il m’arrive constamment d’oublier des choses, même les plus élémentaires. Pour palier à cette fâcheuse tendance, j’utilise donc une application de rappels. Ou plutôt deux applications. Sans compter la dizaine d’autres que je garde installées, au cas où. C’est grave, docteur ?  
+Image:    http://www.vtourraine.net/blog/img/rappels-todo-gtd/things.jpg  
+Language: fr  
+Project:  1List  
+
+<p>S’il y a bien une chose que j’envie aux ordinateurs, c’est leur mémoire. Il m’arrive constamment d’oublier des choses, même les plus élémentaires. Pour palier à cette fâcheuse tendance, j’utilise donc une application de rappels. Ou plutôt deux applications. Sans compter la dizaine d’autres que je garde installées, au cas où. C’est grave, docteur ?</p>
+
 <h2>Things pour l’organisation</h2>
 
 <p><a href="http://culturedcode.com">“Things”</a> est une famille d’applications pour OS X et iOS, qui reprend les concepts de la fameuse méthodologie <a href="http://en.wikipedia.org/wiki/Getting_Things_Done">« GTD »</a> (getting things done). C’est mon principal outil de gestion de tâches. </p>

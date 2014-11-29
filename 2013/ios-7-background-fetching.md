@@ -1,7 +1,19 @@
+Title:    iOS 7 : background fetching pour tout le monde  
+Author:   Vincent Tourraine  
+Email:    me@vtourraine.net  
+Date:     October 11, 2013  
+Update:   
+Keywords: iOS, Xcode, Objective-C  
+Summary:  Entre iOS et les applications qui veulent travailler en tâche de fond, c’est compliqué. Le système a de bonnes raisons pour économiser les cycles de son processeur, tandis que les développeurs en veulent toujours plus. Bonne nouvelle, tout change avec iOS 7, le “background fetching” est maintenant ouvert à tous.  
+Image:    http://www.vtourraine.net/blog/img/ios-7-background-fetching/xcodeproj-back-fetch.png  
+Language: fr  
+Project:  
+
+<p>Entre iOS et les applications qui veulent travailler en tâche de fond, c’est compliqué. Le système a de bonnes raisons pour économiser les cycles de son processeur, tandis que les développeurs en veulent toujours plus. Bonne nouvelle, tout change avec iOS 7, le “background fetching” est maintenant ouvert à tous.</p>
+
 <p>
   Note : je ne sais pas trop comment traduire “background fetching”, le terme utilisé par Apple, en français. Le but, c’est de récupérer des données lorsque l’application tourne en tâche de fond. Ceci dit, vous n’êtes pas non plus limités au téléchargement, même si ce mode d’exécution a ses limites. Bref, pour l’instant, je vais garder la version originale.
 </p>
-
 
 <h2>Configuration du projet</h2>
 

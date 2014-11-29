@@ -1,3 +1,15 @@
+Title:    Trackup  
+Author:   Vincent Tourraine  
+Email:    me@vtourraine.net  
+Date:     September 06, 2013  
+Update:   
+Keywords: Markdown, Trackup  
+Summary:  Après avoir parlé des gestionnaires de tâches, passons aux choses sérieuses : les gestionnaires de projets. Attention, je préfère clarifier les choses tout de suite : il s’agit uniquement de gérer les features d’une application; passées, en cours et à venir.  
+Image:    
+Language: fr  
+Project:  
+
+<p>Après avoir parlé des gestionnaires de tâches, passons aux choses sérieuses : les gestionnaires de projets. Attention, je préfère clarifier les choses tout de suite : il s’agit uniquement de gérer les features d’une application; passées, en cours et à venir.</p>
 
 <p>Comment gérer l’évolution d’une application, en traçant l’historique des versions, tout en planifiant une roadmap, mais également les fonctionnalités en cours de développement ? </p>
 <p>Oh bien sûr, il existe des dizaines de façons d’aborder ce problème, mais aucune ne me convient vraiment. Le gestionnaire de tâches généraliste est pratique, mais peu adapté. Le bugtracker est pertinent pour les corrections, mais gère mal les features de haut niveau. GitHub, comme toujours, propose des outils intéressants. Mais entre les “issues”, les “milestones” et maintenant les “releases”, l’ensemble manque de cohérence à mon goût. </p>

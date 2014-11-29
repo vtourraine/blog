@@ -1,3 +1,16 @@
+Title:    Making-of Contact[s], le retour  
+Author:   Vincent Tourraine  
+Email:    me@vtourraine.net  
+Date:     May 17, 2013  
+Update:   
+Keywords: iOS, making-of, sync, Contacts, iPhone  
+Summary:  Inscrire un projet dans la durée, c’est bien. On aimerait pouvoir rester en état de refactoring permanent, construisant ligne après ligne le soft parfait. Seulement voilà, parfois, la meilleure solution est de tout supprimer, et de repartir de zéro.  
+Image:    http://www.vtourraine.net/blog/img/app-contacts-sync-url-schemes/contacts-coffee.jpg  
+Language: fr  
+Project:  Contacts
+
+<p>Inscrire un projet dans la durée, c’est bien. On aimerait pouvoir rester en état de refactoring permanent, construisant ligne après ligne le soft parfait. Seulement voilà, parfois, la meilleure solution est de tout supprimer, et de repartir de zéro.</p>
+
 <p>“Contact[s]” est une application très simple : il s’agit de proposer une alternative au carnet d'adresses standard iOS, en se concentrant sur les personnes qui importent le plus. Les favoris, les V.I.P., peu importe la façon de les appeler, il est très probable que 90% de vos interactions concernent moins de 10% de votre liste de contacts (chiffres sortis de nulle part, vous voyez le principe).</p>
 
 <p>Mettre en valeur les favoris, et faciliter la mise en contact. C’est un peu le “people first” à la Facebook, ou Windows Phone (on ne sait plus très bien). Voici donc “Contact[s]”, sortie en 2011.</p>

@@ -1,3 +1,16 @@
+Title:    “T’as le look, Cocoa”  
+Author:   Vincent Tourraine  
+Email:    me@vtourraine.net  
+Date:     March 08, 2013  
+Update:   
+Keywords: iOS, UIKit, Cocoa, style  
+Summary:  UIKit est votre ami. Si vous connaissez le développement iOS, vous maîtrisez déjà la plupart des éléments graphiques proposés par UIKit. Cette palette vous permet de construire rapidement une interface, à l’aide d’éléments standards, prêts à l’emploi. Comment faire alors pour personnaliser cette interface, pour rendre votre application unique et reconnaissable ?  
+Image:    http://www.vtourraine.net/blog/img/ios-cocoa-custom-style/drawrect.png  
+Language: fr  
+Project:  
+
+<p>UIKit est votre ami. Si vous connaissez le développement iOS, vous maîtrisez déjà la plupart des éléments graphiques proposés par UIKit. Cette palette vous permet de construire rapidement une interface, à l’aide d’éléments standards, prêts à l’emploi. Comment faire alors pour personnaliser cette interface, pour rendre votre application unique et reconnaissable ?</p>
+
 <h2>UIKit</h2>
 
 <p>

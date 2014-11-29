@@ -1,3 +1,16 @@
+Title:    Petit bilan personnel de l’année 2012
+Author:   Vincent Tourraine  
+Email:    me@vtourraine.net  
+Date:     January 01, 2013  
+Update:   
+Keywords: général, Shazino  
+Summary:  C’est maintenant une habitude (la deuxième fois, pour être précis), je profite donc de la nouvelle année pour livrer un rapide bilan personnel de 2012.  
+Image:    
+Language: fr  
+Project:    
+
+<p>C’est maintenant une habitude (la deuxième fois, pour être précis), je profite donc de la nouvelle année pour livrer un rapide bilan personnel de 2012.</p>
+
 <h2>shazino</h2>
 
 <p>

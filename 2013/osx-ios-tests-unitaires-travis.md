@@ -1,3 +1,16 @@
+Title:    Intégration continue OS X et iOS avec Travis CI  
+Author:   Vincent Tourraine  
+Email:    me@vtourraine.net  
+Date:     May 06, 2013  
+Update:   
+Keywords: OS X, iOS, Objective-C, TDD, Travis  
+Summary:  Il faut savoir regarder la vérité en face : les projets OS X et surtout iOS incluant des tests unitaires sont plutôt rares. Les contraintes techniques entourant les plateformes d’Apple compliquent leur intégration, et donc leur mise en œuvre. Mais rassurez-vous, les choses s’améliorent.  
+Image:    http://www.vtourraine.net/blog/img/osx-ios-tests-unitaires-travis/travis.png  
+Language: fr  
+Project:  
+
+<p>Il faut savoir regarder la vérité en face : les projets OS X et surtout iOS incluant des tests unitaires sont plutôt rares. Les contraintes techniques entourant les plateformes d’Apple compliquent leur intégration, et donc leur mise en œuvre. Mais rassurez-vous, les choses s’améliorent.</p>
+
 <p>Travis CI est une plateforme d’intégration continue hébergée, Open Source, et gratuite. <a href="http://about.travis-ci.org/blog/introducing-mac-ios-rubymotion-testing/" title="http://about.travis-ci.org/blog/introducing-mac-ios-rubymotion-testing/">Depuis un mois</a>, elle propose aussi la prise en charge des projets OS X et iOS (ainsi que RubyMotion). Il vous suffit d’une simple ligne de configuration dans votre projet pour en bénéficier. C’est assez génial.</p>
 
 <div class="slideshow">
