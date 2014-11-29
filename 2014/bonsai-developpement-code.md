@@ -1,3 +1,16 @@
+Title:    La métaphore du bonsai  
+Author:   Vincent Tourraine  
+Email:    me@vtourraine.net  
+Date:     March 28, 2014  
+Update:   
+Keywords: gestion de projets, projet
+Summary:  Tout le monde adore les métaphores, n’est-ce-pas ? Un ordinateur c’est comme une voiture. Ou un camion. Aujourd’hui j’ai l’impression que coder, c’est un peu comme entretenir un bonsai. Certains le considèrent comme du jardinage, d’autres comme un art. Et parfois, on peut ressentir une envie incontrôlable de tout brûler.  
+Image:    http://www.vtourraine.net/blog/img/bonsai-developpement-code/cotoneaster.jpg  
+Language: fr  
+Project:  WizBox  
+
+<p>Tout le monde adore les métaphores, n’est-ce-pas ? Un ordinateur c’est comme une voiture. Ou un camion. Aujourd’hui j’ai l’impression que coder, c’est un peu comme entretenir un bonsai. Certains le considèrent comme du jardinage, d’autres comme un art. Et parfois, on peut ressentir une envie incontrôlable de tout brûler.</p>
+
 <figure class="slideshow">
   <img src="img/bonsai-developpement-code/cotoneaster.jpg" alt="Cotoneaster">
   <figcaption><a href="https://www.flickr.com/photos/openeye/5428831/">“Cotoneaster” by Mike</a>,  © Attribution-ShareAlike License</figcaption>

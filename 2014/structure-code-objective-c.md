@@ -1,3 +1,15 @@
+Title:    Structurer un code Objective-C  
+Author:   Vincent Tourraine  
+Email:    me@vtourraine.net  
+Date:     October 25, 2014  
+Update:   
+Keywords: code, dev, Objective-C, Cocoa
+Summary:  La qualité d’un code source est avant tout une question de structure. Lorsque je relis un code (notamment le mien), mon premier reproche concerne très souvent le manque de structure. Il n’existe pas de solution universelle, mais les bonnes pratiques en la matière permettent vraiment de développer plus efficacement, seul ou à plusieurs sur un projet. Voici donc un résumé des points qui me paraissent les plus importants pour bien structurer un code Objective-C.  
+Image:    
+Language: fr  
+Project:    
+
+<p>La qualité d’un code source est avant tout une question de structure. Lorsque je relis un code (notamment le mien), mon premier reproche concerne très souvent le manque de structure. Il n’existe pas de solution universelle, mais les bonnes pratiques en la matière permettent vraiment de développer plus efficacement, seul ou à plusieurs sur un projet. Voici donc un résumé des points qui me paraissent les plus importants pour bien structurer un code Objective-C.</p>
 
 <h2>Le header</h2>
 

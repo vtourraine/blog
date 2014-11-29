@@ -1,3 +1,14 @@
+Title:    Petit bilan personnel de l’année 2013
+Author:   Vincent Tourraine  
+Email:    me@vtourraine.net  
+Date:     January 01, 2014  
+Update:   
+Keywords: général, Shazino
+Summary:  Chaque année apporte son lot de nouveautés et de recommencements. À la demande générale, voici donc mon billet en forme de bilan de l’année passée. Les pieds en 2013, mais la tête déjà en 2014.
+Image:    
+Language: fr
+
+<p>Chaque année apporte son lot de nouveautés et de recommencements. À la demande générale, voici donc mon billet en forme de bilan de l’année passée. Les pieds en 2013, mais la tête déjà en 2014.</p>
 <h2>Shazino et PaperShip</h2>
 
 <p>

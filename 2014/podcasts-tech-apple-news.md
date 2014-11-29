@@ -1,3 +1,16 @@
+Title:    S’informer avec les podcasts  
+Author:   Vincent Tourraine  
+Email:    me@vtourraine.net  
+Date:     March 9, 2014  
+Update:   
+Keywords: podcasts, news
+Summary:  Pour s’informer sur internet, les sources ne manquent pas. L’écrit, sous toutes ses formes, reste incontournable. Les photos et les vidéos attirent des millions de vues. Mais il existe un média plus confidentiel tout aussi intéressant : le podcast.  
+Image:    
+Language: fr  
+Project:    
+
+<p>Pour s’informer sur internet, les sources ne manquent pas. L’écrit, sous toutes ses formes, reste incontournable. Les photos et les vidéos attirent des millions de vues. Mais il existe un média plus confidentiel tout aussi intéressant : le podcast.</p>
+
 <p>Bref rappel technique, un podcast est avant tout un flux RSS/Atom dont chaque élément est caractérisé par un fichier audio ou vidéo. Le reste est une affaire de client. De très nombreux logiciels permettent de s’abonner à ces sources, pour en télécharger automatiquement les nouveaux épisodes disponibles, et les consulter quand on le souhaite. On trouve donc sur internet un vaste choix de podcasts, sur tous les sujets et avec tous les formats. </p>
 <p>Je trouve particulièrement intéressant de constater que la plupart des émissions à la radio se déclinent maintenant sous la forme d’un podcast, avec une disponibilité généralement limitée dans le temps. C’est comme si les grandes chaînes de télévision mettaient à disposition une liste de fichiers vidéos à télécharger directement. Aucune perte de qualité perceptible par rapport à la diffusion classique, aucun DRM, tout bonnement des fichiers à télécharger gratuitement, le plus souvent sans publicité. Ce qui semble impensable pour une émission télé est devenue la norme pour la radio. </p>
 <p>Tout ceci pour dire que le podcast est un média formidable, qui bénéficie paradoxalement de sa faible exposition. C’est pourquoi j’ai trouvé intéressant de partager ici mes podcasts favoris, pour ceux qui chercheraient des sources intéressantes.</p>

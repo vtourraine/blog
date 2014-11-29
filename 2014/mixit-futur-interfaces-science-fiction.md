@@ -1,3 +1,15 @@
+Title:    Le futur des Interfaces dans la Science-Fiction  
+Author:   Vincent Tourraine  
+Email:    me@vtourraine.net  
+Date:     May 17, 2014  
+Update:   
+Keywords: UI, Sci-Fi
+Summary:  Comment prendre au sérieux les interfaces qu’on peut voir dans les films de science-fiction ? L’imagination des auteurs ne s’embarrasse pas des mêmes considérations pratiques qui guident tous les jours notre travail de développeurs et concepteurs. C’est souvent avec émerveillement, amusement, et une certaine méprise, que nous contemplons les délires de la science-fiction pour tout ce qui ressemble de proche ou de loin à un ordinateur.  
+Image:    http://www.vtourraine.net/blog/img/mixit-futur-interfaces-science-fiction/2001.jpg  
+Language: fr  
+Project:    
+
+<p>Comment prendre au sérieux les interfaces qu’on peut voir dans les films de science-fiction ? L’imagination des auteurs ne s’embarrasse pas des mêmes considérations pratiques qui guident tous les jours notre travail de développeurs et concepteurs. C’est souvent avec émerveillement, amusement, et une certaine méprise, que nous contemplons les délires de la science-fiction pour tout ce qui ressemble de proche ou de loin à un ordinateur.</p>
 
 <p>Pourtant, notre quotidien de 2014 y était déjà décrit depuis longtemps. iPhone, Google Glass, Kinect, nous vivons tous dans un film de science-fiction du siècle dernier.</p>
 <p>Voilà un constat qui mérite bien toute notre considération, et un rapide tour d’horizon des technologies qui sont ainsi passées de la fiction à la réalité. </p>
