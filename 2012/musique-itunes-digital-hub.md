@@ -1,3 +1,16 @@
+Title:    L’avenir du Digital Hub  
+Author:   Vincent Tourraine  
+Email:    me@vtourraine.net  
+Date:     January 08, 2012  
+Update:   
+Keywords: musique, iTunes, iPod, Digital Hub, Spotify  
+Summary:  Pour changer un peu des sujets trop techniques qui dominent ce blog, je vais m’arrêter un moment sur mes habitudes musicales. C’est un sujet qui me tient à cœur, et cette fois il s’agit d’un billet sur le blog de Stéphane Caron qui m’a laissé songeur, et qui m’amène à ce billet.  
+Image:    http://www.vtourraine.net/blog/img/musique-itunes-digital-hub/ipod-ads.jpg  
+Language: fr  
+Project:  
+
+<p>Pour changer un peu des sujets trop techniques qui dominent ce blog, je vais m’arrêter un moment sur mes habitudes musicales. C’est un sujet qui me tient à cœur, et cette fois il s’agit d’un billet sur le blog de Stéphane Caron qui m’a laissé songeur, et qui m’amène à ce billet.</p>
+
 <p>
 	En réponse à <a href="http://blog.scaron.info/index.php/2011/12/lose-your-ipod-discover-music/">"Want to discover music? Lose your iPod!"</a> par <a href="http://scaron.info/">Stéphane Caron</a>.
 </p>

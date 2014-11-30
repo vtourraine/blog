@@ -1,3 +1,16 @@
+Title:    “The Magazine”, Newsstand reloaded  
+Author:   Vincent Tourraine  
+Email:    me@vtourraine.net  
+Date:     October 19, 2012  
+Update:   November 12, 2014  
+Keywords: iOS, Newsstand, presse  
+Summary:  Vous avez sans doute entendu parler d’Instapaper, le service pour “lire plus tard”, concept génial décliné à l’infini. Son créateur, Marco Arment, vient de lancer une nouvelle application, sobrement baptisée “The Magazine”. Elle pourrait bien sonner le renouveau de Newsstand, le kiosque iOS.  
+Image:    http://www.vtourraine.net/blog/img/the-magazine-newsstand/the-magazine.png  
+Language: fr  
+Project:  
+
+<p>Vous avez sans doute entendu parler d’Instapaper, le service pour “lire plus tard”, concept génial décliné à l’infini. Son créateur, Marco Arment, vient de lancer une nouvelle application, sobrement baptisée “The Magazine”. Elle pourrait bien sonner le renouveau de Newsstand, le kiosque iOS.</p>
+
 <figure class="slideshow">
 	<img src="img/the-magazine-newsstand/the-magazine.png" alt="The Magazine" />
 	<figcaption><a href="http://dribbble.com/shots/766068-The-Magazine-Cover-Art">The Magazine Cover Art par Pacific Helm</a></figcaption>

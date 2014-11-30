@@ -1,3 +1,16 @@
+Title:    Guides d’utilisation pour applications mobiles
+Author:   Vincent Tourraine  
+Email:    me@vtourraine.net  
+Date:     February 05, 2012  
+Update:   
+Keywords: mobile, UI, UX, making-of  
+Summary:  Les applications mobiles arrivent rarement avec un manuel d’utilisation, et personne ne s’en plaint. A priori, c’est donc une excellente nouvelle, mais ce n’est pas une raison pour ne pas guider ses utilisateurs, lorsque cela devient nécessaire. Étude de cas.  
+Image:    http://www.vtourraine.net/blog/img/app-mobile-guide-utilisation/contacts-popover-front.png  
+Language: fr  
+Project:  Contacts  
+
+<p>Les applications mobiles arrivent rarement avec un manuel d’utilisation, et personne ne s’en plaint. A priori, c’est donc une excellente nouvelle, mais ce n’est pas une raison pour ne pas guider ses utilisateurs, lorsque cela devient nécessaire. Étude de cas.</p>
+
 <p>
 	Pour concevoir "<a href="http://www.studioamanga.com/contacts/">Contact[s]</a>", j'ai décidé de reprendre l'interface de l'application Météo officielle, qui arrive préchargée sur tous les iPhones. Le principe est simple : on visualise sur la face avant, et on édite sur la face arrière. Ça me semble simple et familier, puisque présent depuis la première version d'iOS. 
 </p>

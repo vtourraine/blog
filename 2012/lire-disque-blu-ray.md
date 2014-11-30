@@ -1,3 +1,16 @@
+Title:    Comment lire un disque Blu-ray ?  
+Author:   Vincent Tourraine  
+Email:    me@vtourraine.net  
+Date:     May 27, 2012  
+Update:   
+Keywords: Blu-ray, OS X, Windows  
+Summary:  Comment lire un disque Blu-ray ? Si vous pensez que la solution “acheter un lecteur Blu-ray” est correcte, vous allez être déçus. Récit d’un week-end passé à lutter contre des mécanismes de “gestion des droits numériques”, a.k.a. DRM, tout ça pour regarder un film.  
+Image:    http://www.vtourraine.net/blog/img/lire-disque-blu-ray/bluray.png  
+Language: fr  
+Project:  
+
+<p>Comment lire un disque Blu-ray ? Si vous pensez que la solution “acheter un lecteur Blu-ray” est correcte, vous allez être déçus. Récit d’un week-end passé à lutter contre des mécanismes de “gestion des droits numériques”, a.k.a. DRM, tout ça pour regarder un film.</p>
+
 <h2>Un problème de contenu</h2>
 
 <p>Tout commence avec un simple disque <a href="http://video.fnac.com/a4047734/Millenium-Les-hommes-qui-n-aimaient-pas-les-femmes-Blu-Ray-Daniel-Craig-Blu-Ray">Blu-ray</a>.</p>

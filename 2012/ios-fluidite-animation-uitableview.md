@@ -1,3 +1,16 @@
+Title:    iOS : en quête de fluidité  
+Author:   Vincent Tourraine  
+Email:    me@vtourraine.net  
+Date:     June 15, 2012  
+Update:   
+Keywords: iOS, making-of, animation, optimisation, scrolling, UIKit, UITableView  
+Summary:  Beaucoup d’applications iOS reposent sur une simple liste verticale d’éléments (la UITableView pour les intimes). C’est un élément central, incontournable. Comme toutes les autres vues, les cellules qui constituent ces listes peuvent être customisées librement avec des images, des labels, des boutons, etc.  
+Image:    
+Language: fr  
+Project:  Contacts  
+
+<p>Beaucoup d’applications iOS reposent sur une simple liste verticale d’éléments (la UITableView pour les intimes). C’est un élément central, incontournable. Comme toutes les autres vues, les cellules qui constituent ces listes peuvent être customisées librement avec des images, des labels, des boutons, etc.</p>
+
 <p>Tout va bien jusqu’au moment où vos cellules commencent à mettre trop de temps pour se charger, alourdies par le poids de ses ressources graphiques, et brisent alors la fluidité de défilement de votre vue. Notez qu’il suffit parfois de quelques sous-vues mal optimisées pour sentir la différence. Et là, c’est le drame.</p>
 
 <h2>À la Tweetie</h2>

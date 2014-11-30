@@ -1,3 +1,16 @@
+Title:    Spotify, premiers pas  
+Author:   Vincent Tourraine  
+Email:    me@vtourraine.net  
+Date:     May 12, 2012  
+Update:   
+Keywords: musique, Spotify  
+Summary:  J’ai déjà évoqué sur ce blog l’importance de la musique dans mon petit monde numérique. iPod, iTunes, vous voyez le paysage. J’abordais notamment le sujet des nouveaux services de musique à la demande, vous expliquant pourquoi ils ne me convenaient pas. Disons que je suis curieux. Me voici donc maintenant abonné à Spotify. Alors ?  
+Image:    http://www.vtourraine.net/blog/img/musique-itunes-digital-hub/spotify.jpg  
+Language: fr  
+Project:  
+
+<p>J’ai déjà évoqué sur ce blog l’importance de la musique dans mon petit monde numérique. iPod, iTunes, vous voyez le paysage. J’abordais notamment le sujet des nouveaux services de musique à la demande, vous expliquant pourquoi ils ne me convenaient pas. Disons que je suis curieux. Me voici donc maintenant abonné à Spotify. Alors ?</p>
+
 <div class="slideshow">
 	<img src="img/musique-itunes-digital-hub/spotify.jpg" alt="Spotify" />
 </div>

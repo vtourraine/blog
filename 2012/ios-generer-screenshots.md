@@ -1,3 +1,16 @@
+Title:    iOS : des screenshots par milliers  
+Author:   Vincent Tourraine  
+Email:    me@vtourraine.net  
+Date:     December 10, 2012  
+Update:   
+Keywords: iOS, App Store, gestion de projets  
+Summary:  Publier une application sur l’App Store, c’est à la fois très simple et très compliqué. Je vais donc m’attarder sur l’une de ces difficultés : les screenshots.  
+Image:    
+Language: fr  
+Project:  1List  
+
+<p>Publier une application sur l’App Store, c’est à la fois très simple et très compliqué. Je vais donc m’attarder sur l’une de ces difficultés : les screenshots.</p>
+
 <p>
   Je sais, ça paraît trivial. En fait, ça l’est, jusqu’au moment où vous voulez mettre à jour votre appli, ou qu’Apple décide d’ajouter une nouvelle résolution d’écran (bonjour Retina), ou un nouveau format (bonjour iPhone 5). Vous obtenez facilement une dizaine de screenshots par version. Oh, et bien sûr vous pouvez encore multiplier tout ça par le nombre de langues supportées.
 </p>

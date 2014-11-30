@@ -1,3 +1,16 @@
+Title:    Petit bilan personnel de l’année 2011  
+Author:   Vincent Tourraine  
+Email:    me@vtourraine.net  
+Date:     January 01, 2012  
+Update:   
+Keywords: général, Shanghai Jiaotong, INSA, entreprise individuelle, Shazino
+Summary:  Un blog est une histoire personnelle, alors je vais profiter de l’occasion pour dresser un rapide bilan de cette année 2011, sur un plan tout à fait personnel.
+Image:    
+Language: fr  
+Project:  
+
+<p>Un blog est une histoire personnelle, alors je vais profiter de l’occasion pour dresser un rapide bilan de cette année 2011, sur un plan tout à fait personnel.</p>
+
 <h2>Retour de Shanghai</h2>
 <p>
 	Ça me paraît déjà lointain, mais il y a 12 mois je finissais mon semestre à <a href="http://www.sjtu.edu.cn/">Shanghai Jiaotong University</a>. 

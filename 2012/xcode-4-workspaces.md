@@ -1,3 +1,16 @@
+Title:    Les Workspaces avec Xcode 4  
+Author:   Vincent Tourraine  
+Email:    me@vtourraine.net  
+Date:     January 23, 2012  
+Update:   
+Keywords: Tutoriel, Xcode, Workspace, iOS, OS X, projet, frameworks, Cedar  
+Summary:  Arrivés avec Xcode 4, les workspaces vous permettent de gérer plusieurs projets simultanément. Voyons comment mettre en place cet outil afin d’utiliser efficacement une bibliothèque ou un framework tiers.  
+Image:    http://www.vtourraine.net/blog/img/xcode-4-workspaces/xcode-4-workspaces.png  
+Language: fr  
+Project:  
+
+<p>Arrivés avec Xcode 4, les workspaces vous permettent de gérer plusieurs projets simultanément. Voyons comment mettre en place cet outil afin d’utiliser efficacement une bibliothèque ou un framework tiers.</p>
+
 <h2>Introduction</h2>
 <p>
 	Le passage à Xcode 4 est un changement important pour les développeurs OS X et iOS, avec une refonte totale du logiciel qui n'a pas laissé indifférent, comme on pouvait s'y attendre.

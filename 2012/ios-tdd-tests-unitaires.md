@@ -1,4 +1,17 @@
-<h2>Pas assez "amazing" ?</h2>
+Title:    Tests unitaires pour iOS  
+Author:   Vincent Tourraine  
+Email:    me@vtourraine.net  
+Date:     April 18, 2012  
+Update:   
+Keywords: iOS, Xcode, Objective-C, TDD, OCUnit  
+Summary:  Le développement iOS bénéficie d’un langage solide (Objective-C) et d’un SDK moderne (Cocoa Touch). Il existe pourtant un aspect technique, généralement considéré comme essentiel, sur lequel la plateforme est en retard flagrant : les tests unitaires, et le “Test-Driven Development” (TDD) en particulier. C’est le moment de s’y mettre.  
+Image:    http://www.vtourraine.net/blog/img/ios-tdd-tests-unitaires/xcode-ocunit.png  
+Language: fr  
+Project:  
+
+<p>Le développement iOS bénéficie d’un langage solide (Objective-C) et d’un SDK moderne (Cocoa Touch). Il existe pourtant un aspect technique, généralement considéré comme essentiel, sur lequel la plateforme est en retard flagrant : les tests unitaires, et le “Test-Driven Development” (TDD) en particulier. C’est le moment de s’y mettre.</p>
+
+<h2>Pas assez “amazing” ?</h2>
 
 <p>
     Le problème, c'est peut-être qu'Apple ne fait pas beaucoup d'efforts. La <a href="http://developer.apple.com/library/ios/#documentation/DeveloperTools/Conceptual/UnitTesting/00-About_Unit_Testing/about.html">documentation</a> est modeste, le sujet n'est pas évoqué lors des <a href="https://developer.apple.com/wwdc/">WWDC</a> et les <a href="https://developer.apple.com/library/ios/navigation/index.html?section=Resource+Types&topic=Sample+Code">codes d'exemples</a> n'en contiennent jamais. À croire que les tests unitaires n'existent pas à Cupertino.

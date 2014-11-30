@@ -1,3 +1,16 @@
+Title:    Comic books et Retina, comparaison avec CMX-HD  
+Author:   Vincent Tourraine  
+Email:    me@vtourraine.net  
+Date:     April 21, 2012  
+Update:   
+Keywords: iPad, Retina, comic book, ComiXology  
+Summary:  Un iPad, ça permet notamment de lire des comic books. Le format est adapté, et l’écran Retina fait des merveilles. Dernière nouveauté proposée par comiXology : le format “CMX-HD”. Rapide aperçu, forcément en images.  
+Image:    http://www.vtourraine.net/blog/img/ipad-comic-books-retina-cmxhd/batman-full-page-cmxhd.png  
+Language: fr  
+Project:  
+
+<p>Un iPad, ça permet notamment de lire des comic books. Le format est adapté, et l’écran Retina fait des merveilles. Dernière nouveauté proposée par comiXology : le format “CMX-HD”. Rapide aperçu, forcément en images.</p>
+
 <p>
     Si vous utilisez votre iPad pour lire des comic books, vous connaissez probablement <a href="http://www.comixology.com/">comiXology</a>. Cette plateforme s’est imposée comme la référence en la matière, réalisant l’exploit d’embarquer Marvel et DC Comics à force de brevets, prenant de vitesse Apple et son iBookstore.
 </p>

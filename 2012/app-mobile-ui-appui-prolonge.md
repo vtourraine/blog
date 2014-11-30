@@ -1,3 +1,16 @@
+Title:    Le mystère de l’appui prolongé  
+Author:   Vincent Tourraine  
+Email:    me@vtourraine.net  
+Date:     February 25, 2012  
+Update:   
+Keywords: mobile, UI, UX, making-of  
+Summary:  Je sais, ça paraît ridicule, et pourtant en termes d’interface utilisateur mobile, l’appui prolongé est un vaste sujet à lui seul. Avec une multiplicité déroutante de cas d’utilisation, c’est un peu le grand incompris du multi-touch. En voilà un sujet intéressant.  
+Image:    http://www.vtourraine.net/blog/img/app-mobile-ui-appui-prolonge/touch-hold.png  
+Language: fr  
+Project:  Contacts  
+
+<p>Je sais, ça paraît ridicule, et pourtant en termes d’interface utilisateur mobile, l’appui prolongé est un vaste sujet à lui seul. Avec une multiplicité déroutante de cas d’utilisation, c’est un peu le grand incompris du multi-touch. En voilà un sujet intéressant.</p>
+
 <div class="slideshow">
 	<img src="img/app-mobile-ui-appui-prolonge/touch-hold.png" class="nostyle" alt="Touch gesture" />
 </div>

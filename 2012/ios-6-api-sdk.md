@@ -1,3 +1,16 @@
+Title:    iOS 6 : quoi de nouveau pour les développeurs ?  
+Author:   Vincent Tourraine  
+Email:    me@vtourraine.net  
+Date:     September 18, 2012  
+Update:   
+Keywords: iOS, iPhone, iPad, Xcode, Objective-C  
+Summary:  La dernière version d’iOS apporte son lot de nouveautés, pour la plupart déjà bien connues. Les développeurs ne sont pas en reste, avec de nombreuses API à (re)découvrir. J’en profite pour exposer les points qui me paraissent les plus intéressants.  
+Image:    http://www.vtourraine.net/blog/img/ios-6-api-sdk/maps-reimagined.png  
+Language: fr  
+Project:  
+
+<p>La dernière version d’iOS apporte son lot de nouveautés, pour la plupart déjà bien connues. Les développeurs ne sont pas en reste, avec de nombreuses API à (re)découvrir. J’en profite pour exposer les points qui me paraissent les plus intéressants.</p>
+
 <h2>Maps</h2>
 <p>
     <em>TL;DR : nouvelles cartes, même code</em>
