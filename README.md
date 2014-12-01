@@ -1,4 +1,25 @@
-# Blog vtourraine
+# WoD/Blog vtourraine
+
+_Very simple static blog CMS; powered by MultiMarkdown/HAML/SASS._
+
+
+## How to use
+
+Install once:
+
+```
+bundle install
+```
+
+Simply write your articles as `.md` files in the `/articles` directory.
+
+Then generate your blog:
+
+```
+ruby generate.rb
+```
+
+
 
 ## License
 
