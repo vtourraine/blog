@@ -4,6 +4,7 @@
     %meta{:charset => "utf-8"}
     %title #{title}
     %link{:rel => "stylesheet", :type => "text/css", :href => "#{blog_url}styles/default.css"}
+    / %link{:rel => "stylesheet", :type => "text/css", :href => "../styles/default.css"}
     %link{:rel => "stylesheet", :type => "text/css", :href => "http://fonts.googleapis.com/css?family=Nunito:300,700"}
 
     %link{:rel => "shortcut icon", :href => "http://www.vtourraine.net/img/vt-16.png"}
@@ -57,30 +58,30 @@
 
       #{body}
 
-      .share
-        %a{:href => "https://twitter.com/share", :class => "twitter-share-button", :"data-text" =>"&quot;#{title}&quot; par @vtourraine", :"data-count" => "horizontal", :"data-lang" => "fr"}
-          Tweet
-          %script{:type => "text/javascript", :src => "//platform.twitter.com/widgets.js"}
-        %div.g-plusone{ :"data-size" => "medium"}
-        %a.profile{:href => "https://plus.google.com/u/0/117326560329576507699/posts", :rel => "author me"} Google+
+    .share
+      %a{:href => "https://twitter.com/share", :class => "twitter-share-button", :"data-text" =>"&quot;#{title}&quot; par @vtourraine", :"data-count" => "horizontal", :"data-lang" => "fr"}
+        Tweet
+        %script{:type => "text/javascript", :src => "//platform.twitter.com/widgets.js"}
+      %div.g-plusone{ :"data-size" => "medium"}
+      %a.profile{:href => "https://plus.google.com/u/0/117326560329576507699/posts", :rel => "author me"} Google+
 
-      .comments
-        #disqus_thread
-          :javascript
-            var disqus_shortname = 'vtourraine';
-            var disqus_url = '#{disqus_url}';
+    .comments
+      #disqus_thread
+        :javascript
+          var disqus_shortname = 'vtourraine';
+          var disqus_url = '#{disqus_url}';
 
-            (function() {
-                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-                dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
-                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-            })();
-          %noscript 
-            Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
-          %a{:href => "http://disqus.com", :class => "dsq-brlink"} 
-            blog comments powered by 
-            %span.logo-disqus
-              Disqus
+          (function() {
+              var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+              dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+              (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+          })();
+        %noscript 
+          Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+        %a{:href => "http://disqus.com", :class => "dsq-brlink"} 
+          blog comments powered by 
+          %span.logo-disqus
+            Disqus
 
     -# 
       [RELATED_PROJECTS]

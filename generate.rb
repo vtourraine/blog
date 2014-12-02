@@ -131,9 +131,9 @@ article_template = Haml::Engine.new(File.read("./templates/article.html.haml"), 
 
 blog = Blog.new
 
-blog.clean
+# blog.clean
 
-blog.copy_assets
+# blog.copy_assets
 
 blog.articles.each { |article|
   article.generate article_template, haml_options
