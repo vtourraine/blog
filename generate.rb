@@ -17,10 +17,13 @@ ASSETS_DIRECTORY    = "assets/"
 STYLES_DIRECTORY    = "styles/"
 RENDERED_DIRECTORY  = "rendered/"
 
+BLOG_ROOT_URL = "http://www.vtourraine.net/blog/"
+
 MONTHS_FR = ['janvier', 'février', 'mars', 'avril', 'mai', 'juin', 'juillet', 'août', 'septembre', 'octobre', 'novembre', 'décembre']
 
 class Blog
   attr_reader :articles
+  attr_reader :last_update
 
   def initialize
     @articles = Array.new 
@@ -32,6 +35,7 @@ class Blog
     }
 
     @articles = @articles.sort_by {|x| x.date}
+    @last_update = @articles.last.date
   end
 
   def clean
@@ -49,7 +53,7 @@ class Blog
 
     index_template = Haml::Engine.new(File.read(template_url), haml_options)
     index_output = index_template.render self
-    index_output_path = template_url.gsub('.html.haml', '.html').gsub(TEMPLATES_DIRECTORY, RENDERED_DIRECTORY)
+    index_output_path = template_url.gsub('.haml', '').gsub(TEMPLATES_DIRECTORY, RENDERED_DIRECTORY)
     File.open(index_output_path, "w") do |file|
       file.write index_output
     end
@@ -83,7 +87,11 @@ class Article
   end
 
   def disqus_url
-    "http://www.vtourraine.net/blog/" + File.basename(@url, File.extname(@url))
+    BLOG_ROOT_URL + File.basename(@url, File.extname(@url))
+  end
+
+  def web_url
+    BLOG_ROOT_URL + @url.gsub(ARTICLES_DIRECTORY, '').gsub('.md', '.html')
   end
 
   def locale_date
@@ -123,6 +131,8 @@ blog.articles.each { |article|
 }
 
 blog.generate_index "templates/index.html.haml", haml_options
+blog.generate_index "templates/feed.xml.haml",   haml_options
+
 blog.generate_style "default.css.scss"
 
 puts "Ready! (#{blog.articles.count} articles)"
