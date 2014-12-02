@@ -3,16 +3,16 @@
   %head
     %meta{:charset => "utf-8"}
     %title #{title}
-    %link{:rel => "stylesheet", :type => "text/css", :href => "http://www.vtourraine.net/blog/styles/default.css"}
+    %link{:rel => "stylesheet", :type => "text/css", :href => "#{blog_url}styles/default.css"}
     %link{:rel => "stylesheet", :type => "text/css", :href => "http://fonts.googleapis.com/css?family=Nunito:300,700"}
 
-    %link{:rel => "shortcut icon", :href => "../img/vt-16.png"}
-    %link{:rel => "apple-touch-icon-precomposed", :href => "../img/vt-114.png"}
-    %link{:rel => "apple-touch-icon-precomposed", :href => "../img/vt-72.png", :sizes => "72x72"}
-    %link{:rel => "alternate",  :type => "application/atom+xml", :href => "../img/vt-114.png", :title => "Blog (Atom)"}
+    %link{:rel => "shortcut icon", :href => "http://www.vtourraine.net/img/vt-16.png"}
+    %link{:rel => "apple-touch-icon-precomposed", :href => "http://www.vtourraine.net/img/vt-114.png"}
+    %link{:rel => "apple-touch-icon-precomposed", :href => "http://www.vtourraine.net/img/vt-72.png", :sizes => "72x72"}
+    %link{:rel => "alternate",  :type => "application/atom+xml", :href => "#{blog_url}feed.xml", :title => "Blog (Atom)"}
 
     %meta{:name => "viewport", :content => "width=device-width, user-scalable=no"}
-    %meta{:itemprop => "image", :content => "[POST_IMAGE]"}
+    %meta{:itemprop => "image", :content => "#{image_url}"}
 
     / <script type="text/javascript">
     /   window.___gcfg = {lang: 'fr'};
@@ -40,34 +40,32 @@
   %body.post
     %header
       %h1
-        %a.headline{:href => "../"}
-          %span Vincent Tourraine
-        %span#main
-          %a{:href => "./"}
-            %span.icon
-              %img{:src => "http://www.vtourraine.net/blog/styles/img/notepad-28-2x.png", :alt => ""}
-            %span
-              Blog
+        %a.headline{:href => "http://www.vtourraine.net/"}
+          Vincent Tourraine
+        %a#main{:href => "#{blog_url}"}
+          Blog
 
     %article.post
       %h1{:itemprop => "name"}
         #{title}
-      %div.meta
+      .meta
         %time{:datetime =>"#{date.strftime('%F')}"}
           #{locale_date},
         - keywords.each do |keyword|
           %span.tag 
             \##{keyword}
-      -# <div itemprop="description" class="description">[DESCRIPTION]</div>
+
       #{body}
+
       .share
         %a{:href => "https://twitter.com/share", :class => "twitter-share-button", :"data-text" =>"&quot;#{title}&quot; par @vtourraine", :"data-count" => "horizontal", :"data-lang" => "fr"}
           Tweet
           %script{:type => "text/javascript", :src => "//platform.twitter.com/widgets.js"}
         %div.g-plusone{ :"data-size" => "medium"}
         %a.profile{:href => "https://plus.google.com/u/0/117326560329576507699/posts", :rel => "author me"} Google+
-      %div.comments
-        %div#disqus_thread
+
+      .comments
+        #disqus_thread
           :javascript
             var disqus_shortname = 'vtourraine';
             var disqus_url = '#{disqus_url}';
@@ -96,13 +94,14 @@
           </div>
         </div>
       </section>
+
     %footer
       %nav
-        %a{:href => "../"} Vincent Tourraine
+        %a{:href => "http://www.vtourraine.net"} Vincent Tourraine
         \/
-        %a{:href => "../projects/"} Projets
+        %a{:href => "http://www.vtourraine.net/projects/"} Projets
         \/
-        %a{:href => "./"}
-          %span Blog
-      %div#mail
+        %span Blog
+
+      #mail
         %a{:href => "mailto:me@vtourraine.net"} me@vtourraine.net

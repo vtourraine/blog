@@ -24,6 +24,7 @@ MONTHS_FR = ['janvier', 'février', 'mars', 'avril', 'mai', 'juin', 'juillet', '
 class Blog
   attr_reader :articles
   attr_reader :last_update
+  attr_reader :blog_url
 
   def initialize
     @articles = Array.new 
@@ -36,6 +37,8 @@ class Blog
 
     @articles = @articles.sort_by {|x| x.date}
     @last_update = @articles.last.date
+
+    @blog_url = BLOG_ROOT_URL
   end
 
   def clean
@@ -75,15 +78,21 @@ class Article
   attr_reader :date
   attr_reader :keywords
   attr_reader :summary
+  attr_reader :image_url
   attr_reader :body
+
+  attr_reader :blog_url
 
   def initialize(url)
     @url   = url
-    @title    = `multimarkdown -e title #{@url}`.lines.first.chomp
-    @summary  = `multimarkdown -e summary #{@url}`.lines.first.chomp
-    @date     = Date.parse `multimarkdown -e date #{@url}`.lines.first.chomp
-    @keywords = `multimarkdown -e keywords #{@url}`.lines.first.chomp.split(', ')
-    @body     = `multimarkdown --snippet #{@url}`
+    @title     = `multimarkdown -e title #{@url}`.lines.first.chomp
+    @summary   = `multimarkdown -e summary #{@url}`.lines.first.chomp
+    @date      = Date.parse `multimarkdown -e date #{@url}`.lines.first.chomp
+    @keywords  = `multimarkdown -e keywords #{@url}`.lines.first.chomp.split(', ')
+    @image_url = `multimarkdown -e image #{@url}`.lines.first.chomp
+    @body      = `multimarkdown --snippet #{@url}`
+
+    @blog_url = BLOG_ROOT_URL
   end
 
   def disqus_url
@@ -91,7 +100,7 @@ class Article
   end
 
   def web_url
-    BLOG_ROOT_URL + @url.gsub(ARTICLES_DIRECTORY, '').gsub('.md', '.html')
+    BLOG_ROOT_URL + @url.gsub(ARTICLES_DIRECTORY, '').gsub('.md', '')
   end
 
   def locale_date

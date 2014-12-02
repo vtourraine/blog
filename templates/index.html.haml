@@ -3,16 +3,15 @@
   %head
     %meta{:charset => "utf-8"}
     %title Vincent Tourraine - Blog
-    %link{:rel => "stylesheet", :type => "text/css", :href => "http://www.vtourraine.net/blog/styles/default.css"}
+    %link{:rel => "stylesheet", :type => "text/css", :href => "#{blog_url}styles/default.css"}
     %link{:rel => "stylesheet", :type => "text/css", :href => "http://fonts.googleapis.com/css?family=Nunito:300,700"}
 
-    %link{:rel => "shortcut icon", :href => "../img/vt-16.png"}
-    %link{:rel => "apple-touch-icon-precomposed", :href => "../img/vt-114.png"}
-    %link{:rel => "apple-touch-icon-precomposed", :href => "../img/vt-72.png", :sizes => "72x72"}
-    %link{:rel => "alternate",  :type => "application/atom+xml", :href => "../img/vt-114.png", :title => "Blog (Atom)"}
+    %link{:rel => "shortcut icon", :href => "http://www.vtourraine.net/img/vt-16.png"}
+    %link{:rel => "apple-touch-icon-precomposed", :href => "http://www.vtourraine.net/img/vt-114.png"}
+    %link{:rel => "apple-touch-icon-precomposed", :href => "http://www.vtourraine.net/img/vt-72.png", :sizes => "72x72"}
+    %link{:rel => "alternate",  :type => "application/atom+xml", :href => "#{blog_url}feed.xml", :title => "Blog (Atom)"}
 
     %meta{:name => "viewport", :content => "width=device-width, user-scalable=no"}
-    %meta{:itemprop => "image", :content => "[POST_IMAGE]"}
 
     / <script type="text/javascript">
     /   window.___gcfg = {lang: 'fr'};
@@ -40,10 +39,10 @@
   %body.blog
     %header
       %h1{:itemprop => "name"}
-        %a.headline{:href => "../"}
+        %a.headline{:href => "http://www.vtourraine.net"}
           %span Vincent Tourraine
         %span#main.icon
-          %img{:src => "../style/img/notepad-28-2x.png", :alt => ""}
+          %img{:src => "#{blog_url}style/img/notepad-28-2x.png", :alt => ""}
           Blog
 
     %section#blog
@@ -51,7 +50,7 @@
       - @articles.reverse_each do |article|
         %article
           %h3
-            %a{:href => "#{article.url}"} #{article.title}
+            %a{:href => "#{article.web_url}"} #{article.title}
           %div
             #{article.summary}
           .meta
@@ -63,9 +62,9 @@
 
     %footer
       %nav
-        %a{:href => "../"} Vincent Tourraine
+        %a{:href => "http://www.vtourraine.net"} Vincent Tourraine
         \/
-        %a{:href => "../projects/"} Projets
+        %a{:href => "http://www.vtourraine.net/projects/"} Projets
         \/
         %span Blog
 
