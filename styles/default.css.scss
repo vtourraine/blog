@@ -164,17 +164,13 @@ body > section#blog {
   }
 }
 
-body > .share {
-  margin-top: $margin*4;
-}
-
 body > .comments {
-  margin-top: $margin*2;
+  margin-top: $margin*6;
 }
 
 body > footer {
   background-color: $dark-background-color;
-  color: $dark-background-text-color;
+  color: $light-text-color;
 
   margin-top: $margin*2;
   padding-top: $margin*2;
@@ -192,5 +188,10 @@ body > footer {
 
   #mail {
     margin-top: $margin;
+  }
+
+  .note {
+    margin-top: $margin;
+    font-size: 12pt;
   }
 }

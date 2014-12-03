@@ -13,7 +13,7 @@
     - [ ] Matching identifiers
     - [ ] Date format
     - [ ] Atom validator
-- [ ] GA tracking script
+- [x] GA tracking script
 - [ ] .htaccess redirect for existing articles
-- [ ] Code syntax color
-- [ ] Link GitHub repository to encourage contributions
+- [x] Code syntax color
+- [x] Link GitHub repository to encourage contributions
