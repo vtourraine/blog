@@ -16,3 +16,4 @@
 - [ ] GA tracking script
 - [ ] .htaccess redirect for existing articles
 - [ ] Code syntax color
+- [ ] Link GitHub repository to encourage contributions
