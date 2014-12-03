@@ -3,8 +3,8 @@
   %head
     %meta{:charset => "utf-8"}
     %title #{title}
-    %link{:rel => "stylesheet", :type => "text/css", :href => "#{blog_url}styles/default.css"}
-    / %link{:rel => "stylesheet", :type => "text/css", :href => "../styles/default.css"}
+    / %link{:rel => "stylesheet", :type => "text/css", :href => "#{blog_url}styles/default.css"}
+    %link{:rel => "stylesheet", :type => "text/css", :href => "../styles/default.css"}
     %link{:rel => "stylesheet", :type => "text/css", :href => "http://fonts.googleapis.com/css?family=Nunito:300,700"}
 
     %link{:rel => "shortcut icon", :href => "http://www.vtourraine.net/img/vt-16.png"}
@@ -40,11 +40,10 @@
 
   %body.post
     %header
-      %h1
-        %a.headline{:href => "http://www.vtourraine.net/"}
-          Vincent Tourraine
-        %a#main{:href => "#{blog_url}"}
-          Blog
+      #headline
+        %a{:href => "http://www.vtourraine.net/"} Vincent Tourraine
+      #main
+        %a{:href => "#{blog_url}"} Blog
 
     %article.post
       %h1{:itemprop => "name"}
