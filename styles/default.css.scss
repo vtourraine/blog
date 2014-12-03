@@ -1,7 +1,7 @@
 $margin: 20px;
 $max-width: 720px;
-$dark-text-color: #222;
-$dark-background-color: #333;
+$dark-text-color: #262626;
+$dark-background-color: #262626;
 $dark-background-text-color: whitesmoke;
 $light-text-color: #aaa;
 
@@ -16,6 +16,7 @@ html {
 }
 
 body > article,
+body > #blog,
 body > header > *,
 body > footer > *,
 body > .share,
@@ -72,7 +73,6 @@ body > header {
 }
 
 body > article {
-
   h1 {
     font-size: 28pt;
     text-transform: uppercase;
@@ -103,11 +103,16 @@ body > article {
 
   code, 
   pre {
-    background-color: #e5e5e5;
+    background-color: #f0f0f0;
+  }
+
+  p code {
+    font-size: 13pt;
   }
 
   pre {
     white-space: pre-line;
+    padding: $margin/2;
   }
 
   blockquote {
@@ -127,6 +132,35 @@ body > article {
       font-style: italic;
       font-size: 10pt;
     }
+  }
+}
+
+body > section#blog {
+  h1 {
+    font-size: 28pt;
+    text-transform: uppercase;
+    color: $dark-text-color;
+    padding-top: $margin/2;
+  }
+  h2 {
+    font-size: 20pt;
+    text-transform: uppercase;
+    padding-top: $margin/2;
+    margin-bottom: 0;
+
+    a {
+      text-decoration: none;
+      color: $dark-text-color;
+
+      &:HOVER {
+        text-decoration: underline;
+        color: $dark-text-color;
+      }
+    }
+  }
+  .meta {
+    color: $light-text-color;
+    font-style: italic;
   }
 }
 
