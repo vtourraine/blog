@@ -13,6 +13,7 @@ Tout le monde adore les métaphores, n’est-ce-pas ? Un ordinateur c’est comm
 
 ![“Cotoneaster” by Mike, © Attribution-ShareAlike License][Cotoneaster]  
 
+
 ## Lutter contre une croissance incontrôlée
 
 Lorsqu’on travaille sur un projet, les améliorations les plus évidentes consistent à ajouter du code. Nouvelles fonctions, gestion de cas particuliers, support de différentes configurations, même la correction d’un bug passe souvent par l’ajout d’un nouveau bloc d’instructions.
@@ -20,6 +21,7 @@ Lorsqu’on travaille sur un projet, les améliorations les plus évidentes cons
 Cette croissance sans fin apporte malheureusement autant de problèmes qu’elle n’en résout. Concrètement, chaque ligne de code cache un bug potentiel. En ce qui concerne l’expérience utilisateur, chaque nouvelle fonction apporte son lot de confusions. L’accumulation de ces développements conduit à une inertie globale du projet tout en complexifiant son utilisation, et donc en réduisant l’intérêt et la valeur.
 
 Prenons un petit exemple. Tout le monde considère Instagram comme une application “simple”. Facile à utiliser, et forcément facile à développer (je te fais ça en un week-end). [MG Siegler remarquait][ParisLemon] qu’à chaque fois qu’il poste une photo, il se trouve toujours quelqu’un pour lui demander “where was this picture taken?”. Le problème, c’est que chaque photo est justement géo-tagguée, merci le GPS de l’iPhone, et que le nom du lieu est même inscrit en toutes lettres au-dessus de chaque entrée, merci les API de [reverse geocoding][Wiki ReverseGeocoding]. Voir   l’application ajouter de nouvelles fonctionnalités comme Instagram Direct pour envoyer des photos en privé, avant tout dans un souci de répondre à la concurrence, soulève une certaine inquiétude sur sa stratégie à long terme.
+
 
 ## Un entretien régulier
 
@@ -29,7 +31,8 @@ J’ai ressorti le mois dernier [un projet iOS][WizBox] que j’avais entamé en
 
 Le plus difficile est de choisir d’enlever quelque chose sans chercher à le remplacer. Une application ne devrait pas être une accumulation pure et simple de fonctionnalités. Il faut savoir la faire évoluer, et accepter de perdre certaines choses pour en gagner d’autres. Il y aura toujours une raison de conserver l’existant, mais ce sont autant d’entraves à la qualité du projet sur le long terme.
 
-### Image license
+
+### Licence photo
 
 [“Cotoneaster” by Mike](https://www.flickr.com/photos/openeye/5428831/), © Attribution-ShareAlike License
 

@@ -15,6 +15,6 @@
     - [x] Date format
     - [x] Atom validator
 - [x] GA tracking script
-- [ ] .htaccess redirect for existing articles
+- [x] .htaccess redirect for existing articles
 - [x] Code syntax color
 - [x] Link GitHub repository to encourage contributions
