@@ -2,9 +2,9 @@
 %feed{:"xml:lang" => "fr-FR", :xmlns => "http://www.w3.org/2005/Atom"}
   %title Blog de Vincent Tourraine
   %subtitle Un blog sur le développement, et tout le reste.
-  %link{:href => "http://www.vtourraine.net/blog/feed.xml", :rel => "self"}
-  %link{:href => "http://www.vtourraine.net/blog/"}
-  %updated #{last_update}
+  <link href="http://www.vtourraine.net/blog/feed.xml" rel="self" />
+  <link href="http://www.vtourraine.net/blog/" />
+  %updated #{last_update}T00:00:00Z
   %author
     %name Vincent Tourraine
     %email me@vtourraine.net
@@ -14,8 +14,8 @@
   - @articles.each do |article|
     %entry
       %title #{article.title}
-      %link{:href => "#{article.web_url}"}
-      %link{:href => "#{article.web_url}", :rel => "alternate", :type => "text/html"}
-      %id :tag:vtourraine.net,2011-10-03:#{article.web_url}
-      %updated #{article.date}
+      <link href="#{article.web_url}" />
+      <link href="#{article.web_url}" rel="alternate" type="text/html" />
+      %id tag:vtourraine.net,#{article.date}:#{article.web_url}
+      %updated #{article.date}T00:00:00Z
       %summary #{article.summary}

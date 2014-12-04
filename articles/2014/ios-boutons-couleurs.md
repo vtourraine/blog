@@ -4,12 +4,12 @@ Email:    me@vtourraine.net
 Date:     November 23, 2014  
 Update:   
 Keywords: iOS, UI, UIKit, WatchKit  
-Summary:  Une bonne année est passée depuis le grand chamboulement nommé iOS 7. Il m’aura bien fallu plusieurs mois avant d’appréhender confortablement ce nouveau langage visuel, et adapter mes applications. Cette année avec iOS&nbsp;8 c’est le retour au calme, avec une mise-à-jour en douceur de l’interface. Seulement voilà, l’Apple Watch pointe à l’horizon, et les grands débats reprennent. Un point me chagrine en particulier : les boutons et leurs couleurs.  
+Summary:  Une bonne année est passée depuis le grand chamboulement nommé iOS 7. Il m’aura bien fallu plusieurs mois avant d’appréhender confortablement ce nouveau langage visuel, et adapter mes applications. Cette année avec iOS 8 c’est le retour au calme, avec une mise-à-jour en douceur de l’interface. Seulement voilà, l’Apple Watch pointe à l’horizon, et les grands débats reprennent. Un point me chagrine en particulier : les boutons et leurs couleurs.  
 Image:    http://www.vtourraine.net/blog/img/ios-boutons-couleurs/watchkit-buttons.png  
 Language: fr  
 Project:    
 
-Une bonne année est passée depuis le grand chamboulement nommé iOS 7. Il m’aura bien fallu plusieurs mois avant d’appréhender confortablement ce nouveau langage visuel, et adapter mes applications. Cette année avec iOS&nbsp;8 c’est le retour au calme, avec une mise-à-jour en douceur de l’interface. Seulement voilà, l’Apple Watch pointe à l’horizon, et les grands débats reprennent. Un point me chagrine en particulier : les boutons et leurs couleurs.
+Une bonne année est passée depuis le grand chamboulement nommé iOS 7. Il m’aura bien fallu plusieurs mois avant d’appréhender confortablement ce nouveau langage visuel, et adapter mes applications. Cette année avec iOS 8 c’est le retour au calme, avec une mise-à-jour en douceur de l’interface. Seulement voilà, l’Apple Watch pointe à l’horizon, et les grands débats reprennent. Un point me chagrine en particulier : les boutons et leurs couleurs.
 
 
 ## Des boutons sans cadre (mais en couleurs)
