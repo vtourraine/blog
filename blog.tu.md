@@ -3,6 +3,7 @@
 ## Roadmap
 
 - Post thumbnails
+- Draft folder for unlisted articles
 
 
 ## v1
