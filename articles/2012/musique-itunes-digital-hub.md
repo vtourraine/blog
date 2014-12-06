@@ -20,13 +20,13 @@ Project:
 	Comme vous allez le voir, et comme vous pouviez sans doute le deviner, mes habitudes musicales sont fortement liées à l'écosystème d'Apple, pour le meilleur et pour le pire. Cela conditionnera sans doute la plupart des réflexions à suivre, et je suis curieux de connaître en particulier l'avis de ceux qui utilisent d'autres plateformes.
 </p>
 <div class="slideshow">
-	<img src="img/musique-itunes-digital-hub/ipod-ads.jpg" alt="iPod ad" />
+	<img src="http://www.vtourraine.net/blog/img/musique-itunes-digital-hub/ipod-ads.jpg" alt="iPod ad" />
 </div>
 <p>
 	Au-delà des produits (iPod, iTunes et maintenant iPhone et iPad), c'est une certaine conception de la musique, clairement décrite par Apple <a href="http://www.youtube.com/watch?v=9046oXrm7f8">il y a déjà 10 ans</a>. Le "digital hub", c'est le modèle avec une bibliothèque au centre qui synchronise son contenu avec différents appareils qui gravitent autour. Cette approche peut sembler archaïque, mais je dois avouer en être globalement satisfait. Ou plutôt, j'en <em>étais</em> globalement satisfait.
 </p>
 <div class="slideshow">
-	<img src="img/musique-itunes-digital-hub/digital-hub-keynote.jpg" alt="Digital Hub" />
+	<img src="http://www.vtourraine.net/blog/img/musique-itunes-digital-hub/digital-hub-keynote.jpg" alt="Digital Hub" />
 </div>
 <h2>Le CD est mort, évidemment</h2>
 <p>
@@ -41,7 +41,7 @@ Project:
 	Il s'agit d'une fonctionnalité rendue possible par la numérisation des collections musicales, et que Stéphane utilise pour explorer sa bibliothèque. "Random", "Shuffle", appelez cela comme vous voulez.
 </p>
 <div class="slideshow">
-	<img src="img/musique-itunes-digital-hub/shuffle-icon.png" class="nostyle" alt="Shuffle icon" />
+	<img src="http://www.vtourraine.net/blog/img/musique-itunes-digital-hub/shuffle-icon.png" class="nostyle" alt="Shuffle icon" />
 </div>
 <p>
 	Je fuis les radios car elles me donnent l'impression d'être un consommateur passif, et dans l'état actuel ce mode d'écoute aléatoire me laisse une impression similaire. C'est sans doute mon dernier recours lorsque je ne sais pas quoi choisir, ce qui arrive assez rarement.
@@ -58,7 +58,7 @@ Project:
 	C'est évidemment la grande tendance actuelle, en remplacement du "digital hub" : la recentralisation des données vers un serveur tiers invisible. <a href="http://www.spotify.com">Spotify</a>, <a href="http://www.rdio.com/">Rdio</a>, <a href="http://music.google.com/">Google Music</a>, et maintenant <a href="http://www.apple.com/itunes/itunes-match/">iTunes Match</a>. 
 </p>
 <div class="slideshow">
-	<img src="img/musique-itunes-digital-hub/spotify.jpg" alt="Spotify" />
+	<img src="http://www.vtourraine.net/blog/img/musique-itunes-digital-hub/spotify.jpg" alt="Spotify" />
 </div>
 <p>
 	Ces solutions sont intéressantes, mais de mon point de vue elles ne sont pas prêtes. La couverture réseau est coûteuse et largement insuffisante, je préfère conserver mes mp3 sur mon iPhone. Les catalogues sont fournis, mais perfectibles. On ne trouve pas tout sur Spotify, et la qualité est mauvaise sur iTunes Match (256 kbps). 

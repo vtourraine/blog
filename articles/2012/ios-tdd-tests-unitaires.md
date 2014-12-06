@@ -18,7 +18,7 @@ Le problème, c'est peut-être qu'Apple ne fait pas beaucoup d'efforts. La [docu
 Le seul progrès récent dans ce domaine concerne l'intégration relativement poussée d'[OCUnit][] (SenTest, le framework ‘officiel’ pour les tests Objective-C) à Xcode 4. Lors de la création d'un nouveau projet, l'option “inclure tests unitaires” permet la configuration automatique du projet, avec <em>target</em> dédiée. Bien. Et le raccourci <em>‘Cmd’+‘U’</em> permet effectivement de lancer facilement l'exécution des tests, sur un appareil ou avec le simulateur. 
 
 <div class="slideshow">
-	<img src="img/ios-tdd-tests-unitaires/xcode-ocunit.png" alt="OCUnit in Xcode" />
+	<img src="http://www.vtourraine.net/blog/img/ios-tdd-tests-unitaires/xcode-ocunit.png" alt="OCUnit in Xcode" />
 </div>
 
 Pourtant, même si on ne dispose pas vraiment de statistiques sur le sujet, le constat est facile à établir : la très grande majorité des développeurs iOS (Mac ?) codent sans tests.
@@ -32,7 +32,7 @@ Mais depuis quelques mois, je me soigne. Le TDD est mon ami, et comme avec tous 
 Les ressources pour se former à la pratique des tests unitaires sur iOS sont rares, on peut donc facilement en faire le tour. À ma connaissance, c'est Graham Lee ([@secboffin][Twitter Lee], a.k.a. “Rouflaquette”) qui remporte le titre de référence en la matière. Vous pouvez le retrouver dans une Master class sur le site <a href="http://ideveloper.tv/video/unittestingcourse.html">iDeveloper TV</a>, avec des présentations vidéos très instructives. N'hésitez pas à vous les procurer. Il vient également tout juste de publier le premier livre consacré à ce sujet, <a href="http://www.amazon.com/Test-Driven-iOS-Development-Developers-Library/dp/0321774183/ref=sr_1_2">“Test-Driven iOS Development”</a>. Le contenu reprend largement celui des vidéos, mais s'attarde particulièrement sur les grands principes du TDD avec des exemples très détaillés, sans pour autant entrer davantage dans les détails techniques particuliers à iOS. Comme expliqué en haut de ce billet, cette pédagogie est sans doute nécessaire pour la plupart des développeurs concernés.
 
 <div class="slideshow">
-	<img src="img/ios-tdd-tests-unitaires/graham-lee-tdd-ios.png" alt="Test-Driven iOS Development" />
+	<img src="http://www.vtourraine.net/blog/img/ios-tdd-tests-unitaires/graham-lee-tdd-ios.png" alt="Test-Driven iOS Development" />
 </div>
 
 Une fois les bases assimilées, il ne reste plus qu'à plonger dans <a href="http://ocmock.org/">OCMock</a>, <a href="http://jonreid.github.com/OCHamcrest/">OCHamcrest</a> et autres <a href="https://github.com/pivotal/cedar">Cedar</a>. Autant de sujets qui méritent des billets dédiés, peut-être pour plus tard. Ça vous laisse le temps pour vous familiariser avec OCUnit. `‘Cmd’+‘U’`.

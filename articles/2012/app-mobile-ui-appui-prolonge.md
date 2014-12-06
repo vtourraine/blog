@@ -12,7 +12,7 @@ Project:  Contacts
 <p>Je sais, ça paraît ridicule, et pourtant en termes d’interface utilisateur mobile, l’appui prolongé est un vaste sujet à lui seul. Avec une multiplicité déroutante de cas d’utilisation, c’est un peu le grand incompris du multi-touch. En voilà un sujet intéressant.</p>
 
 <div class="slideshow">
-	<img src="img/app-mobile-ui-appui-prolonge/touch-hold.png" class="nostyle" alt="Touch gesture" />
+	<img src="http://www.vtourraine.net/blog/img/app-mobile-ui-appui-prolonge/touch-hold.png" class="nostyle" alt="Touch gesture" />
 </div>
 
 <h2>Exemples (confus) avec iOS</h2>
@@ -20,8 +20,8 @@ Project:  Contacts
 </p>
 
 <div class="slideshow">
-	<img src="img/app-mobile-ui-appui-prolonge/notes-popover.jpg" alt="Notes popover" />
-	<img src="img/app-mobile-ui-appui-prolonge/music-popover.jpg" alt="Music popover" />
+	<img src="http://www.vtourraine.net/blog/img/app-mobile-ui-appui-prolonge/notes-popover.jpg" alt="Notes popover" />
+	<img src="http://www.vtourraine.net/blog/img/app-mobile-ui-appui-prolonge/music-popover.jpg" alt="Music popover" />
 </div>
 
 <p>
@@ -55,7 +55,7 @@ Project:  Contacts
 </p>
 
 <div class="slideshow">
-	<img src="img/app-mobile-ui-appui-prolonge/contacts-action-sheet.png" class="nostyle" alt="Contacts action sheet" />
+	<img src="http://www.vtourraine.net/blog/img/app-mobile-ui-appui-prolonge/contacts-action-sheet.png" class="nostyle" alt="Contacts action sheet" />
 </div>
 
 <p>

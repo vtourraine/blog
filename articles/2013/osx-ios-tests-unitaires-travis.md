@@ -14,7 +14,7 @@ Project:
 <p>Travis CI est une plateforme d’intégration continue hébergée, Open Source, et gratuite. <a href="http://about.travis-ci.org/blog/introducing-mac-ios-rubymotion-testing/" title="http://about.travis-ci.org/blog/introducing-mac-ios-rubymotion-testing/">Depuis un mois</a>, elle propose aussi la prise en charge des projets OS X et iOS (ainsi que RubyMotion). Il vous suffit d’une simple ligne de configuration dans votre projet pour en bénéficier. C’est assez génial.</p>
 
 <div class="slideshow">
-	<img src="img/osx-ios-tests-unitaires-travis/travis.png" alt="Travis CI logo" class="nostyle" />
+	<img src="http://www.vtourraine.net/blog/img/osx-ios-tests-unitaires-travis/travis.png" alt="Travis CI logo" class="nostyle" />
 </div>
 
 <h2>Marche à suivre</h2>

@@ -16,7 +16,7 @@ Project:  1List
 <p><a href="http://culturedcode.com">“Things”</a> est une famille d’applications pour OS X et iOS, qui reprend les concepts de la fameuse méthodologie <a href="http://en.wikipedia.org/wiki/Getting_Things_Done">« GTD »</a> (getting things done). C’est mon principal outil de gestion de tâches. </p>
 
 <div class="slideshow">
-	<img src="img/rappels-todo-gtd/things.jpg" alt="Things" />
+	<img src="http://www.vtourraine.net/blog/img/rappels-todo-gtd/things.jpg" alt="Things" />
 </div>
 
 <p>Je commence par ajouter un nouveau rappel, qui se place automatiquement dans l’“Inbox”. Dès que j’ai un peu plus de temps, je classe les éléments ainsi accumulés : “Next” pour les choses qui peuvent attendre, “Someday” pour les idées que je souhaite simplement garder de côté, mais surtout “Today” pour ce qui est prioritaire. </p>
@@ -36,7 +36,7 @@ Project:  1List
 <p>Ma solution par défaut, c’était donc “Rappels/Reminders”, l’application iOS standard. Très complète, avec en bonus une intégration de l’API de geofencing que j’adore. Ceci dit, toute cette interface (assez moche à mon goût) n’est vraiment pas optimisée pour le cas de la liste de courses. Il n’en fallait pas plus pour me pousser à développer ma propre application : <a href="http://www.studioamanga.com/onelist/">“1List”</a>. Je ne vais pas m’étendre ici à son sujet, mais cette solution convient parfaitement à son cas d’utilisation. Simple et rapide à utiliser, avec une autocomplétion basée sur mon historique puisque j’achète constamment les mêmes choses. Une application vraiment sur mesure.</p>
 
 <div class="slideshow">
-	<img src="img/rappels-todo-gtd/onelist.png" alt="1List" class="nostyle" />
+	<img src="http://www.vtourraine.net/blog/img/rappels-todo-gtd/onelist.png" alt="1List" class="nostyle" />
 </div>
 
 <h2>ToDo entre amis (et collègues)</h2>
@@ -46,13 +46,13 @@ Project:  1List
 <p>Aucun de mes deux outils de rappels ne gère vraiment cet aspect de partage des éléments ou de multiples utilisateurs. Je travaille parfois avec <a href="http://kickoffapp.com">Kickoff</a>, une plateforme qui est justement spécialisée sur le travail collaboratif sous forme de listes de tâches. L’application est déjà très intéressante, malheureusement le studio qui l’a conçue vient d’être racheté et ne prévoit pas de poursuivre activement son développement.</p>
 
 <div class="slideshow">
-	<img src="img/rappels-todo-gtd/kickoff.png" alt="Kickoff" class="nostyle" />
+	<img src="http://www.vtourraine.net/blog/img/rappels-todo-gtd/kickoff.png" alt="Kickoff" class="nostyle" />
 </div>
 
 <p>Dans une certaine mesure, GitHub est l’outil par excellence de travail collaboratif. Les <a href="https://github.com/blog/831-issues-2-0-the-next-generation">“issues”</a> sont bel et bien des tâches, organisées, attribuées, détaillées. Je ne me sens pas prêt à gérer ma liste de courses avec un repository Git, mais on peut pourtant imaginer des utilisations de Git(Hub) dépassant le cadre de la production de code informatique.</p>
 
 <div class="slideshow">
-	<img src="img/rappels-todo-gtd/github.jpg" alt="GitHub" />
+	<img src="http://www.vtourraine.net/blog/img/rappels-todo-gtd/github.jpg" alt="GitHub" />
 </div>
 
 <p>Mais je m’égare. Une chose est sûre, ce ne sont pas les outils qui manquent. Voilà, mon cerveau peut se reposer tranquillement, tous mes rappels sont gérés et organisés comme il convient. Et pendant ce temps-là, j’attends toujours les implants cérébraux permettant d’améliorer ma mémoire. </p>

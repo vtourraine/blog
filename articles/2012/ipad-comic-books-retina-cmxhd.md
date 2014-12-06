@@ -24,15 +24,15 @@ Project:
     Trêve de paroles, voici le résultat en image. Le même comic book (<a href="http://www.comixology.com/Batman-2011-8/digital-comic/FEB120186">Batman #8</a>), sur le même nouvel iPad. D’abord en Retina simple, puis en Retina CMX-HD. Je vous laisse apprécier la différence.
 </p>
 <div class="slideshow">
-	<img src="img/ipad-comic-books-retina-cmxhd/batman-full-page-normal.png" alt="Batman full page normal" />
-	<img src="img/ipad-comic-books-retina-cmxhd/batman-full-page-cmxhd.png" alt="Batman full page cmx-hd" />
+	<img src="http://www.vtourraine.net/blog/img/ipad-comic-books-retina-cmxhd/batman-full-page-normal.png" alt="Batman full page normal" />
+	<img src="http://www.vtourraine.net/blog/img/ipad-comic-books-retina-cmxhd/batman-full-page-cmxhd.png" alt="Batman full page cmx-hd" />
 	<br/>
 	<em>Détail au format pleine page.</em>
 </div>
 <br/>
 <div class="slideshow">
-	<img src="img/ipad-comic-books-retina-cmxhd/batman-zoom-normal.png" alt="Batman zoom normal" />
-	<img src="img/ipad-comic-books-retina-cmxhd/batman-zoom-cmxhd.png" alt="Batman zoom cmx-hd" />
+	<img src="http://www.vtourraine.net/blog/img/ipad-comic-books-retina-cmxhd/batman-zoom-normal.png" alt="Batman zoom normal" />
+	<img src="http://www.vtourraine.net/blog/img/ipad-comic-books-retina-cmxhd/batman-zoom-cmxhd.png" alt="Batman zoom cmx-hd" />
 	<br/>
 	<em>Détail au niveau de zoom maximum.</em>
 </div>

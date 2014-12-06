@@ -16,7 +16,7 @@ Project:
 	Le passage à Xcode 4 est un changement important pour les développeurs OS X et iOS, avec une refonte totale du logiciel qui n'a pas laissé indifférent, comme on pouvait s'y attendre.
 </p>
 <div class="slideshow">
-	<img src="img/xcode-4-workspaces/xcode-icon.png" class="nostyle" alt="Xcode icon" />
+	<img src="http://www.vtourraine.net/blog/img/xcode-4-workspaces/xcode-icon.png" class="nostyle" alt="Xcode icon" />
 </div>
 <p>
 	Passés relativement inaperçus, les workspaces sont une des grandes nouveautés d'Xcode 4. Il s'agit d'étendre le concept de projet pour pouvoir travailler sur plusieurs "<em>.xcodeproj</em>" au sein d'une même session. Plus concrètement, un workspace vous permet de rassembler plusieurs projets liés entre eux, pour mieux les coordonner.
@@ -34,7 +34,7 @@ Project:
 	Commencez par glisser le dossier "<em>.xcodeproj</em>" de la bibliothèque depuis une fenêtre Xcode ou depuis le Finder, et déposez-le à la racine (donc au même niveau que votre project principal) de votre "<em>project navigator</em>". Xcode comprend alors que vous souhaitez utiliser un workspace, il vous proposera donc la première fois de l'enregistrer explicitement dans ce nouvel état (à vous de choisir le nom et l'emplacement).
 </p>
 <div class="slideshow">
-	<img src="img/xcode-4-workspaces/project-navigator.png" alt="Xcode project navigator" />
+	<img src="http://www.vtourraine.net/blog/img/xcode-4-workspaces/project-navigator.png" alt="Xcode project navigator" />
 </div>
 <p>
 	Attention : un projet ne peut pas être ouvert plusieurs fois simultanément. Si c'est le cas, Xcode refusera d'en déplier le contenu dans le "<em>project navigator</em>". Fermez simplement toutes les autres fenêtres pour le rendre à nouveau disponible.
@@ -44,7 +44,7 @@ Project:
 	Dans l'inspecteur de votre projet, vous pouvez maintenant ajouter la bibliothèque en question, comme pour un framework classique ("<em>Build Phases</em>"/"<em>Link Binary With Libraries</em>"). Choisissez de préférence la bibliothèque statique (<em>.a</em>), en particulier pour un projet iOS.
 </p>
 <div class="slideshow">
-	<img src="img/xcode-4-workspaces/link-binaries.png" alt="Xcode link binary" />
+	<img src="http://www.vtourraine.net/blog/img/xcode-4-workspaces/link-binaries.png" alt="Xcode link binary" />
 </div>
 <p>
 	La bibliothèque apparaît alors en rouge dans le navigateur (fichier introuvable), car elle sera créée seulement au moment de la compilation, dans le dossier "<em>Build</em>" commun au workspace.
@@ -91,7 +91,7 @@ Notre workspace est donc maintenant correctement configuré, mais quel est l'int
 	Il vous faudra un repository git déjà initialisé, et voilà qui tombe bien, Xcode 4 propose justement de s'en occuper à la création d'un projet.
 </p>
 <div class="slideshow">
-	<img src="img/xcode-4-workspaces/create-project-git.jpg" alt="Xcode git" />
+	<img src="http://www.vtourraine.net/blog/img/xcode-4-workspaces/create-project-git.jpg" alt="Xcode git" />
 </div>
 <p>
 	Vous pouvez maintenant utiliser le Terminal, en vous plaçant dans le répertoire du projet, et saisir la commande suivante :
@@ -113,7 +113,7 @@ Notre workspace est donc maintenant correctement configuré, mais quel est l'int
 	Cliquez sur le nom du scheme actif (en haut à gauche), puis sur "<em>Edit Scheme...</em>". Dans l'onglet "<em>Build</em>", vous allez pouvoir ajouter la bibliothèque statique (<em>.a</em>) du projet tiers. Déplacez-la en première position pour respecter l'ordre de compilation.
 </p>
 <div class="slideshow">
-	<img src="img/xcode-4-workspaces/scheme.jpg" alt="Xcode scheme" />
+	<img src="http://www.vtourraine.net/blog/img/xcode-4-workspaces/scheme.jpg" alt="Xcode scheme" />
 </div>
 <p>
 	Avec ce couple workspace/scheme, la compilation est parfaitement maîtrisée. Nous allons pouvoir utiliser la commande "<em>xcodebuild</em>", en réutilisant donc la configuration ainsi établie.

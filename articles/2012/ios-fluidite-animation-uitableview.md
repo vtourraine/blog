@@ -20,7 +20,7 @@ Project:  Contacts
 <p>Bien décidé à corriger cela, j’ai donc commencé par adapter la méthode popularisée par <a href="http://www.twitter.com/lorenb">Loren Brichter</a> avec Tweetie, qui consiste à faire appel directement à Core Graphics pour dessiner le contenu des cellules. Il suffit de surcharger la méthode <em>drawRect:</em> d’une UITableViewCell pour éviter l’architecture en vues et sous-vues, et ainsi garder la main sur l’accès aux ressources graphiques.</p>
 
 <div class="slideshow">
-	<img src="img/ios-fluidite-animation-uitableview/tweetie.jpg" alt="Tweetie" />
+	<img src="http://www.vtourraine.net/blog/img/ios-fluidite-animation-uitableview/tweetie.jpg" alt="Tweetie" />
 </div>
 
 <p>Le résultat est incontestablement meilleur, mais pas encore satisfaisant.</p>
@@ -32,12 +32,12 @@ Project:  Contacts
 <p>Il existe d’ailleurs un moyen très simple permettant de visualiser ce paramètre dans une app. Lancez Instruments (“cmd+I”), choisissez une analyse “Core Animation” et cochez le bouton “Color Blended Layers” dans “Debug Options”. Vous pourrez alors admirer la répartition de l’opacité pour votre application, et pour iOS en général. Comme vous l’aurez compris, les parties en rouge risquent de causer davantage de problèmes que celles en vert.</p>
 
 <div class="slideshow">
-	<img src="img/ios-fluidite-animation-uitableview/blended-layers.jpg" alt="Blended layers" />
+	<img src="http://www.vtourraine.net/blog/img/ios-fluidite-animation-uitableview/blended-layers.jpg" alt="Blended layers" />
 </div>
 
 <div class="slideshow">
-	<img src="img/ios-fluidite-animation-uitableview/blended-contacts.jpg" alt="Blended contacts" />
-	<img src="img/ios-fluidite-animation-uitableview/blended-settings.jpg" alt="Blended contacts" />
+	<img src="http://www.vtourraine.net/blog/img/ios-fluidite-animation-uitableview/blended-contacts.jpg" alt="Blended contacts" />
+	<img src="http://www.vtourraine.net/blog/img/ios-fluidite-animation-uitableview/blended-settings.jpg" alt="Blended contacts" />
 </div>
 
 <p>Le debug à base de zones rouges et vertes, c’est bon pour la santé, alors n’hésitez pas à essayer avec votre application.</p>
@@ -57,8 +57,8 @@ Project:  Contacts
 <p>Chaque application est différente, et les techniques évoquées au cours de ce billet sont probablement les plus utiles pour régler ce type de problème. Vous trouverez par ailleurs sur le blog technique de Twitter un <a href="http://engineering.twitter.com/2012/02/simple-strategies-for-smooth-animation.html">excellent résumé</a> des optimisations possibles dans ce genre de situations.</p>
 
 <div class="slideshow">
-	<img src="../projects/contacts/img/leather.png" class="nostyle" alt="Leather contacts" />
-	<img src="../projects/contacts/img/wood.png" class="nostyle" alt="Wood contacts" />
+	<img src="http://www.vtourraine.net/projects/contacts/img/leather.png" class="nostyle" alt="Leather contacts" />
+	<img src="http://www.vtourraine.net/projects/contacts/img/wood.png" class="nostyle" alt="Wood contacts" />
 </div>
 
 <p>La dernière version de Contact[s], publiée cette semaine sur l’<a href="http://itunes.apple.com/app/contact-s/id477281440?mt=8">App Store</a>, propose donc enfin une interface vraiment fluide, pour la plus grande joie du développeur, et des utilisateurs. Tout est bien, qui finit bien.</p>

@@ -12,7 +12,7 @@ Project:
 <p>Vous avez sans doute entendu parler d’Instapaper, le service pour “lire plus tard”, concept génial décliné à l’infini. Son créateur, Marco Arment, vient de lancer une nouvelle application, sobrement baptisée “The Magazine”. Elle pourrait bien sonner le renouveau de Newsstand, le kiosque iOS.</p>
 
 <figure class="slideshow">
-	<img src="img/the-magazine-newsstand/the-magazine.png" alt="The Magazine" />
+	<img src="http://www.vtourraine.net/blog/img/the-magazine-newsstand/the-magazine.png" alt="The Magazine" />
 	<figcaption><a href="http://dribbble.com/shots/766068-The-Magazine-Cover-Art">The Magazine Cover Art par Pacific Helm</a></figcaption>
 </figure>
 
@@ -35,7 +35,7 @@ Project:
 <p>Comme expliqué au cours du podcast, ces avantages s’accompagnent toutefois de certaines restrictions ou contraintes qu’il convient d’apprécier avant de se lancer sur Newsstand. En particulier, il est clair qu‘une appli ne ressemblant pas à un magazine ou un journal sera rejetée.</p>
 
 <div class="slideshow">
-	<img src="img/the-magazine-newsstand/newstand-iPad.jpg" alt="Newsstand iPad" />
+	<img src="http://www.vtourraine.net/blog/img/the-magazine-newsstand/newstand-iPad.jpg" alt="Newsstand iPad" />
 </div>
 
 <h2>Rendez-vous manqué</h2>

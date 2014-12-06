@@ -23,7 +23,7 @@ Project:
 <p><a href="https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/LocationAwarenessPG/Introduction/Introduction.html#//apple_ref/doc/uid/TP40009497">Location Awareness Programming Guide</a></p>
 
 <div class="slideshow">
-	<img src="img/ios-6-api-sdk/maps-reimagined.png" class="nostyle" alt="Maps" />
+	<img src="http://www.vtourraine.net/blog/img/ios-6-api-sdk/maps-reimagined.png" class="nostyle" alt="Maps" />
 </div>
 
 <h2>Pass Kit</h2>
@@ -38,7 +38,7 @@ Project:
 <p><a href="https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/PassKit_PG/Chapters/Introduction.html#//apple_ref/doc/uid/TP40012195">Passbook Programming Guide</a></p>
 
 <div class="slideshow">
-	<img src="img/ios-6-api-sdk/passbook-syd-lax.png" class="nostyle" alt="Passbook" />
+	<img src="http://www.vtourraine.net/blog/img/ios-6-api-sdk/passbook-syd-lax.png" class="nostyle" alt="Passbook" />
 </div>
 
 <h2>Reminders</h2>
@@ -55,7 +55,7 @@ Project:
 <p><a href="https://developer.apple.com/library/ios/documentation/EventKit/Reference/EventKitFrameworkRef/_index.html#//apple_ref/doc/uid/TP40009662">Event Kit Framework Reference</a></p>
 
 <div class="slideshow">
-	<img src="img/ios-6-api-sdk/reminders.png" class="nostyle" alt="Reminders" />
+	<img src="http://www.vtourraine.net/blog/img/ios-6-api-sdk/reminders.png" class="nostyle" alt="Reminders" />
 </div>
 
 <h2>Vue “collection”</h2>
@@ -70,7 +70,7 @@ Project:
 <p><a href="https://developer.apple.com/library/ios/documentation/WindowsViews/Conceptual/CollectionViewPGforIOS/Introduction/Introduction.html#//apple_ref/doc/uid/TP40012334">Collection View Programming Guide for iOS</a></p>
 
 <div class="slideshow">
-	<img src="img/ios-6-api-sdk/uicollectionview.png" alt="UICollectionView" />
+	<img src="http://www.vtourraine.net/blog/img/ios-6-api-sdk/uicollectionview.png" alt="UICollectionView" />
 </div>
 
 <h2>Auto layout</h2>
@@ -96,7 +96,7 @@ Project:
 <p>Moins de code (déjà illisible) pour faire la même chose, c’est toujours une excellente nouvelle. Et ces nouveautés ne concernant pas iOS 6 en particulier, vous pouvez en profiter sur tous vos projets.</p>
 
 <div class="slideshow">
-	<img src="img/xcode-4-workspaces/xcode-icon.png" class="nostyle" alt="Xcode icon" />
+	<img src="http://www.vtourraine.net/blog/img/xcode-4-workspaces/xcode-icon.png" class="nostyle" alt="Xcode icon" />
 </div>
 
 <h2>Conclusion</h2>

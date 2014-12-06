@@ -12,7 +12,7 @@ Project:
 <p>J’ai déjà évoqué sur ce blog l’importance de la musique dans mon petit monde numérique. iPod, iTunes, vous voyez le paysage. J’abordais notamment le sujet des nouveaux services de musique à la demande, vous expliquant pourquoi ils ne me convenaient pas. Disons que je suis curieux. Me voici donc maintenant abonné à Spotify. Alors ?</p>
 
 <div class="slideshow">
-	<img src="img/musique-itunes-digital-hub/spotify.jpg" alt="Spotify" />
+	<img src="http://www.vtourraine.net/blog/img/musique-itunes-digital-hub/spotify.jpg" alt="Spotify" />
 </div>
 <h2>En finir avec la synchro</h2>
 <p>
