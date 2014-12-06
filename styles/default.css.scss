@@ -85,7 +85,10 @@ body > article {
   }
 
   h2 {
-    margin-top: $margin*2;
+    margin-top: $margin*4;
+  }
+  h3, h4, h5, h6 {
+    margin-top: $margin*4; 
   }
 
   p {
@@ -111,7 +114,7 @@ body > article {
   }
 
   pre {
-    white-space: pre-line;
+    white-space: pre-line !important;
     padding: $margin/2;
   }
 

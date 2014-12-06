@@ -6,7 +6,7 @@
 - Draft folder for unlisted articles
 - Enable syntax coloring only on “code” tagged articles
 
-## v1
+## v2
 
 - [x] Color notes logo in header
 - [x] HTML validator
