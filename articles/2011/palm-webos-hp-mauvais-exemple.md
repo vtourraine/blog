@@ -21,7 +21,7 @@ Language: fr
 	On l’oublie facilement, mais Palm était le leader de cette industrie, encore naissante, il y a seulement 10 ans. J’ai utilisé pendant quelques années un <a href="http://en.wikipedia.org/wiki/Palm_m100">m100</a>, puis un <a href="http://en.wikipedia.org/wiki/Palm_m505">m505</a>, et j’en garde d’excellents souvenirs. Le logiciel était bon, le matériel également, la marque avait du succès. Que s’est t’il passé pour en arriver aujourd’hui à un tel désastre ?
 </p>
 <div class="slideshow">
-	<img src="img/palm-webos-hp-mauvais-exemple/palm-logo.png" class="nostyle" alt="Palm logo" />
+	<img src="http://www.vtourraine.net/blog/img/palm-webos-hp-mauvais-exemple/palm-logo.png" class="nostyle" alt="Palm logo" />
 </div>
 
 <h2>Trop tôt ?</h2>
@@ -29,13 +29,13 @@ Language: fr
 	En 10 ans, les PDA ont évolué. Ils ont perdu leurs stylets, gagné une puce GSM et pas mal de capteurs, mais le concept et la forme sont essentiellement restés les mêmes. Ceci dit, lorsque j’ai laissé tomber mon Palm pour un iPod touch, la comparaison était cruelle. Dans les faits, le bond qualitatif était tout simplement énorme.
 </p>
 <div class="slideshow">
-	<img src="img/palm-webos-hp-mauvais-exemple/palm-m100-ipod-touch.jpg" alt="Palm m100 vs iPod touch" />
+	<img src="http://www.vtourraine.net/blog/img/palm-webos-hp-mauvais-exemple/palm-m100-ipod-touch.jpg" alt="Palm m100 vs iPod touch" />
 </div>
 <p>
 	En 10 ans, Palm aussi a évolué, avec une excellente équipe (Jon Rubenstein à sa tête, notamment responsable de la création de l’iPod lorsqu’il était chez Apple), et un <a href="http://en.wikipedia.org/wiki/WebOS">nouvel OS</a> tourné vers le web, donc vers l’avenir. Des smartphones, une tablette, tout y est. Une acquisition par HP, enfin, qui avait encore récemment l’ambition de vouloir proposer un OS universel sur toute sa gamme de produits, en l’étendant des imprimantes <a href="http://www.engadget.com/2011/02/09/webos-is-coming-to-pcs-later-this-year/">jusqu’aux PC</a>. Difficile d’imaginer de meilleures dispositions pour mettre un écosystème sur orbite. 
 </p>
 <div class="slideshow">
-	<img src="img/palm-webos-hp-mauvais-exemple/veer-pre3-touchpad.jpg" alt="Veer Pre3 TouchPad" />
+	<img src="http://www.vtourraine.net/blog/img/palm-webos-hp-mauvais-exemple/veer-pre3-touchpad.jpg" alt="Veer Pre3 TouchPad" />
 </div>
 <p>
 	Seulement voilà, aujourd’hui webOS est mort, et Palm n’existe plus. Direction les livres d’Histoire.
@@ -55,7 +55,7 @@ Language: fr
 	Les frameworks ont également beaucoup évolué, sans doute dans le bon sens, mais trop fréquemment. Le dernier en date, <a href="https://developer.palm.com/content/api/dev-guide/enyo.html">“Enyo”</a>, repose sur du code HTML/CSS/JS, et donnait tout son sens à la vision originale de l’OS. Malgré cela, l’effort demandé était trop important, trop tard, et les développeurs ont besoin de davatange d’inertie.
 </p>
 <div class="slideshow">
-	<img src="img/palm-webos-hp-mauvais-exemple/webos-logo.png" class="nostyle" alt="webOS logo" />
+	<img src="http://www.vtourraine.net/blog/img/palm-webos-hp-mauvais-exemple/webos-logo.png" class="nostyle" alt="webOS logo" />
 </div>
 <p>
 	Enfin, l’acquisition par HP en 2010, qui devait permettre de distribuer webOS à grande échelle, s’est finalement retournée contre Palm. Le nouveau CEO, le <a href="http://www.engadget.com/2011/09/22/hp-names-meg-whitman-new-ceo-gives-leo-apotheker-the-boot/">déjà débarqué</a> Leo Apotheker, n’était pas intéressé par les smartphones, ni par les tablets (ni par les PC non plus, bizarre quand on est le premier fabricant mondial). Résultat : une mauvaise volonté évidente consistant à abandonner un produit (et toute la plateforme qui l’accompagne) un mois seulement après son lancement, au motif de ventes décevantes. Larry Ellison <a href="http://blogs.wsj.com/digits/2010/10/01/larry-ellison-“speechless”-over-h-p’s-new-ceo/">avait prévenu</a> lors de la nomination d’Apotheker : <q cite="http://blogs.wsj.com/digits/2010/10/01/larry-ellison-“speechless”-over-h-p’s-new-ceo/">HP employees, customers, partners and shareholders will suffer. (...) The madness must stop</q>. Trop tard pour Palm.
