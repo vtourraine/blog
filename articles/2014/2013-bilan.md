@@ -12,7 +12,7 @@ Chaque année apporte son lot de nouveautés et de recommencements. À la demand
 
 ## Shazino et PaperShip
 
-Depuis sa première version en avril, il est clair que <a href="http://www.papershipapp.com">PaperShip</a> a été un projet central cette année pour Shazino comme pour moi. L’application a déjà beaucoup évolué, et compte maintenant de nombreux utilisateurs.
+Depuis sa première version en avril, il est clair que [PaperShip](http://www.papershipapp.com) a été un projet central cette année pour Shazino comme pour moi. L’application a déjà beaucoup évolué, et compte maintenant de nombreux utilisateurs.
 
 C’est sans doute la première fois que je gère sur la durée un projet de cette envergure. Depuis les interactions avec les plateformes tierces jusqu’au traitement des emails de support, il est clair que le travail ne manque pas. Reste le plus important : assurer la pérennité du projet. Nous avons déjà de grands chantiers en prévision pour l’année qui arrive, et je suis impatient de voir comment évoluera l’application.
 
@@ -20,9 +20,9 @@ C’est sans doute la première fois que je gère sur la durée un projet de cet
  
 Comme la plupart des développeurs, je passe souvent mes journées en silence (ou presque) seul devant mon écran. Il est donc d’autant plus intéressant de s’exprimer en public pour apprendre à mieux communiquer.
 
-Du côté des nouvelles expériences, j’ai eu le plaisir cette année d’être invité par <a href="http://perso.ens-lyon.fr/jean-patrick.gelas/">Jean-Patrick Gelas</a> pour donner quelques cours à l’Université Lyon 1 sur le développement iOS. L’occasion de confirmer que le travail d’enseignant n’est pas simple, notamment pour la présentation et la synthèse d’un vaste sujet en seulement quelques heures.
+Du côté des nouvelles expériences, j’ai eu le plaisir cette année d’être invité par [Jean-Patrick Gelas](http://perso.ens-lyon.fr/jean-patrick.gelas/) pour donner quelques cours à l’Université Lyon 1 sur le développement iOS. L’occasion de confirmer que le travail d’enseignant n’est pas simple, notamment pour la présentation et la synthèse d’un vaste sujet en seulement quelques heures.
 
-J’étais également ravi de participer à <a href="http://2013.rulu.eu/talks/">RuLu 2013</a> en tant de speaker. Encore une première expérience pleine d’enseignements, que vous pouvez retrouver en <a href="http://www.youtube.com/watch?v=PF0deee65Tk">vidéo</a>.
+J’étais également ravi de participer à [RuLu 2013](http://2013.rulu.eu/talks/) en tant de speaker. Encore une première expérience pleine d’enseignements, que vous pouvez retrouver en [vidéo](http://www.youtube.com/watch?v=PF0deee65Tk).
 
 ## Progresser
 

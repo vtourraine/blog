@@ -56,10 +56,9 @@ Tout ça est un peu perturbant. Les directives et les styles par défaut propos�
 J’attends maintenant avec impatience la prochaine WWDC, pour voir comment le couple OS&nbsp;X/iOS s’accommodera du nouveau membre de la famille.
 
 
-
 [iOS Calendar]: http://www.vtourraine.net/blog/img/ios-boutons-couleurs/ios-calendar.png  
-[iOS Maps]: http://www.vtourraine.net/blog/img/ios-boutons-couleurs/ios-maps.png  
-[WatchKit]: http://www.vtourraine.net/blog/img/ios-boutons-couleurs/watchkit-buttons.png  
+[iOS Maps]:     http://www.vtourraine.net/blog/img/ios-boutons-couleurs/ios-maps.png  
+[WatchKit]:     http://www.vtourraine.net/blog/img/ios-boutons-couleurs/watchkit-buttons.png  
 
-[Mrgan]: http://mrgan.tumblr.com/post/50108095253/let-a-button-be-a-button  
+[Mrgan]:    http://mrgan.tumblr.com/post/50108095253/let-a-button-be-a-button  
 [WatchHIG]: https://developer.apple.com/library/prerelease/ios/documentation/UserExperience/Conceptual/WatchHumanInterfaceGuidelines/ColorandTypography.html#//apple_ref/doc/uid/TP40014992-CH9-SW1

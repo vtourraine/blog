@@ -22,7 +22,7 @@ Il faut d’abord activer la capacité dans les réglages du projet. Avec Xcode 
 
 ![Xcode : Edit Project][Edit Project]
 
-Concrètement, cette activation correspond à l’ajout d’une valeur dans le <code>Info.plist</code> de votre projet :
+Concrètement, cette activation correspond à l’ajout d’une valeur dans le `Info.plist` de votre projet :
 
 ``` xml
 <key>UIBackgroundModes</key>
