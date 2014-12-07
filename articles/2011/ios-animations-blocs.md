@@ -14,15 +14,14 @@ Comment créer une application attractive ? Vaste question, mais il me semble qu
 
 Sans aller jusqu'à ajouter des textures photo-réalistes partout, il faut que votre interface soit "physiquement" cohérente, presque tangible. 
 
-Typiquement, un élément ne peut pas apparaître brutalement sur l'écran, comme par magie. Les controlleurs de navigation sur iOS (<em>cf</em> <a href="http://developer.apple.com/library/ios/#documentation/uikit/reference/UINavigationController_Class/Reference/Reference.html">UINavigationController</a>) se comportent de façon "naturelle" parce qu'ils animent automatiquement la venue d'un nouvel écran en chassant le précédent de la droite vers la gauche, et inversement lorsqu'on dépile la navigation. C'est le genre de détail qui change complètement l'expérience utilisateur. Il faut toujours veiller à présenter une nouvelle vue lorsqu'elle apparaît sur l'écran, si possible de manière cohérente avec le comportement associé (navigation dans le sens de lecture, panneau de réglage caché derrière la vue principale, etc).
+Typiquement, un élément ne peut pas apparaître brutalement sur l'écran, comme par magie. Les controlleurs de navigation sur iOS (_cf_ [UINavigationController][]) se comportent de façon "naturelle" parce qu'ils animent automatiquement la venue d'un nouvel écran en chassant le précédent de la droite vers la gauche, et inversement lorsqu'on dépile la navigation. C'est le genre de détail qui change complètement l'expérience utilisateur. Il faut toujours veiller à présenter une nouvelle vue lorsqu'elle apparaît sur l'écran, si possible de manière cohérente avec le comportement associé (navigation dans le sens de lecture, panneau de réglage caché derrière la vue principale, etc).
 
-<div class="slideshow">
-	<img src="http://www.vtourraine.net/blog/img/ios-animations-blocs/navigation-interface.png" class="nostyle" alt="Navigation interface" />
-</div>
+![Navigation interface, Apple][Navigation interface]
 
 De la même manière, lorsque vous modifiez un élément déjà visible à l'écran, vous devez assurer la transition visuelle entre les deux états. Si vous déplacez un bouton d'un point A vers un point B, vous devez absolument animer ce mouvement. Idem pour un redimensionnement, ou tout autre changement d'état. 
 
 J'imagine que tout le monde est d'accord avec ces principes, alors pourquoi sont-ils si rarement respectés ?
+
 
 ## Juste un "bloc"
 
@@ -56,11 +55,16 @@ Et voilà le travail. Vous n'aurez aucun mal à intégrer cette technique à l'i
 
 Vos utilisateurs appréciront sans doute la valeur ajoutée par ces animations. Il ne vous reste plus qu'à réfléchir aux transitions les plus appropriées pour chaque événement. Merci *Core Animation*.
 
-<div class="slideshow">
-	<img src="http://www.vtourraine.net/blog/img/ios-animations-blocs/core-animation.png" class="nostyle" alt="Core Animation logo" />
-</div>
+![Logo Core Animation, Apple][Core Animation]
+
 
 ### Références
 
 - [View Programming Guide for iOS: Animations](http://developer.apple.com/library/IOs/#documentation/WindowsViews/Conceptual/ViewPG_iPhoneOS/AnimatingViews/AnimatingViews.html)
 - [Introduction to Core Animation Programming Guide](http://developer.apple.com/library/ios/#documentation/Cocoa/Conceptual/CoreAnimation_guide/Introduction/Introduction.html)
+
+
+[Navigation interface]: http://www.vtourraine.net/blog/img/ios-animations-blocs/navigation-interface.png
+[Core Animation]:       http://www.vtourraine.net/blog/img/ios-animations-blocs/core-animation.png
+
+[UINavigationController]: http://developer.apple.com/library/ios/#documentation/uikit/reference/UINavigationController_Class/Reference/Reference.html

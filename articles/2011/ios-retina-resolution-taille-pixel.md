@@ -10,6 +10,7 @@ Language: fr
 
 Les qualités esthétiques et ergonomiques des applications iOS dépendent très largement d’un simple et unique facteur : la taille invariable de l’écran. C’est peut-être la caractéristique qui différencie le plus iOS de ses concurrents, mais aussi du web en général. Voyons comment gérer efficacement les pixels à votre disposition.
 
+
 ## Tout commence avec le 320x480
 
 L'iPhone possède à l'origine un écran de 320 par 480 pixels. Vous pouvez aussi retenir la hauteur pour la barre de statut : 20 pixels, la barre de navigation : 44 pixels, ou encore la TabBar de 50 pixels.
@@ -19,6 +20,7 @@ La plupart des applications iOS adossées à l'API standard (CocoaTouch) sont do
 _Au pixel près_.
 
 C'est d'ailleurs un facteur clé dans la comparaison entre applications natives et applications web, y compris en dehors du mobile. Un fantasme qu'il faut dépasser à l'intérieur d'un navigateur ou pour un mobile générique, mais qui trouve tout son sens sur un écran d'iPhone. Avec la réussite qu'on lui connaît.
+
 
 ## L’iPhone 4 et le 640x960, a.k.a. « Retina Display »
 

@@ -12,9 +12,7 @@ Avec iOS 5, le carnet d’adresses bénéficie de nouveaux champs de saisie pour
 
 Le framework `AddressBook` est une mine d'informations depuis la première version du SDK, et iOS 5 continue d'apporter quelques renseignements intéressants. Soit dit en passant, je suis toujours étonné qu'aucune protection n'existe pour avertir l'utilisateur qu'une application parcourt son carnet d'adresses, comme c'est le cas pour la géolocalisation par exemple, mais ceci est un autre débat.
 
-<div class="slideshow">
-	<img src="http://www.vtourraine.net/blog/img/ios-contacts-twitter-carnet-adresses/contact.jpg" alt="Contact" />
-</div>
+![iOS Contacts, Apple][Contacts]
 
 Avec iOS 5, l'utilisateur peut donc renseigner les coordonnées d'une personne pour les principaux réseaux sociaux. Pour autant, l'extraction des données en question n'est ni très simple, ni abondamment documentée.
 
@@ -84,3 +82,6 @@ Avec ces constantes, libre à vous de parcourir les données à votre dispositio
 
 - [Address Book Programming Guide for iOS](http://developer.apple.com/library/ios/#documentation/ContactData/Conceptual/AddressBookProgrammingGuideforiPhone/Introduction.html)
 - [ABPerson Reference](http://developer.apple.com/library/ios/#documentation/AddressBook/Reference/ABPersonRef_iPhoneOS/Reference/reference.html)
+
+
+[Contacts]: http://www.vtourraine.net/blog/img/ios-contacts-twitter-carnet-adresses/contact.jpg

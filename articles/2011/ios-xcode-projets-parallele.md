@@ -19,23 +19,18 @@ Plusieurs solutions sont envisageables pour gérer ce problème, et il importe d
 
 D'une manière générale, il est bien sûr important de ne pas réécrire un code déjà existant. Heureusement, un projet Xcode gère ses fichiers par références, ce qui signifie que l'on peut facilement inclure un même fichier source dans plusieurs projets différents (donc sans recopier le fichier sur le disque). Il suffit pour cela de glisser le fichier dans l'arborescence du projet :
 
-<div class="slideshow">
-	<img src="http://www.vtourraine.net/blog/img/ios-xcode-projets-parallele/drag-file-to-project.jpg" alt="Xcode drag file" />
-</div>
+![Xcode : drag file][Drag file]
 
 Parmi les options proposées, il faut bien décocher la fonction de copie (première ligne), pour garder une seule version du fichier manipulé :
 
-<div class="slideshow">
-	<img src="http://www.vtourraine.net/blog/img/ios-xcode-projets-parallele/add-file-by-reference.jpg" alt="Xcode file reference" />
-</div>
+![Xcode : add file by reference][Add file reference]
 
 Si, pour une quelconque raison, ces références ont besoin d'être modifiées plus tard, vous pouvez toujours accéder aux valeurs en question avec l'inspecteur, lorsque le fichier est sélectionné :
 
-<div class="slideshow">
-	<img src="http://www.vtourraine.net/blog/img/ios-xcode-projets-parallele/inspect-file.jpg" alt="Xcode inspect file" />
-</div>
+![Xcode : inspect file][Inspect file]
 
 Cette approche ne s'arrête pas au code source. Si vous en avez l'utilité, n'hésitez pas à partager des ressources graphiques entre les projets, ou tout autre fichier commun aux applications concernées.
+
 
 ## Constantes préprocesseur
 
@@ -45,9 +40,7 @@ La solution que j'ai retenue dans ce cas consiste à évaluer la présence d'une
 
 Il faut donc ajouter une constante au niveau de la configuration de chaque projet avec Xcode. Pour cela, allez dans les paramètres du projet/cible, à l'onglet « Build Setting », vous trouverez le paramètre « Preprocessing » - « Preprocessor Macros ». C'est ici que vous pouvez spécifier une constante qui vous servira à identifier le projet, pour tous les profils de compilation :
 
-<div class="slideshow">
-	<img src="http://www.vtourraine.net/blog/img/ios-xcode-projets-parallele/preprocessor.jpg" alt="Xcode preprocessor" />
-</div>
+![Xcode : préprocesseur][Preprocessor]
 
 À partir de là, la valeur de cette constante pourra donc être évaluée au moment de la compilation, en fonction du projet. Dans vos fichiers sources, il suffit d'utiliser les routines `#ifdef` et `#endif, de la manière suivante :
 
@@ -70,3 +63,8 @@ Et voilà. La démarche est assez simple, et les commandes préprocesseur peuven
 
 Selon votre expérience des langages de programmation, cette solution pourra vous paraître surprenante, voire inappropriée. Elle permet en tout cas de maîtriser précisément votre code au moment de sa compilation. Libre à vous de l'utiliser selon votre besoin. Cette technique peut d'ailleurs trouver son utilité dans d'autres cas, rien ne vous empêche de vous en inspirer pour répondre à des problèmes différents. 
 
+
+[Drag file]: http://www.vtourraine.net/blog/img/ios-xcode-projets-parallele/drag-file-to-project.jpg
+[Add file reference]: http://www.vtourraine.net/blog/img/ios-xcode-projets-parallele/add-file-by-reference.jpg
+[Inspect file]: http://www.vtourraine.net/blog/img/ios-xcode-projets-parallele/inspect-file.jpg
+[Preprocessor]: http://www.vtourraine.net/blog/img/ios-xcode-projets-parallele/preprocessor.jpg
