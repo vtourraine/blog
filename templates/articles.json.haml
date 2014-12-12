@@ -4,7 +4,11 @@
   "title":       "#{article.title}",
   "url":         "#{article.web_url}",
   "date":        "#{article.date}",
+  "datetime":    "#{article.date.strftime('%F')}",
   "locale_date": "#{article.locale_date}",
-  "summary":     "#{article.summary}"
+  "summary":     "#{article.summary}",
+  "tags": ["#{article.keywords.join('", "')}"]
   }
+  - if ! article.equal? articles.last
+    ,
 ]
