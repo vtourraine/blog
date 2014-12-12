@@ -21,5 +21,5 @@
 - [x] .htaccess redirect for existing articles
 - [x] Code syntax color
 - [x] Link GitHub repository to encourage contributions
-- [ ] Update links/previews from vtourraine.net homepage
+- [x] Update links/previews from vtourraine.net homepage
 - [x] Add canonical URL to old pages

@@ -139,8 +139,9 @@ blog.articles.each { |article|
   article.generate article_template, haml_options
 }
 
-blog.generate_index "templates/index.html.haml", haml_options
-blog.generate_index "templates/feed.xml.haml",   haml_options
+blog.generate_index "templates/index.html.haml",    haml_options
+blog.generate_index "templates/feed.xml.haml",      haml_options
+blog.generate_index "templates/articles.json.haml", haml_options
 
 blog.generate_style "default.css.scss"
 
