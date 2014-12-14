@@ -1,0 +1,27 @@
+#!/usr/bin/env ruby
+
+$LOAD_PATH << 'lib'
+require 'blog'
+
+puts 'Generating Blog'
+
+haml_options = { attr_wrapper: '"', format: :html5 }
+article_template = Haml::Engine.new(File.read("./templates/article.html.haml"), haml_options)
+
+blog = Blog.new
+
+blog.clean
+
+blog.copy_assets
+
+blog.articles.each { |article|
+  article.generate article_template, haml_options
+}
+
+blog.generate_index "templates/index.html.haml",    haml_options
+blog.generate_index "templates/feed.xml.haml",      haml_options
+blog.generate_index "templates/articles.json.haml", haml_options
+
+blog.generate_style "default.css.scss"
+
+puts "Ready! (#{blog.articles.count} articles)"
