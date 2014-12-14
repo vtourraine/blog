@@ -8,6 +8,10 @@
 - Split index into years
 - Add tag-based index
 
+## v2.1.1
+
+- [x] Reverse Atom entries order
+
 
 ## v2.1
 

@@ -11,7 +11,7 @@
 
   %id tag:vtourraine.net,2011-10-03:http://www.vtourraine.net/blog/feed.xml
 
-  - @articles.each do |article|
+  - @articles.reverse_each do |article|
     %entry
       %title #{article.title}
       <link href="#{article.web_url}" />
