@@ -7,12 +7,14 @@ This is the engine and content for [my blog](http://www.vtourraine.net/blog/).
 
 ## How to set up
 
-1. Install MultiMarkdown (you can use the [official Mac Installer](http://fletcherpenney.net/multimarkdown/download/))
+1. Install MultiMarkdown
+  * you can use the [official Mac Installer](http://fletcherpenney.net/multimarkdown/download/))
+  * or homebrew: `brew install multimarkdown`
 2. Install Sass (you can follow the [instructions on the Sass website](http://sass-lang.com/install); later, this will be merged into the next step)
 3. Run the Bundler installation command:
 
 ```
-bundle install
+bundle
 ```
 
 ## How to use
@@ -21,9 +23,7 @@ Simply write your articles as `.md` files in the `/articles` directory.
 
 Then generate your blog:
 
-```
-ruby generate.rb
-```
+    rake
 
 
 
