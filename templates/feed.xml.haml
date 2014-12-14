@@ -2,8 +2,8 @@
 %feed{:"xml:lang" => "fr-FR", :xmlns => "http://www.w3.org/2005/Atom"}
   %title Blog de Vincent Tourraine
   %subtitle Un blog sur le développement, et tout le reste.
-  <link href="http://www.vtourraine.net/blog/feed.xml" rel="self" />
-  <link href="http://www.vtourraine.net/blog/" />
+  <link href="http://www.vtourraine.net/blog/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="http://www.vtourraine.net/blog/" rel="alternate" type="text/html" />
   %updated #{last_update}T00:00:00Z
   %author
     %name Vincent Tourraine
@@ -17,5 +17,6 @@
       <link href="#{article.web_url}" />
       <link href="#{article.web_url}" rel="alternate" type="text/html" />
       %id tag:vtourraine.net,#{article.date}:#{article.web_url}
+      %published #{article.date}T00:00:00Z
       %updated #{article.date}T00:00:00Z
       %summary #{article.summary}
