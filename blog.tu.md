@@ -5,12 +5,15 @@
 - Post thumbnails
 - Draft folder for unlisted articles
 - Enable syntax coloring only on “code” tagged articles
-- Split index into years
 - Add tag-based index
+- Smarter year indexes (a.k.a. template for templates)
 
-## v2.1.1
 
-- [x] Reverse Atom entries order
+## v2.2
+
+- Add year indexes
+- Link to RSS feed on homepage
+- Reverse Atom entries order
 
 
 ## v2.1
