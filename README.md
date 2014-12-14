@@ -21,9 +21,7 @@ Simply write your articles as `.md` files in the `/articles` directory.
 
 Then generate your blog:
 
-```
-ruby generate.rb
-```
+    rake
 
 
 
