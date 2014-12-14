@@ -7,13 +7,15 @@
     / %link{:rel => "stylesheet", :type => "text/css", :href => "../styles/default.css"}
     %link{:rel => "stylesheet", :type => "text/css", :href => "http://fonts.googleapis.com/css?family=Nunito:300,700"}
 
+    %link{:rel => "canonical", :href => "#{web_url}"}
+
     %link{:rel => "shortcut icon", :href => "http://www.vtourraine.net/img/vt-16.png"}
     %link{:rel => "apple-touch-icon-precomposed", :href => "http://www.vtourraine.net/img/vt-114.png"}
     %link{:rel => "apple-touch-icon-precomposed", :href => "http://www.vtourraine.net/img/vt-72.png", :sizes => "72x72"}
     %link{:rel => "alternate",  :type => "application/atom+xml", :href => "#{blog_url}feed.xml", :title => "Blog (Atom)"}
 
-    %link{:rel => "stylesheet", :href => "../highlight/styles/default.css"}
-    %script{:src => "../highlight/highlight.pack.js"}
+    %link{:rel => "stylesheet", :href => "#{blog_url}highlight/styles/default.css"}
+    %script{:src => "#{blog_url}highlight/highlight.pack.js"}
     %script hljs.initHighlightingOnLoad();
 
     %meta{:name => "viewport", :content => "width=device-width, user-scalable=no"}

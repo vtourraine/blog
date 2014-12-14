@@ -9,17 +9,20 @@
 - Add tag-based index
 
 
+## v2.0.1
+
+- Canonical links in articles
+- Split classes from generate.rb
+
+
 ## v2
 
-- [x] Color notes logo in header
-- [x] HTML validator
-- [x] Check Atom feed
-    - [x] Matching identifiers
-    - [x] Date format
-    - [x] Atom validator
-- [x] GA tracking script
-- [x] .htaccess redirect for existing articles
-- [x] Code syntax color
-- [x] Link GitHub repository to encourage contributions
-- [x] Update links/previews from vtourraine.net homepage
-- [x] Add canonical URL to old pages
+- Color notes logo in header
+- HTML validator
+- Check Atom feed
+- GA tracking script
+- .htaccess redirect for existing articles
+- Code syntax color
+- Link GitHub repository to encourage contributions
+- Update links/previews from vtourraine.net homepage
+- Add canonical URL to old pages
