@@ -1,5 +1,6 @@
 require "rubygems"
 require "bundler/setup"
+require "date"
 require "haml"
 require "constants"
 require "blog/blog"

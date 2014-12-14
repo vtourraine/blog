@@ -9,6 +9,11 @@
 - Add tag-based index
 
 
+## v2.1
+
+- Major refactoring by @franckverrot
+
+
 ## v2.0.1
 
 - Canonical links in articles
