@@ -1,0 +1,6 @@
+require "rubygems"
+require "bundler/setup"
+require "haml"
+require "constants"
+require "blog/blog"
+require "blog/article"
