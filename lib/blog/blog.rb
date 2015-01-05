@@ -8,6 +8,7 @@ class Blog
 
     articlesURLs = Dir["#{ARTICLES_DIRECTORY}**/*.md"]
     articlesURLs.each { |url| 
+      next if url.include? "/drafts/"
       article = Article.new(url)
       @articles.push article 
     }
