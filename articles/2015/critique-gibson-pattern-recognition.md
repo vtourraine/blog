@@ -30,7 +30,7 @@ Le récit évolue entre Londres, Tokyo et Moscou; mais l’intrigue progresse en
 
 ![_William Gibson_, by David Alliet, CC BY 2.0][Gibson]
 
-Pour un thriller, l’intrigue n’est pas particulièrement remarquable, mais l’intérêt est ailleurs. Ce n’est pas non plus une question de technologie, mais plutôt une certaine vision de notre société de l’information. Savoir, cacher, transmettre, la « data » comme une matière première mystérieuse mais omniprésente.
+Pour un thriller, l’intrigue n’est pas particulièrement remarquable, mais l’intérêt est ailleurs. Ce n’est pas non plus une question de technologie, mais plutôt une certaine vision de notre société de l’information. Savoir, cacher, transmettre, la _data_ comme une matière première mystérieuse mais omniprésente.
 
 On retrouve aussi un contexte historique bien ancré, avec notamment un personnage disparu à New-York le _9/11_ comme point d’origine de ce monde « post-moderne ». À l’heure de l’explosion des communautés virtuelles, mais avant YouTube et les smartphones. Ce contexte de surveillance des réseaux et des échanges chiffrés des données est pourtant toujours aussi pertinent aujourd’hui. C’est une espèce de guerre froide avec un mélange d’anciens empires et de multinationales, le terrorisme en bruit de fond.
 
