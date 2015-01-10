@@ -5,7 +5,7 @@ Date:     January 01, 2015
 Update:   
 Keywords: critique, livre, William Gibson  
 Summary:  Cette année, j’ai envie d’essayer des choses un peu différentes avec ce blog, alors pourquoi pas une critique de livre ?  
-Image:    
+Image:    http://www.vtourraine.net/blog/img/critique-gibson-pattern-recognition/pattern-recognition.jpg  
 Language: fr  
 
 
@@ -51,5 +51,5 @@ Pour un roman de début de XXIème siècle, je trouve que c’est réussi.
 [_William Gibson_, by David Alliet](https://www.flickr.com/photos/nowherenear/1346415385), CC BY 2.0
 
 
-[Cover]: http://www.vtourraine.net/blog/img/critique-gibson-pattern-recognition/pattern-recognition.jpg
+[Cover]:  http://www.vtourraine.net/blog/img/critique-gibson-pattern-recognition/pattern-recognition.jpg
 [Gibson]: http://www.vtourraine.net/blog/img/critique-gibson-pattern-recognition/william-gibson-by-david-alliet.jpg
