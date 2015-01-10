@@ -22,13 +22,15 @@ Avance-rapide au début du XXIème siècle, et voici *Pattern Recognition*, son 
 > « Homo sapiens are about pattern recognition, he says. Both a gift and a trap. »  
 > — _Pattern Recognition_
 
-C’est l’histoire de Cayce, une américaine que son aversion maladive pour les marques commerciales rend, un peu paradoxalement, extrêmement douée à évaluer de nouveaux logos et identités visuelles pour le compte de grandes entreprises. 
+C’est l’histoire de Cayce, une américaine avec une aversion maladive pour les marques commerciales qui la rend, un peu paradoxalement, extrêmement douée à évaluer de nouveaux logos et identités visuelles pour le compte de grandes entreprises. 
 
 Depuis quelques temps, apparaît sur internet une série de clips vidéos mystérieux, d’origine parfaitement inconnue. Cayce fait partie de ces nombreux amateurs qui se réunissent en ligne pour tenter de comprendre le sens et la provenance de cet assemblage indéchiffrable mais passionnant. Fasciné lui aussi par ce mélange d’art et de marketing viral, c’est maintenant le patron de l’agence de publicité « Blue Ant », employeur de Cayce, qui la sollicite personnellement pour enquêter sur ce phénomène, lui donnant carte blanche pour en découvrir la source. 
 
 Le récit évolue entre Londres, Tokyo et Moscou; mais l’intrigue progresse en même temps sur internet, de forums en boîtes mails. Un peu comme les SMS qui apparaissent à l’écran pour Sherlock, ici les emails s’inscrivent directement dans la narration. Entre un iBook (le laptop, pas l’application), l’historique d’un navigateur internet, les rues de Londres, un hôtel japonais ou un café russe, Gibson excelle à décrire la richesse de notre monde contemporain, souvent inquiétant, toujours réaliste et exaltant. 
 
 ![_William Gibson_, by David Alliet, CC BY 2.0][Gibson]
+
+Pour un thriller, l’intrigue n’est pas particulièrement remarquable, mais l’intérêt est ailleurs. Ce n’est pas non plus une question de technologie, mais plutôt une certaine vision de notre société de l’information. Savoir, cacher, transmettre, la _data_ comme une matière première mystérieuse mais omniprésente.
 
 On retrouve aussi un contexte historique bien ancré, avec notamment un personnage disparu à New-York le _9/11_ comme point d’origine de ce monde « post-moderne ». À l’heure de l’explosion des communautés virtuelles, mais avant YouTube et les smartphones. Ce contexte de surveillance des réseaux et des échanges chiffrés des données est pourtant toujours aussi pertinent aujourd’hui. C’est une espèce de guerre froide avec un mélange d’anciens empires et de multinationales, le terrorisme en bruit de fond.
 
