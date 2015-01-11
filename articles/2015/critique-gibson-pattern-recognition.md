@@ -1,12 +1,13 @@
-Title:    « Pattern Recognition », de William Gibson  
-Author:   Vincent Tourraine  
-Email:    me@vtourraine.net  
-Date:     January 10, 2015  
-Update:   
-Keywords: critique, livre, William Gibson  
-Summary:  Cette année, j’ai envie d’essayer des choses un peu différentes avec ce blog, alors pourquoi pas une critique de livre ?  
-Image:    http://www.vtourraine.net/blog/img/critique-gibson-pattern-recognition/pattern-recognition.jpg  
-Language: fr  
+Title:     « Pattern Recognition », de William Gibson  
+Author:    Vincent Tourraine  
+Email:     me@vtourraine.net  
+Date:      January 10, 2015  
+Update:    
+Keywords:  critique, livre, William Gibson  
+Summary:   Cette année, j’ai envie d’essayer des choses un peu différentes avec ce blog, alors pourquoi pas une critique de livre ?  
+Image:     http://www.vtourraine.net/blog/img/critique-gibson-pattern-recognition/pattern-recognition.jpg  
+Thumbnail: http://www.vtourraine.net/blog/img/critique-gibson-pattern-recognition/thumbnail-pattern-recognition.jpg  
+Language:  fr  
 
 
 _Cette année, j’ai envie d’essayer des choses un peu différentes avec ce blog, alors pourquoi pas une critique de livre ?_

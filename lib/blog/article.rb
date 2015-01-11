@@ -5,18 +5,23 @@ class Article
   attr_reader :keywords
   attr_reader :summary
   attr_reader :image_url
+  attr_reader :thumbnail_url
   attr_reader :body
 
   attr_reader :blog_url
 
   def initialize(url)
-    @url   = url
-    @title     = `multimarkdown -e title #{@url}`.lines.first.chomp
-    @summary   = `multimarkdown -e summary #{@url}`.lines.first.chomp
-    @date      = Date.parse `multimarkdown -e date #{@url}`.lines.first.chomp
-    @keywords  = `multimarkdown -e keywords #{@url}`.lines.first.chomp.split(', ')
-    @image_url = `multimarkdown -e image #{@url}`.lines.first.chomp
-    @body      = `multimarkdown --snippet #{@url}`
+    @url = url
+    @title         = `multimarkdown -e title #{@url}`.lines.first.chomp
+    @summary       = `multimarkdown -e summary #{@url}`.lines.first.chomp
+    @date          = Date.parse `multimarkdown -e date #{@url}`.lines.first.chomp
+    @keywords      = `multimarkdown -e keywords #{@url}`.lines.first.chomp.split(', ')
+    @image_url     = `multimarkdown -e image #{@url}`.lines.first.chomp
+    thumbnail_url = `multimarkdown -e thumbnail #{@url}`.lines.first;
+    if thumbnail_url
+      @thumbnail_url = thumbnail_url.chomp;
+    end
+    @body          = `multimarkdown --snippet #{@url}`
 
     @blog_url = BLOG_ROOT_URL
   end

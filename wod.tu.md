@@ -2,16 +2,16 @@
 
 ## Roadmap
 
-- Post thumbnails
 - Enable syntax coloring only on “code” tagged articles
 - Add tag-based index
 - Smarter year indexes (a.k.a. template for templates)
+- Draft folder for processed but unlisted articles
 
 
 ## v2.3
 
+- [x] Post thumbnails
 - [x] Draft folder for unprocessed articles
-- [ ] Draft folder for processed but unlisted articles
 
 
 ## v2.2

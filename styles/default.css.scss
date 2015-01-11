@@ -138,6 +138,33 @@ body > article {
   }
 }
 
+$compact-mode-width: 800px;
+
+article.listing {
+  position: relative;
+
+  &.thumbnailed {
+    padding-left: 120px;
+
+    @media screen and (max-width: $compact-mode-width) {
+      padding-left: 60px;
+    }
+  }
+
+  div.thumbnail {
+    position: absolute;
+    top: 17px;
+    left: 0;
+
+    img {
+      width: 100px;
+      @media screen and (max-width: $compact-mode-width) {
+        width: 50px;
+      }
+    }
+  }
+}
+
 body > section#blog {
   h1 {
     font-size: 28pt;

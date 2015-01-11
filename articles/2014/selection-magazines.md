@@ -1,12 +1,13 @@
-Title:    Ma sélection de magazines  
-Author:   Vincent Tourraine  
-Email:    me@vtourraine.net  
-Date:     November 11, 2014  
+Title:     Ma sélection de magazines  
+Author:    Vincent Tourraine  
+Email:     me@vtourraine.net  
+Date:      November 11, 2014  
 Update:   
-Keywords: magazines, news  
-Summary:  Heureusement que je ne compte pas le nombre de tweets qui me passent devant les yeux chaque jour, ou le nombre de pages web qui défilent sur mon écran. Mes écrans. Parfois plusieurs en même temps. Dans ce contexte, et en pleine déclin de l’information sur papier, lire un magazine me semble une occupation… intéressante. En contre-temps assumé des flux continus, mais toujours tenté par la transformation inexorable vers le numérique. Tout ça pour parler un peu de quelques magazines que j’apprécie, et sur leurs différentes approches du problème de la presse en 2014.  
-Image:    http://www.vtourraine.net/blog/img/selection-magazines/offscreen-spread.jpg  
-Language: fr  
+Keywords:  magazines, news  
+Summary:   Heureusement que je ne compte pas le nombre de tweets qui me passent devant les yeux chaque jour, ou le nombre de pages web qui défilent sur mon écran. Mes écrans. Parfois plusieurs en même temps. Dans ce contexte, et en pleine déclin de l’information sur papier, lire un magazine me semble une occupation… intéressante. En contre-temps assumé des flux continus, mais toujours tenté par la transformation inexorable vers le numérique. Tout ça pour parler un peu de quelques magazines que j’apprécie, et sur leurs différentes approches du problème de la presse en 2014.  
+Image:     http://www.vtourraine.net/blog/img/selection-magazines/offscreen-spread.jpg  
+Thumbnail: http://www.vtourraine.net/blog/img/selection-magazines/thumbnail-offscreen-spread.jpg  
+Language:  fr  
 Project:  
 
 Heureusement que je ne compte pas le nombre de tweets qui me passent devant les yeux chaque jour, ou le nombre de pages web qui défilent sur mon écran. Mes écrans. Parfois plusieurs en même temps. Dans ce contexte, et en pleine déclin de l’information sur papier, lire un magazine me semble une occupation… intéressante. En contre-temps assumé des flux continus, mais toujours tenté par la transformation inexorable vers le numérique. Tout ça pour parler un peu de quelques magazines que j’apprécie, et sur leurs différentes approches du problème de la presse en 2014.
