@@ -30,11 +30,18 @@ On retrouve un peu partout cette fausse familiarité. Il convient donc de porter
 
 Pour une application iOS, il existe raisonnablement trois façons d’initier un projet : soit avec un Storyboard, soit avec des view controllers adossés à des `XIB`, soit uniquement en code source.
 
-Pour OS X, `MainMenu.xib` est roi.
+Pour OS X, `MainMenu.xib` est roi. Ce n’est [peut-être pas une approche idéale](https://www.mikeash.com/pyblog/friday-qa-2013-04-05-windows-and-window-controllers.html), mais c’est sans doute la plus pragmatique pour commencer.
 
-C’est un fichier créé automatiquement par Xcode pour un nouveau projet. Il contient notamment la fenêtre principale de votre application, mais aussi le menu (« File », « Edit », …), et des références vers des objets de haut niveau comme l’app delegate ou les user defaults standard.
+Il s’agit d’un fichier créé automatiquement par Xcode pour un nouveau projet. Il contient notamment la fenêtre principale de votre application, mais aussi le menu (« File », « Edit », …), et des références vers des objets de haut niveau comme l’app delegate ou les user defaults standard.
 
-Il s’agit donc d’un fichier absolument central, un peu effrayant — spécialement si vous n’êtes pas amateur d’Interface Builder — mais très pratique.
+C’est donc un fichier absolument central, un peu effrayant — spécialement si vous n’êtes pas amateur d’Interface Builder — mais très pratique.
 
 
 ## NSWindowController vs. NSViewController
+
+> « An NSWindowController object manages a window, usually a window stored in a nib file. »  
+> — Apple, [NSWindowController Class Reference](https://developer.apple.com/library/mac/documentation/Cocoa/Reference/ApplicationKit/Classes/NSWindowController_Class/)  
+>  
+> « A view controller manages a view, typically loaded from a nib file. »  
+> — Apple, [NSViewController Class Reference](https://developer.apple.com/library/mac/documentation/Cocoa/Reference/NSViewController_Class/)
+
