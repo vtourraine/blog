@@ -1,4 +1,4 @@
-# Introduction au développement OS X
+# Introduction au développement OS X (pour développeurs iOS, et les autres)
 
 Coincé entre la déferlante iOS et la montée en puissance des web  apps, le développement OS X n’est pas franchement au centre des attentions. Il s’agit pourtant d’une plateforme toujours intéressante, pour plusieurs raisons.
 
@@ -19,6 +19,9 @@ Il n’y avait aucune raison de ré-inventer quelque chose qui fonctionnait bien
 Les choses sont différentes quand on s’approche des vues. À la place de Cocoa Touch, on a donc Cocoa premier du nom, qui partage globalement la même philosophie, mais qui comporte un certain nombre de divergences, parfois importantes.
 
 Les `NSView`, par exemple, ne fonctionnent pas indépendamment comme leurs cousines `UIView`. Sur le Mac, elles ont besoin d’une `NSCell`, qui prend en charge une partie du travail avec le contexte graphique. Cette différenciation paraît bien superflue lorsqu’on est habitué au développement iOS, mais elle s’explique notamment par un soucis de réutilisabilité des objets en mémoire, établie à une époque où on ne disposait pas de Giga-octets de mémoire.
+
+> « The `NSCell` class provides a mechanism for displaying text or images in an `NSView` object without the overhead of a full `NSView` subclass. It’s used heavily by most of the `NSControl` classes to implement their internal workings. »  
+> — Apple, [NSCell Class Reference](https://developer.apple.com/library/mac/documentation/Cocoa/Reference/ApplicationKit/Classes/NSCell_Class/)
 
 On retrouve un peu partout cette fausse familiarité. Il convient donc de porter une attention particulière aux documentations pour se ré-approprier des concepts parfois élémentaires. Pas de `NSLabel`, par exemple, il faudra donc utiliser un `NSTextField` non éditable à la place.
 
