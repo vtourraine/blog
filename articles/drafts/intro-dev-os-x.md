@@ -21,7 +21,7 @@ Les choses sont différentes quand on s’approche des vues. À la place de Coco
 Les `NSView`, par exemple, ne fonctionnent pas indépendamment comme leurs cousines `UIView`. Sur le Mac, elles ont besoin d’une `NSCell`, qui prend en charge une partie du travail avec le contexte graphique. Cette différenciation paraît bien superflue lorsqu’on est habitué au développement iOS, mais elle s’explique notamment par un soucis de réutilisabilité des objets en mémoire, établie à une époque où on ne disposait pas de Giga-octets de mémoire.
 
 > « The `NSCell` class provides a mechanism for displaying text or images in an `NSView` object without the overhead of a full `NSView` subclass. It’s used heavily by most of the `NSControl` classes to implement their internal workings. »  
-> — Apple, [NSCell Class Reference](https://developer.apple.com/library/mac/documentation/Cocoa/Reference/ApplicationKit/Classes/NSCell_Class/)
+> — Apple, [_NSCell Class Reference_](https://developer.apple.com/library/mac/documentation/Cocoa/Reference/ApplicationKit/Classes/NSCell_Class/)
 
 On retrouve un peu partout cette fausse familiarité. Il convient donc de porter une attention particulière aux documentations pour se ré-approprier des concepts parfois élémentaires. Pas de `NSLabel`, par exemple, il faudra donc utiliser un `NSTextField` non éditable à la place.
 
@@ -40,8 +40,8 @@ C’est donc un fichier absolument central, un peu effrayant — spécialement 
 ## NSWindowController vs. NSViewController
 
 > « An NSWindowController object manages a window, usually a window stored in a nib file. »  
-> — Apple, [NSWindowController Class Reference](https://developer.apple.com/library/mac/documentation/Cocoa/Reference/ApplicationKit/Classes/NSWindowController_Class/)  
+> — Apple, [_NSWindowController Class Reference_](https://developer.apple.com/library/mac/documentation/Cocoa/Reference/ApplicationKit/Classes/NSWindowController_Class/)  
 >  
 > « A view controller manages a view, typically loaded from a nib file. »  
-> — Apple, [NSViewController Class Reference](https://developer.apple.com/library/mac/documentation/Cocoa/Reference/NSViewController_Class/)
+> — Apple, [_NSViewController Class Reference_](https://developer.apple.com/library/mac/documentation/Cocoa/Reference/NSViewController_Class/)
 
