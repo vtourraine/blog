@@ -4,8 +4,8 @@ Email:    me@vtourraine.net
 Date:     January 31, 2015  
 Update:   
 Keywords: Mac, OS X  
-Summary:    
-Image:    
+Summary:  C’est une banalité sur laquelle il convient d’insister : tout le monde devrait utiliser un système de sauvegarde et restauration de données (« backup software »).   
+Image:    http://www.vtourraine.net/blog/img/2015/recuperer-espace-time-machine/time-machine.jpg  
 Language: fr  
 
 
