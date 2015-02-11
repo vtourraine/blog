@@ -49,7 +49,7 @@
             %a{:href => "#{article.web_url}"} #{article.title}
           - if article.thumbnail_url
             .thumbnail
-              %img.thumbnail{:src => "#{article.thumbnail_url}"}
+              %img.thumbnail{:src => "#{article.thumbnail_url}", :alt => "article thumbnail"}
           %div
             #{article.summary}
           .meta
