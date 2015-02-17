@@ -21,6 +21,7 @@ Les premiers chapitres laissent deviner une intrigue très semblable à celle de
 
 Cette approche rend le livre moins satisfaisant que son prédécesseur. L’auteur joue visiblement sur nos attentes, et préfère renforcer son travail sur l’ambiance et les thèmes du récit. Les romans de Gibson ne brillent pas vraiment par leur intrigue, on ressent ici que cet aspect est volontairement délaissé. C’est un peu frustrant à la lecture, mais le climat du livre reste fascinant. 
 
+![_William Gibson_, by pmonaghan, remix Vincent Tourraine, BY-NC-SA 2.0][Gibson]
 
 ## Data IRL
 
@@ -46,8 +47,8 @@ Encore en 2015, entre les Google Glass et les Microsoft HoloLens, le monde rattr
 
 ### Licence photo
 
-[_William Gibson_, by David Alliet](https://www.flickr.com/photos/nowherenear/1346415385), CC BY 2.0
+[_William Gibson_, by pmonaghan](https://www.flickr.com/photos/pkmonaghan/6261789506), CC BY-NC-SA 2.0
 
 
 [Cover]:  http://www.vtourraine.net/blog/img/2015/critique-gibson-spook-country/spook-country.jpg  
-[Gibson]: http://www.vtourraine.net/blog/img/critique-gibson-pattern-recognition/william-gibson-by-david-alliet.jpg
+[Gibson]: http://www.vtourraine.net/blog/img/2015/critique-gibson-spook-country/william-gibson-by-pmonaghan.jpg
