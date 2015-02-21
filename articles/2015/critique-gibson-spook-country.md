@@ -1,12 +1,12 @@
 Title:     « Spook Country », de William Gibson  
 Author:    Vincent Tourraine  
 Email:     me@vtourraine.net  
-Date:      ###### ##, 2015  
+Date:      February 21, 2015  
 Update:    
 Keywords:  critique, livre, William Gibson  
-Summary:   #######  
-Image:     http://www.vtourraine.net/blog/img/#####  
-Thumbnail: http://www.vtourraine.net/blog/img/#####  
+Summary:   Après mon billet du mois dernier consacré à « Pattern Recognition », voici la suite ; car comme toutes les bonnes choses, cette histoire constitue en fait une trilogie. « Spook Country » revient donc avec certains personnages du livre précédent, mais il ne s’agit pas d’un prolongement direct du récit   
+Image:     http://www.vtourraine.net/blog/img/2015/critique-gibson-spook-country/spook-country.jpg  
+Thumbnail: http://www.vtourraine.net/blog/img/2015/critique-gibson-spook-country/thumbnail-spook-country.jpg  
 Language:  fr  
 
 ![_Spook Country_, photo Vincent Tourraine, CC BY-NC 4.0][Cover]
@@ -19,7 +19,7 @@ On retrouve Hubertus Bigend, le patron de la firme _Blue Ant_, qui agit toujours
 
 Les premiers chapitres laissent deviner une intrigue très semblable à celle de _Pattern Recognition_, en particulier avec le personnage d’Hollis. Mais le livre semble ensuite diluer sa narration au fil des chapitres, évitant de livrer une progression linéaire, pour cultiver les faux-semblants et l’incertitude pesant sur les protagonistes. 
 
-Cette approche rend le livre moins satisfaisant que son prédécesseur. L’auteur joue visiblement sur nos attentes, et préfère renforcer son travail sur l’ambiance et les thèmes du récit. Les romans de Gibson ne brillent pas vraiment par leur intrigue, on ressent ici que cet aspect est volontairement délaissé. C’est un peu frustrant à la lecture, mais le climat du livre reste fascinant. 
+Cette approche rend le livre moins satisfaisant que son prédécesseur. L’auteur joue visiblement sur nos attentes, et préfère renforcer son travail sur l’ambiance et les thèmes du récit. Les romans de Gibson ne brillent pas vraiment par leurs intrigues, on ressent ici que cet aspect est volontairement délaissé. C’est un peu frustrant à la lecture, mais le climat du livre reste fascinant. 
 
 ![_William Gibson_, by pmonaghan, remix Vincent Tourraine, BY-NC-SA 2.0][Gibson]
 
@@ -52,3 +52,5 @@ Encore en 2015, entre les Google Glass et les Microsoft HoloLens, le monde rattr
 
 [Cover]:  http://www.vtourraine.net/blog/img/2015/critique-gibson-spook-country/spook-country.jpg  
 [Gibson]: http://www.vtourraine.net/blog/img/2015/critique-gibson-spook-country/william-gibson-by-pmonaghan.jpg
+
+[Pattern Recognition]: http://www.vtourraine.net/blog/2015/critique-gibson-pattern-recognition  

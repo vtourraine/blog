@@ -2,7 +2,7 @@ Title:     « Pattern Recognition », de William Gibson
 Author:    Vincent Tourraine  
 Email:     me@vtourraine.net  
 Date:      January 10, 2015  
-Update:    
+Update:    February 21, 2015  
 Keywords:  critique, livre, William Gibson  
 Summary:   Cette année, j’ai envie d’essayer des choses un peu différentes avec ce blog, alors pourquoi pas une critique de livre ?  
 Image:     http://www.vtourraine.net/blog/img/critique-gibson-pattern-recognition/pattern-recognition.jpg  
@@ -47,6 +47,8 @@ Pour un roman de début de XXIème siècle, je trouve que c’est réussi.
 - [Goodreads.com](https://www.goodreads.com/book/show/22320.Pattern_Recognition)
 - [Amazon.fr](http://www.amazon.fr/dp/0425198685)
 - [Fnac.com](http://livre.fnac.com/mp4856077/Pattern-Recognition)
+
+> _Mise à jour, 21 Février 2015_ : j’ai également publié un billet sur le roman qui donne une suite à celui-ci, [_Spook Country_](http://www.vtourraine.net/blog/2015/critique-gibson-spook-country)
 
 
 ### Licence photo
