@@ -6,13 +6,17 @@
 - Add tag-based index
 - Smarter year indexes (a.k.a. template for templates)
 - Draft folder for processed but unlisted articles
-- Colored output ([see](https://github.com/michaeldv/awesome_print))
+
+
+## v2.3.1
+
+- [x] Colored output
 
 
 ## v2.3
 
-- [x] Post thumbnails
-- [x] Draft folder for unprocessed articles
+- Post thumbnails
+- Draft folder for unprocessed articles
 
 
 ## v2.2

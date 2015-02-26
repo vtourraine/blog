@@ -2,6 +2,7 @@
 
 $LOAD_PATH << 'lib'
 require 'blog'
+require 'colorize'
 
 puts 'Generating Blog'
 
@@ -28,4 +29,4 @@ blog.generate_index "templates/articles.json.haml",   haml_options
 
 blog.generate_style "default.css.scss"
 
-puts "Ready! (#{blog.articles.count} articles)"
+puts "Ready! (#{blog.articles.count} articles)".colorize(:green)

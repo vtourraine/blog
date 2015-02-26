@@ -1,6 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    colorize (0.7.5)
     haml (4.0.5)
       tilt
     sass (3.4.9)
@@ -10,5 +11,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  colorize
   haml
   sass
