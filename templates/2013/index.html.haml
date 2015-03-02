@@ -33,15 +33,17 @@
         %a{:href => "#{blog_url}"} Blog
 
     %section#blog
-      %h1 Tous les billets 2013
 
       .links 
         %span Archives
+        %a{:href => "#{blog_url}2015/"} 2015 
         %a{:href => "#{blog_url}2014/"} 2014
         %a{} 2013 
         %a{:href => "#{blog_url}2012/"} 2012 
         %a{:href => "#{blog_url}2011/"} 2011 
         %a{:href => "#{blog_url}feed.xml"} Flux RSS
+
+      %h1 Tous les billets 2013
 
       - @articles.select { |a| a.date.year == 2013 }.reverse_each do |article|
         %article

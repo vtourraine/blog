@@ -4,7 +4,7 @@ $LOAD_PATH << 'lib'
 require 'blog'
 require 'colorize'
 
-puts 'Generating Blog'
+puts "Generating Blog".colorize(:green)
 
 haml_options = { attr_wrapper: '"', format: :html5 }
 article_template = Haml::Engine.new(File.read("./templates/article.html.haml"), haml_options)
@@ -24,6 +24,7 @@ blog.generate_index "templates/2011/index.html.haml", haml_options
 blog.generate_index "templates/2012/index.html.haml", haml_options
 blog.generate_index "templates/2013/index.html.haml", haml_options
 blog.generate_index "templates/2014/index.html.haml", haml_options
+blog.generate_index "templates/2015/index.html.haml", haml_options
 blog.generate_index "templates/feed.xml.haml",        haml_options
 blog.generate_index "templates/articles.json.haml",   haml_options
 
