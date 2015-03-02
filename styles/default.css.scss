@@ -153,7 +153,7 @@ article.listing {
 
   div.thumbnail {
     position: absolute;
-    top: 17px;
+    top: 7px;
     left: 0;
 
     img {
@@ -170,12 +170,19 @@ body > section#blog {
     font-size: 28pt;
     text-transform: uppercase;
     color: $dark-text-color;
-    padding-top: $margin;
   }
+
+  nav.links {
+    margin-top: $margin * 2;
+
+    a {
+      padding-right: $margin/2;
+    }
+  }
+
   h2 {
     font-size: 20pt;
     text-transform: uppercase;
-    padding-top: $margin/2;
     margin-bottom: 0;
 
     a {
@@ -188,6 +195,7 @@ body > section#blog {
       }
     }
   }
+
   .meta {
     color: $light-text-color;
     font-style: italic;
