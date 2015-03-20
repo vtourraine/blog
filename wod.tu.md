@@ -11,7 +11,7 @@
 ## v2.3.1
 
 - [x] Colored output
-
+- [x] Fix article paragraphs x overflow on small screens
 
 ## v2.3
 
