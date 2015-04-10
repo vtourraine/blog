@@ -1,7 +1,7 @@
 Title:     « Zero History », de William Gibson  
 Author:    Vincent Tourraine  
 Email:     me@vtourraine.net  
-Date:      April 6, 2015  
+Date:      April 10, 2015  
 Update:    
 Keywords:  critique, livre, William Gibson  
 Summary:   
@@ -11,11 +11,11 @@ Language:  fr
 
 ![_Zero History_, photo Vincent Tourraine, CC BY-NC 4.0][Cover]
 
-Lorsque les personnages principaux d’un récit évoluent séparément à la recherche d’un objectif commun, on peut raisonnablement s’attendre à une conclusion les réunissant. Ici, il faut ouvrir _Zero History_ pour voir Hollis Henry la journaliste et Milgrim l’informateur clandestin rassemblés autour d’une nouvelle quête. Après les évènements de _Spook Country_, c’est encore Bigend qui les recrute pour sa nouvelle obsession : une marque de jeans, confidentielle au point d’être introuvable.
+Lorsque les personnages d’un récit évoluent séparément à la recherche d’un objectif commun, on peut raisonnablement s’attendre à une conclusion les réunissant. Ici, il faut ouvrir _Zero History_ pour voir Hollis Henry la journaliste et Milgrim l’informateur clandestin rassemblés autour d’une nouvelle quête. Après les évènements de _Spook Country_, c’est encore une fois Hubertus Bigend qui les recrute pour sa nouvelle obsession : une marque de jeans, confidentielle au point d’être intraçable.
 
-On ne s’attend pas forcément à lire Gibson dérouler une intrigue autour de la mode, même underground. Il n’est pas question de _wearable technology_, de montres connectées, ou même de lunettes de réalité augmentée comme pour le livre précédent. Il est bien question de jeans. La mode y apparaît finalement comme une forme de technologie raffinée à l’extrême, entre le savoir-faire pour la conception, et le réseau confidentiel d’un marketing viral ultime. Les tendances vestimentaires influencés par les besoins militaires, qui uniformisent inconsciemment la société.
+On ne s’attend pas forcément à lire Gibson dérouler une intrigue autour de la mode, même underground. Il n’est pas question de _wearable technology_, de montres connectées, ou même de lunettes de réalité augmentée comme pour le livre précédent. Il est bien question de jeans. La mode y apparaît finalement comme une forme de technologie raffinée à l’extrême, entre le savoir-faire de conception, et la mise en place du marketing viral ultime. Il y est question des tendances vestimentaires, influencées par le corps militaire, qui uniformisent inconsciemment la société. Encore une fois, à l’image des technologies de notre quotidien.
 
-Hollis et Milgrim recherchent donc ce concepteur mystérieux, entre Londres et Paris, par traçage satellite de téléphone et pilotage de drone. Alors que les deux livres précédents servaient de rappel pour l’obsolescence des objets du début du vingt-et-unième siècle, la proximité temporelle de _Zero History_ (publié en 2010) apporte des éléments toujours contemporains. Rien de mieux qu’un « Air » (MacBook Air) comme ordinateur de voyage, et Twitter, avec ses DM et son spam, comme moyen de communication privilégié. 
+Hollis et Milgrim recherchent donc ce concepteur mystérieux, entre Londres et Paris, avec traçage satellite de téléphone et pilotage de drone. Alors que les deux livres précédents servaient sans le vouloir de rappel pour l’obsolescence des objets du début du vingt-et-unième siècle, la proximité temporelle de _Zero History_ (publié en 2010) apporte des artéfacts toujours d’actualité. Rien de mieux qu’un « Air » (MacBook Air) comme ordinateur de voyage, et Twitter, avec ses DM et son spam, comme moyen de communication privilégié. 
 
 > Some very considerable part of the gestural language of public places that had once belonged to cigarettes now belonged to phones.
 
