@@ -35,6 +35,7 @@ class Blog
     index_template = Haml::Engine.new(File.read(template_url), haml_options)
     index_output = index_template.render self
     index_output_path = template_url.gsub('.haml', '').gsub(TEMPLATES_DIRECTORY, RENDERED_DIRECTORY)
+    FileUtils.mkdir_p(File.dirname(index_output_path))
     File.open(index_output_path, "w") do |file|
       file.write index_output
     end
