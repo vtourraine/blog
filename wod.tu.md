@@ -3,15 +3,16 @@
 ## Roadmap
 
 - Enable syntax coloring only on “code” tagged articles
-- Add tag-based index
-- Smarter year indexes (a.k.a. template for templates)
 - Draft folder for processed but unlisted articles
 
 
-## v2.3.1
+## v2.4
 
+- [x] Add year based index
+- [x] Add tag based index
 - [x] Colored output
 - [x] Fix article paragraphs x overflow on small screens
+
 
 ## v2.3
 

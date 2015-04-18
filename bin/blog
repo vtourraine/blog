@@ -20,13 +20,16 @@ blog.articles.each { |article|
 }
 
 blog.generate_index "templates/index.html.haml",      haml_options
-blog.generate_index "templates/2011/index.html.haml", haml_options
-blog.generate_index "templates/2012/index.html.haml", haml_options
-blog.generate_index "templates/2013/index.html.haml", haml_options
-blog.generate_index "templates/2014/index.html.haml", haml_options
-blog.generate_index "templates/2015/index.html.haml", haml_options
 blog.generate_index "templates/feed.xml.haml",        haml_options
 blog.generate_index "templates/articles.json.haml",   haml_options
+
+blog.generate_index_year 2011, haml_options
+blog.generate_index_year 2012, haml_options
+blog.generate_index_year 2013, haml_options
+blog.generate_index_year 2014, haml_options
+blog.generate_index_year 2015, haml_options
+blog.generate_index_tag "livre", haml_options
+blog.generate_index_tag "iOS", haml_options
 
 blog.generate_style "default.css.scss"
 

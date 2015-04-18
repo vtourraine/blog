@@ -41,6 +41,24 @@ class Blog
     end
   end
 
+  def generate_index_year(year, haml_options)
+    puts 'Generating index year: “' + year.to_s + '”'
+
+    index = Index.new
+    index.title = year.to_s
+    index.articles = @articles.select { |a| a.date.year == year }
+    index.generate_index("templates/index-custom.html.haml", RENDERED_DIRECTORY+year.to_s+"/index.html", haml_options)
+  end
+
+  def generate_index_tag(tag, haml_options)
+    puts 'Generating index tag: “' + tag + '”'
+
+    index = Index.new
+    index.title = tag
+    index.articles = @articles.select { |a| a.keywords.include? tag }
+    index.generate_index("templates/index-custom.html.haml", RENDERED_DIRECTORY+"tags/"+tag.downcase+".html", haml_options)
+  end
+
   def generate_style(scss_name)
     puts 'Generating style: “' + scss_name + '”'
     style_input_url  = STYLES_DIRECTORY + scss_name

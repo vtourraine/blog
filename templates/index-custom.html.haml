@@ -2,7 +2,7 @@
 %html{:lang => "fr", :itemscope => "", :itemtype => "http://schema.org/Blog"}
   %head
     %meta{:charset => "utf-8"}
-    %title Vincent Tourraine - Blog 2014
+    %title Vincent Tourraine - Blog #{title}
     %link{:rel => "stylesheet", :type => "text/css", :href => "#{blog_url}styles/default.css?nav"}
     / %link{:rel => "stylesheet", :type => "text/css", :href => "styles/default.css"}
     %link{:rel => "stylesheet", :type => "text/css", :href => "http://fonts.googleapis.com/css?family=Nunito:300,700"}
@@ -36,18 +36,21 @@
 
       %nav.links
         %a{:href => "#{blog_url}2015/"} 2015
-        %a{} 2014
+        %a{:href => "#{blog_url}2014/"} 2014
         %a{:href => "#{blog_url}2013/"} 2013
         %a{:href => "#{blog_url}2012/"} 2012
         %a{:href => "#{blog_url}2011/"} 2011
         %a{:href => "#{blog_url}feed.xml"} Flux RSS
 
-      %h1 Tous les billets 2014
+      %h1 Tous les billets #{title}
 
-      - @articles.select { |a| a.date.year == 2014 }.reverse_each do |article|
-        %article
+      - @articles.reverse_each do |article|
+        %article{:class => article.thumbnail_url ? "thumbnailed listing" : "listing"}
           %h2
             %a{:href => "#{article.web_url}"} #{article.title}
+          - if article.thumbnail_url
+            .thumbnail
+              %img.thumbnail{:src => "#{article.thumbnail_url}", :alt => "article thumbnail"}
           %div
             #{article.summary}
           .meta
