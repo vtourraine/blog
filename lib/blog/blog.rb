@@ -30,7 +30,8 @@ class Blog
   end
 
   def generate_index(template_url, haml_options)
-    puts 'Generating index: “' + template_url + '”'
+    log_string = 'Generating index: “' + template_url + '”'
+    puts log_string.colorize(:blue)
 
     index_template = Haml::Engine.new(File.read(template_url), haml_options)
     index_output = index_template.render self
@@ -42,21 +43,24 @@ class Blog
   end
 
   def generate_index_year(year, haml_options)
-    puts 'Generating index year: “' + year.to_s + '”'
-
     index = Index.new
     index.title = year.to_s
     index.articles = @articles.select { |a| a.date.year == year }
+
+    log_string = 'Generating index year: “' + year.to_s + '” (' + index.articles.count.to_s + ' articles)'
+    puts log_string.colorize(:light_blue)
     index.generate_index("templates/index-custom.html.haml", RENDERED_DIRECTORY+year.to_s+"/index.html", haml_options)
   end
 
   def generate_index_tag(tag, haml_options)
-    puts 'Generating index tag: “' + tag + '”'
-
     index = Index.new
     index.title = tag
     index.articles = @articles.select { |a| a.keywords.include? tag }
-    index.generate_index("templates/index-custom.html.haml", RENDERED_DIRECTORY+"tags/"+tag.downcase+".html", haml_options)
+
+    log_string = 'Generating index tag: “' + tag + '” (' + index.articles.count.to_s + ' articles)'
+    puts log_string.colorize(:light_blue)
+    tag_slug = tag.downcase.gsub(' ', '-')
+    index.generate_index("templates/index-custom.html.haml", RENDERED_DIRECTORY+"tags/" + tag_slug + ".html", haml_options)
   end
 
   def generate_style(scss_name)
