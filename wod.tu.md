@@ -8,10 +8,10 @@
 
 ## v2.4
 
-- [x] Add year based index
-- [x] Add tag based index
-- [x] Colored output
-- [x] Fix article paragraphs x overflow on small screens
+- Add year based index
+- Add tag based index
+- Colored output
+- Fix article paragraphs x overflow on small screens
 
 
 ## v2.3
