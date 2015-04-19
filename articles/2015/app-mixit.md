@@ -2,7 +2,7 @@ Title:    Application iOS pour Mix-IT
 Author:   Vincent Tourraine  
 Email:    me@vtourraine.net  
 Date:     April 4, 2015  
-Update:   
+Update:   April 19, 2015  
 Keywords: Mix-IT, iOS, dev
 Summary:  Mix-IT, c’est un peu la WWDC lyonnaise. L’année dernière, la conférence avait vendu tous les billets en 48 heures ; cette année il aura suffit de 3 heures.  
 Image:    http://www.vtourraine.net/blog/img/2015/app-mixit/iphone-views.jpg  
@@ -29,5 +29,20 @@ Si vous avez des suggestions et que vous êtes très rapides, on peut encore esp
 
 ![Bonus : retrouvez le CPE Lyon… en 3D][iPhone 3D map]
 
+   
+   
+
+> _Mise à jour du 19 avril 2015_  
+>  
+> Mix-IT 2015, c’est maintenant terminé (et tout le monde confirme que, cette année encore, c’était vraiment bien). Au cas où ça intéresserait quelqu’un, voici les statistiques de téléchargement de l’application.  
+>  
+> Pour faire simple, premier pic dès la publication sur l’App Store, notamment grâce à [un tweet](https://twitter.com/mixIT_lyon/status/584272226410725376) par le compte officiel @mixit_lyon. La seconde vague arrive, assez logiquement, la veille de la conférence. 55 téléchargements au total. Pour environ 500 participants, j’imagine environ la moitié avec un iPhone, donc j’avoue être un peu déçu par ce nombre. Peu importe, je suis content de l’avoir développée, même dans la précipitation.  
+>  
+> Enfin, n’hésitez-pas à me faire signe si vous avez des suggestions pour l’améliorer avant 2016. Ça vous laisse même pas mal de temps pour envoyer vos [pull-requests](https://github.com/vtourraine/mixit).  
+>  
+> ![Nombres de téléchargements de l’application][downloads]
+
+
 [iPhone views]: http://www.vtourraine.net/blog/img/2015/app-mixit/iphone-views.jpg
 [iPhone 3D map]: http://www.vtourraine.net/blog/img/2015/app-mixit/maps-3d.png
+[downloads]: http://www.vtourraine.net/blog/img/2015/app-mixit/downloads.jpg
