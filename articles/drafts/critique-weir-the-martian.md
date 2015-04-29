@@ -11,3 +11,8 @@ Pour son premier roman, Andy Weir fait très fort. Visiblement passionné par l�
 Chaque journée sur Mars apporte son problème. À chaque fois, Mark analyse la situation et met à profit ses maigres resources à son avantage pour lui permettre de surmonter les épreuves. C’est le triomphe de l’ingéniosité et de la persévérance. La vie comme un problème de math qu’il convient de résoudre, étape après étape.
 
 On retrouve toutes les explications 
+
+// ESA Mars background
+// http://www.esa.int/spaceinimages/Images/2015/01/Nili_Fossae
+// http://www.esa.int/spaceinimages/Images/2014/11/Hellas_Chaos
+// http://www.esa.int/spaceinimages/Images/2015/02/Cappuccino_swirls_at_Mars_south_pole
