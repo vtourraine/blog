@@ -12,6 +12,9 @@ Chaque journée sur Mars apporte son problème. À chaque fois, Mark analyse la 
 
 On retrouve toutes les explications 
 
+À mes yeux, envoyer quelqu’un sur la lune tient de la SF rétro, à jamais associé à Tintin et aux années 60. Envoyer quelqu’un sur Mars reste aujourd’hui de la science-fiction, spéculative, mais à portée de main. Des robots tweetent sur Mars, postant des _selfies_. Voilà une source d’émerveillement fantastique.
+
+
 // ESA Mars background  
 // http://www.esa.int/spaceinimages/Images/2015/01/Nili_Fossae  
 // http://www.esa.int/spaceinimages/Images/2014/11/Hellas_Chaos  
