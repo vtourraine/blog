@@ -1,13 +1,12 @@
-# « The Martian »
+# « The Martian », de Andy Weir
 
-Une expédition tourne mal, c’est la panique, l’évacuation précipitée. L’équipe regagne la navette de justesse et s’échappe de la planète rouge… abandonnant le pauvre Mark Watney, que tout le monde croyait mort.
+Une expédition tourne mal. C’est la panique, l’évacuation précipitée. L’équipe regagne la navette de justesse et s’échappe de la planète rouge… abandonnant le pauvre Mark Watney, que tout le monde croyait mort.
 
 Seul sur Mars. 
 
-Le concept du livre est merveilleux de simplicité : c’est Robinson Crusoé dans l’espace. Ça peut paraître ridicule. Survivre seul sur une planète déserte à l’air irrespirable, sans équipement approprié, jusqu’à envisager un plan de sauvetage pour sortir vivant de cet enfer. Mais ce livre n’a rien de ridicule, mieux, il s’applique à un réalisme passionnant.
+Le concept du livre est merveilleux de simplicité : Robinson Crusoé dans l’espace. Ça peut paraître ridicule. Survivre seul sur une planète déserte glaciale à l’air irrespirable, sans équipement approprié, jusqu’à envisager un plan de sauvetage pour espérer sortir vivant de cet enfer. Mais ce livre n’a rien de ridicule, mieux, il s’applique avec rigueur à un réalisme fascinant. 
 
-Pour son premier roman, Andy Weir fait très fort. Visiblement passionné par l’exploration spatiale, la qualité de son travail de documentation lui vaut la reconnaissances des ingénieurs (et des astronautes !) de la NASA. 
-
+Ce n’est pas une simple posture, c’est un livre écrit par un passionné d’astrophysique et d’exploration spatiale. La qualité de son travail de documentation lui vaut la reconnaissances des ingénieurs (et des astronautes !) de la NASA. 
 Chaque journée sur Mars apporte son problème. À chaque fois, Mark analyse la situation et met à profit ses maigres resources à son avantage pour lui permettre de surmonter les épreuves. C’est le triomphe de l’ingéniosité et de la persévérance. La vie comme un problème de math qu’il convient de résoudre, étape après étape.
 
 On retrouve toutes les explications 
