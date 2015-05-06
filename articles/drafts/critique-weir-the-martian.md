@@ -2,7 +2,9 @@
 
 Une expédition tourne mal. C’est la panique, l’évacuation précipitée. L’équipe regagne la navette de justesse et s’échappe de la planète rouge… abandonnant le pauvre Mark Watney, que tout le monde croyait mort.
 
-Seul sur Mars. 
+Seul sur Mars.
+
+![Nili Fossae, photo ESA CC BY-SA 3.0 IGO (modifiée)][Nili Fossae]
 
 Le concept du livre est merveilleux de simplicité : Robinson Crusoé dans l’espace. Ça peut paraître ridicule. Survivre seul sur une planète déserte glaciale à l’air irrespirable, sans équipement approprié, jusqu’à envisager un plan de sauvetage pour espérer sortir vivant de cet enfer. Mais ce livre n’a rien de ridicule, mieux, il s’applique avec rigueur à un réalisme fascinant. 
 
@@ -36,6 +38,7 @@ Chaque journée sur Mars apporte son problème. Mark analyse la situation et met
 > Let’s see… where do I begin? »  
 > Andy Weir, _The Martian_
 
+![Hellas Chaos, photo ESA CC BY-SA 3.0 IGO (modifiée)][Hellas Chaos]
 
 _P.S._ : Vous trouvez que cette histoire ferait un bon film ? Vous n’avez soi-disant pas le temps de lire un livre, mais vous aimeriez bien savoir comment ça finit ? Rassurez-vous, tout est prévu. Le film est déjà tourné, et devrait sortir dès novembre (une fin d’année remarquable pour les amateurs de science-fiction). Ce sera l’occasion de découvrir de jeunes talents comme un certain Ridley Scott à la réalisation, et Matt Damon dans le rôle principal. La première bande-annonce doit arriver bientôt. 
 
@@ -46,8 +49,11 @@ _P.S._ : Vous trouvez que cette histoire ferait un bon film ? Vous n’avez soi
 - [Goodreads.com](https://www.goodreads.com/book/show/18007564-the-martian)
 - [Amazon.fr](http://www.amazon.fr/dp/0804139024)
 
+### Licence photo
 
-// ESA Mars background  
-// http://www.esa.int/spaceinimages/Images/2015/01/Nili_Fossae  
-// http://www.esa.int/spaceinimages/Images/2014/11/Hellas_Chaos  
-// http://www.esa.int/spaceinimages/Images/2015/02/Cappuccino_swirls_at_Mars_south_pole  
+- [_Nili Fossae_, par ESA](http://www.esa.int/spaceinimages/Images/2015/01/Nili_Fossae), CC BY-SA 3.0 IGO
+- [_Hellas_Chaos_, par ESA](http://www.esa.int/spaceinimages/Images/2014/11/Hellas_Chaos), CC BY-SA 3.0 IGO
+
+
+[Nili Fossae]: http://www.vtourraine.net/blog/img/2015/critique-weir-the-martian/nili-fossae.jpg
+[Hellas Chaos]: http://www.vtourraine.net/blog/img/2015/critique-weir-the-martian/hellas-chaos.jpg
