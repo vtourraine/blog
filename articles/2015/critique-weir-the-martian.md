@@ -1,19 +1,19 @@
 Title:     « The Martian », de Andy Weir  
 Author:    Vincent Tourraine  
 Email:     me@vtourraine.net  
-Date:      May 6, 2015  
+Date:      May 8, 2015  
 Update:    
 Keywords:  critique, livre, Andy Weir  
 Summary:   Une expédition tourne mal. C’est la panique, l’évacuation précipitée. L’équipe regagne la navette de justesse et s’échappe de la planète rouge… abandonnant le pauvre Mark Watney, que tout le monde croyait mort. Seul sur Mars.  
-Image:     http://www.vtourraine.net/blog/img/2015/critique-gibson-spook-country/spook-country.jpg  
-Thumbnail: http://www.vtourraine.net/blog/img/2015/critique-gibson-spook-country/thumbnail-spook-country.jpg  
+Image:     http://www.vtourraine.net/blog/img/2015/critique-weir-the-martian/the-martian.jpg  
+Thumbnail: http://www.vtourraine.net/blog/img/2015/critique-weir-the-martian/thumbnail-the-martian.jpg  
 Language:  fr  
 
 Une expédition tourne mal. C’est la panique, l’évacuation précipitée. L’équipe regagne la navette de justesse et s’échappe de la planète rouge… abandonnant le pauvre Mark Watney, que tout le monde croyait mort.
 
 Seul sur Mars.
 
-![Nili Fossae, photo ESA, CC BY-SA 3.0 IGO (modifiée)][Nili Fossae]
+![_The Martian_, photo Vincent Tourraine, CC BY-NC 4.0][Cover]
 
 > « I’m pretty much fucked.  
 >  
@@ -37,6 +37,8 @@ Le concept du livre est merveilleux de simplicité : Robinson Crusoé dans l’
 Ce n’est pas une simple posture, mais bien le livre d’un passionné d’astrophysique et d’exploration spatiale qui examine en détails tous les aspects de la vie sur Mars. La qualité du travail de documentation d’Andy Weir lui vaut la reconnaissances des ingénieurs (et des astronautes !) de la NASA. Chaque trajectoire, chaque orbite, a été calculée. La composition de l’air respiré par notre astronaute est soigneusement détaillée, permettant d’apprécier l’importance — et parfois le danger — associé à chaque gaz. Le nombre de calories continus dans ses portions est un enjeu récurrent, conditionnant la durée envisageable de sa survie. 
 
 Je me plains rarement du manque de crédibilité d’un livre ou d’un film, à condition que l’histoire exprime des émotions ou des idées qui en valent la peine. Mais je reconnais hélas la trop grande rareté des récits qui s’attachent à un réalisme aussi exigeant. Ce n’est pas une finalité pour autant, simplement la condition pour se laisser complètement absorber par une aventure qui peut paraître invraisemblable. Ce livre en est l’illustration parfaite.
+
+![Nili Fossae, photo ESA, CC BY-SA 3.0 IGO (modifiée)][Nili Fossae]
 
 > « A book I just couldn’t put down! It has the very rare combination of a good, original story, interestingly real characters and fascinating technical accuracy… »  
 > Astronaut Chris Hadfield, Commander of the International Space Station
@@ -63,8 +65,9 @@ _P.S._ : Vous trouvez que cette histoire ferait un bon film ? Vous n’avez soi
 ### Licence photo
 
 - [_Nili Fossae_, photo ESA](http://www.esa.int/spaceinimages/Images/2015/01/Nili_Fossae), CC BY-SA 3.0 IGO
-- [_Hellas_Chaos_, photo ESA](http://www.esa.int/spaceinimages/Images/2014/11/Hellas_Chaos), CC BY-SA 3.0 IGO
+- [_Hellas Chaos_, photo ESA](http://www.esa.int/spaceinimages/Images/2014/11/Hellas_Chaos), CC BY-SA 3.0 IGO
 
 
+[Cover]: http://www.vtourraine.net/blog/img/2015/critique-weir-the-martian/the-martian.jpg
 [Nili Fossae]: http://www.vtourraine.net/blog/img/2015/critique-weir-the-martian/nili-fossae.jpg
 [Hellas Chaos]: http://www.vtourraine.net/blog/img/2015/critique-weir-the-martian/hellas-chaos.jpg
