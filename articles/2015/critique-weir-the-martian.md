@@ -1,4 +1,4 @@
-Title:     « The Martian », de Andy Weir  
+Title:     « The Martian », d’Andy Weir  
 Author:    Vincent Tourraine  
 Email:     me@vtourraine.net  
 Date:      May 8, 2015  
