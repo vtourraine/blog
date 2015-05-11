@@ -6,6 +6,11 @@
 - Draft folder for processed but unlisted articles
 
 
+## v2.4.1
+
+- Twitter Cards
+
+
 ## v2.4
 
 - Add year based index
