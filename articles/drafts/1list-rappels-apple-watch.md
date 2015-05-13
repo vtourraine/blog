@@ -14,6 +14,14 @@ Il se trouve que je développe depuis 2012 une application iPhone/iPad qui perme
 
 ## Opportunité (manquée)
 
-Pas d’application officielle Rappels sur l’Apple Watch, c’était donc l’opportunité révée pour 1List. Petit problème : j’ai complètement ignoré cette magnifique occasion pendant les six derniers mois où WatchKit était disponible, pour enfin me réveiller lorsque la montre est enfin arrivée, il y a seulement quinze jours. Voilà, c’est un peu embarrassant.
+Pas d’application officielle Rappels sur Apple Watch, c’était donc l’opportunité rêvée pour 1List. 
+
+Petit problème : j’ai complètement ignoré cette magnifique occasion pendant les six derniers mois où WatchKit était disponible en beta, pour me réveiller lorsque la montre est enfin arrivée, il y a seulement quinze jours. Voilà, c’est un peu embarrassant.
+
+Ce n’est pas faute de ne pas y avoir pensé, mais parce qu’il me semblait évident qu’Apple allait proposer Rappels, comme sur iPhone et iPad. Cette hypothétique application n’a jamais été évoquée au cours des deux keynotes Apple Watch, et l’abscence d’icône sur les aperçus de l’interface auraient dû suffir à me convaincre de son absence. 
+
+Le manque est évidement beaucoup plus remarquable lorsqu’on utilise enfin la montre. Plusieurs articles l’ont rapidement remarqué. À chaque fois, la même frustration : pourquoi n’ai-je pas préparé 1List en avance, pour pouvoir profiter de l’occasion ?
+
+C’est d’autant plus regrettable que le développement de l’application pour WatchKit dans ce cas précis est trivial, avec une liste, et la réponse à un évènement pour marquer un rappel comme `completed`. Ce n’est pas pour rien que les applications to-do sont souvent utilisés comme des exemples basiques pour présenter un nouveau framework. Bien sûr, l’intéraction avec l’API `EKReminder` était déjà prise en charge par mon application iOS. Encore mieux, l’API WatchKit pour saisir un texte avec Siri propose directement l’affichage de suggestions, me permettant d’implémenter très facilement.
 
 La dernière mise à jour, disponible depuis cette semaine, étend l’application à l’Apple Watch. 
