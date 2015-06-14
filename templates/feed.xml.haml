@@ -20,3 +20,7 @@
       %published #{article.date}T00:00:00Z
       %updated #{article.date}T00:00:00Z
       %summary #{article.summary}
+      %content{:type => "html", :"xml:lang" => "fr"}
+        <![CDATA[
+        #{article.body}
+        ]]>

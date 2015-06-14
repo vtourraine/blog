@@ -6,6 +6,11 @@
 - Draft folder for processed but unlisted articles
 
 
+## v2.5
+
+- [x] Full articles in Atom feed
+
+
 ## v2.4.1
 
 - Twitter Cards
