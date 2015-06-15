@@ -32,7 +32,7 @@ Je trouve que c’est un compromis vraiment intéressant entre flexibilité et s
 
 ## Sélection et partage de texte
 
-La modale de partage, a.k.a. `UIActivityViewController`, est devenue progressivement un élément d’interface incontournable. C’est l’écran qui apparaît quand vous appuyez sur un bouton de partage, par exemple dans Safari ou Photos.
+La modale de partage, a.k.a. `UIActivityViewController`, est devenue progressivement un élément d’interface incontournable pour iOS. C’est l’écran qui apparaît quand vous appuyez sur un bouton de partage, par exemple dans Safari ou Photos.
 
 Incontournable car il permet de transmettre des données directement d’une application à une autre. Jusqu’à présent, cette vue était malheureusement absente de la sélection de texte dans les apps système. Ça signifie qu’une app tierce pouvait proposer une Extension de partage acceptant une chaîne de caractère (par exemple une app de prise de notes pourrait permettre la création d’une nouvelle entrée à partir d’un passage sélectionné avec Safari), mais les principales applications concernées ne proposaient jamais cette option (Safari permet de partager l’adresse de la page, mais pas la sélection). 
 
