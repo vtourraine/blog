@@ -16,9 +16,9 @@ Quand je vois quelqu’un utiliser un iPad, c’est soit pour regarder une vidé
 
 C’est la nouveauté qui m’intéresse le plus. Enfin une API Spotlight sur iOS, pour rendre globalement accessible le contenu d’une app. 
 
-Apple n’a pas fait les choses à moitié : on peut indexer à la fois du contenu et des « activités » (par exemple, une app de photos peut indexer les filtres qu’elle propose). En bonus, cette API s’appuie sur les mécanismes Handoff (`NSUserActivity`, la continuité des activités entre appareils, nouveauté iOS 8). Deux fonctionnalités avec le même code, c’est appréciable.
+Apple ne fait pas les choses à moitié : on peut indexer à la fois du contenu et des « activités » ou « états » (par exemple, une app de photos peut indexer les filtres qu’elle propose, pas seulement les photos elles-mêmes). En bonus, cette API s’appuie sur les mécanismes de Handoff (`NSUserActivity`, la continuité des activités entre appareils, nouveauté iOS 8). Deux fonctionnalités avec le même code, c’est toujours appréciable.
 
-La recherche va plus loin. On peut déclarer un contenu globalement accessible, dans quel cas Apple pourra l’étendre aux personnes n’ayant pas installé l’application. On peut donc imaginer contourner l’App Store, encore une petite révolution. 
+La recherche va plus loin. On peut déclarer un contenu globalement accessible, dans quel cas Apple pourra l’étendre aux personnes n’ayant pas installé l’application. On peut donc imaginer contourner l’App Store, rien de moins.
 
 Apple chasse une fois encore sur les terres de Google. La promesse est ambitieuse, j’espère bien sûr que le résultat sera à la hauteur, à la fois en tant que développeur, et comme utilisateur. 
 
