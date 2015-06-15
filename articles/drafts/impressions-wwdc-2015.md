@@ -1,15 +1,15 @@
 # Impressions WWDC 2015
 
-On peut dire que la WWDC est vraiment devenue « worldwide » depuis qu’Apple diffuse les vidéos des sessions pendant le courant de la semaine, allant cette année jusqu’à proposer certaines retransmissions en direct. Bref, San Francisco ou pas, tout le monde peut bénéficier de cette avalanche d’information. Nouvelles versions des OS, nouvelles API, il y a forcément beaucoup de choses à dire, je ne vais donc pas me priver d’y ajouter mon commentaire.
+On peut dire que la WWDC est vraiment devenue « worldwide » depuis qu’Apple diffuse les vidéos des sessions pendant le courant de la semaine, allant cette année jusqu’à proposer plusieurs retransmissions en direct. Bref, San Francisco ou pas, tout le monde peut bénéficier de cette avalanche d’information. Nouvelles versions des OS, nouvelles API, il y a forcément beaucoup de choses à dire, je ne vais donc pas me priver d’y ajouter mon commentaire.
 
 
 ## « Multitasking » iPad
 
-C’est le grand saut pour iOS : il sera possible d’utiliser deux apps en même temps. Cette petite révolution met fin au principe fondateur des applications toujours en plein écran. 
+C’est le grand saut pour iOS : il sera possible d’utiliser deux apps en même temps. Cette nouveauté met fin au principe fondateur des applications toujours en plein écran. 
 
-Je me réjouis de voir l’OS évoluer, mais j’ai des réserves sur le succès d’une telle transformation. D’un côté, parce qu’il faudra un iPad Air 2 pour en bénéficier, de l’autre parce qu’il faudra que les développeurs fassent des efforts supplémentaires pour supporter ces fonctionnalités. Dans un contexte où les ventes d’iPad ont une tendance à la baisse, et où beaucoup de développeurs peinent déjà à rentabiliser des applications iPhone, le défi est de taille. Et je n’arrive pas à imaginer comment l’arrivée d’un iPad « Pro » pourrait changer la donne. 
+Je me réjouis de voir l’OS évoluer, mais j’ai des réserves sur le succès d’une telle transformation. D’un côté, parce qu’il faudra un iPad Air 2 pour en bénéficier, de l’autre parce que les développeurs devront faire des efforts supplémentaires pour supporter ces fonctionnalités. Dans un contexte où les ventes d’iPad ont une tendance à la baisse, et où beaucoup de développeurs peinent déjà à rentabiliser des applications iPhone, le défi est de taille. Et je ne pense pas que l’arrivée d’un iPad « Pro » puisse changer la donne. 
 
-Quand je vois quelqu’un utiliser un iPad, c’est soit pour regarder une vidéo (plus fort que l’Apple TV), soit pour un jeu, et parfois pour internet/mail. Le potentiel de l’iPad est énorme, et j’ai hâte de voir cette nouvelle vague multitâches. Il faut bien sûr améliorer le produit pour espérer en vendre plus, mais comme pour l’œuf et la poule, ça peut finir en omelette (?!).
+Quand je vois quelqu’un utiliser un iPad, c’est soit pour regarder une vidéo (plus fort que l’Apple TV), soit pour un jeu, et parfois pour internet/mail. Le potentiel de l’iPad est énorme, et j’ai hâte de voir ce que le multitâche peut apporter à une utilisation quotidienne, mais j’ai l’impression que son impact est surestimé. Il faut bien sûr améliorer le produit pour espérer en vendre plus, mais comme pour l’œuf et la poule, ça peut aussi finir en omelette (?!).
 
 
 ## Search API
