@@ -5,7 +5,7 @@ Date:     March 19, 2015
 Update:   
 Keywords: CocoaPods, dev
 Summary:  La première fois qu’on me l’a présenté, CocoaPods m’avait laissé sceptique. Gérer ses dépendances et configurer un workspace Xcode était déjà assez compliqué comme ça, pas besoin de rajouter un outil tiers par dessus tout le reste. Bien sûr, c’est pourtant exactement pour cela que CocoaPods est si intéressant, parce qu’aucun développeur Objective-C ne devrait avoir à configurer un workspace pour une quelconque dépendance, ou mettre à jour un code tiers en téléchargeant une archive zip sur GitHub pour ensuite déplacer manuellement un ensemble de fichiers.   
-Image:    http://www.vtourraine.net/blog/img//2015/selection-cocoapods/colours.jpg  
+Image:    http://www.vtourraine.net/blog/img/2015/selection-cocoapods/colours.jpg  
 Language: fr  
 
 
