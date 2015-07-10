@@ -19,7 +19,7 @@ J’écoute principalement ma musique avec [Spotify](http://www.vtourraine.net/b
 
 ![Applications Spotify, image Spotify][Spotify]
 
-Spotify fonctionne bien, ses utilisateurs sont généralement satisfaits, mais la plateforme peine toujours à conquérir un marché vraiment global. 
+Spotify fonctionne bien, les utilisateurs sont généralement satisfaits, mais la plateforme peine toujours à conquérir un marché vraiment global. 
 
 [Dans un billet de blog du début d’année](https://news.spotify.com/us/2015/01/12/15-million-subscribers/), Spotify annonçait 15 millions d’abonnés (payants), pour 60 millions d’utilisateurs actifs. Par comparaison, [Apple annonçait début 2014](http://www.macrumors.com/2014/04/23/apple-itunes-numbers/) avoir 800 millions d’utilisateurs iTunes, avec presque autant de cartes bancaires, et toujours une forte croissance. La comparaison directe est bien sûr discutable, puisque les deux services ont des modes de vente différents (récurrent _vs._ à l’unité), et parce qu’iTunes inclut également des films, séries TV, et applications. On peut néanmoins deviner que Spotify n’a pas encore écrasé iTunes, loin de là. 
 
@@ -76,7 +76,7 @@ On voit bien que les catalogues sont sensiblement identiques d’un service à l
 
 ## Conclusion
 
-Au final, je reste sur Spotify pour l’instant. Beats 1 est disponible gratuitement pour tous, en voilà une bonne nouvelle. Encore un exemple de la difficulté du modèle freemium. 
+Au final, je reste sur Spotify pour l’instant. Apple Music est intéressant, mais pas assez différent pour me convaincre de changer mes habitudes. Par ailleurs, la radio Beats 1 est disponible gratuitement pour tous les utilisateurs d’iTunes, sans abonnement. Encore mieux, des utilisateurs s’amusent à partager sous forme de playlist sur Spotify les chansons de certaines des émissions de Beats 1. Ce qui est formidable puisque je retrouve des sélections intéressantes, avec la possibilité de les (ré)écouter à n’importe quel moment.
 
 On n’a pas encore trouvé la solution ultime pour écouter de la musique, mais on y travaille. 
 
