@@ -1,18 +1,28 @@
 # _Nullability_ avec Objective-C
 
-J’adore quand Xcode trouve des bugs dans mon code. Ça me donne l’impression qu’une AI passe mon travail en revue, pour m’aider à l’améliorer. Le pair-programming du futur, sans doute.
+J’adore quand Xcode trouve des bugs dans mon code. Ça me donne l’impression qu’une AI passe mon travail en revue, et m’aide à l’améliorer. Le pair-programming du futur, sans doute.
 
-Objective-C est un vieux langage qui a beaucoup évolué, encore récemment. On pouvait penser que l’arrivée de Swift allait marquer la fin de cette longue progression. C’est tout le contraire, avec certaines améliorations venues avec Swift qui bénéficient déjà à Objective-C. 
+Objective-C est un vieux langage qui a beaucoup évolué, encore récemment. On pouvait penser que l’arrivée de Swift allait marquer la fin de cette longue progression. C’est tout le contraire, en particulier avec certaines améliorations venues de Swift qui bénéficient déjà à Objective-C. 
 
 C’est le cas des _nullability annotations_. Il s’agit d’annoter les interface de vos classes et les déclarations de vos méthodes pour lever certaines ambiguïtés. 
 
-Objective-C a une gestion assez particulière de la valeur `nil`, donc de l’absence de valeur. Invoquer une méthode sur une variable à `nil` sera simplement ignoré, ce qui constitue un pattern couramment utilisé. Pour autant, un certain nombre de méthodes déclarent ne pas supporter un argument à `nil`. Prenez par exemple la méthode `addObject:` de `NSMutableArray`. Si vous essayez d’y ajouter une valeur à `nil`, c’est le crash assuré. La documentation a toujours été claire, mais le compilateur ne pouvait pas y faire grand chose.
 
-Avec Xcode 6.3, Apple a donc ajouté le concept des _nullability annotations_. Pour faire simple, il existe deux états possibles : `nullable` ou `nonnull`. Le premier indique que la valeur peut être `nil`, le second qu’une valeur à `nil` est considérée comme invalide. Avec ça, Xcode peut enfin faire les vérifications nécessaires, et ainsi éviter de nombreux bugs potentiels.
+## nil
+
+Objective-C a une gestion assez particulière de la valeur `nil` (devrais-je dire de l’absence de valeur ?). Invoquer une méthode sur une variable à `nil` sera simplement ignoré, ce qui constitue en soi un pattern couramment utilisé.
+
+Pour autant, un certain nombre de méthodes — notamment dans Foundation, UIKit ou AppKit — déclarent ne pas supporter un argument à `nil`. Prenez par exemple la méthode `addObject:` de `NSMutableArray`. Si vous essayez d’y ajouter une valeur à `nil`, c’est le crash assuré. La documentation a toujours été claire, mais le compilateur ne pouvait pas y faire grand chose.
+
+> (…) This value must not be nil.  
+> **IMPORTANT: Raises an `NSInvalidArgumentException` if _anObject_ is `nil`.**  
+> [NSMutableArray Class Reference](https://developer.apple.com/library/mac/documentation/Cocoa/Reference/Foundation/Classes/NSMutableArray_Class/#//apple_ref/occ/instm/NSMutableArray/addObject:)
+
+Avec Xcode 6.3, Apple a donc ajouté le concept de _nullability annotation_. Pour faire simple, il existe deux états possibles : `nullable` ou `nonnull`. Le premier indique que la valeur associée peut être `nil`, le second qu’une valeur à `nil` est considérée comme invalide. Avec ça, Xcode peut enfin faire les vérifications nécessaires, et ainsi éviter de nombreux bugs potentiels.
+
 
 ## En pratique
 
-Il suffit donc d’ajouter le mot clé adéquate aux paramètres et valeurs de retour des méthodes, ainsi qu’aux `@property`.
+Il suffit donc d’ajouter le mot clé adéquat aux paramètres et valeurs de retour des méthodes, ainsi qu’aux `@property`.
 
 ``` objc
 - (nullable AAPLListItem *)itemWithName:(nonnull NSString *)name;
