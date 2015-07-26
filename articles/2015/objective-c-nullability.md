@@ -1,10 +1,10 @@
 Title:     Nullability avec Objective-C  
 Author:    Vincent Tourraine  
 Email:     me@vtourraine.net  
-Date:      July 19, 2015  
-Update:   
-Keywords:  Objective-C, dev
-Summary:   ...  
+Date:      July 26, 2015  
+Update:    
+Keywords:  Objective-C, Xcode, dev
+Summary:   J’adore quand Xcode trouve des bugs dans mon code. C’est un peu comme si une IA passait mon travail en revue pour m’aider à l’améliorer. Le pair-programming du futur, sans doute.    
 Image:     http://www.vtourraine.net/blog/img/2015/objective-c-nullability/xcode-icon.png  
 Language:  fr  
 
@@ -23,7 +23,14 @@ Objective-C a une gestion assez particulière de la valeur `nil` (devrais-je dir
 
 Pour autant, un certain nombre de méthodes — notamment dans Foundation, UIKit ou AppKit — déclarent ne pas supporter un argument à `nil`. Prenez par exemple la méthode `addObject:` de `NSMutableArray`. Si vous essayez d’y ajouter une valeur à `nil`, c’est le crash assuré. La documentation a toujours été claire, mais le compilateur ne pouvait pas y faire grand chose.
 
-Avec Xcode 6.3, [Apple a ajouté le concept de _nullability annotation_][Blog]. Pour faire simple, il existe deux états possibles : `nullable` ou `nonnull`. Le premier indique que la valeur associée peut être `nil`, le second qu’une valeur à `nil` est considérée comme invalide. Avec ça, Xcode peut enfin faire les vérifications nécessaires, et ainsi éviter de nombreux bugs potentiels.
+
+## En théorie
+
+Avec Xcode 6.3, [Apple a ajouté le concept de _nullability annotation_][Blog].
+
+Pour faire simple, il existe deux états possibles : `nullable` ou `nonnull`. Le premier indique que la valeur associée peut être `nil`, le second que `nil` est considéré comme invalide. Avec ça, Xcode peut enfin faire les vérifications nécessaires, et ainsi éviter de nombreux bugs potentiels.
+
+![Détection _nonnull_ avec Xcode][Xcode nullability warning]
 
 
 ## En pratique
@@ -78,12 +85,13 @@ Objective-C continuera vraisemblablement à s’éclipser au profit de Swift. Ma
 
 Ces nouveaux mots clés sont disponibles à partir d’Xcode 6.3. Peu importe la version d’iOS ou d’OS X ciblée, il est toujours conseillé d’utiliser la dernière version stable disponible. Tout le monde peut donc profiter de cette nouveauté dès maintenant. 
 
-Je ne vais pas prétendre que les _nullability annotations_ vont résoudre tous vos bugs, loin de là, mais ils apportent une sécurité supplémentaire. On peut les voir comme autant de tests unitaires qui seront vérifiés à chaque compilation. Tout ça pour le prix d’un mot clé.
+Je ne vais pas prétendre que les _nullability annotations_ vont résoudre tous vos bugs, loin de là, mais ils constituent clairement un progrès pour la qualité et la sécurité du code. On peut les voir comme autant de tests unitaires qui seront vérifiés à chaque compilation. Tout ça pour le prix d’un mot clé.
 
-**Teaser** À la rentrée, [Xcode 7][Xcode 7] apportera une nouvelle avancée héritée de Swift : les _generics_. Qui sont-ils ? Que nous veulent-ils ? Les réponses dans un prochain billet de blog.
+_À la rentrée, [Xcode 7][Xcode 7] apportera une nouvelle avancée héritée de Swift : les « generics ». Qui sont-ils ? Que nous veulent-ils ? Les réponses dans un prochain billet de blog._
 
 
 [Blog]: https://developer.apple.com/swift/blog/?id=25
 [Xcode 7]: https://developer.apple.com/library/prerelease/ios/documentation/DeveloperTools/Conceptual/WhatsNewXcode/Articles/xcode_7_0.html
 
 [Xcode icon]: http://www.vtourraine.net/blog/img/2015/objective-c-nullability/xcode-icon.png
+[Xcode nullability warning]: http://www.vtourraine.net/blog/img/2015/objective-c-nullability/xcode-nullability-warning.png
