@@ -17,7 +17,7 @@ Le problème, c’est que j’utilise aussi cette même Time Capsule comme disqu
 
 ![Time Machine avec OS X 10.10, image Wikimedia Foundation][Time Machine]
 
-Voici donc comme je récupère de la place.
+Voici donc comment je récupère de la place.
 
 **1.** Avec Terminal, saisissez la commande `tmutil listbackups`. Vous obtiendrez alors une liste de toutes les versions de sauvegardes gérées par Time Machine. Ça devrait ressembler à ça :
 
