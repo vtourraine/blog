@@ -1,15 +1,15 @@
 Title:     Nullability et initialisation  
 Author:    Vincent Tourraine  
 Email:     me@vtourraine.net  
-Date:      August 9, 2015  
+Date:      August 11, 2015  
 Update:    
 Keywords:  Objective-C, Xcode, dev
-Summary:   …  
+Summary:   Mon dernier billet de blog présentait les « nullability annotations », en essayant d’expliquer comment elles contribuent à améliorer un code Objective-C. Avec un peu de recul, et après davantage de temps passé à les mettre en pratique, ces annotations me posent un problème. Un cas particulier, peut-être, mais absolument incontournable, puisqu’il s’agit de l’initialisation des objets.  
 Image:     http://www.vtourraine.net/blog/img/2015/objective-c-nullability/xcode-icon.png  
 Language:  fr  
 
 
-Mon dernier billet de blog présentait les [_nullability annotations_](http://www.vtourraine.net/blog/2015/objective-c-nullability), en essayant d’expliquer comment elles contribuent à améliorer un code Objective-C. Avec un peu de recul, et après davantage de temps passé à les mettre en pratique, ces annotations me posent _un_ problème. Un cas particulier, peut-être, mais absolument incontournable, puisqu’il s’agit de l’initialisation des variables.
+Mon dernier billet de blog présentait les [_nullability annotations_](http://www.vtourraine.net/blog/2015/objective-c-nullability), en essayant d’expliquer comment elles contribuent à améliorer un code Objective-C. Avec un peu de recul, et après davantage de temps passé à les mettre en pratique, ces annotations me posent _un_ problème. Un cas particulier, peut-être, mais absolument incontournable, puisqu’il s’agit de l’initialisation des objets.
 
 
 ## if (self)
@@ -50,13 +50,13 @@ NS_ASSUME_NONNULL_BEGIN
 NS_ASSUME_NONNULL_END
 ```
 
-Réponse : les deux. Ça paraît tout à fait raisonnable, puisque selon la signification et/ou le contexte des paramètres passés, on peut facilement imaginer les deux situations (pour `UIView`, le constructeur fonctionne quel que soit le `CGRect` donné, même avec `CGRectZero`, mais on ne peut pas en dire autant pour un `NSCoder *`, dont le contenu est totalement indéterminé au moment de la compilation).
+Réponse, donc : les deux. Ça paraît tout à fait raisonnable, puisque selon la signification et/ou le contexte des paramètres passés, on peut facilement imaginer les deux situations (pour `UIView`, le constructeur fonctionne quel que soit le `CGRect` donné, même avec `CGRectZero`, mais on ne peut pas en dire autant pour un `NSCoder *`, dont le contenu est totalement indéterminé au moment de la compilation).
 
 Le cas du `nullable` est assez banal et inintéressant, mais peut-il vraiment y avoir un constructeur avec retour `nonnull` ? 
 
-Le principe de constructeur désigné devrait en théorie nous donner une réponse. Hélas, `init` n’est pas marqué comme `NS_DESIGNATED_INITIALIZER` pour `NSObject` (et sa valeur n’est pas annotée, ce qui nous laisse dans le flou complet). Le cas de `NSObject` est d’autant plus incertain que l’en-tête varie pour une même version du SDK entre celui trouvé dans `usr/include/objc` et dans `Frameworks/Foundation.framework/Headers`. On y découvre même un magnifique `#if NS_ENFORCE_NSOBJECT_DESIGNATED_INITIALIZER`.
+Le principe de constructeur désigné devrait en théorie nous donner une réponse. Hélas, `init` n’est pas marqué comme `NS_DESIGNATED_INITIALIZER` pour `NSObject` (et sa valeur n’est pas annotée, ce qui nous laisse dans le flou complet). Le cas de `NSObject` est d’autant plus incertain que l’en-tête varie pour une même version du SDK entre celui trouvé dans `usr/include/objc` et celui dans `Frameworks/Foundation.framework/Headers`. On y découvre même un magnifique `#if NS_ENFORCE_NSOBJECT_DESIGNATED_INITIALIZER`, mais je m’égare.
 
-Si `initWithFrame:` de `UIView` est marquée avec `nonnull`, on peut alors logiquement attendre la même chose de `init` pour `NSObject`, le constructeur le plus élémentaire qui soit. Si votre classe hérite de `NSObject`, alors votre constructeur doit pouvoir déclarer la même chose, assurer un retour `nonnull`. Dans ce cas, le `if (self) {}` du template évoqué au début de ce billet n’a plus de sens.
+Si `initWithFrame:` de `UIView` est marqué avec `nonnull`, on peut alors logiquement attendre la même chose de `init` pour `NSObject`, le constructeur le plus élémentaire qui soit. Si votre classe hérite de `NSObject`, alors votre constructeur doit pouvoir déclarer la même chose, assurer un retour `nonnull`. Dans ce cas, le `if (self) {}` du template évoqué au début de ce billet n’a plus de sens.
 
 
 ## Le point Swift
@@ -71,16 +71,16 @@ print(foo.description)
 Aucun problème de compilation, il n’y a donc pas d’optionnel, la variable est supposée `nonnull`.
 
 
-## Conclusion on simplification ?
+## Conclusion ou simplification ?
 
 J’aimerais beaucoup que ce soit systématiquement le cas, qu’on puisse ainsi simplifier les classes concernées en éliminant ces conditionnels superflus. Tous les `if` sont des sources de bugs, et un `nonnull` catégorique est largement préférable à un `nullable` indéterminé.
 
-Mais cette petite réflexion a des allures de simplification optimiste, qui met à mal l’intérêt des _nullability annotations_. Le compilateur peut donner des indications précieuses, encore faut-il que les suppositions de base soient fondées. Entre les bonnes pratiques habituelles et les avantages potentiels d’une nouvelle approche plus exigeante, mon code hésite. 
+Bien sûr, un échec d’initialisation est un cas très rare. Mais cette petite réflexion a des allures de simplification optimiste. Le compilateur peut donner des indications précieuses, encore faut-il que les suppositions de base soient fondées (la joie des axiomes). Entre les bonnes pratiques éprouvées et les avantages potentiels d’une nouvelle approche plus exigeante, mon code hésite. 
 
 Vos remarques et conseils sont, évidemment, les bienvenus.
 
 
 ### Liens
 
-- [_Object Initialization_, Apple](https://developer.apple.com/library/ios/documentation/General/Conceptual/CocoaEncyclopedia/Initialization/Initialization.html)
+- [_Object Initialization_, Documentation Apple](https://developer.apple.com/library/ios/documentation/General/Conceptual/CocoaEncyclopedia/Initialization/Initialization.html)
 - [_Nullability and Inherited Initializers in Objective-C_, Cocoa at Tumblr](http://cocoa.tumblr.com/post/117719761353/nullability-and-inherited-initializers-in-objective-c)
