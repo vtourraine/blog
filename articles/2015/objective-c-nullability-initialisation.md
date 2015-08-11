@@ -56,12 +56,24 @@ Le cas du `nullable` est assez banal et inintéressant, mais peut-il vraiment y 
 
 Le principe de constructeur désigné devrait en théorie nous donner une réponse. Hélas, `init` n’est pas marqué comme `NS_DESIGNATED_INITIALIZER` pour `NSObject` (et sa valeur n’est pas annotée, ce qui nous laisse dans le flou complet). Le cas de `NSObject` est d’autant plus incertain que l’en-tête varie pour une même version du SDK entre celui trouvé dans `usr/include/objc` et dans `Frameworks/Foundation.framework/Headers`. On y découvre même un magnifique `#if NS_ENFORCE_NSOBJECT_DESIGNATED_INITIALIZER`.
 
-
-## Logique ?
-
 Si `initWithFrame:` de `UIView` est marquée avec `nonnull`, on peut alors logiquement attendre la même chose de `init` pour `NSObject`, le constructeur le plus élémentaire qui soit. Si votre classe hérite de `NSObject`, alors votre constructeur doit pouvoir déclarer la même chose, assurer un retour `nonnull`. Dans ce cas, le `if (self) {}` du template évoqué au début de ce billet n’a plus de sens.
 
-J’aimerais beaucoup que ce soit le cas, qu’on puisse ainsi simplifier les classes concernées en éliminant ces conditionnels superflus. Tous les `if` sont des sources de bugs, et un `nonnull` catégorique est largement préférable à un `nullable` indéterminé.
+
+## Le point Swift
+
+Je ne connais pas assez Swift pour en tirer des conclusions définitives, mais il semble que l’inférence de types proposée par le langague va dans le même sens :
+
+``` swift
+let foo = NSObject()
+print(foo.description)
+```
+
+Aucun problème de compilation, il n’y a donc pas d’optionnel, la variable est supposée `nonnull`.
+
+
+## Conclusion on simplification ?
+
+J’aimerais beaucoup que ce soit systématiquement le cas, qu’on puisse ainsi simplifier les classes concernées en éliminant ces conditionnels superflus. Tous les `if` sont des sources de bugs, et un `nonnull` catégorique est largement préférable à un `nullable` indéterminé.
 
 Mais cette petite réflexion a des allures de simplification optimiste, qui met à mal l’intérêt des _nullability annotations_. Le compilateur peut donner des indications précieuses, encore faut-il que les suppositions de base soient fondées. Entre les bonnes pratiques habituelles et les avantages potentiels d’une nouvelle approche plus exigeante, mon code hésite. 
 
