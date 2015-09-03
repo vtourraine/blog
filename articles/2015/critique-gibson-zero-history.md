@@ -2,7 +2,7 @@ Title:     « Zero History », de William Gibson
 Author:    Vincent Tourraine  
 Email:     me@vtourraine.net  
 Date:      April 11, 2015  
-Update:    
+Update:    September 3, 2015  
 Keywords:  critique, livre, William Gibson  
 Summary:   Lorsque les personnages d’un récit évoluent séparément à la recherche d’un objectif commun, on peut raisonnablement s’attendre à une conclusion les réunissant. Ici, il faut ouvrir « Zero History » pour voir Hollis Henry la journaliste et Milgrim l’informateur clandestin rassemblés autour d’une nouvelle quête. Après les évènements de « Spook Country », c’est encore une fois Hubertus Bigend qui les recrute pour sa nouvelle obsession : une marque de jeans, confidentielle au point d’être intraçable.  
 Image:     http://www.vtourraine.net/blog/img/2015/critique-gibson-zero-history/zero-history.jpg  
@@ -28,7 +28,7 @@ Hollis et Milgrim recherchent donc ce concepteur mystérieux, entre Londres et P
 
 C’est d’autant plus remarquable que Gibson utilise lui-même Twitter fréquemment, tweetant et re-tweetant quotidiennement à [@GreatDismal](http://www.twitter.com/GreatDismal). J’ai toujours un ressenti contradictoire vis-à-vis des auteurs qui utilisent vraiment les réseaux sociaux. Le suivi jour après jour de leurs activités et de leurs découvertes est forcément fascinant, comme une nouvelle forme d’auto-biographie en temps réel. Mais je trouve aussi cette sorte de démystification regrettable. Même lorsque les messages postés sont intéressants — et dans le cas de Gibson, complètement en phase avec ses thèmes habituels —, imaginer un grand auteur passer une partie de ses journées à explorer une timeline Twitter est affreusement banalisant. C’est un exemple de situation où je préfère en savoir moins, où un certain mystère est grandement préférable à un déballage continu, même volontaire, même informatif. C’est évidemment un ressenti très personnel, et à vrai dire ça ne m’empêche pas de le suivre sur Twitter. Mais toujours avec une impression de proximité quelque peu perturbante. Fin de la parenthèse, retour au livre en question.
 
-![_William Gibson_, by Jon Lim, BY-NC-ND 2.0][Gibson]
+![_William Gibson_, [photo Jon Lim](https://www.flickr.com/photos/snowblink/1269411582), BY-NC-ND 2.0][Gibson]
 
 Alors que la trame narrative se dissipait à mesure du livre précédent, celui-ci garde un cheminement assez classique, avec un certain équilibre entre des expositions soutenues par les dialogues habituels, et des scènes d’action rythmant l’enquête principale. L’écriture a toujours cette richesse propre à Gibson qui rend la lecture à la fois difficile et satisfaisante. Contrairement à la plupart des œuvres de fiction qui tendent vers une prose théâtrale et explicative, tout ici est raconté en conservant les aspérités et les hésitations du réel, notamment pour les interactions entre personnages. 
 
@@ -47,9 +47,11 @@ Tout ceci ne vous dit pas si j’ai aimé le livre. Au petit jeu du classement, 
 - [Fnac.com](http://livre.fnac.com/a3460621/William-Gibson-Zero-history)
 
 
-### Licence photo
+### Trilogie _Blue Ant_, billets de blog
 
-[_William Gibson_, by Jon Lim](https://www.flickr.com/photos/snowblink/1269411582), CC BY-NC-ND 2.0
+1. [_Pattern Recognition_](http://www.vtourraine.net/blog/2015/critique-gibson-pattern-recognition)
+2. [_Spook Country_](http://www.vtourraine.net/blog/2015/critique-gibson-spook-country)
+3. _Zero History_
 
 
 [Cover]:  http://www.vtourraine.net/blog/img/2015/critique-gibson-zero-history/zero-history.jpg  

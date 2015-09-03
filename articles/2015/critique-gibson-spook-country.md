@@ -2,7 +2,7 @@ Title:     « Spook Country », de William Gibson
 Author:    Vincent Tourraine  
 Email:     me@vtourraine.net  
 Date:      February 21, 2015  
-Update:    
+Update:    September 3, 2015  
 Keywords:  critique, livre, William Gibson  
 Summary:   Après mon billet du mois dernier consacré à « Pattern Recognition », voici la suite ; car comme toutes les bonnes choses, cette histoire constitue en fait une trilogie. « Spook Country » revient donc avec certains personnages du livre précédent, mais il ne s’agit pas d’un prolongement direct du récit   
 Image:     http://www.vtourraine.net/blog/img/2015/critique-gibson-spook-country/spook-country.jpg  
@@ -21,7 +21,8 @@ Les premiers chapitres laissent deviner une intrigue très semblable à celle de
 
 Cette approche rend le livre moins satisfaisant que son prédécesseur. L’auteur joue visiblement sur nos attentes, et préfère renforcer son travail sur l’ambiance et les thèmes du récit. Les romans de Gibson ne brillent pas vraiment par leurs intrigues, on ressent ici que cet aspect est volontairement délaissé. C’est un peu frustrant à la lecture, mais le climat du livre reste fascinant. 
 
-![_William Gibson_, by pmonaghan, remix Vincent Tourraine, BY-NC-SA 2.0][Gibson]
+![_William Gibson_, [photo pmonaghan](https://www.flickr.com/photos/pkmonaghan/6261789506), remix Vincent Tourraine, BY-NC-SA 2.0][Gibson]
+
 
 ## Data IRL
 
@@ -34,7 +35,7 @@ Encore en 2015, entre les Google Glass et les Microsoft HoloLens, le monde rattr
 > « We’re all doing VR, every time we look at a screen. We have been for decades now. We just do it. We didn’t need the goggles, the gloves. It just happened. Virtual Reality was an even more specific way we had of telling us where we were going. Without scaring us too much, right? »  
 > (…)  
 > **« We’ll have internalized the interface. It’ll have evolved to the point where we forget about it. Then you’ll just walk down the street... »**  
-> — _Spook Country_  
+> William Gibson, _Spook Country_  
 
 
 ### Liens
@@ -45,9 +46,11 @@ Encore en 2015, entre les Google Glass et les Microsoft HoloLens, le monde rattr
 - [Fnac.com](http://livre.fnac.com/a2252197/William-Gibson-Spook-country)
 
 
-### Licence photo
+### Trilogie _Blue Ant_, billets de blog
 
-[_William Gibson_, by pmonaghan](https://www.flickr.com/photos/pkmonaghan/6261789506), CC BY-NC-SA 2.0
+1. [_Pattern Recognition_](http://www.vtourraine.net/blog/2015/critique-gibson-pattern-recognition)
+2. _Spook Country_
+3. [_Zero History_](http://www.vtourraine.net/blog/2015/critique-gibson-zero-history)
 
 
 [Cover]:  http://www.vtourraine.net/blog/img/2015/critique-gibson-spook-country/spook-country.jpg  

@@ -3,6 +3,7 @@ Author:    Vincent Tourraine
 Email:     me@vtourraine.net  
 Date:      January 10, 2015  
 Update:    February 21, 2015  
+           September 3, 2015  
 Keywords:  critique, livre, William Gibson  
 Summary:   Cette année, j’ai envie d’essayer des choses un peu différentes avec ce blog, alors pourquoi pas une critique de livre ?  
 Image:     http://www.vtourraine.net/blog/img/critique-gibson-pattern-recognition/pattern-recognition.jpg  
@@ -21,7 +22,7 @@ C’est toujours un peu réducteur de résumer un auteur à son premier succès,
 Avance-rapide au début du XXIème siècle, et voici *Pattern Recognition*, son premier livre se déroulant à l’époque contemporaine. J’avais entendu quelqu’un le décrire comme le meilleur *et* le plus accessible des livres de l’auteur. Il me faudra un peu plus de recul pour émettre un avis aussi catégorique, mais je suis d’accord pour dire que ce roman est plus facile à aborder. 
 
 > « Homo sapiens are about pattern recognition, he says. Both a gift and a trap. »  
-> — _Pattern Recognition_
+> William Gibson, _Pattern Recognition_
 
 C’est l’histoire de Cayce, une américaine avec une aversion maladive pour les marques commerciales qui la rend, un peu paradoxalement, extrêmement douée à évaluer de nouveaux logos et identités visuelles pour le compte de grandes entreprises. 
 
@@ -29,7 +30,7 @@ Depuis quelques temps, apparaît sur internet une série de clips vidéos mysté
 
 Le récit évolue entre Londres, Tokyo et Moscou; mais l’intrigue progresse en même temps sur internet, de forums en boîtes mails. Un peu comme les SMS qui apparaissent à l’écran pour Sherlock, ici les emails s’inscrivent directement dans la narration. Entre un iBook (le laptop, pas l’application), l’historique d’un navigateur internet, les rues de Londres, un hôtel japonais ou un café russe, Gibson excelle à décrire la richesse de notre monde contemporain, souvent inquiétant, toujours réaliste et exaltant. 
 
-![_William Gibson_, by David Alliet, CC BY 2.0][Gibson]
+![_William Gibson_, [photo David Alliet](https://www.flickr.com/photos/nowherenear/1346415385), CC BY 2.0][Gibson]
 
 Pour un thriller, l’intrigue n’est pas particulièrement remarquable, mais l’intérêt est ailleurs. Ce n’est pas non plus une question de technologie, mais plutôt une certaine vision de notre société de l’information. Savoir, cacher, transmettre, la _data_ comme une matière première mystérieuse mais omniprésente.
 
@@ -38,7 +39,7 @@ On retrouve aussi un contexte historique bien ancré, avec notamment un personna
 Pour un roman de début de XXIème siècle, je trouve que c’est réussi.  
 
 > « The future is there ... looking back at us. Trying to make sense of the fiction we will have become. And from where they are, the past behind us will look nothing at all like the past we imagine behind us now. ... I only know that the one constant in history is change: The past changes. Our version of the past will interest the future about the extent we're interested in whatever past the Victorians believed in. It simply won't seem very relevant. »  
-> — _Pattern Recognition_
+> William Gibson, _Pattern Recognition_
 
 
 ### Liens
@@ -48,12 +49,12 @@ Pour un roman de début de XXIème siècle, je trouve que c’est réussi.
 - [Amazon.fr](http://www.amazon.fr/dp/0425198685)
 - [Fnac.com](http://livre.fnac.com/mp4856077/Pattern-Recognition)
 
-> _Mise à jour, 21 Février 2015_ : j’ai également publié un billet sur le roman qui donne une suite à celui-ci, [_Spook Country_](http://www.vtourraine.net/blog/2015/critique-gibson-spook-country)
 
+### Trilogie _Blue Ant_, billets de blog
 
-### Licence photo
-
-[_William Gibson_, by David Alliet](https://www.flickr.com/photos/nowherenear/1346415385), CC BY 2.0
+1. _Pattern Recognition_
+2. [_Spook Country_](http://www.vtourraine.net/blog/2015/critique-gibson-spook-country)
+3. [_Zero History_](http://www.vtourraine.net/blog/2015/critique-gibson-zero-history)
 
 
 [Cover]:  http://www.vtourraine.net/blog/img/critique-gibson-pattern-recognition/pattern-recognition.jpg
