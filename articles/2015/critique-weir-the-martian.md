@@ -3,7 +3,7 @@ Author:    Vincent Tourraine
 Email:     me@vtourraine.net  
 Date:      May 8, 2015  
 Update:    
-Keywords:  critique, livre, Andy Weir  
+Keywords:  critique, livre, Andy Weir, Sci-Fi  
 Summary:   Une expédition tourne mal. C’est la panique, l’évacuation précipitée. L’équipe regagne la navette de justesse et s’échappe de la planète rouge… abandonnant le pauvre Mark Watney, que tout le monde croyait mort. Seul sur Mars.  
 Image:     http://www.vtourraine.net/blog/img/2015/critique-weir-the-martian/the-martian.jpg  
 Thumbnail: http://www.vtourraine.net/blog/img/2015/critique-weir-the-martian/thumbnail-the-martian.jpg  

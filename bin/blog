@@ -33,6 +33,7 @@ blog.generate_index_tag "William Gibson", haml_options
 blog.generate_index_tag "iOS", haml_options
 blog.generate_index_tag "OS X", haml_options
 blog.generate_index_tag "Xcode", haml_options
+blog.generate_index_tag "Sci-Fi", haml_options
 
 blog.generate_style "default.css.scss"
 
