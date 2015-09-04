@@ -23,9 +23,12 @@ attributeSet.thumbnailData = ...;
 
 CSSearchableItem *searchableItem = [[CSSearchableItem alloc] initWithUniqueIdentifier:@"##ID##" domainIdentifier:nil attributeSet:attributeSet];
 
-[searchableIndex indexSearchableItems:@[searchableItem]
-                                                                                completionHandler:^(NSError * _Nullable error) {}];
+[searchableIndex indexSearchableItems:@[searchableItem] completionHandler:^(NSError * _nullable error) {}];
 ```
+
+Il existe de très nombreux attributs possibles pour décrire votre object. Le titre et la description sont presque incontournables, et le `thumbnailData` est très intéressant pour donner un aperçu visuel dans les résultats d’une recherche. 
+
+Dans certains cas, iOS peut même proposer des actions rapides sur les résultats, sans avoir à ouvrir l’application. Pour un numéro de téléphone, mettre `supportsPhoneCall` à `@1` et renseigner un numéro avec `phoneNumbers`. Pour une adresse, ce sera `supportsNavigation` avec une `latitude` et une `longitude`.
 
 
 ## Présenter un résultat
