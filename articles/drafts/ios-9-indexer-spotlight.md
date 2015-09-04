@@ -7,7 +7,7 @@ Avec iOS 9, vous pouvez indexer le contenu d’une application avec Spotlight, 
 
 ## Indexer
 
-On utilise un `CSSearchableIndex` partagé, auquel on passe des items, composés d’un ensemble d’attributs associés à un identifiant. Avec un exemple de code, c’est très simple :
+On utilise un `CSSearchableIndex` partagé, auquel on passe des items, composés d’un ensemble d’attributs associés à un identifiant. Avec un exemple de code, c’est plus parlant :
 
 ``` objc
 @import CoreSpotlight;
@@ -33,5 +33,24 @@ Dans certains cas, iOS peut même proposer des actions rapides sur les résultat
 
 ## Présenter un résultat
 
+Après avoir indexé un objet, encore faut-il pouvoir le restituer à l’utilisateur lorsqu’il est sélectionné parmi les résultats d’une recherche.
 
-https://developer.apple.com/library/prerelease/ios/documentation/General/Conceptual/AppSearch/AppContent.html#//apple_ref/doc/uid/TP40016308-CH7-SW1
+C’est l’_app delegate_ qui s’en charge (qui d’autre ?). La recherche est traitée comme une `NSUserActivity`, il suffit donc de la prendre en compte, en vérifiant son type d’activité :
+
+``` objc
+- (BOOL)application:(UIApplication *)application continueUserActivity:(NSUserActivity *)userActivity restorationHandler:(void (^)(NSArray * _nullable))restorationHandler {
+  if ([userActivity.activityType isEqualToString:CSSearchableItemActionType]) {
+    NSString *identifier = userActivity.userInfo[CSSearchableItemActivityIdentifier];
+    // …
+  }
+
+  return YES;
+}
+```
+
+Vous obtenez donc l’identifiant de l’objet, à vous de faire le reste.
+
+
+## Référence
+
+- [App Search Programming Guide: Index App Content, Apple](https://developer.apple.com/library/prerelease/ios/documentation/General/Conceptual/AppSearch/AppContent.html#//apple_ref/doc/uid/TP40016308-CH7-SW1)
