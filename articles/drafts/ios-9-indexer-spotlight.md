@@ -1,4 +1,12 @@
-# Indexer le contenu d’une app, avec Spotlight pour iOS 9
+Title:     Indexer le contenu d’une app avec Spotlight pour iOS 9  
+Author:    Vincent Tourraine  
+Email:     me@vtourraine.net  
+Date:      September 5, 2015  
+Update:   
+Keywords:  iOS, dev
+Summary:   Une API simple d’utilisation, intéressante pour la plupart des apps, une combinaison comme on les aime.  
+Image:     http://www.vtourraine.net/blog/img/2015/watchkit-version-1/apple-watch-1.jpg  
+Language:  fr  
 
 Une API simple d’utilisation, intéressante pour la plupart des apps, une combinaison comme on les aime.
 
@@ -61,7 +69,7 @@ Pour ré-indexer un élément, c’est toujours aussi simple, il vous suffit d�
 ## Bonus : l’extension d’entretien de l’index
 
 
-## Références
+## Documentation
 
 - [_App Search Programming Guide: Index App Content_, Apple](https://developer.apple.com/library/prerelease/ios/documentation/General/Conceptual/AppSearch/AppContent.html#//apple_ref/doc/uid/TP40016308-CH7-SW1)
 - [_Core Spotlight Framework Reference: CSSearchableIndex Class Reference_, Apple](https://developer.apple.com/library/prerelease/ios/documentation/CoreSpotlight/Reference/CSSearchableIndex_Class/index.html#//apple_ref/occ/instm/CSSearchableIndex/)
