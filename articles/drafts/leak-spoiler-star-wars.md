@@ -1,8 +1,8 @@
 # Ôde au leaks
 
-J’ai généralement une assez mauvaise mémoire. Pour vous donner un exemple, je ne me souviens absolument pas de la fois où j’ai vu Star Wars Episode III au cinéma (je vous entends déjà penser : « c’est parce que le film était mauvais », non, enfin oui, mais ce n’est pas le problème). Par contre, je me souviens clairement du moment et du lieu, quelques mois plus tôt, où j’ai découvert un leak du film sur internet. C’était un passage du combat entre Dooku et Anakin, avec des fonds verts encore visibles à l’arrière plan. 
+J’ai généralement une assez mauvaise mémoire. Pour vous donner un exemple, je ne me souviens absolument pas de la fois où j’ai vu Star Wars Episode III au cinéma (je vous entends déjà penser : « c’est parce que le film était mauvais », non, enfin oui, mais ce n’est pas le problème). Par contre, je me souviens clairement du moment et du lieu, quelques mois plus tôt, où j’ai découvert un leak du film sur internet. C’était une courte vidéo du combat entre Dooku et Anakin, probablement une RealVideo minuscule, avec les fonds verts du tournage encore visibles à l’arrière plan. 
 
-L’épisode 7 arrive dans quelques mois. Je sais que beaucoup vont scrupuleusement éviter les infos non-officielles, et garder la surprise pour la sortie du film. Moi ? Je vais me jeter sur toutes les leaks que j’arriverai à trouver.
+L’épisode VII arrive dans quelques mois. Je sais que beaucoup ont scrupuleusement évité les infos non-officielles, pour garder la surprise jusqu’à la sortie du film. Moi ? Je me jette sur toutes les leaks que j’arrive à trouver.
 
 
 ## Teaser
