@@ -14,7 +14,7 @@ Je préfère préciser tout de suite : il y a une distinction importante entre 
 Certes, une fuite peut dévoiler des éléments importants du film (ou d’une série), qui seraient par ailleurs considérés comme des « spoilers ». La différence est donc essentiellement temporelle : une fuite existe en amont de la sortie du film. Pour cette raison, rien ne garantit que l’information se concrétise éventuellement.
 
 
-## Making-Of
+## Making-of
 
 Par ailleurs, les leaks sont rarement des vidéos extraites du produit final. Avec Star Wars il s’agit souvent de dessins conceptuels, parfois des photos du tournage ou même de simples rumeurs plus ou moins vérifiables. D’une certaine façon on se retrouve face à un making-of alternatif, crowdsourcé, qui documente à sa façon la réalisation d’un projet sous un angle inédit.
 
@@ -23,8 +23,13 @@ Il paraît que certaines personnes achètent les DVD/BD sans regarder les bonus 
 
 ## Anti-Trailer
 
+Ces dernières années, j’entends régulièrement quelqu’un dire qu’il ne veut pas regarder les trailers d’un film, pour conserver inteact le plaisir du visionnage en cinéma. Je comprends ce rejet. Ça ne m’empêche pas de regarder la plupart des bandes-annonces, pour des films qui m’intéressent ou non. Pour _The Force Awakens_, on peut trouver une certaine retenu, mais elles ont clairement tendance à en montrer trop. 
+
+La raison est malheureusement simple : ce qui compte pour un producteur, c’est de vendre des tickets. Partager une vidéo sur YouTube ne coûte rien, avec souvent des millions de vues à la clé, il faut donc faire le maximum pour convaincre le public. Le leak est donc une sorte de remède anti-trailer : ce n’est pas ce que vous allez voir dans une salle de cinéma et ça n’obéit pas aux motivations d’un studio soucieux de maximiser ses profits. Les leaks ne sont pas pour autant souhaitable pour l’ensemble des films, mais le cas de Star Wars, ça me convient parfaitement.
 
 
-Contrôlé par le studio, inintéressant.
+## Faire durer le plaisir
+
+
 
 http://indierevolver.com/2014/12/22/a-closer-look-at-kylo-ren-in-star-wars-the-force-awakens/
