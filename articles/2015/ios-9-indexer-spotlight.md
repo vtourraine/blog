@@ -31,7 +31,7 @@ attributeSet.thumbnailData = ...;
 
 CSSearchableItem *searchableItem = [[CSSearchableItem alloc] initWithUniqueIdentifier:@"##ID##" domainIdentifier:nil attributeSet:attributeSet];
 
-[searchableIndex indexSearchableItems:@[searchableItem] completionHandler:^(NSError * _nullable error) {}];
+[searchableIndex indexSearchableItems:@[searchableItem] completionHandler:^(NSError * _Nullable error) {}];
 ```
 
 La méthode d’indexation fonctionne avec un tableau d’éléments, vous pouvez donc bien-sûr en grouper plusieurs avec un seul appel. Le bloc `completionHandler` permet de connaître le résultat de l’opération et, le cas échéant, l’erreur en question. 
@@ -54,7 +54,7 @@ C’est l’_app delegate_ qui s’en charge (qui d’autre ?). La recherche es
 ``` objc
 - (BOOL)application:(UIApplication *)application 
  continueUserActivity:(NSUserActivity *)userActivity
- restorationHandler:(void (^)(NSArray * _nullable))restorationHandler {
+ restorationHandler:(void (^)(NSArray * _Nullable))restorationHandler {
   if ([userActivity.activityType isEqualToString:CSSearchableItemActionType]) {
     NSString *identifier = userActivity.userInfo[CSSearchableItemActivityIdentifier];
     // …
@@ -77,26 +77,32 @@ Quand un objet disparaît, il convient évidémment d’en informer Spotlight.
 Le plus simple est d’indiquer l’identifiant de l’élément concerné. Comme précédemment, vous pouvez grouper les éléments, et connaître le résultat de l’opération.
 
 ``` objc
-[searchableIndex deleteSearchableItemsWithIdentifiers:@[@"##ID##"] completionHandler:^(NSError * _nullable error) {}];
+[searchableIndex deleteSearchableItemsWithIdentifiers:@[@"##ID##"] completionHandler:^(NSError * _Nullable error) {}];
 ```
 
 Plus radical, il existe une méthode pour supprimer l’intégralité des éléments de l’index.
 
 ``` objc
-[searchableIndex deleteAllSearchableItemsWithCompletionHandler:^(NSError * _nullable error) {}];
+[searchableIndex deleteAllSearchableItemsWithCompletionHandler:^(NSError * _Nullable error) {}];
 ```
 
 Enfin, on remarque qu’il est possible de renseigner un `domainIdentifier` lors de la création d’un élément recherchable. Cette information permet justement de supprimer tous les éléments pour un domaine. À titre d’exemple, Apple évoque le cas d’un client mail, où le domaine pourrait correspondre au compte concerné. Lorsque l’utilisateur supprimer un compte, l’index peut être nettoyé très simplement.
 
 ``` objc
-[searchableIndex deleteSearchableItemsWithDomainIdentifiers:@[@"##domain##"] completionHandler:^(NSError * _nullable error) {}];
+[searchableIndex deleteSearchableItemsWithDomainIdentifiers:@[@"##domain##"] completionHandler:^(NSError * _Nullable error) {}];
 ```
 
 
 ## Bonus : l’extension pour entretenir de l’index
 
 
-Enfin, si iOS 8 ou avant, tester avec truc.
+Enfin, n’oubliez pas que même si cette nouvelle API est uniquement disponible à partir iOS 9, vous pouvez l’utiliser avec une application supportant des versions antérieures (deployment target < iOS 9). Il suffit de tester l’existence des classes concernées avant de les utiliser dans votre code.
+
+``` objc
+if ([CSSearchableIndex class]) {
+  // Spotlight OK
+}
+```
 
 
 
