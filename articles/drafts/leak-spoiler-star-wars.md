@@ -32,4 +32,7 @@ La raison est malheureusement simple : ce qui compte pour un producteur, c’es
 
 Pourquoi perdre son temps à écumer d’obscurs sites web à la recherche de la moindre info, au risque de gâcher la vision du film quelques mois plus tard ? Parce que cette chasse aux leaks est amusante, comme un jeu de piste, et qu’elle permet d’étendre l’intérêt porté un film de façon considérable. Les 90 minutes du film seront peut-être moins riches en surprises que pour quelqu’un ayant évité toutes ces informations, mais je peux passer 6 mois à me délecter de ce déballement progressif. Au passage, il est avéré que dans certains cas, connaître l’issue d’une histoire participe à en apprécier le déroulement. C’est pour cette raison que de nombreux films et épisodes de séries commencent avec une scène du dernier acte (cf. [_Foregone Conclusion_](http://tvtropes.org/pmwiki/pmwiki.php/Main/ForegoneConclusion)/[How We Got Here](http://tvtropes.org/pmwiki/pmwiki.php/Main/HowWeGotHere), avec plein d’exemples).
 
+
+Pour finir, je voulais juste donner un exemple de fuite pour _The Force Awakens_, avec un sujet qui a été depuis dévoilé officiellement avec les bandes-annonces et autres jouets : Kylo Ren, et son Sabre Laser (_lightsaber_ en V.O., c’est quand même mieux).
+
 http://indierevolver.com/2014/12/22/a-closer-look-at-kylo-ren-in-star-wars-the-force-awakens/
