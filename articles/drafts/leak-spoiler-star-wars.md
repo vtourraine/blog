@@ -13,16 +13,17 @@ Je préfère préciser tout de suite : il y a une distinction importante entre 
 
 Certes, une fuite peut dévoiler des éléments importants du film (ou d’une série), qui seraient par ailleurs considérés comme des « spoilers ». La différence est donc essentiellement temporelle : une fuite existe en amont de la sortie du film. Pour cette raison, rien ne garantit que l’information se concrétise éventuellement.
 
+
+## Making-Of
+
 Par ailleurs, les leaks sont rarement des vidéos extraites du produit final. Avec Star Wars il s’agit souvent de dessins conceptuels, parfois des photos du tournage ou même de simples rumeurs plus ou moins vérifiables. D’une certaine façon on se retrouve face à un making-of alternatif, crowdsourcé, qui documente à sa façon la réalisation d’un projet sous un angle inédit.
 
 Il paraît que certaines personnes achètent les DVD/BD sans regarder les bonus et autres contenus additionnels. Ce n’est pas mon cas. Même pour les making-of officiels, on trouve des informations inattendues. Avec Alien3, par exemple, le studio est allé jusqu’à censurer le documentaire prévu pour sa sortie DVD, _Wreckage and Rage_, qui sera finalement réédité dans sa version intégrale, plusieurs années après (David Fincher, réalisateur du film, a toujours refusé de parler de ce tournage, dégouté par les pressions de 20th Century Fox).
 
 
-## Teaser
+## Anti-Trailer
 
-Les bandes-annonces s’appellent des « trailers » parce qu’elles étaient originellement diffusées *après* les films. Portées par leur popularité, elles se sont retrouvées au début des séances. Mais aujourd’hui, tout se passe sur YouTube, avec des vidéos qui atteignent les 10 millions. Aucune interview d’acteur, aucune affiche publicitaire ne peut espérer approcher un tel impact.
 
-Résultat, 
 
 Contrôlé par le studio, inintéressant.
 
