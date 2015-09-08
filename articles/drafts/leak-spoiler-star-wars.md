@@ -1,4 +1,4 @@
-# Ôde aux leaks
+# Star Wars, épisode Leaks
 
 _No spoiler : cet article contient uniquement des informations comprises dans les bandes-annonces officielles de Star Wars Episode VII._
 
@@ -6,7 +6,7 @@ J’ai généralement une assez mauvaise mémoire. Pour vous donner un exemple, 
 
 _The Force Awakens_ arrive dans quelques mois. Je sais que beaucoup évitent scrupuleusement toute info non-officielle, afin de garder un maximum de surprises pour la sortie du film. Moi ? Je me jette sur toutes les leaks que j’arrive à trouver.
 
-Il faut dire que la sortie d’un nouveau Star Wars est un peu comparable à celle d’un nouvel iPhone. Le producteur/fabricant sait que l’attente est énorme et fait tout son possible pour empêcher de laisser fuiter la moindre information. En vain. Comme souvent avec la sécurité, le problème ne vient pas tant de failles techniques, mais simplement des personnes qui travaillent sur ces projets, et qui finissent par casser leur NDA. Avec dans le cas de Star Wars, des drones envoyés pour survoler les plateaux de tournage en plein air, qui ramènent parfois des photos intéressantes.
+Il faut dire que la sortie d’un nouveau Star Wars est un peu comparable à celle d’un nouvel iPhone. Le producteur/fabricant sait que l’attente est énorme et fait tout son possible pour empêcher de laisser transpirer la moindre information. En vain. Comme souvent avec la sécurité, le problème ne vient pas tant de failles techniques, mais simplement des personnes qui travaillent sur ces projets, et qui finissent par casser leur NDA. Avec dans le cas de Star Wars, des drones envoyés pour survoler les plateaux de tournage en plein air, qui ramènent parfois des photos intéressantes.
 
 
 ## Leaker n’est pas Spoiler
@@ -24,6 +24,8 @@ Par ailleurs, les leaks sont rarement des vidéos extraites du produit final. Av
 
 Il paraît que certaines personnes achètent les DVD/BD sans regarder les bonus et autres contenus additionnels. Ce n’est pas mon cas. Même pour les making-of officiels, on trouve des informations inattendues. Avec Alien3, par exemple, le studio est allé jusqu’à censurer le documentaire prévu pour sa sortie DVD, _Wreckage and Rage_, qui sera finalement réédité dans sa version intégrale, plusieurs années après (David Fincher, réalisateur du film, a toujours refusé de parler de ce tournage, dégouté par les pressions de 20th Century Fox).
 
+Parfois, les fuites se confondent à des concours de fan-art géants. En diffusant en 2013 un extrait de 15 secondes de leur prochain single _Get Lucky_, Daft Punk provoque involontairement la publication de centaines de remixes et ré-interprétations, la plupart prétendant être une fuite du morceau original. Une formidable profusion qui tourne à la confusion lorsque le vrai single arrive enfin. _Everything is a Remix_, y compris les leaks.
+
 
 ## Anti-Trailer
 
@@ -38,20 +40,22 @@ Le leak est donc une sorte de remède anti-trailer : ce n’est pas ce que vous
 
 Pourquoi perdre son temps à écumer d’obscurs sites web à la recherche de la moindre info, au risque de gâcher la vision du film quelques mois plus tard ?
 
-Parce que cette chasse aux leaks est plaisante, comme un jeu de piste, et qu’elle permet d’entretenir l’intérêt porté à un film de façon considérable. Les 90 minutes en salle seront peut-être moins riches en surprises que pour quelqu’un ayant évité toutes ces informations, mais je peux passer une année entière à me délecter de ce déballement progressif.
+Parce que cette chasse aux leaks est plaisante, comme un jeu de piste, et qu’elle permet d’entretenir l’intérêt porté à un film de façon considérable. Les 90 minutes en salle seront peut-être moins riches en surprises que pour quelqu’un ayant évité toutes ces informations, mais je peux passer une année entière à me délecter de ce déballage progressif.
 
 Il est admis que dans certains cas, connaître l’issue d’une histoire participe à en apprécier le déroulement. C’est pour cette raison que de nombreux films et épisodes de séries commencent avec une scène du dernier acte (cf. [_Foregone Conclusion_](http://tvtropes.org/pmwiki/pmwiki.php/Main/ForegoneConclusion)/[How We Got Here](http://tvtropes.org/pmwiki/pmwiki.php/Main/HowWeGotHere), avec plein d’exemples). Les leaks étendent ce principe à un autre niveau.
 
 
-Pour finir, je voulais juste donner un exemple de fuite pour _The Force Awakens_, avec un sujet qui a depuis été dévoilé officiellement avec les bandes-annonces et autres jouets : Kylo Ren, et son immanquable sabre laser (_lightsaber_ en V.O., c’est quand même mieux).
+Pour finir et pour le plaisir des yeux, je voulais juste donner un exemple de leak pour _The Force Awakens_, avec un sujet qui a depuis été officiellement dévoilé avec les bandes-annonces et autres jouets : Kylo Ren, et son immanquable sabre laser (_lightsaber_ en V.O., c’est quand même mieux).
 
 ![Leak Kylo Ren, [The Star Wars Underworld](http://www.starwarsunderworld.com)][kylo ren swu concept]
 
 ![Leak Kylo Ren, [Indie Revolver](http://indierevolver.com/2014/12/22/a-closer-look-at-kylo-ren-in-star-wars-the-force-awakens/)][kylo ren ir concept]
 
-Ces deux images sont apparues fin 2014, via deux sources distinctes. À ce moment là, difficile de juger de l’importance de ces images, ou même de savoir s’il s’agit bien du même personnage. On pouvait raisonnablement estimer qu’il s’agisse d’un faux, fan-art, ou recyclage d’un artwork différent (notamment à cause de sa ressemblance avec [Revan](https://en.wikipedia.org/wiki/Revan)).
+Ces deux photos sont apparues fin 2014, via deux sources distinctes. À ce moment là, difficile de juger de l’importance de ces images, ou même de savoir s’il s’agit bien du même personnage. On pouvait raisonnablement estimer qu’il s’agisse d’un faux, fan-art, ou recyclage d’un artwork différent (notamment à cause de sa ressemblance avec [Revan](https://en.wikipedia.org/wiki/Revan)).
 
-Le premier teaser officiel, diffusé fin novembre 2014, a mis fin aux doutes concernant la forme de ce nouveau sabre ; le deuxième en avril 2015 dévoilant clairement le masque et le reste du costume. Depuis, c’est l’avalanche de photos promotionnelles, et surtout de jouets, qui permettent de contempler Kylo Ren sous tous les angles possibles. En attendant le film, bien sûr.
+Le premier teaser officiel, diffusé fin novembre 2014, a mis fin aux doutes concernant ce nouveau sabre ; le deuxième en avril 2015 dévoilant clairement le masque et le reste du costume. Depuis, c’est l’avalanche de photos promotionnelles, et surtout de jouets, qui permettent de contempler Kylo Ren sous tous les angles possibles.
+
+En attendant le film, bien sûr.
 
 ![Poster Kylo Ren, Lucasfilm][kylo ren poster]
 
