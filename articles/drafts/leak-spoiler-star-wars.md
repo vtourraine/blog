@@ -8,6 +8,8 @@ _The Force Awakens_ arrive dans quelques mois. Je sais que beaucoup évitent scr
 
 Il faut dire que la sortie d’un nouveau Star Wars est un peu comparable à celle d’un nouvel iPhone. Le producteur/fabricant sait que l’attente est énorme et fait tout son possible pour empêcher de laisser transpirer la moindre information. En vain. Comme souvent avec la sécurité, le problème ne vient pas tant de failles techniques, mais simplement des personnes qui travaillent sur ces projets, et qui finissent par casser leur NDA. Avec dans le cas de Star Wars, des drones envoyés pour survoler les plateaux de tournage en plein air, qui ramènent parfois des photos intéressantes.
 
+Ce phénomène n’est pas nouveau. Pour le tournage de _The Empire Strikes Back_ en 1979, le script du célèbre dialogue comprenait « Obi-Wan killed your father » à la place du terrible « No, _I_ am your father ». La voix de Darth Vader étant systématiquement ré-enregistrée en post-production, le subterfuge était parfait. (...)
+
 
 ## Leaker n’est pas Spoiler
 
