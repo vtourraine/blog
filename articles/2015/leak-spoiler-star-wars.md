@@ -1,4 +1,14 @@
-# Star Wars, épisode Leaks
+Title:     Star Wars, épisode Leaks  
+Author:    Vincent Tourraine  
+Email:     me@vtourraine.net  
+Date:      September 16, 2015  
+Update:   
+Keywords:  Sci-Fi, film
+Summary:     
+Image:     http://www.vtourraine.net/blog/img/2015/leak-spoiler-star-wars/kylo-ren-poster.jpg  
+Thumbnail: http://www.vtourraine.net/blog/img/2015/leak-spoiler-star-wars/thumbnail-stormtroopers.jpg  
+Language:  fr  
+
 
 _No spoiler : cet article contient uniquement des informations comprises dans les bandes-annonces officielles de Star Wars Episode VII._
 
