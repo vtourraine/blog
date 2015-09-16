@@ -16,6 +16,8 @@ J’ai généralement une assez mauvaise mémoire. Pour vous donner un exemple, 
 
 _The Force Awakens_ arrive dans quelques mois. Je sais que beaucoup évitent scrupuleusement toute info non-officielle, afin de garder un maximum de surprises pour la sortie du film. Une approche respectable. Moi ? Je me jette sur toutes les leaks que j’arrive à trouver.
 
+![Clap pour la première journée du tournage de _Star Wars: The Force Awakens_, photo Lucasfilm][star wars slate]
+
 Il faut dire que la sortie d’un nouveau Star Wars est un peu comparable à celle d’un nouvel iPhone. Le producteur/fabricant sait que l’attente est énorme et fait tout son possible pour empêcher de laisser transpirer la moindre information. En vain. Comme souvent avec la sécurité, le problème ne vient pas tant de failles techniques, mais simplement des personnes qui travaillent sur ces projets, et qui finissent par casser leur NDA. Avec dans le cas de Star Wars, des drones envoyés pour survoler les plateaux de tournage en plein air, qui ramènent parfois des photos intéressantes.
 
 Ce phénomène n’est pas nouveau. Pour le tournage de _The Empire Strikes Back_ en 1979, le script du célèbre dialogue comprenait « Obi-Wan killed your father » à la place du terrible « No, _I_ am your father ». La voix de Darth Vader étant systématiquement ré-enregistrée en post-production, le subterfuge était parfait. (...)
@@ -59,9 +61,9 @@ Il est admis que dans certains cas, connaître l’issue d’une histoire partic
 
 Pour finir et pour le plaisir des yeux, je voulais juste donner un exemple de leak pour _The Force Awakens_, avec un sujet qui a depuis été officiellement dévoilé avec les bandes-annonces et autres jouets : Kylo Ren, et son immanquable sabre laser (_lightsaber_ en V.O., c’est quand même mieux).
 
-![Leak Kylo Ren, [The Star Wars Underworld](http://www.starwarsunderworld.com)][kylo ren swu concept]
+![Leak Kylo Ren, photo [The Star Wars Underworld](http://www.starwarsunderworld.com)][kylo ren swu concept]
 
-![Leak Kylo Ren, [Indie Revolver](http://indierevolver.com/2014/12/22/a-closer-look-at-kylo-ren-in-star-wars-the-force-awakens/)][kylo ren ir concept]
+![Leak Kylo Ren, photo [Indie Revolver](http://indierevolver.com/2014/12/22/a-closer-look-at-kylo-ren-in-star-wars-the-force-awakens/)][kylo ren ir concept]
 
 Ces deux photos sont apparues fin 2014, via deux sources distinctes. À ce moment là, difficile de juger de l’importance de ces images, ou même de savoir s’il s’agit bien du même personnage. On pouvait raisonnablement estimer qu’il s’agisse d’un faux, fan-art, ou recyclage d’un artwork différent (notamment à cause de sa ressemblance avec [Revan](https://en.wikipedia.org/wiki/Revan)).
 
@@ -69,8 +71,9 @@ Le premier teaser officiel, diffusé fin novembre 2014, a mis fin aux doutes con
 
 En attendant le film, bien sûr.
 
-![Poster Kylo Ren, Lucasfilm][kylo ren poster]
+![Poster Kylo Ren, image Lucasfilm][kylo ren poster]
 
+[star wars slate]:      http://www.vtourraine.net/blog/img/2015/leak-spoiler-star-wars/star-wars-slate.jpg
 [kylo ren swu concept]: http://www.vtourraine.net/blog/img/2015/leak-spoiler-star-wars/kylo-ren-swu-concept.jpg
 [kylo ren ir concept]:  http://www.vtourraine.net/blog/img/2015/leak-spoiler-star-wars/kylo-ren-ir-concept.jpg
 [kylo ren poster]:      http://www.vtourraine.net/blog/img/2015/leak-spoiler-star-wars/kylo-ren-poster.jpg
