@@ -14,13 +14,18 @@ _No spoiler : cet article contient uniquement des informations comprises dans l
 
 J’ai généralement une assez mauvaise mémoire. Pour vous donner un exemple, je ne me souviens absolument pas de la fois où j’ai vu Star Wars Episode III au cinéma (je vous entends déjà penser : « c’est parce que le film était mauvais », non, enfin oui, mais ce n’est pas le problème). En revanche, je me souviens clairement du moment et du lieu, quelques mois plus tôt, où j’ai découvert un leak du film sur internet. C’était une courte vidéo du combat entre Dooku et Anakin, avec les fonds verts du tournage encore visibles à l’arrière plan, probablement un fichier RealVideo minuscule. 
 
-_The Force Awakens_ arrive dans quelques mois. Je sais que beaucoup évitent scrupuleusement toute info non-officielle, afin de garder un maximum de surprises pour la sortie du film. Une approche respectable. Moi ? Je me jette sur toutes les leaks que j’arrive à trouver.
+_The Force Awakens_ arrive dans quelques mois. Je sais que beaucoup évitent scrupuleusement toute info non-officielle, afin de garder un maximum de surprises pour la sortie du film. Une approche tout à fait respectable. Moi ? Je me jette sur toutes les leaks que j’arrive à trouver.
 
 ![Clap pour la première journée du tournage de _Star Wars: The Force Awakens_, photo Lucasfilm][star wars slate]
 
-Il faut dire que la sortie d’un nouveau Star Wars est un peu comparable à celle d’un nouvel iPhone. Le producteur/fabricant sait que l’attente est énorme et fait tout son possible pour empêcher de laisser transpirer la moindre information. En vain. Comme souvent avec la sécurité, le problème ne vient pas tant de failles techniques, mais simplement des personnes qui travaillent sur ces projets, et qui finissent par casser leur NDA. Avec dans le cas de Star Wars, des drones envoyés pour survoler les plateaux de tournage en plein air, qui ramènent parfois des photos intéressantes.
+Il faut dire que la sortie d’un nouveau Star Wars est un peu comparable à celle d’un nouvel iPhone. Le producteur/fabricant sait que l’attente est énorme et fait tout son possible pour empêcher de laisser transpirer la moindre information. En vain. Comme souvent avec la sécurité, le problème ne vient pas tant de failles techniques, mais simplement des personnes qui travaillent sur ces projets, et qui finissent par casser le NDA.
 
-Ce phénomène n’est pas nouveau. Pour le tournage de _The Empire Strikes Back_ en 1979, le script du célèbre dialogue comprenait « Obi-Wan killed your father » à la place du terrible « No, _I_ am your father ». La voix de Darth Vader étant systématiquement ré-enregistrée en post-production, le subterfuge était parfait. (...)
+
+## Tradition
+
+Ce phénomène n’est pas nouveau. Pour le tournage de _The Empire Strikes Back_ en 1979, le script du célèbre dialogue comprenait « Obi-Wan killed your father » à la place du célèbrissime « No, _I_ am your father ». Seul Mark Hamill avait été mis dans la confidence, le jour même, pour lui permettre d’adapter son jeu. La voix de Darth Vader étant systématiquement ré-enregistrée en post-production, le subterfuge était parfait. 
+
+Certaines méthodes ont changé, mais la partie de cache-cache continue. Aujourd’hui, on envoie des drones pour survoler les plateaux de tournage en plein air, et ainsi obtenir des photos parfois intéressantes. Star Wars a  toujours été une source d’inspiration pour le développement de nouvelles technologies, parfois à ses dépens.
 
 
 ## Leaker n’est pas Spoiler
