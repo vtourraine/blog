@@ -16,9 +16,23 @@ Swift a l’avantage de pouvoir se mélanger plutôt facilement avec Objective-C
 
 ## Le nom, c’est important
 
+Comme n’importe quel autre projet, une bibliothèque a besoin d’un nom. Pour la version Objective-C, c’était donc _VTAcknowledgementsViewController_. Les licenses CocoaPods sont listées sous le terme « acknowledgements », et la classe principale est le view controller. C’est peut-être logique, mais c’est terrible à écrire, au point qu’il m’arrive régulièrement d’inverser certaines lettres.
 
-## JSON/XML parsing
+Leçon retenue, pour la version Swift ce sera _AcknowList_.
 
+Je suppose qu’on peut voir ça comme l’opposition entre la verbosité d’Objective-C et la brièveté de Swift. Indépendamment du langage, le choix du nom mérite un minimum de réflexion.
+
+
+## XML parsing
+
+Les données affichées par _AcknowList_ sont extraites automatiquement du fichier `Pods-acknowledgements.plist` généré par CocoaPods. Un .plist, c’est-à-dire un fichier XML à parser.
+
+Pour la mise en mémoire, il suffit de laisser `NSDictionary` faire le travail (oui, avec Swift). On peut caster le résultat en `[String: AnyObject]`, pour retrouver des types propres au langage.
+
+À partir de là, il faut explorer la structure de l’objet dynamiquement pour en extraire des informations ciblées. Je n’ai pas trouvé de solution élégante, et il semblerait que ce genre d’opération est toujours aussi fastidieuse, sinon davantage. Je n’ai pas étudié le problème en détail, mais il semblerait que Swift est bien parti pour avoir autant de bibliothèques de parsing XML/JSON qu’Objective-C.
+
+
+##
 
 La transition des projets Objective-C existants vers Swift devrait nous occuper encore pour quelques années.
 
