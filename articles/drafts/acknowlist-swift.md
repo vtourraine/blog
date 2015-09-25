@@ -4,7 +4,8 @@
 
 Cette semaine, j’ai publié une première version de [_AcknowList_][AcknowList], une bibliothèque en Swift pour afficher les licences d’une application avec CocoaPods. Si ça vous rappelle quelque chose, c’est parce que j’avais initialement créé [ce projet en Objective-C][VTAck], il y a presque deux ans. Les temps changent, il faut s’adapter.
 
-## Compartimenter
+
+## Redécoupage
 
 CocoaPods est un outil intéressant pour aborder la transition vers Swift. 
 
@@ -28,9 +29,8 @@ Je suppose qu’on peut voir ça comme l’opposition entre la verbosité d’Ob
 
 ## Le retour de struct
 
-Pour Objective-C, `struct` est avant-tout un héritage du C, peu utilisé. Avec Swift, le `struct` est de retour, à tel point qu’il devient parfois difficile de choisir entre ça et une classe. 
-
-Je n’ai pas assez de recul avec Swift pour en tirer de grandes conclusions. Dans le cas d’_AcknowList_, j’ai simplement transformé l’unique classe du modèle en structure. Avec deux propriétés et un constructeur, le choix était vite fait.
+Pour Objective-C, `struct` est avant-tout un héritage du C, peu utilisé. Avec Swift, le `struct` est de retour, à tel point qu’il devient parfois difficile de choisir entre ça et une classe. Dans le cas d’_AcknowList_, j’ai simplement transformé l’unique classe du modèle en structure. Avec deux propriétés et un constructeur, le choix était vite fait. 
+Je n’ai pas assez de recul avec Swift pour en tirer de grandes conclusions. C’est un cas intéressant de conversion à partir d’Objective-C. Transformer une `class` en `class` est un choix valide, sûrement préférable en général, mais d’autres options sont possibles.
 
 
 ## XML parsing
