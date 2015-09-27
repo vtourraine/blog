@@ -1,26 +1,31 @@
-# AcknowList
+Title:    AcknowList  
+Author:   Vincent Tourraine  
+Email:    me@vtourraine.net  
+Date:     September 26, 2015  
+Update:   
+Keywords: Swift, CocoaPods, dev  
+Summary:    
+Image:    http://www.vtourraine.net/blog/img/2015/dotswift-swift/banner-dotswift.jpg   
+Language: fr  
 
-// tags: swift, cocoapods
 
-Cette semaine, j’ai publié une première version de [_AcknowList_][AcknowList], une bibliothèque en Swift pour afficher les licences d’une application avec CocoaPods. Si ça vous rappelle quelque chose, c’est parce que j’avais initialement créé [ce projet en Objective-C][VTAck], il y a presque deux ans. Les temps changent, il faut s’adapter.
+Cette semaine, j’ai publié une première version de [_AcknowList_][AcknowList], une bibliothèque en Swift pour afficher les licences CocoaPods à l’intérieur d’une application. Si ça vous rappelle quelque chose, c’est parce que j’avais initialement créé [ce projet en Objective-C][VTAck], il y a presque deux ans.
+
+Les temps changent, il faut s’adapter. Toutes les occasions de mettre Swift en pratique sont bonnes à prendre, et on peut bien sûr en tirer quelques leçons.
 
 
-## Redécoupage
+## Re-découpage
 
-CocoaPods est un outil intéressant pour aborder la transition vers Swift. 
+CocoaPods est un outil intéressant pour aborder la transition vers Swift.
 
-En modularisant clairement le code d’un projet, il permet de suivre  
+Plutôt que de convertir un projet dans sa totalité, on peut ainsi limiter la quantité du code concerné en formant des blocs, par ailleurs réutilisables. Il est toujours possible de transformer un projet classe par classe, mais sans direction particulière je trouve cette approche un peu laborieuse et confuse.
 
-Plutôt que de convertir un projet dans sa totalité, je trouve plus faire évoluer 
-
-Dans mon cas, j’ai voulu mettre en pratique cette 
-
-Swift a l’avantage de pouvoir se mélanger plutôt facilement avec Objective-C. Pour des projets existants en particulier, l’approche la plus raisonnable consiste donc à remplacer le code existant et à ajouter les nouvelles classes en Swift, progressivement. 
+CocoaPods n’est clairement pas indispensable, mais il permet de définir une certaine architecture du code. Le développement logiciel gravite toujours autour des problématiques de découpage et de conceptualisation, la transition vers Swift ne fait pas exception.
 
 
 ## Le nom, c’est important
 
-Comme n’importe quel autre projet, une bibliothèque a besoin d’un nom. Pour la version Objective-C, c’était donc _VTAcknowledgementsViewController_. Les licenses CocoaPods sont listées sous le terme « acknowledgements », et la classe principale est le view controller. C’est peut-être logique, mais c’est terrible à écrire, au point qu’il m’arrive régulièrement d’inverser certaines lettres.
+Comme n’importe quel autre projet, un pod a besoin d’un nom. Pour la version Objective-C, c’était donc _VTAcknowledgementsViewController_. Les licenses CocoaPods sont listées sous le terme « acknowledgements », et la classe principale est le view controller. C’est peut-être logique, mais c’est terrible à écrire, au point qu’il m’arrive régulièrement d’inverser certaines lettres.
 
 Leçon retenue, pour la version Swift ce sera _AcknowList_.
 
