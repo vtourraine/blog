@@ -6,3 +6,20 @@ Avec iOS 9 et les écrans “3D Touch” des nouveaux iPhones, voici donc Peek 
 
 Concrètement, il s’agit d’un moyen alternatif pour présenter un view controller, en appuyant légèrement sur un élément pour prévisualiser l’action (“peek”), et en appuyant plus fort pour confirmer (“pop”). Ça n’a rien d’essentiel, mais cette nouvelle interaction possède à mes yeux un avantage de taille : pouvoir visualiser puis faire disparaître un view controller avec un unique appui sur l’écran. Plutôt que d’appuyer une fois pour présenter et une seconde fois pour revenir, tout se fait à partir de la pression appliquée à un seul _tap_. Inutile d’aller chercher le bouton “Retour” tout en haut à gauche d’écran, inutile de tenter un glisssement depuis la gauche, il suffit de relever le doigt.
 
+## Enregistrement
+
+## Preview
+
+## Commit
+
+## Actions
+
+## Exemple
+
+## Documentation
+
+- [3D Touch - iOS Developer](https://developer.apple.com/ios/3d-touch/)
+- [_ViewControllerPreviews_ - Sample Code](https://developer.apple.com/library/ios/samplecode/ViewControllerPreviews/)
+- [`UIPreviewAction` Class Reference](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIPreviewAction_Class/)
+- [`UIPreviewActionGroup` Class Reference](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIPreviewActionGroup_Class/)
+- [`UIPreviewActionItem` Protocol Reference](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIPreviewActionItem_Protocol/)
