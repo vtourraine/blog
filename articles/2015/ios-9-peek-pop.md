@@ -1,6 +1,12 @@
-# Comment implémenter Peek et Pop pour 3D Touch
-
-// tags: iOS, Objectice-C, UIKit, dev
+Title:    Comment implémenter Peek et Pop pour 3D Touch  
+Author:   Vincent Tourraine  
+Email:    me@vtourraine.net  
+Date:     October 1, 2015  
+Update:   
+Keywords: iOS, UIKit, dev  
+Summary:    
+Image:       
+Language: fr  
 
 
 Tous les ans c’est la même chose, Apple garde quelques API en surprise pour la mise à jour d’iOS du mois de septembre.
