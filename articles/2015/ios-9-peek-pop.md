@@ -15,6 +15,8 @@ Avec iOS 9 et les écrans « 3D Touch » des nouveaux iPhones, voici donc _Pe
 
 Concrètement, il s’agit d’un moyen alternatif pour présenter un view controller, en appuyant légèrement sur un élément pour prévisualiser l’action associée (_Peek_), et en appuyant plus fort pour confirmer (_Pop_). 
 
+![3D Touch, image [apple.com](http://apple.com)][3D Touch video]
+
 Ça n’a rien d’essentiel, mais cette nouvelle interaction possède à mes yeux un avantage de taille : pouvoir visualiser puis faire disparaître une vue avec un unique contact de l’écran. Plutôt que d’appuyer une première fois pour présenter, puis une seconde fois pour revenir, tout se fait en fonction de la pression appliquée à un seul _tap_. La différence est importante compte tenu de l’augmentation de la taille des iPhones. Inutile d’aller chercher le bouton “Retour” tout en haut à gauche d’écran, inutile de tenter un geste depuis le bord gauche, il suffit de relever le doigt. Bref, ça peut être intéressant à implémenter.
 
 Pour ne rien gâcher, l’API est très simple, et ne devrait pas modifier grand chose à votre code existant. Voici un exemple de mise en place, étape par étape.
@@ -98,6 +100,11 @@ Le tour est joué, votre view controller peut maintenant prévisualiser et confi
 
 J’avais envie de tester cette API sur un projet relativement simple, et l’application Mix-IT publiée cette année convenait parfaitement (un table view controller, et un view controller pour le détail). Comme le projet est par ailleurs open source, vous pouvez voir ce que ça donne, dans son ensemble, [sur GitHub](https://github.com/vtourraine/mixit/blob/master/mixit/Classes/AMGTalksViewController.m). 
 
+<video controls="controls" width="268" height="480">
+  <source src="http://www.vtourraine.net/blog/img/2015/ios-9-peek-pop/3d-touch-previewing-480.mov"></source>
+  Votre navigateur ne peut pas afficher cette vidéo.
+</video>
+
 La seule difficulté consistait à prendre en compte le search display controller qui se superposer à la table view principale. Ma solution consiste à garder une propriété pour le contexte du preview, et ainsi dé-enregistrer/ré-enregistrer la vue adéquate sur les notifications du search display controller. Si vous avez une meilleure approche, je suis preneur.
 
 
@@ -108,3 +115,8 @@ La seule difficulté consistait à prendre en compte le search display controlle
 - [`UIPreviewAction` Class Reference](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIPreviewAction_Class/)
 - [`UIPreviewActionGroup` Class Reference](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIPreviewActionGroup_Class/)
 - [`UIPreviewActionItem` Protocol Reference](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIPreviewActionItem_Protocol/)
+
+![3D Touch, image [apple.com](http://apple.com)][3D Touch hero]
+
+[3D Touch hero]: http://www.vtourraine.net/blog/img/2015/ios-9-peek-pop/3d-touch-hero.jpg
+[3D Touch video]: http://www.vtourraine.net/blog/img/2015/ios-9-peek-pop/3d-touch-video.jpg
