@@ -127,7 +127,8 @@ Ces actions sont associées au view controller présenté, indifféremment de ce
 J’avais envie de tester cette API sur un projet relativement simple, et [l’application Mix-IT](https://itunes.apple.com/app/mix-it/id982003173?ls=1&mt=8) publiée cette année convenait parfaitement (un table view controller, et un view controller pour le détail). Comme le projet est par ailleurs open source, vous pouvez voir ce que ça donne, dans son ensemble, [sur GitHub](https://github.com/vtourraine/mixit/blob/master/mixit/Classes/AMGTalksViewController.m). 
 
 <video controls="controls" width="268" height="480">
-  <source src="http://www.vtourraine.net/blog/img/2015/ios-9-peek-pop/3d-touch-previewing-480.mov"></source>
+  <source src="http://www.vtourraine.net/blog/img/2015/ios-9-peek-pop/3d-touch-previewing-480.mov" type="video/quicktime"></source>
+  <source src="http://www.vtourraine.net/blog/img/2015/ios-9-peek-pop/3d-touch-previewing-480.webm" type="video/webm"></source>
   Votre navigateur ne peut pas afficher cette vidéo.
 </video>
 
