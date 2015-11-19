@@ -4,6 +4,17 @@
 
 // Surcharge la syntaxe ObjC à cause de Swift ?
 
+Après les _nullability annotations_ d’Xcode 6.3, voici les _generics_ d’Xcode 7. L’intention est la même :faire évoluer Objective-C pour améliorer son interopérabilité avec Swift. 
+
+## En théorie
+
+Les _generics_ Objective-C sont des annotations qui permettent de préciser le type d’objet appartenant à une collections.
+
+En effet, les `NSArray`, `NSSet` et `NSDictionary` peuvent a priori mélanger des objets de différentes classes. Cette souplesse a incontestablement des avantages, mais elle est aussi la source de nombreux problèmes. Pire, il s’agit souvent de bugs à retardement liés à des contextes d’exécution partuliers, donc difficiles à corriger par la suite. Des soucis qu’on peut maintenant facilement éviter grace à ces annotations.
+
+
+## En pratique
+
 
 --
 
