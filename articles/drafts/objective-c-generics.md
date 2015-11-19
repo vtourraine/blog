@@ -1,5 +1,9 @@
 # Generics avec Objective-C
 
+// Présentation des generics
+
+// Surcharge la syntaxe ObjC à cause de Swift ?
+
 
 --
 
