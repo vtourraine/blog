@@ -13,7 +13,7 @@ En effet, les `NSArray`, `NSSet` et `NSDictionary` peuvent a priori mélanger de
 
 Tout se passe au moment de la déclaration, pour une `property` comme pour une variable locale, en précisant la classe attendue entre chevrons :
 
-```` objc
+``` objc
 @property NSArray <NSDate *> *dates;
 @property NSDictionary <NSURL *, NSData *> *cachedData;
 
@@ -21,6 +21,10 @@ Tout se passe au moment de la déclaration, pour une `property` comme pour une v
 
 NSSet<NSString *> *words = nil;
 ```
+
+Dans cet exemple, on attend donc un tableau de `NSDate`, un dictionnaire avec des clés `NSURL` et des valeurs `NSData`, et enfin un set de `NSString`.
+
+Un peu comme pour le type d’une variable, il ne s’agit que d’une déclaration. Les generics ne garantissent pas dynamiquement le contenu d’une collection. En revenche, le compilateur utilise cette information pour repérer les cas non-conformes. 
 
 
 ## // Surcharge la syntaxe ObjC à cause de Swift ?
