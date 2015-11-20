@@ -25,12 +25,26 @@ Tout se passe au moment de la déclaration, en précisant la classe attendue ent
 
 // ...
 
-NSSet<NSString *> *words = nil;
+NSSet <NSString *> *words = nil;
 ```
 
 Dans cet exemple, on attend donc un tableau de `NSDate`, un dictionnaire avec des clés `NSURL` et des valeurs `NSData`, et enfin un set de `NSString`.
 
 Détail important : comme pour le type d’une variable, il ne s’agit que d’une déclaration, pas d’une contrainte absolue. Les _generics_ ne garantissent pas dynamiquement le contenu d’une collection. En revenche, le compilateur utilise cette information pour repérer les cas non-conformes, et émettre des _warnings_ en conséquence. 
+
+
+## Interopérabilité Swift
+
+Pour un projet mélangeant Swift et Objective-C, ces annotations permettent de faire correspondre la richesse d
+
+Pour reprendre les trois exemples donnés ci-dessus, voici ce que donnent des variables Swift correspondantes :
+
+``` swift
+var dates: [NSDate]
+var words: Set<String>
+var cachedData: [NSURL: NSData]
+```
+
 
 
 ## // Surcharge la syntaxe ObjC à cause de Swift ?
