@@ -30,24 +30,31 @@ NSSet <NSString *> *words = nil;
 
 Dans cet exemple, on attend donc un tableau de `NSDate`, un dictionnaire avec des clés `NSURL` et des valeurs `NSData`, et enfin un set de `NSString`.
 
+Vous pouvez également utiliser le mot clé `__kindof` pour étendre cette définition à toutes les classes qui en héritent.
+
 Détail important : comme pour le type d’une variable, il ne s’agit que d’une déclaration, pas d’une contrainte absolue. Les _generics_ ne garantissent pas dynamiquement le contenu d’une collection. En revenche, le compilateur utilise cette information pour repérer les cas non-conformes, et émettre des _warnings_ (⚠️) en conséquence. 
 
 
 ## Interopérabilité Swift
 
-Pour un projet mélangeant Swift et Objective-C, ces annotations permettent de faire correspondre la richesse d
+Xcode permet à Swift d’importer du code Objective-C. Ces annotations permettent donc de conserver la richesse de la syntaxe des collections Swift, par opposition à un import classique qui se contenterait d’un ensemble de `AnyObject`.
 
-Pour reprendre les trois exemples donnés ci-dessus, voici ce que donnent des variables Swift correspondantes :
+Pour reprendre les trois exemples donnés ci-dessus, voici ce que donnent les déclarations Swift correspondantes :
 
 ``` swift
 var dates: [NSDate]
-var words: Set<String>
+func doSomething (words: Set<String>) {}
 var cachedData: [NSURL: NSData]
 ```
 
 
-
 ## // Surcharge la syntaxe ObjC à cause de Swift ?
+
+Les _generics_ ne font pas l’unanimité chez les développeurs Objective-C. Combinés aux _nullability annotations_, on peut effectiver regretter une baisse de lisibilité pour la déclaration des variables. Pour un langage déjà verbeux, ces nouveautés peuvent facilement doubler le nombre de caractères nécessaires par déclaration.
+
+À mes yeux, ce compromis est largement justifié. Personne ne choisit de déclarer toutes ses variables en `id`, simplement pour gagner en lisibilité.
+
+On trouvait souvent des documentations précisant le type attendu pour les variables d’une collection.
 
 // Pour soi
 
@@ -56,31 +63,6 @@ var cachedData: [NSURL: NSData]
 // Mieux qu’une documentation
 
 
---
-
-## Lightweight Generics
-
-Objective-C declarations of NSArray, NSSet and NSDictionary types using lightweight generic parameterization are imported by Swift with information about the type of their contents preserved.
-
-For example, consider the following Objective-C property declarations:
-
-```` objc
-@property NSArray<NSDate *> *dates;
-@property NSSet<NSString *> *words;
-@property NSDictionary<NSURL *, NSData *> *cachedData;
-```
-
-Here’s how Swift imports them:
-
-``` swift
-var dates: [NSDate]
-var words: Set<String>
-var cachedData: [NSURL: NSData]
-```
-
-NOTE: Aside from these Foundation collection classes, Objective-C lightweight generics are ignored by Swift. Any other types using lightweight generics are imported into Swift as if they were unparameterized.
-
---
 
 - [What’s New in Xcode: New Features in Xcode 7, Apple](https://developer.apple.com/library/prerelease/ios/documentation/DeveloperTools/Conceptual/WhatsNewXcode/Articles/xcode_7_0.html)
 - [Using Swift with Cocoa and Objective-C: Interacting with Objective-C APIs, Apple](https://developer.apple.com/library/prerelease/ios/documentation/Swift/Conceptual/BuildingCocoaApps/InteractingWithObjective-CAPIs.html#//apple_ref/doc/uid/TP40014216-CH4-ID35)
