@@ -1,9 +1,5 @@
 # Generics avec Objective-C
 
-// Présentation des generics
-
-// Surcharge la syntaxe ObjC à cause de Swift ?
-
 Après les _nullability annotations_ d’Xcode 6.3, voici les _generics_ d’Xcode 7. L’intention est la même :faire évoluer Objective-C pour améliorer son interopérabilité avec Swift. 
 
 ## En théorie
@@ -14,6 +10,20 @@ En effet, les `NSArray`, `NSSet` et `NSDictionary` peuvent a priori mélanger de
 
 
 ## En pratique
+
+Tout se passe au moment de la déclaration, pour une `property` comme pour une variable locale, en précisant la classe attendue entre chevrons :
+
+```` objc
+@property NSArray <NSDate *> *dates;
+@property NSDictionary <NSURL *, NSData *> *cachedData;
+
+// ...
+
+NSSet<NSString *> *words = nil;
+```
+
+
+## // Surcharge la syntaxe ObjC à cause de Swift ?
 
 
 --
