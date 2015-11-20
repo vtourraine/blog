@@ -18,13 +18,9 @@ Tout se passe au moment de la déclaration, en précisant la classe attendue ent
 
 ``` objc
 @property NSArray <NSDate *> *dates;
-
 // ...
-
 - (void)doSomething:(NSDictionary <NSURL *, NSData *> *)cachedData;
-
 // ...
-
 NSSet <NSString *> *words = nil;
 ```
 
@@ -43,7 +39,9 @@ Pour reprendre les trois exemples donnés ci-dessus, voici ce que donnent les d�
 
 ``` swift
 var dates: [NSDate]
+// ...
 func doSomething (words: Set<String>) {}
+// ...
 var cachedData: [NSURL: NSData]
 ```
 
