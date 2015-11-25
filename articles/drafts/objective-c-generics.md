@@ -17,10 +17,13 @@ En effet, les `NSArray`, `NSSet` et `NSDictionary` peuvent a priori mélanger de
 Tout se passe au moment de la déclaration, en précisant la classe attendue entre chevrons :
 
 ``` objc
+// Property
 @property NSArray <NSDate *> *dates;
-// ...
+
+// Argument
 - (void)doSomething:(NSDictionary <NSURL *, NSData *> *)cachedData;
-// ...
+
+// Variable
 NSSet <NSString *> *words = nil;
 ```
 
