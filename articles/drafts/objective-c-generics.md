@@ -33,7 +33,9 @@ Vous pouvez également utiliser le mot clé `__kindof` pour étendre cette défi
 
 Détail important : comme pour le type d’une variable, il ne s’agit que d’une déclaration, pas d’une contrainte absolue. Les _generics_ ne garantissent pas dynamiquement le contenu d’une collection. En revenche, le compilateur utilise cette information pour repérer les cas non-conformes, et émettre des _warnings_ (⚠️) en conséquence. 
 
-// screenshot
+![Warnings Xcode][Xcode warning]
+
+Comme on peut le voir sur cet exemple, Xcode ne s’arrête à l’affectation de valeurs, mais contrôle également les méthodes de manipulation de la collection, comme ici le `arrayByAddingObject:`.
 
 
 ## Interopérabilité Swift
@@ -69,3 +71,5 @@ On trouvait souvent des documentations précisant le type attendu pour les varia
 
 - [What’s New in Xcode: New Features in Xcode 7, Apple](https://developer.apple.com/library/prerelease/ios/documentation/DeveloperTools/Conceptual/WhatsNewXcode/Articles/xcode_7_0.html)
 - [Using Swift with Cocoa and Objective-C: Interacting with Objective-C APIs, Apple](https://developer.apple.com/library/prerelease/ios/documentation/Swift/Conceptual/BuildingCocoaApps/InteractingWithObjective-CAPIs.html#//apple_ref/doc/uid/TP40014216-CH4-ID35)
+
+[Xcode warning]: http://www.vtourraine.net/blog/img/2015/objective-c-generics/xcode-warnings.png
