@@ -2,7 +2,7 @@
 
 Après les [_nullability annotations_](http://www.vtourraine.net/blog/2015/objective-c-nullability) d’Xcode 6.3, voici les _generics_ d’Xcode 7. 
 
-L’intention est la même : faire évoluer Objective-C pour améliorer son interopérabilité avec Swift. Au passage, vous aiderez Xcode à améliorer la qualité de votre code Objective-C, en éliminant toute une catégorie de bugs.
+L’intention est la même : faire évoluer Objective-C pour améliorer son interopérabilité avec Swift. Au passage, vous améliorez la qualité de votre code Objective-C, en permettant à Xcode de détecter toute une catégorie de bugs.
 
 
 ## Pourquoi
