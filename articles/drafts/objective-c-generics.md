@@ -35,7 +35,7 @@ Détail important : comme pour le type d’une variable classique, il ne s’ag
 
 ![Warnings Xcode][Xcode warning]
 
-Comme on peut le voir sur cet exemple, Xcode ne s’arrête à l’affectation de valeurs, mais contrôle également les méthodes de manipulation de la collection, comme ici le `arrayByAddingObject:`.
+Comme on peut le voir sur cet exemple, Xcode ne s’arrête pas à l’affectation de valeurs, mais contrôle également les méthodes de manipulation de la collection, comme ici le `arrayByAddingObject:`.
 
 
 ## Interopérabilité Swift
