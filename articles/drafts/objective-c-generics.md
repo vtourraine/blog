@@ -40,7 +40,7 @@ Comme on peut le voir sur cet exemple, Xcode ne s’arrête pas à l’affectati
 
 ## Interopérabilité Swift
 
-Xcode permet à Swift d’importer du code Objective-C. Ces annotations permettent donc de conserver la richesse de la syntaxe des collections Swift, par opposition à un import classique qui se contenterait d’un ensemble de `AnyObject`.
+Xcode permet à Swift d’importer du code Objective-C. Ces annotations permettent donc de conserver la richesse de la syntaxe des collections Swift, par opposition à un import classique qui doit se contenter d’un ensemble de `AnyObject`.
 
 Pour reprendre les trois exemples donnés ci-dessus, voici ce que donnent les déclarations Swift correspondantes :
 
