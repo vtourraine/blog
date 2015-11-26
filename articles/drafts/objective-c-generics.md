@@ -21,13 +21,13 @@ Tout se passe au moment de la déclaration, en précisant la classe attendue ent
 @property NSArray <NSDate *> *dates;
 
 // Argument
-- (void)doSomething:(NSDictionary <NSURL *, NSData *> *)cachedData;
+- (void)doSomething:(NSSet <NSString *> *)words;
 
 // Variable
-NSSet <NSString *> *words = nil;
+NSDictionary <NSURL *, NSData *> *cachedData = nil;
 ```
 
-Dans cet exemple, on attend donc un tableau de `NSDate`, un dictionnaire avec des clés `NSURL` et des valeurs `NSData`, et enfin un set de `NSString`.
+Dans cet exemple, on attend donc un tableau de `NSDate`, un set de `NSString`, et enfin un dictionnaire avec des clés `NSURL` et des valeurs `NSData`.
 
 Vous pouvez également utiliser le mot clé `__kindof` pour étendre cette définition à toutes les classes qui en héritent.
 
@@ -46,9 +46,9 @@ Pour reprendre les trois exemples donnés ci-dessus, voici ce que donnent les d�
 
 ``` swift
 var dates: [NSDate]
-// ...
+
 func doSomething (words: Set<String>) {}
-// ...
+
 var cachedData: [NSURL: NSData]
 ```
 
