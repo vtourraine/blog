@@ -53,7 +53,7 @@ var cachedData: [NSURL: NSData]
 ```
 
 
-## // Surcharge la syntaxe ObjC à cause de Swift ?
+## Effort supplémentaire
 
 Les _generics_ ne font pas l’unanimité chez les développeurs Objective-C. Combinés aux _nullability annotations_, on peut effectiver regretter une baisse de lisibilité pour la déclaration des variables. Pour un langage déjà verbeux, ces nouveautés peuvent facilement doubler le nombre de caractères nécessaires par déclaration.
 
