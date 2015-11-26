@@ -1,4 +1,13 @@
-# Generics avec Objective-C
+Title:     Generics avec Objective-C  
+Author:    Vincent Tourraine  
+Email:     me@vtourraine.net  
+Date:      November 26, 2015  
+Update:    
+Keywords:  Objective-C, Xcode, dev
+Summary:   Après les « nullability annotations » d’Xcode 6.3, voici les « generics » d’Xcode 7. L’intention est la même : faire évoluer Objective-C pour faciliter son interopérabilité avec Swift. Avec, au passage, l’occasion d’améliorer la qualité du code Objective-C pour lui-même, en permettant à Xcode de détecter toute une nouvelle catégorie de bugs.    
+Image:     http://www.vtourraine.net/blog/img/2015/objective-c-generics/xcode-warnings.png  
+Language:  fr  
+
 
 Après les [_nullability annotations_](http://www.vtourraine.net/blog/2015/objective-c-nullability) d’Xcode 6.3, voici les _generics_ d’Xcode 7. 
 
