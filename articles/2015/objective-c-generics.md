@@ -70,7 +70,7 @@ Les _generics_ ne font pas l’unanimité chez les développeurs Objective-C. Co
 
 Quand une API manipule une collection (comme paramètre d’une méthode, par exemple), la documentation indique généralement le type attendu pour ses membres. Cette précision est cruciale, puisque que le passage d’un autre type peut facilement faire crasher l’application. Mais la documentation n’a aucun poids sur la compilation, alors que les _generics_ permettront à Xcode de contrôler directement le code concerné.
 
-C’est important pour interagir avec un code tiers, venant d’Apple ou d’un autre développeur, mais aussi pour soi-même, afin de produire un code plus clair et donc de meilleure qualité. 
+Ces annotations sont importantes pour interagir avec un code tiers, venant d’Apple ou d’un autre développeur, mais aussi pour soi, afin de produire un code plus clair et donc de meilleure qualité. 
 
 
 ## Documentation
