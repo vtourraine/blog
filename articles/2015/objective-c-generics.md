@@ -64,19 +64,16 @@ var cachedData: [NSURL: NSData]
 
 ## Effort supplémentaire
 
-Les _generics_ ne font pas l’unanimité chez les développeurs Objective-C. Combinés aux _nullability annotations_, on peut effectiver regretter une baisse de lisibilité du code de gestion des variables. Pour un langage déjà verbeux, ces nouveautés peuvent facilement doubler le nombre de caractères nécessaires par déclaration.
+Les _generics_ ne font pas l’unanimité chez les développeurs Objective-C. Combinés aux _nullability annotations_, on peut effectiver regretter une baisse significative de lisibilité du code de gestion des variables. Pour un langage déjà verbeux, ces nouveautés peuvent facilement doubler le nombre de caractères nécessaires par déclaration.
 
 À mes yeux, ce compromis est largement justifié. Personne ne choisit de déclarer toutes ses variables en `id`, simplement pour gagner en lisibilité.
 
-On trouvait souvent des documentations précisant le type attendu pour les variables d’une collection.
+Quand une API manipule une collection (comme paramètre d’une méthode, par exemple), la documentation indique généralement le type attendu pour ses membres. Cette précision est souvent importante, puisque que le passage d’un autre type peut facilement faire crasher l’application. Mais la documentation n’a aucun poids sur la compilation, alors que les _generics_ permettront à Xcode de contrôler directement le code concerné.
 
-// Pour soi
-
-// Pour les autres (API) (imaginez utiliser tout en `id`)
-
-// Mieux qu’une documentation
+C’est important pour interagir avec un code tiers, venant d’Apple ou d’un autre développeur, mais aussi pour soi-même, afin de produire un code plus clair et donc de meilleure qualité. 
 
 
+## Documentation
 
 - [What’s New in Xcode: New Features in Xcode 7, Apple](https://developer.apple.com/library/prerelease/ios/documentation/DeveloperTools/Conceptual/WhatsNewXcode/Articles/xcode_7_0.html)
 - [Using Swift with Cocoa and Objective-C: Interacting with Objective-C APIs, Apple](https://developer.apple.com/library/prerelease/ios/documentation/Swift/Conceptual/BuildingCocoaApps/InteractingWithObjective-CAPIs.html#//apple_ref/doc/uid/TP40014216-CH4-ID35)
