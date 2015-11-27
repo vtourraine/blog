@@ -1,7 +1,7 @@
 Title:     Generics avec Objective-C  
 Author:    Vincent Tourraine  
 Email:     me@vtourraine.net  
-Date:      November 26, 2015  
+Date:      November 27, 2015  
 Update:    
 Keywords:  Objective-C, Xcode, dev
 Summary:   Après les « nullability annotations » d’Xcode 6.3, voici les « generics » d’Xcode 7. L’intention est la même : faire évoluer Objective-C pour faciliter son interopérabilité avec Swift. Avec, au passage, l’occasion d’améliorer la qualité du code Objective-C pour lui-même, en permettant à Xcode de détecter toute une nouvelle catégorie de bugs.    
@@ -18,7 +18,7 @@ L’intention est la même : faire évoluer Objective-C pour faciliter son inte
 
 Les _generics_ Objective-C sont des annotations qui permettent de préciser le type d’objets appartenant à une collection.
 
-En effet, les `NSArray`, `NSSet` et `NSDictionary` peuvent a priori mélanger des instances de différentes classes. Cette souplesse a incontestablement des avantages, mais elle est aussi la source de nombreux problèmes. Pire, il s’agit souvent de bugs à retardement liés à des contextes d’exécution partuliers, donc difficiles à corriger par la suite. Des soucis qu’on peut maintenant facilement éviter grâce à ces annotations.
+En effet, les `NSArray`, `NSSet` et `NSDictionary` peuvent a priori mélanger des instances de différentes classes. Cette souplesse a incontestablement des avantages, mais elle est aussi la source de nombreux problèmes. Pire, il s’agit souvent de bugs à retardement liés à des contextes d’exécution particuliers, donc difficiles à corriger par la suite. Des soucis qu’on peut maintenant facilement éviter grâce à ces annotations.
 
 
 ## Comment
@@ -40,7 +40,7 @@ Dans cet exemple, on attend donc un tableau de `NSDate`, un set de `NSString`, e
 
 Vous pouvez également utiliser le mot clé `__kindof` pour étendre cette définition à toutes les classes qui en héritent.
 
-Détail important : comme pour le type d’une variable classique, il ne s’agit que d’une déclaration, pas d’une contrainte absolue. Les _generics_ ne garantissent pas dynamiquement le contenu d’une collection. En revenche, le compilateur utilise cette information pour repérer les cas non-conformes, et émettre des _warnings_ (⚠️) en conséquence. 
+Détail important : comme pour le type d’une variable classique, il ne s’agit que d’une déclaration, pas d’une contrainte absolue. Les _generics_ ne garantissent pas dynamiquement le contenu d’une collection. En revanche, le compilateur utilise cette information pour repérer les cas non-conformes, et émettre des _warnings_ (⚠️) en conséquence. 
 
 ![Warnings Xcode][Xcode warning]
 
@@ -64,18 +64,18 @@ var cachedData: [NSURL: NSData]
 
 ## Effort supplémentaire
 
-Les _generics_ ne font pas l’unanimité chez les développeurs Objective-C. Combinés aux _nullability annotations_, on peut effectiver regretter une baisse significative de lisibilité du code concerné. Pour un langage déjà verbeux, ces nouveautés ont facilement tendance à doubler le nombre de caractères nécessaires par déclaration.
+Les _generics_ ne font pas l’unanimité chez les développeurs Objective-C. Combinés aux _nullability annotations_, on peut effectement regretter une baisse significative de lisibilité du code concerné. Pour un langage déjà verbeux, ces nouveautés ont facilement tendance à doubler le nombre de caractères nécessaires par déclaration.
 
 À mes yeux, ce compromis est largement justifié. Personne ne choisit de déclarer toutes ses variables en `id`, simplement pour gagner en lisibilité.
 
 Quand une API manipule une collection (comme paramètre d’une méthode, par exemple), la documentation indique généralement le type attendu pour ses membres. Cette précision est cruciale, puisque que le passage d’un autre type peut facilement faire crasher l’application. Mais la documentation n’a aucun poids sur la compilation, alors que les _generics_ permettront à Xcode de contrôler directement le code concerné.
 
-Ces annotations sont importantes pour interagir avec un code tiers, venant d’Apple ou d’un autre développeur, mais aussi pour soi, afin de produire un code plus clair et donc de meilleure qualité. 
+Ces annotations sont importantes pour interagir avec un code tiers, venant d’Apple ou d’un autre développeur, mais aussi pour soi, afin de produire un code plus précis et donc de meilleure qualité. 
 
 
 ## Documentation
 
-- [What’s New in Xcode: New Features in Xcode 7, Apple](https://developer.apple.com/library/prerelease/ios/documentation/DeveloperTools/Conceptual/WhatsNewXcode/Articles/xcode_7_0.html)
-- [Using Swift with Cocoa and Objective-C: Interacting with Objective-C APIs, Apple](https://developer.apple.com/library/prerelease/ios/documentation/Swift/Conceptual/BuildingCocoaApps/InteractingWithObjective-CAPIs.html#//apple_ref/doc/uid/TP40014216-CH4-ID35)
+- [_What’s New in Xcode: New Features in Xcode 7_, Apple](https://developer.apple.com/library/prerelease/ios/documentation/DeveloperTools/Conceptual/WhatsNewXcode/Articles/xcode_7_0.html)
+- [_Using Swift with Cocoa and Objective-C: Interacting with Objective-C APIs_, Apple](https://developer.apple.com/library/prerelease/ios/documentation/Swift/Conceptual/BuildingCocoaApps/InteractingWithObjective-CAPIs.html#//apple_ref/doc/uid/TP40014216-CH4-ID35)
 
 [Xcode warning]: http://www.vtourraine.net/blog/img/2015/objective-c-generics/xcode-warnings.png
