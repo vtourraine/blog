@@ -64,7 +64,7 @@ var cachedData: [NSURL: NSData]
 
 ## Effort supplémentaire
 
-Les _generics_ ne font pas l’unanimité chez les développeurs Objective-C. Combinés aux _nullability annotations_, on peut effectiver regretter une baisse significative de lisibilité du code concerné. Pour un langage déjà verbeux, ces nouveautés peuvent facilement doubler le nombre de caractères nécessaires par déclaration.
+Les _generics_ ne font pas l’unanimité chez les développeurs Objective-C. Combinés aux _nullability annotations_, on peut effectiver regretter une baisse significative de lisibilité du code concerné. Pour un langage déjà verbeux, ces nouveautés ont facilement tendance à doubler le nombre de caractères nécessaires par déclaration.
 
 À mes yeux, ce compromis est largement justifié. Personne ne choisit de déclarer toutes ses variables en `id`, simplement pour gagner en lisibilité.
 
