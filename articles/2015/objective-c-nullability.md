@@ -2,7 +2,7 @@ Title:     Nullability avec Objective-C
 Author:    Vincent Tourraine  
 Email:     me@vtourraine.net  
 Date:      July 26, 2015  
-Update:    
+Update:    November 29, 2015  
 Keywords:  Objective-C, Xcode, dev
 Summary:   J’adore quand Xcode trouve des bugs dans mon code. C’est un peu comme si une IA passait mon travail en revue pour m’aider à l’améliorer. Le pair-programming du futur, sans doute.    
 Image:     http://www.vtourraine.net/blog/img/2015/objective-c-nullability/xcode-icon.png  
@@ -87,11 +87,12 @@ Ces nouveaux mots clés sont disponibles à partir d’Xcode 6.3. Peu importe la
 
 Je ne vais pas prétendre que les _nullability annotations_ vont résoudre tous vos bugs, loin de là, mais ils constituent clairement un progrès pour la qualité et la sécurité du code. On peut les voir comme autant de tests unitaires qui seront vérifiés à chaque compilation. Tout ça pour le prix d’un mot clé.
 
-_À la rentrée, [Xcode 7][Xcode 7] apportera une nouvelle avancée héritée de Swift : les « generics ». Qui sont-ils ? Que nous veulent-ils ? Les réponses dans un prochain billet de blog._
+> _Mise à jour du 29 novembre 2015_ : avec Xcode 7 est arrivée une autre nouveauté héritée de Swift : les « generics ». C’est le sujet d’[un prochain billet de blog][generics].
 
 
 [Blog]: https://developer.apple.com/swift/blog/?id=25
 [Xcode 7]: https://developer.apple.com/library/prerelease/ios/documentation/DeveloperTools/Conceptual/WhatsNewXcode/Articles/xcode_7_0.html
+[generics]: http://www.vtourraine.net/blog/2015/objective-c-generics
 
 [Xcode icon]: http://www.vtourraine.net/blog/img/2015/objective-c-nullability/xcode-icon.png
 [Xcode nullability warning]: http://www.vtourraine.net/blog/img/2015/objective-c-nullability/xcode-nullability-warning.png
