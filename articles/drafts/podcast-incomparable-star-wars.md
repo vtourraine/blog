@@ -1,5 +1,12 @@
 # Star Wars, par The Incomparable
 
+Décembre 2015, impossible de passer à côté de la sortie du nouvel épisode de Star Wars. 
+
+Pour patienter, je vous conseille d’écouter la série de podcasts « The Incomparable », qui revisite les 6 premiers films, pour le meilleur et pour le pire. 
+
+En particulier, je vous suggère d’écouter les podcasts pour la prélogie. Ça peut paraître contre-intuitif de s’étendre sur les films les moins appréciés, mais ils permettent — à leur manière — d’apprécier encore davantage l’arrivée de _The Force Awakens_ (et ils sont tellement plus amusants à commenter).
+
+
 ![Logo Star Wars/The Incomparable, image The Incomparable](http://www.vtourraine.net/blog/img/2015/podcast-incomparable-star-wars/logo-incomparable-star-wars.jpg)
 
 
