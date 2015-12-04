@@ -1,12 +1,11 @@
 Title:     Star Wars, par The Incomparable  
 Author:    Vincent Tourraine  
 Email:     me@vtourraine.net  
-Date:      December 2, 2015  
+Date:      December 4, 2015  
 Update:   
 Keywords:  Sci-Fi, film, podcast 
-Summary:     
-Image:     http://www.vtourraine.net/blog/img/2015/leak-spoiler-star-wars/kylo-ren-poster.jpg  
-Thumbnail: http://www.vtourraine.net/blog/img/2015/leak-spoiler-star-wars/thumbnail-stormtroopers.jpg  
+Summary:   Décembre 2015, impossible de passer à côté de la sortie du nouvel épisode de Star Wars. Pour patienter encore quelques jours, je vous conseille d’écouter cette sélection du podcast « The Incomparable », qui revisite les 6 premiers films, pour le meilleur et pour le pire.  
+Image:     http://www.vtourraine.net/blog/img/2015/podcast-incomparable-star-wars/logo-incomparable-star-wars.jpg  
 Language:  fr  
 
 
@@ -16,7 +15,7 @@ Pour patienter encore quelques jours, je vous conseille d’écouter cette séle
 
 ![Logo Star Wars/The Incomparable, image The Incomparable](http://www.vtourraine.net/blog/img/2015/podcast-incomparable-star-wars/logo-incomparable-star-wars.jpg)
 
-En particulier, je vous suggère d’écouter les podcasts consacrés la prélogie. Ça peut paraître contre-intuitif de s’étendre sur les films les moins appréciés, mais ils permettent — à leur manière — d’apprécier encore davantage l’arrivée de _The Force Awakens_ (et sont bien plus amusants à commenter).
+En particulier, je vous suggère d’écouter les podcasts consacrés la prélogie. Ça peut paraître contre-intuitif de s’étendre sur des films largement considérés comme médiocres, mais ils permettent — à leur manière — d’apprécier encore davantage l’arrivée de _The Force Awakens_ (et sont bien plus amusants à commenter).
 
 Voici donc les liens organisés par films :
 
@@ -45,4 +44,4 @@ Voici donc les liens organisés par films :
     - [Also Known as Endor](https://www.theincomparable.com/theincomparable/89/)
 
 
-Vous pouvez retrouver cette liste avec quelques bonus sur [la page dédiée](https://www.theincomparable.com/work/starwars/index.php), et en profiter pour vous abonner ce merveilleux podcast hebdomadaire sur la culture pop, [_The Incomparable_](https://www.theincomparable.com/theincomparable/).
+Vous pouvez retrouver cette liste avec quelques bonus sur [la page dédiée](https://www.theincomparable.com/work/starwars/index.php), et en profiter pour vous abonner à ce merveilleux podcast hebdomadaire sur la culture pop, [_The Incomparable_](https://www.theincomparable.com/theincomparable/).
