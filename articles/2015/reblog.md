@@ -1,10 +1,19 @@
-# Reblog
+Title:    Reblog  
+Author:   Vincent Tourraine  
+Email:    me@vtourraine.net  
+Date:     December 12, 2015  
+Update:   
+Keywords: général  
+Summary:  
+Image:    http://www.vtourraine.net/blog/img/2015/reblog/reblog-screenshot-decembre.png  
+Language: fr  
+
 
 Je viens d’ajouter une nouvelle section à mon site personnel : [Reblog](http://www.vtourraine.net/reblog). 
 
 Vous y trouverez une liste de liens qui me paraissent intéressants, ce qu’on appelle parfois un « link blog ». Pas le moindre commentaire de ma part, il y a uniquement le titre de la page concernée, un résumé ou un extrait, éventuellement un aperçu en image, et bien sûr le lien. 
 
-// screenshot
+![](http://www.vtourraine.net/blog/img/2015/reblog/reblog-screenshot-decembre-shadow.png)
 
 Comme ce blog, pas de thème bien défini, mais il y sera souvent question de développement, et des plateformes d’Apple en particulier. Ne soyez pas surpris d’y trouver régulièrement du [iOS Dev Weekly](https://iosdevweekly.com), [Daring Fireball](http://daringfireball.net), avec une bonne dose de [Benedict Evans](http://ben-evans.com/#blog).
 
