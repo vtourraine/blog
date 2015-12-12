@@ -158,8 +158,11 @@ article.listing {
 
     img {
       width: 100px;
+      max-height: 130px;
+
       @media screen and (max-width: $compact-mode-width) {
         width: 50px;
+        max-height: 80px;
       }
     }
   }
