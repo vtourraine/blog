@@ -11,7 +11,7 @@ Language: fr
 
 Je viens d’ajouter une nouvelle section à mon site personnel : [Reblog](http://www.vtourraine.net/reblog). 
 
-Vous y trouverez une liste de liens qui me paraissent intéressants, ce qu’on appelle parfois un « link blog ». Sans le moindre commentaire de ma part, il y a uniquement le titre de la page concernée, un résumé ou un extrait, éventuellement un aperçu en image, et bien sûr le lien. 
+Vous y trouverez une liste de liens qui me paraissent intéressants, ce qu’on appelle parfois un « link blog ». Sans le moindre commentaire de ma part, ce site contient uniquement le titre des pages concernées, un résumé ou un extrait, éventuellement un aperçu en image, et bien sûr le lien. 
 
 ![](http://www.vtourraine.net/blog/img/2015/reblog/reblog-screenshot-decembre-shadow.png)
 
