@@ -24,7 +24,7 @@ Pour les curieux, ce site est alimenté avec l’[API de Pocket](https://getpock
 
 Lorsqu’un article me semble particulièrement intéressant, il me suffit de le marquer comme favori (⭐️). Un script sur mon site interroge l’API pour obtenir la liste des liens favoris, qu’il suffit de reformatter. Les descriptions et les images retournées par Pocket ne sont pas toujours idéales, mais ce système a le mérite de fonctionner sans la moindre intervention de ma part.
 
-Je trouve d’ailleurs amusant que Pocket ait tout récemment intégré [une fonctionnalité comparable](https://getpocket.com/blog/2015/12/introducing-a-more-personal-recommended-feed/) à ses applications, en ajoutant la possibilité de « recommander » un article, et de suivre les liens ainsi partagés par d’autres utilisateurs. Le concurrent [Instapaper](https://www.instapaper.com) proposait déjà depuis un certain temps de voir les articles appréciés par ses amis, l’idée n’est évidemment pas nouvelle.
+Je trouve d’ailleurs amusant que Pocket ait tout récemment intégré [une fonctionnalité comparable](https://getpocket.com/blog/2015/12/introducing-a-more-personal-recommended-feed/) à ses applications, en ajoutant la possibilité de « recommander » un article, et de suivre les liens ainsi partagés par d’autres utilisateurs. [Instapaper](https://www.instapaper.com) proposait déjà depuis un certain temps de voir les articles appréciés par ses amis, l’idée n’est évidemment pas nouvelle.
 
 ## /reblog
 
