@@ -15,7 +15,7 @@ Vous y trouverez une liste de liens qui me paraissent intéressants, ce qu’on 
 
 ![](http://www.vtourraine.net/blog/img/2015/reblog/reblog-screenshot-decembre-shadow.png)
 
-À l’image de ce blog, pas de thème bien défini, mais il y sera souvent question de développement, et des plateformes d’Apple en particulier. Ne soyez pas surpris d’y trouver régulièrement du [iOS Dev Weekly](https://iosdevweekly.com), [Daring Fireball](http://daringfireball.net), avec une petite dose de [Benedict Evans](http://ben-evans.com/#blog).
+À l’image de ce blog, pas de thème bien défini, mais il y sera souvent question de développement, et des plateformes d’Apple en particulier. Ne soyez pas surpris d’y trouver régulièrement du [iOS Dev Weekly](https://iosdevweekly.com), [Daring Fireball](http://daringfireball.net), avec une dose de [Benedict Evans](http://ben-evans.com/#blog).
 
 
 ## Powered by Pocket
