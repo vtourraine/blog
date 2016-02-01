@@ -20,4 +20,6 @@ Par ailleurs, cette seconde édition bénéficie grandement de la présence de D
 
 Mon reproche principal concerne en fait la salle qui accueille dotSwift cette année encore (comme l’intégralité des dotConferences, me semble-t-il). Le lieu est magnifique, c’est évident, et je comprends bien l’attrait promotionnel d’un tel choix. Mais les sièges sont plutôt étroits (au point de devoir le mentionner dans les mails de préparation), et la salle de réception est trop petite pour échanger confortablement durant les pauses. Rien d’insupportable, mais j’apprécierais un endroit plus confortable. 
 
+![Daniel Steinberg à dotSwift 2016, photo [Nicolas Ravelli, CC BY-SA 2.0](https://www.flickr.com/photos/97226415@N08/24659867391/in/album-72157664007173042/)](http://www.vtourraine.net/blog/img/2016/dotswift-2/dotswift-ravelli.jpg)
+
 Dans l’ensemble, pas de doute, dotSwift 2 est une réussite. Avec le projet Swift tout juste open-sourcé par Apple, on ne devrait pas s’ennuyer en attendant la prochaine édition.
