@@ -136,6 +136,18 @@ body > article {
       font-size: 10pt;
     }
   }
+
+  table {
+    border-collapse: collapse;
+  }
+
+  table, th, td {
+    border: 1px solid lightgray;
+  }
+
+  th, td {
+    padding: 5px;
+  }
 }
 
 $compact-mode-width: 800px;

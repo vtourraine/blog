@@ -18,7 +18,7 @@ En particulier, je voudrais mentionner avec ce billet quelques caractères spéc
 
 Je vais commencer par mon préféré : [l’espace insécable](https://fr.wikipedia.org/wiki/Espace_insécable).
 
-La barre d’espace prend beaucoup de place sur un clavier, mais elle ne suffit pas vraiment à couvrir tous les espaces possibles. Oui, il existe plusieurs types d’espaces. Je ne les maîtrise pas tous, ma passion pour les caractères spéciaux a des limites. Mais l’espace insécable est vraiment un cas intéressant. Pour la (en typographie on parle d’**une** espace) saisir avec OS X, c’est généralement `⌥` + `Espace`. Je l’utilise tous les jours, avec deux cas d’utilisation.
+La barre d’espace prend beaucoup de place sur un clavier, mais elle ne suffit pas vraiment à couvrir tous les espaces possibles. Oui, il existe plusieurs types d’espaces. Je ne les maîtrise pas tous, ma passion pour les caractères spéciaux a des limites. Mais l’espace insécable est vraiment un cas intéressant. Je l’utilise tous les jours, avec deux cas d’utilisation.
 
 ![_OS… X_, extrait du blog [swift.org](https://swift.org/blog/swift-ci/)](http://www.vtourraine.net/blog/img/2016/caracteres-speciaux-utf8/espace-os-x.png)
 
@@ -28,25 +28,39 @@ Pour certains mots, et en particulier certaines marques, il convient d’utilise
 
 Le deuxième cas, encore plus fréquent, concerne les signes de ponctuation en français. Avant les points-virgules, les points d’interrogation, les points d’exclamation et les deux-points, ou encore à l’intérieur des guillemets doubles. Petit rappel au passage : en anglais on ne place aucun espace devant les signes de ponctuation doubles (astuce pour repérer les français qui écrivent en anglais sur internet : cherchez les espaces). Pour être vraiment précis, il faudrait en fait utiliser une espace *fine* insécable dans la plupart des cas, mais l’espace classique insécable permet déjà d’éviter les cassures indésirables.
 
+| Caractère        | Raccourci OS X (🇫🇷) |
+| ---------------- | --------------------- |
+| espace insécable | `⌥` + `Espace`        |
+
 
 ## « »
 
 Parlons un peu des [guillemets](https://fr.wikipedia.org/wiki/Guillemet). Sur un clavier traditionnel, vous trouvez les guillemets droits. C’est pratique, mais c’est un peu pauvre. Ça revient plus ou moins à utiliser | à la place de parenthèses ouvrantes et fermantes.
 
-Les systèmes d’exploitation proposent d’ailleurs généralement une option pour remplacer automatiquement les guillemets droits lors de la saisie de texte. Pour saisir les guillemets ouvrants et fermants manuellement, avec OS X ce sera `⌥` + `7` et `⌥` + `shift` +`7`. Pour les équivalents anglais, “”, `⌥` + `3` et `⌥` + `shift` + `3`.
+Les systèmes d’exploitation proposent d’ailleurs généralement une option pour remplacer automatiquement les guillemets droits lors de la saisie de texte. Au passage, n’oubliez pas l’apostrophe, qui se courbe elle aussi.
 
-Au passage, n’oubliez pas l’apostrophe, qui se courbe elle aussi avec `⌥` + `shift` + `4`.
+| Caractère | Raccourci OS X (🇫🇷) |
+| --------- | --------------------- |
+| «         | `⌥` + `è/7`           |
+| »         | `⌥` + `shift` + `è/7` |
+| ‘         | `⌥` + `'/4`           |
+| ’         | `⌥` + `shift` + `'/4` |
+| “         | `⌥` + `"/3`           |
+| ”         | `⌥` + `shift` + `"/3` |
 
 
-## Tirets
+## —
 
 Le [tiret](https://fr.wikipedia.org/wiki/Tiret) est un autre exemple de caractère pour lequel il existe de nombreuses variantes. Les différences sont plus subtiles que pour les guillemets, mais elles peuvent en valoir la peine.
 
-Il existe le tiret court (qu’on trouve directement sur le clavier), moyen et long. Avec OS X, c’est `⌥` + `-` pour le long, et `⌥` + `shift` + `-` pour le moyen. 
-
-Ça fait beaucoup de règles à connaître pour savoir lequel s’utilise quand. En ce qui me concerne, je préfère retenir quelques cas qui reviennent souvent, et utiliser le tiret court par défaut autrement. Par exemple, on utilise plutôt le tiret moyen pour les intervalles (e.g. 2011–2016).
+Il existe le tiret court (qu’on trouve directement sur le clavier), moyen et long. Ça fait beaucoup de règles à connaître pour savoir lequel s’utilise quand. En ce qui me concerne, je préfère retenir quelques cas qui reviennent souvent, et utiliser le tiret court par défaut autrement. Par exemple, on utilise plutôt le tiret moyen pour les intervalles (e.g. 2011–2016).
 
 Dernière subtilité, si vous cherchez le signe « moins », il convient d’utiliser encore un autre caractère. Ses dimensions sont généralement proches du tiret moyen, mais son alignement est légèrement différent. Si vous développez un site web ou une app avec des boutons +/− pour ajuster une valeur, pensez-y, c’est le genre de finitions qui donnent de l’allure à une interface. 
+
+| Caractère | Raccourci OS X (🇫🇷) |
+| --------- | --------------------- |
+| — (long)  | `⌥` + `-/_`           |
+| – (moyen) | `⌥` + `shift` + `-/_` |
 
 
 # UTF–∞
