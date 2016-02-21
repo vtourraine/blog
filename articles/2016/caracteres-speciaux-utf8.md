@@ -1,4 +1,13 @@
-# Les joies de l’écriture avec des caractères spéciaux
+Title:    Les joies de l’écriture avec des caractères spéciaux  
+Author:   Vincent Tourraine  
+Email:    me@vtourraine.net  
+Date:     February 21, 2016  
+Update:   
+Keywords: général  
+Summary:    
+Image:    http://www.vtourraine.net/blog/img/2016/dotswift-2/dotswift-header.jpg  
+Language: fr  
+
 
 Quand on passe ses journées à saisir des caractères avec un clavier, physique ou virtuel, on néglige souvent la richesse offerte par l’écriture numérique. La préhistoire ASCII est derrière nous, il est grand temps de profiter d’UTF-8.
 
@@ -44,9 +53,12 @@ Dernière subtilité, si vous cherchez le signe « moins », il convient d’u
 
 À partir de là, il ne vous reste plus qu’à partir explorer les richesses d’UTF-8.
 
-Bien-sûr, il faudra se limiter à ASCII pour la syntaxe d’un code source. Ou pas. On pourrait bien faire évoluer Swift, par exemple, pour accepter un code typographiquement plus expressif.
+Bien-sûr, il faudra se limiter à ASCII pour la syntaxe d’un code source. Mais on pourrait très bien faire évoluer Swift, par exemple, pour accepter un code typographiquement plus expressif.
 
 ``` swift
-let welcomeMessage = “Hello”
+let message = “Hello”
+let 🤖 = true
 let number = 50 + 8 − 16
 ```
+
+Aujourd’hui, une seule de ces trois expression est correcte. ¯\\_(ツ)_/¯ 
