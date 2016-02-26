@@ -1,6 +1,6 @@
 # Games Keeper 2.0
 
-J’ai publié cette semaine la version 2.0 de Games Keeper, une app iOS de suivi des scores. Une mise à jour autoproclamée majeure, qui me donne donc l’occasion de parler un peu de ce projet qui évolue doucement mais sûrement depuis sa première version de septembre 2013.
+J’ai publié cette semaine la version 2.0 de Games Keeper, une app iOS de suivi des scores. Mise à jour autoproclamée majeure, qui me donne donc l’occasion de parler un peu de ce projet qui évolue doucement mais sûrement depuis sa première version de septembre 2013.
 
 
 ## Icône
@@ -13,6 +13,12 @@ Je suis développeur avant d’être concepteur d’icône ou artiste graphique.
 
 
 ## Couleurs
+
+Parlons un peu des couleurs.
+
+La version d’origine utilisait uniquement le violet. Plus tard, j’ai commencé à ajouter du orange pour identifier certains boutons (le fameux problème de la visibilité des boutons sans bordures d’iOS 7).
+
+Avec la version 2, révolution, j’inverse complètement les couleurs avec du violet sur orange (ce qu’on constate également au niveau de l’icône). Globalement, les textes en foncé sur clair sont plus lisibles que le clair sur foncé, cette évolution me paraissait donc appréciable.
 
 // Originalité
 // Couleur constante pour les boutons
