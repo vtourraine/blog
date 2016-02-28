@@ -1,12 +1,13 @@
-Title:    La magie des caractères spéciaux  
-Author:   Vincent Tourraine  
-Email:    me@vtourraine.net  
-Date:     February 21, 2016  
+Title:     La magie des caractères spéciaux  
+Author:    Vincent Tourraine  
+Email:     me@vtourraine.net  
+Date:      February 21, 2016  
 Update:   
-Keywords: général  
-Summary:  Quand on passe ses journées à saisir des caractères avec un clavier (physique ou virtuel), on néglige trop souvent la diversité mise à notre disposition par l’écriture numérique. La préhistoire ASCII est derrière nous, il est grand temps de profiter des richesses d’UTF-8.  
-Image:    http://www.vtourraine.net/blog/img/2016/caracteres-speciaux-utf8/espace-guillemets.png  
-Language: fr  
+Keywords:  général  
+Summary:   Quand on passe ses journées à saisir des caractères avec un clavier (physique ou virtuel), on néglige trop souvent la diversité mise à notre disposition par l’écriture numérique. La préhistoire ASCII est derrière nous, il est grand temps de profiter des richesses d’UTF-8.  
+Image:     http://www.vtourraine.net/blog/img/2016/caracteres-speciaux-utf8/espace-guillemets.png  
+Thumbnail: http://www.vtourraine.net/blog/img/2016/caracteres-speciaux-utf8/thumbnail-espace-guillemets.png  
+Language:  fr  
 
 
 Quand on passe ses journées à saisir des caractères avec un clavier (physique ou virtuel), on néglige trop souvent la diversité mise à notre disposition par l’écriture numérique. La préhistoire ASCII est derrière nous, il est grand temps de profiter des richesses d’UTF-8.

@@ -1,12 +1,13 @@
-Title:    dotSwift, an 2  
-Author:   Vincent Tourraine  
-Email:    me@vtourraine.net  
-Date:     January 31, 2016  
+Title:     dotSwift, an 2  
+Author:    Vincent Tourraine  
+Email:     me@vtourraine.net  
+Date:      January 31, 2016  
 Update:   
-Keywords: Swift  
-Summary:  La deuxième édition de dotSwift se déroulait vendredi à Paris. Elle garde le même format, c’est à dire un après-midi avec des interventions de vingt minutes, chacune suivie d’une courte session questions-réponses avec le conférencier, et accompagnées de lightning talks.  
-Image:    http://www.vtourraine.net/blog/img/2016/dotswift-2/dotswift-header.jpg  
-Language: fr  
+Keywords:  Swift  
+Summary:   La deuxième édition de dotSwift se déroulait vendredi à Paris. Elle garde le même format, c’est à dire un après-midi avec des interventions de vingt minutes, chacune suivie d’une courte session questions-réponses avec le conférencier, et accompagnées de lightning talks.  
+Image:     http://www.vtourraine.net/blog/img/2016/dotswift-2/dotswift-header.jpg  
+Thumbnail: http://www.vtourraine.net/blog/img/2016/dotswift-2/thumbnail-dotswift.png  
+Language:  fr  
 
 La deuxième édition de [dotSwift](http://www.dotswift.io) se déroulait vendredi à Paris. Elle garde le même format, c’est à dire un après-midi avec des interventions de vingt minutes, chacune suivie d’une courte session questions-réponses avec le conférencier, et accompagnées de lightning talks.
 

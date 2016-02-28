@@ -1,22 +1,23 @@
-Title:    Games Keeper 2.0  
-Author:   Vincent Tourraine  
-Email:    me@vtourraine.net  
-Date:     February 28, 2016  
+Title:     Games Keeper 2.0  
+Author:    Vincent Tourraine  
+Email:     me@vtourraine.net  
+Date:      February 28, 2016  
 Update:   
-Keywords: iOS, app, making-of  
-Summary:  
-Image:    http://www.vtourraine.net/blog/img/2016/caracteres-speciaux-utf8/espace-guillemets.png  
-Language: fr  
+Keywords:  iOS, app, making-of  
+Summary:   J’ai publié cette semaine la version 2.0 de Games Keeper, une app iOS qui remplace les feuilles de scores de jeux de société. Mise à jour autoproclamée majeure, qui me donne donc l’occasion de parler un peu de ce projet qui évolue doucement mais sûrement depuis sa première version de septembre 2013.  
+Image:     http://www.vtourraine.net/blog/img/2016/games-keeper-2-0/games-keeper-iphones.png  
+Thumbnail: http://www.vtourraine.net/blog/img/2016/games-keeper-2-0/thumbnail-icone-games-keeper.png  
+Language:  fr  
 
 
-J’ai publié cette semaine la version 2.0 de [Games Keeper](http://www.studioamanga.com/gameskeeper/), une app iOS qui remplace les feuilles de scores pour les jeux de société. Mise à jour autoproclamée majeure, qui me donne donc l’occasion de parler un peu de ce projet qui évolue doucement mais sûrement depuis sa première version de septembre 2013.
+J’ai publié cette semaine la version 2.0 de [Games Keeper](http://www.studioamanga.com/gameskeeper/), une app iOS qui remplace les feuilles de scores de jeux de société. Mise à jour autoproclamée majeure, qui me donne donc l’occasion de parler un peu de ce projet qui évolue doucement mais sûrement depuis sa première version de septembre 2013.
 
 
 ## Icône
 
 Commençons par le point le plus important : l’icône.
 
-![Icônes alpha, v1.0, v2.0](http://www.vtourraine.net/blog/img/2016/games-keeper-2-0/games-keeper-icons.png)
+![Icône : alpha, v1.0, v2.0](http://www.vtourraine.net/blog/img/2016/games-keeper-2-0/games-keeper-icons.png)
 
 Pour rappel, je suis développeur avant d’être concepteur d’icône ou artiste graphique. L’application est sortie en même temps qu’iOS 7, la tendance était donc clairement à la simplicité des formes et des couleurs, et les choses n’ont pas vraiment changé depuis.
 
@@ -27,7 +28,7 @@ L’aspect qui me paraît peut-être le plus délicat concerne le choix des dég
 
 Parlons un peu des couleurs justement.
 
-![Interface principale v1.0, v1.5, v2.0](http://www.vtourraine.net/blog/img/2016/games-keeper-2-0/games-keeper-iphones.png)
+![Interface principale : v1.0, v1.5, v2.0](http://www.vtourraine.net/blog/img/2016/games-keeper-2-0/games-keeper-iphones.png)
 
 La version d’origine utilisait uniquement le violet. Plus tard, j’ai commencé à ajouter du orange pour mieux identifier certains boutons (le fameux problème de la visibilité des boutons sans bordures d’iOS 7).
 
@@ -42,10 +43,11 @@ Plusieurs utilisateurs m’avaient demandé d’ajouter telle ou telle fonction.
 
 ![Interface nouvelle partie, affichage des options](http://www.vtourraine.net/blog/img/2016/games-keeper-2-0/games-options.png)
 
+
 ## App
 
-Au départ, je cherchais simplement à développer une application pour mes propres parties de Scrabble. Comme le résultat était satisfaisant, j’ai travaillé un peu l’interface, pour la mettre sur l’App Store. Même gratuite, le nombre de téléchargement n’a jamais été conséquent, mais les utilisateurs semblaient la trouver utile également. C’est comme ça que [l’application a évolué](http://www.studioamanga.com/gameskeeper/releasenotes) petit à petit. 
+Au départ, je cherchais simplement à développer une app pour mes propres parties de Scrabble. Comme le résultat était satisfaisant, j’ai continué à travailler un peu l’interface pour la mettre sur l’App Store. Même gratuite, le nombre de téléchargements n’a jamais été conséquent, mais les utilisateurs semblaient la trouver utile. C’est comme ça que [l’application a évolué](http://www.studioamanga.com/gameskeeper/releasenotes) petit à petit. 
 
-Avec la version 1.8, j’ai rajouté un écran d’historique des parties, qui demande un achat in-app. Là encore, des chiffres très modestes, avec une exception prévisible la dernière semaine de l’année.
+Avec la version 1.8, j’ai ajouté un écran d’historique des parties, qui demande un achat in-app. Là encore, des chiffres très modestes, avec une exception prévisible la dernière semaine de l’année (nouveaux appareils iOS offerts pour les fêtes, et plus de personnes qui jouent à des jeux de société).
 
-Ce qui nous amène donc à cette version 2.0. Je n’ai pas de grande roadmap pour la suite, je pense que l’app continuera d’évoluer de la même façon. Je vais au moins essayer de ne pas changer les couleurs avant la version 3.0.
+Ce qui nous amène donc à cette version 2. Je n’ai pas de grande roadmap pour la suite, je pense que l’app continuera d’évoluer de la même façon. Chaque année, les nouvelles API iOS suffisent déjà à occuper une bonne partie du cycle de développement. Je vais au moins essayer de ne pas changer les couleurs avant la version 3.
