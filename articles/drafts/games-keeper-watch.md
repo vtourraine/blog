@@ -1,6 +1,18 @@
-# Games Keeper sur Apple Watch
+Title:     Games Keeper sur Apple Watch  
+Author:    Vincent Tourraine  
+Email:     me@vtourraine.net  
+Date:      March 6, 2016  
+Update:   
+Keywords:  WatchKit, app, making-of  
+Summary:     
+Image:     http://www.vtourraine.net/blog/img/2016/games-keeper-watch/games-keeper-watch-photo.jpg  
+Thumbnail: http://www.vtourraine.net/blog/img/2016/games-keeper-watch/thumbnail-games-keeper-watch.jpg  
+Language:  fr  
+
 
 Après avoir parlé de [WatchKit](http://www.vtourraine.net/blog/2016/watchos-2-transition), puis de la publication de [Games Keeper 2.0](http://www.vtourraine.net/blog/2016/games-keeper-2-0), il ne me restait plus qu’à développer Games Keeper pour Apple Watch.
+
+![Games Keeper pour Apple Watch](http://www.vtourraine.net/blog/img/2016/games-keeper-watch/games-keeper-watch-photo.jpg)
 
 J’aime bien commencer par construire une app simple, pour ensuite envisager d’éventuelles évolutions. J’ai donc fait très simple. Tellement basique que ça ressemble plus à un code d’exemple qu’à un projet abouti. Une excellente occasion pour partager le code source dans son intégralité, et commenter le développement avec WatchKit.
 
