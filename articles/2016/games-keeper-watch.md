@@ -17,6 +17,38 @@ Après avoir parlé de [WatchKit](http://www.vtourraine.net/blog/2016/watchos-2-
 J’aime bien commencer par construire une app simple, pour ensuite envisager d’éventuelles évolutions. J’ai donc fait très simple. Tellement basique que ça ressemble plus à un code d’exemple qu’à un projet abouti. Une excellente occasion pour partager le code source dans son intégralité, et commenter le développement avec WatchKit.
 
 
+``` swift
+// InterfaceController.swift
+
+import WatchKit
+
+class InterfaceController: WKInterfaceController {
+
+  @IBOutlet var scoreLabel: WKInterfaceLabel!
+
+  var score: Int = 0 {
+    didSet {
+      scoreLabel .setText(String(score))
+    }
+  }
+
+  // MARK: - Actions
+
+  @IBAction func decrementScore() {
+    score = score - 1
+  }
+
+  @IBAction func incrementScore() {
+    score = score + 1
+  }
+
+  @IBAction func resetScore() {
+    score = 0
+  }
+}
+```
+
+
 ## Taille des boutons
 
 Les boutons sont positionnés et dimensionnés pour faciliter l’utilisation et minimiser les erreurs de manipulation. Ce principe est valable pour n’importe quelle plateforme, mais la taille physique des Apple Watch le rend particulièrement important.
