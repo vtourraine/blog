@@ -14,24 +14,30 @@ Après avoir parlé de [WatchKit](http://www.vtourraine.net/blog/2016/watchos-2-
 
 ![Games Keeper pour Apple Watch](http://www.vtourraine.net/blog/img/2016/games-keeper-watch/games-keeper-watch-photo.jpg)
 
-J’aime bien construire une app en commençant par le plus simple, pour ensuite envisager d’éventuelles évolutions. J’ai donc fait très simple. Tellement basique que ça ressemble plus à un code d’exemple qu’à un projet abouti. Une excellente occasion pour partager le projet dans son intégralité, et commenter le développement avec WatchKit.
+J’aime bien construire une app en commençant par le plus simple, pour ensuite envisager d’éventuelles évolutions. J’ai donc fait très simple. Tellement basique que ça ressemble plus à un code d’exemple qu’à un projet abouti. Une excellente occasion pour partager le projet dans son intégralité, et commenter le développement avec Swift/WatchKit.
 
 
 ## Storyboard
 
 // Screenshot Storyboard
 
-WatchKit impose l’utilisation d’un Storyboard. Rien d’extraordinaire ici : un seul controller, avec un label et deux boutons. Seule subtilité (visible sur le navigateur à gauche), le menu que j’évoquerai plus bas.
+Rien d’extraordinaire pour le Storyboard : un seul controller, avec un label et deux boutons. Seule subtilité (visible sur le navigateur à gauche), le menu que j’évoquerai plus bas.
 
 
 ### Taille des boutons
 
-Les boutons sont positionnés et dimensionnés pour faciliter l’utilisation et minimiser les erreurs de manipulation. Ce principe est valable pour n’importe quelle plateforme, mais la taille physique des Apple Watch le rend particulièrement important.
+Les boutons sont positionnés et dimensionnés pour faciliter l’utilisation et minimiser les erreurs de manipulation. Ce principe est valable pour toutes les interfaces sur toutes les plateformes, mais la taille physique des Apple Watch le rend particulièrement important.
 
-Concrètement, plutôt que de configurer deux boutons avec les mêmes dimensions, je choisis d’agrandir celui qui sera le plus utilisé (le « + »). Dans ce cas précis, les dimensions sont données en pourcentage de la taille du conteneur, et donc de l’écran. Les boutons disposent aussi d’une taille intrinsèque, généralement suffisante, mais qui peut se révéler problématique quand deux boutons sont collés l’un à l’autre. 
+Concrètement, plutôt que de configurer deux boutons avec les mêmes dimensions, je choisis d’agrandir celui qui sera le plus utilisé (le « + »). Dans ce cas précis, les dimensions sont données en pourcentage de la taille du conteneur, et donc de l’écran. On pourrait aussi les spécifier en fonction de la taille de la Watch (38 mm ou 42 mm), mais cette approche semble peu recommandable compte-tenu de l’histoire d’UIKit et de la taille des iPhones.
 
 
 ### Menu
+
+Le controller dispose d’un menu, avec un unique item permettant de remettre le score à zéro.
+
+Ces menus sont problématiques, car rien n’indique leur présence lorsqu’ils sont disponibles. On conseille donc généralement aux utilisateurs d’apps Apple Watch de _force-toucher_ (quel horrible terme) à l’aveugle tous les écrans, pour découvrir les menus proposés. C’est particulièrement gênant pour les fonctions accessibles uniquement par un menu, ce qui n’est pas vraiment le cas ici puisqu’un joueur peut toujours réinitialiser son score avec les boutons « +/− » (on peut donc le considérer comme un raccourci).
+
+Ce n’est sans doute pas idéal, mais ces menus font partie des conventions d’interface pour watchOS, et la taille de l’écran pousse encore une fois à optimiser l’espace disponible.
 
 
 ## Code source
@@ -80,3 +86,6 @@ Je note au passage que placer des opérations dans `willSet`/`didSet` est parfoi
 ``` swift
 @IBOutlet var scoreLabel: WKInterfaceLabel!
 ```
+
+
+GitHub Gist: [Interface.storyboard + InterfaceController.swift](https://gist.github.com/vtourraine/86f8871fdbbb696064b2).
