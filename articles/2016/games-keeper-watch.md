@@ -1,7 +1,7 @@
 Title:     Games Keeper sur Apple Watch  
 Author:    Vincent Tourraine  
 Email:     me@vtourraine.net  
-Date:      March 6, 2016  
+Date:      March 13, 2016  
 Update:   
 Keywords:  WatchKit, app, making-of  
 Summary:     
@@ -19,7 +19,7 @@ J’aime bien construire une app en commençant par le plus simple, pour ensuite
 
 ## Storyboard
 
-// Screenshot Storyboard
+![Storyboard Games Keeper pour Apple Watch](http://www.vtourraine.net/blog/img/2016/games-keeper-watch/games-keeper-watch-storyboard.png)
 
 Rien d’extraordinaire pour le Storyboard : un seul controller, avec un label et deux boutons. Seule subtilité (visible sur le navigateur à gauche), le menu que j’évoquerai plus bas.
 
@@ -86,6 +86,8 @@ Je note au passage que placer des opérations dans `willSet`/`didSet` est parfoi
 ``` swift
 @IBOutlet var scoreLabel: WKInterfaceLabel!
 ```
+
+![Xcode : IBOutlet avec Swift](http://www.vtourraine.net/blog/img/2016/games-keeper-watch/xcode-swift-iboutlet.png)
 
 
 GitHub Gist: [Interface.storyboard + InterfaceController.swift](https://gist.github.com/vtourraine/86f8871fdbbb696064b2).
