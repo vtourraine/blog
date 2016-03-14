@@ -1,10 +1,10 @@
 Title:     Games Keeper sur Apple Watch  
 Author:    Vincent Tourraine  
 Email:     me@vtourraine.net  
-Date:      March 13, 2016  
+Date:      March 14, 2016  
 Update:   
 Keywords:  WatchKit, app, making-of  
-Summary:     
+Summary:   Après avoir parlé de WatchKit, puis de la publication de Games Keeper 2.0, il ne me restait qu’une chose à faire : développer Games Keeper pour Apple Watch. C’est maintenant chose faite.  
 Image:     http://www.vtourraine.net/blog/img/2016/games-keeper-watch/games-keeper-watch-photo.jpg  
 Thumbnail: http://www.vtourraine.net/blog/img/2016/games-keeper-watch/thumbnail-games-keeper-watch.jpg  
 Language:  fr  
@@ -14,14 +14,14 @@ Après avoir parlé de [WatchKit](http://www.vtourraine.net/blog/2016/watchos-2-
 
 ![Games Keeper pour Apple Watch](http://www.vtourraine.net/blog/img/2016/games-keeper-watch/games-keeper-watch-photo.jpg)
 
-J’aime bien construire une app en commençant par le plus simple possible, pour ensuite envisager d’éventuelles évolutions. J’ai donc fait très simple. Tellement basique que ça ressemble plus à un code d’exemple qu’à un projet abouti. Une excellente occasion pour partager le projet dans son intégralité, et commenter le développement avec Swift/WatchKit.
+J’aime bien construire une app en commençant par le plus simple possible, pour ensuite envisager d’éventuelles évolutions. J’ai donc fait très simple. L’app propose un unique compteur de score, qu’on peut incrémenter, décrémenter, et remettre à zéro. Tellement basique que ça ressemble plus à un code d’exemple qu’à un projet abouti. Une excellente occasion pour partager le projet dans son intégralité, et commenter le développement avec Swift/WatchKit.
 
 
 ## Storyboard
 
 ![Storyboard Games Keeper pour Apple Watch](http://www.vtourraine.net/blog/img/2016/games-keeper-watch/games-keeper-watch-storyboard.png)
 
-Rien d’extraordinaire pour le Storyboard : un seul controller, avec un label et deux boutons, et un menu.
+Rien d’extraordinaire pour le Storyboard : un seul controller, avec un label, deux boutons, et un menu.
 
 
 ### Taille des boutons
@@ -95,7 +95,13 @@ Xcode nous empêche d’ailleur de créer une property `IBOutlet` non-optionnell
 
 ![Xcode : IBOutlet avec Swift](http://www.vtourraine.net/blog/img/2016/games-keeper-watch/xcode-swift-iboutlet.png)
 
-Mais la solution proposée par défaut me semble peu recommandable.
+Mais la solution proposée par défaut me semble peu recommandable. Le « ! » en déclaration permet évidemment d’économiser du dépaquetage dans la suite du programme, mais masque complètement la nature instable de tous les appels à la property. Bien-sûr, dans le cas le plus simple (comme ici d’ailleurs), les IBOutlets resteront accessibles pour toute la durée de vie du controller, puisque retenus par l’arborescence des vues. Mais ces property peuvent très bien être mises à `nil`, ce qui ferait crasher l’app avec la déclaration par défaut.
+
+Tout ça pour dire qu’Xcode devrait pluôt encourager, à mon avis, la déclaration de variables optionelles classiques pour les IBOutlet.
 
 
-GitHub Gist: [Interface.storyboard + InterfaceController.swift](https://gist.github.com/vtourraine/86f8871fdbbb696064b2).
+## // Comment
+
+Pour finir, vous pouvez retrouver le code et le fichier Storyboard associé directement sur [GitHub](https://gist.github.com/vtourraine/86f8871fdbbb696064b2). 
+
+La quantité de commentaire excédant maintenant largement la quantité de code source, il est temps de passer à des apps plus ambitieuses.
