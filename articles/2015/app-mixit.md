@@ -3,7 +3,7 @@ Author:   Vincent Tourraine
 Email:    me@vtourraine.net  
 Date:     April 4, 2015  
 Update:   April 19, 2015  
-Keywords: Mix-IT, iOS, dev
+Keywords: Mix-IT, iOS, dev  
 Summary:  Mix-IT, c’est un peu la WWDC lyonnaise. L’année dernière, la conférence avait vendu tous les billets en 48 heures ; cette année il aura suffit de 3 heures.  
 Image:    http://www.vtourraine.net/blog/img/2015/app-mixit/iphone-views.jpg  
 Language: fr  

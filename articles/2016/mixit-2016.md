@@ -1,4 +1,13 @@
-# Mix-IT 2016
+Title:     Mix-IT 2016  
+Author:    Vincent Tourraine  
+Email:     me@vtourraine.net  
+Date:      April 16, 2016  
+Update:   
+Keywords:  Mix-IT, iOS, app, dev  
+Summary:   La nouvelle édition de Mix-IT se déroulera la semaine prochaine, c’était donc le bon moment pour mettre à jour mon app iOS permettant d’en consulter le programme, initialement publiée l’année dernière.  
+Image:     http://www.vtourraine.net/blog/img/2016/mixit-2016/screenshot-session.png  
+Language:  fr  
+
 
 La nouvelle édition de Mix-IT se déroulera la semaine prochaine, c’était donc le bon moment pour mettre à jour [mon app iOS](https://itunes.apple.com/app/mix-it/id982003173?mt=8) permettant d’en consulter le programme, initialement publiée [l’année dernière](http://www.vtourraine.net/blog/2015/app-mixit). Le projet est toujours [disponible sur GitHub](https://github.com/vtourraine/mixit), pour les plus curieux.
 
