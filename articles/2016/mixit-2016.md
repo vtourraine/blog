@@ -1,7 +1,7 @@
 Title:     Mix-IT 2016  
 Author:    Vincent Tourraine  
 Email:     me@vtourraine.net  
-Date:      April 16, 2016  
+Date:      April 17, 2016  
 Update:   
 Keywords:  Mix-IT, iOS, app, dev  
 Summary:   La nouvelle édition de Mix-IT se déroulera la semaine prochaine, c’était donc le bon moment pour mettre à jour mon app iOS permettant d’en consulter le programme, initialement publiée l’année dernière.  
@@ -14,18 +14,18 @@ La nouvelle édition de Mix-IT se déroulera la semaine prochaine, c’était do
 
 ## Mise à niveau
 
-Premier objectif, mettre à jour le connecteur pour l’API de Mix-IT, puisque celle-ci a évolué depuis la dernière édition. Pas de grands changements, il suffit globalement d’actualiser les URLs et de modifier certaines clés dans les réponses du serveur.
+Premier objectif, mettre à jour le connecteur pour l’API de Mix-IT, puisque celle-ci a évolué depuis la dernière édition. Pas de grands changements, il suffit globalement d’actualiser les URLs et de modifier certaines clés dans les réponses du serveur. [Une page de documentation interactive](https://www.mix-it.fr/swagger-ui.html) (Swagger) est maintenant proposée, parfaite pour s’y retrouver rapidement.
 
 ![Session Mix-IT](http://www.vtourraine.net/blog/img/2016/mixit-2016/screenshot-session.png)
 
-L’autre mise à jour concerne les dates de la conférence, telles qu’affichées dans l’écran d’information. Impossible de récupérer cette information automatiquement, ce sera donc stocké directement dans le code. Ma feature request pour l’année prochaine, donc : ajouter une ressource à API permettant de connaître les dates des différentes éditions (et la liste des éditions disponibles).
+L’autre mise à jour concerne les dates de la conférence, telles qu’affichées dans l’écran d’information. Impossible de récupérer cette information automatiquement, ce sera donc stocké directement dans le code.
 
 
 ## Plans
 
 La première version proposait une carte (`MKMapView`) indiquant CPE (l’école qui accueille Mix-IT) afin d’aider à localiser la conférence. La combinaison cartes + GPS reste une valeur sûre du développement mobile, on aurait tort de s’en priver.
 
-Cette année, j’ai ajouté les plans de l’intérieur du bâtiment permettant de retrouver les différentes salles. Pas d’API magique, pas de géolocalisation, juste quelques images issues du site web de Mix-IT. On peut les consulter depuis l’écran d’infos générales, ou en tapant sur le nom d’une salle sur l’écran de détails d’une session. 
+Cette année, j’ai ajouté les plans de l’intérieur du bâtiment permettant de retrouver les différentes salles. Pas d’API magique, pas de géolocalisation, juste quelques images issues du site web de Mix-IT. On peut les consulter depuis l’écran d’informations, ou en tapant sur le nom d’une salle sur l’écran de détails d’une session. 
 
 ![Plans Mix-IT](http://www.vtourraine.net/blog/img/2016/mixit-2016/screenshot-plans.png)
 
@@ -45,4 +45,4 @@ Quand une API propose une fonctionnalité, ça devient tentant de la mettre en p
 
 Voilà pour les changements cette année. J’apprécie ce genre de projet, avec son périmètre de fonctionnalités très restreint. C’est une occasion supplémentaire de construire une app en s’appliquant à garder un code simple et clair. Même pour un cas aussi simple (liste d’éléments, affichage des détails), je pourrais recommencer le projet chaque année de zéro et aboutir à un résultat différent. Des nouveautés UIKit apportent de nouvelles solutions, et bien sûr les habitudes de développement évoluent au fil des projets. 
 
-Ceci étant dit, j’espère que l’app pourra être utile pour les heureux détenteurs d’un billet Mix-IT. Rendez-vous le 21 et 22 mai à Villeurbanne.
+Ceci étant dit, j’espère que l’app pourra être utile pour les heureux détenteurs d’un billet Mix-IT. Rendez-vous les 21 et 22 mai à Villeurbanne.
