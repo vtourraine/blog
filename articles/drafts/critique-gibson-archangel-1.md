@@ -15,6 +15,9 @@ Tout commence en 2016, dans un présent qui n’est pas le nôtre. Une réalité
 
 Étape suivante : le « splitter », c’est-à-dire la machine à voyager dans le temps. On y découvre Torres, qui prépare le « transfert quantique » du vice-président et du commando qui l’accompagne. Les voilà arrivés en 1945 au Pentagon, au bureau du major Henderson. La rencontre entre le petit-fils et le grand-père tourne court avec l’assassinat du Major par sa progéniture. L’acte est habilement suggéré par la teinte rouge sur la dernière case de la page. Cet évènement est doublement intéressant, puisqu’en plus d’exposer une partie du plan (forcément machiavélique) d’Henderson, il tranche un des principaux clichés du voyage dans le temps : [le paradoxe du grand-père](https://en.wikipedia.org/wiki/Grandfather_paradox).
 
+> « Naomi reads Astounding, so she believes in the Future and has a flexible, imaginative mindset. »
+> https://twitter.com/GreatDismal/status/733373648036233216
+
 ## //
 
 Les dessins sont assurés par Butch Guice, avec Tom Palmer pour l’encrage, Diego Rodriguez aux couleurs, et Shawn Lee au lettrage. Le résultat colle parfaitement à l’histoire, avec un effet qui s’approche des vieux films et photos de cette époque. 
