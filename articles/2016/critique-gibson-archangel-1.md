@@ -4,7 +4,7 @@ Email:     me@vtourraine.net
 Date:      May 22, 2016  
 Update:    
 Keywords:  critique, comic book, William Gibson    
-Summary:   
+Summary:   « Archangel » est une nouvelle série de comic books. Très attendue, car écrite par William Gibson, célèbre auteur de romans de science-fiction (déjà évoqué sur ce blog). Le premier des 5 chapitres vient de sortir, je prévois d’en accompagner la publication avec une série de billets de blogs.  
 Image:     http://www.vtourraine.net/blog/img/2016/critique-gibson-archangel-1/archangel-1-010-B.jpg  
 Thumbnail: http://www.vtourraine.net/blog/img/2016/critique-gibson-archangel-1/thumbnail-archangel-1.png
 Language:  fr  
@@ -31,7 +31,7 @@ Tout commence en 2016, dans un présent qui n’est pas le nôtre. Une réalité
 
 Les dessins sont assurés par Butch Guice, avec Tom Palmer pour l’encrage, Diego Rodriguez aux couleurs, et Shawn Lee au lettrage. Le résultat colle parfaitement à l’histoire, avec un effet qui s’approche des vieux films et photos de cette époque. 
 
-Ce n’est pas un style que j’apprécie en général, mais c’était sans doute le bon choix. Je trouve parfois les zones d’ombre trop marquées, on vera si la suite profite davantage de cette approche. En tout cas, le travail au dessin est tout à fait remarquable, notamment sur les personnages. Par ailleurs, on dispose en fin de livre quelques études au crayon qui mettent en valeur l’expressivité des dessins de Guice.
+Ce n’est pas un style que j’apprécie en général, mais c’était sans doute le bon choix. Je trouve parfois les zones d’ombre trop marquées, on verra si la suite profite davantage de cette approche. En tout cas, le travail au dessin est tout à fait remarquable, notamment sur les personnages. Par ailleurs, on dispose en fin de livre de quelques études au crayon qui mettent en valeur l’expressivité des dessins de Guice.
 
 
 ## //
@@ -41,12 +41,12 @@ Ce n’est pas un style que j’apprécie en général, mais c’était sans dou
 > _« Naomi reads Astounding, so she believes in the Future and has a flexible, imaginative mindset. »_  
 > William Gibson [(@GreatDismal)](https://twitter.com/GreatDismal/status/733373648036233216)
 
-On retrouve des éléments classiques, entre le voyage dans le temps, une machination politico-militaire, et une ambiance de début de guerre froide. Des concepts bien connus, mais combinés de façon intéressante. Que viennent faire ces drones en forme de mouches ? Quelle est l’étendue du plan d’Henderson ? Comment vont réagir les différents pays confrontés à ces évènements extraordinaires ?
+Archangel rassemble des éléments classiques, entre le voyage dans le temps, une machination politico-militaire, et une ambiance de début de guerre froide. Des concepts bien connus, mais combinés de façon intéressante. Que viennent faire ces drones en forme de mouches ? Quelle est l’étendue du plan d’Henderson ? Comment vont réagir les différents pays confrontés à ces évènements extraordinaires ? Et surtout, quel impact sur les différentes lignes temporelles concernées ?
 
-Ce premier chapitre remplit parfaitement sa mission. On se familiarise avec les personnages principaux, sans pour autant livrer toutes leurs motivations. La situation repose habillement sur des éléments connus (voyage dans le temps, Berlin en 1945, etc) pour proposer un contexte riche sans s’alourdir en présentations. Mon enthousiasme est un peu plus modéré pour la suite, le plus dur sera évidemment de transformer cette bonne idée en histoire intéressante sur l’ensemble de son arc.
+Ce premier chapitre remplit parfaitement sa mission. On se familiarise avec les personnages principaux, sans pour autant livrer toutes leurs motivations. La situation repose habillement sur des éléments connus pour proposer un contexte riche sans s’alourdir en présentations. Mon enthousiasme est un peu plus modéré pour la suite, le plus dur sera évidemment de transformer cette bonne idée en histoire intéressante sur l’ensemble de son arc. Une chose est sûre : j’ai hâte de lire la suite.
 
 
-_Publié chez IDW, écrit par William Gibson, dessiné par Butch Guice._
+### Liens
 
 - [IDW](http://www.idwpublishing.com/product/archangel-1/)
 - [comiXology](https://www.comixology.com/Archangel-1-of-5/digital-comic/380437)
