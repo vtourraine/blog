@@ -2,7 +2,7 @@ Title:     Mix-IT 2016
 Author:    Vincent Tourraine  
 Email:     me@vtourraine.net  
 Date:      April 17, 2016  
-Update:   
+Update:    May 24, 2016  
 Keywords:  Mix-IT, iOS, app, dev  
 Summary:   La nouvelle édition de Mix-IT se déroulera la semaine prochaine, c’était donc le bon moment pour mettre à jour mon app iOS permettant d’en consulter le programme, initialement publiée l’année dernière.  
 Image:     http://www.vtourraine.net/blog/img/2016/mixit-2016/screenshot-session.png  
@@ -46,3 +46,13 @@ Quand une API propose une fonctionnalité, ça devient tentant de la mettre en p
 Voilà pour les changements cette année. J’apprécie ce genre de projet, avec son périmètre de fonctionnalités très restreint. C’est une occasion supplémentaire de construire une app en s’appliquant à garder un code simple et clair. Même pour un cas aussi simple (liste d’éléments, affichage des détails), je pourrais recommencer le projet chaque année de zéro et aboutir à un résultat différent. Des nouveautés UIKit apportent de nouvelles solutions, et bien sûr les habitudes de développement évoluent au fil des projets. 
 
 Ceci étant dit, j’espère que l’app pourra être utile pour les heureux détenteurs d’un billet Mix-IT. Rendez-vous les 21 et 22 avril à Villeurbanne.
+
+   
+   
+
+> _Mise à jour du 24 mai 2016_  
+>   
+> À l’heure du bilan, je compte 54 téléchargements de l’app cette année, pour 600 participants. C’est-à-dire le même nombre de téléchargements qu’en 2015, pour une augmentation de 20% des participants à Mix-IT. On en déduit logiquement que les 100 participants supplémentaires cette année étaient tous des utilisateurs Android.
+>     
+> ![Nombres de téléchargements de l’application](http://www.vtourraine.net/blog/img/2016/mixit-2016/downloads-chart.png)  
+
