@@ -41,8 +41,8 @@ Quand une API propose une fonctionnalité, ça devient tentant de la mettre en p
 Ça ne sert pas à grand chose pour une app comme la mienne, mais la simplicité à intégrer ces données supplémentaires était trop tentante. Un paramètre à synchroniser en plus pour les sessions, un paramètre à gérer en plus pour le view controller, et le tour est joué. Première session listée pour 2012 : _Create mobile application with PhoneGap_. Je trouve ça amusant.
 
 
-## 21 & 22 mai
+## 21 & 22 avril
 
 Voilà pour les changements cette année. J’apprécie ce genre de projet, avec son périmètre de fonctionnalités très restreint. C’est une occasion supplémentaire de construire une app en s’appliquant à garder un code simple et clair. Même pour un cas aussi simple (liste d’éléments, affichage des détails), je pourrais recommencer le projet chaque année de zéro et aboutir à un résultat différent. Des nouveautés UIKit apportent de nouvelles solutions, et bien sûr les habitudes de développement évoluent au fil des projets. 
 
-Ceci étant dit, j’espère que l’app pourra être utile pour les heureux détenteurs d’un billet Mix-IT. Rendez-vous les 21 et 22 mai à Villeurbanne.
+Ceci étant dit, j’espère que l’app pourra être utile pour les heureux détenteurs d’un billet Mix-IT. Rendez-vous les 21 et 22 avril à Villeurbanne.
