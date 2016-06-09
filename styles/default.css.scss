@@ -90,7 +90,7 @@ body > article {
     margin-top: $margin*4; 
   }
 
-  p {
+  p, ul, ol {
     font-size: 14pt;
     line-height: 1.5em;
     overflow-x: auto;
