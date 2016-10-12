@@ -2,7 +2,7 @@ Title:     Archangel #2, par William Gibson
 Author:    Vincent Tourraine  
 Email:     me@vtourraine.net  
 Date:      Jul 17, 2016  
-Update:    
+Update:    Oct 12, 2016  
 Keywords:  critique, comic book, William Gibson    
 Summary:   Un rythme de publication exceptionnellement lent, pour une série exceptionnelle. Presque deux mois après le premier numéro, voici le deuxième chapitre d’Archangel, le comic book écrit par William Gibson et illustré par Butch Guice.  
 Image:     http://www.vtourraine.net/blog/img/2016/critique-gibson-archangel-2/archangel-2-005-A.jpg  
@@ -19,7 +19,7 @@ _**SPOILER ALERT** : cet article dévoile certains éléments de l’intrigue d
 
 On retrouve le pilote survivant, qui va devoir trouver un moyen pour échapper aux américains avant qu’Henderson ne passe aux choses sérieuses. La bonne nouvelle, c’est que le Splitter permet visiblement de communiquer entre le passé et son pseudo-futur. Voici donc à quoi sert la mouche/drone aperçue dans le premier chapitre. C’est discret, mais suffisamment puissant pour libérer le prisonnier de ses menottes. Deux grosses ficelles pour une première page. On ne vient pas pour le réalisme, certes, mais ça paraît un peu facile.
 
-![Extrait Archangel #1, page 5, image IDW](http://www.vtourraine.net/blog/img/2016/critique-gibson-archangel-2/archangel-2-005-A.jpg)
+![Extrait Archangel #2, page 5, image IDW](http://www.vtourraine.net/blog/img/2016/critique-gibson-archangel-2/archangel-2-005-A.jpg)
 
 La suite est plus intéressante, à mes yeux. Le pilote se fait livrer un pistolet et une « creepsuit ». Le problème, c’est que la livraison par Splitter n’est visiblement pas d’une précision infaillible, et le pistolet se matérialise en travers d’une table. Tout paraît plus crédible quand on voit une technologie mal fonctionner. Heureusement la creepsuit, elle, est intacte. 
 
@@ -50,3 +50,9 @@ Globalement, on aimerait voir l’histoire prendre davantage son temps, pour év
 
 - [IDW](http://www.idwpublishing.com/product/archangel-2/)
 - [comiXology](https://www.comixology.com/Archangel-2-of-5/digital-comic/405965)
+
+### Série
+
+- [Archangel #1](http://www.vtourraine.net/blog/2016/critique-gibson-archangel-1)
+- Archangel #2
+- [Archangel #3](http://www.vtourraine.net/blog/2016/critique-gibson-archangel-3)
