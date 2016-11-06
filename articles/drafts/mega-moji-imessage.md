@@ -1,6 +1,16 @@
-# Mega Moji
+Title:     Mega Moji  
+Author:    Vincent Tourraine  
+Email:     me@vtourraine.net  
+Date:      November 6, 2016  
+Update:    
+Keywords:  dev, iOS  
+Summary:   
+Image:     http://www.vtourraine.net/blog/img/2016/mega-moji-imessage/mega-moji-app-store.png  
+Language:  fr  
+
 
 Tous les étés c’est la même chose. Une nouvelle version d’iOS arrive, avec son SDK et ses API, et autant de nouvelles opportunités. Je voulais donc en profiter pour construire une nouvelle app, et essayer d’être présent dès le premier jour de disponibilité de l’OS.
+
 
 ## Idée
 
@@ -25,6 +35,10 @@ On notera au passage que les emojis système ne sont pas vectoriels, ils produis
 
 ## Rejet :-(
 
+![Mega Moji v0](http://www.vtourraine.net/blog/img/2016/mega-moji-imessage/screen-v0.png)
 
 ## Seconde implémentation
 
+![Mega Moji v1](http://www.vtourraine.net/blog/img/2016/mega-moji-imessage/screen-v1.png)
+
+![Mega Moji sur l’App Store](http://www.vtourraine.net/blog/img/2016/mega-moji-imessage/mega-moji-app-store.png)
