@@ -1,7 +1,15 @@
-# Table view avec sections dynamiques
+Title:     Table view avec sections dynamiques  
+Author:    Vincent Tourraine  
+Email:     me@vtourraine.net  
+Date:      February 27, 2017  
+Update:    
+Keywords:  dev, Swift, UIKit  
+Summary:   « UITableView » est un élément fondamental de l’interface d’iOS depuis la toute première version du SDK. Elle s’organise en deux niveaux : des sections, et des lignes. Rien de compliqué lorsque le contenu est statique. Mais les choses peuvent vite se corser quand ces sections et ces lignes apparaissent dynamiquement.  
+Image:     
+Language:  fr  
+
 
 `UITableView` est un élément fondamental de l’interface d’iOS depuis la toute première version du SDK. Elle s’organise en deux niveaux : des sections, et des lignes. Rien de compliqué lorsque le contenu est statique. Mais les choses peuvent vite se corser quand ces sections et ces lignes apparaissent dynamiquement.
-
 
 ## Cas #1
 
@@ -29,7 +37,6 @@ override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexP
   return cell
 }
 ```
-
 
 ## Cas #2
 
@@ -73,7 +80,6 @@ Davantage de code, mais rien de bien compliqué.
 
 _Note : ces exemples sont écrits en Swift, mais peuvent fonctionner exactement de la même manière en Objective-C (dont acte, cela fait des années que les développeurs iOS utilisent ce modèle de code). Swift offre de nouvelles possibilités, qui permettent d’adresser ce problème bien plus efficacement. Pour aujourd’hui, j’en reste à une solution compatible avec les deux langages._
 
-
 ## Cas #3
 
 Mais dans d’autres situations, le contenu de la table view doit être entièrement dynamique. C’est notamment important en style groupé (`UITableViewStyleGrouped`), puisqu’iOS affiche une marge autour de chaque section, même lorsqu’elles sont vides. Pour ne pas accumuler des marges superflues au milieu de l’écran, il faut donc faire correspondre un numéro de section à différents contenus, selon le contexte d’exécution.
@@ -110,10 +116,9 @@ override func tableView(_ tableView: UITableView, numberOfRowsInSection section:
 
 Avec cette approche, toute la logique de dynamisme des sections est regroupée dans une seule fonction, et le data source garde une implémentation classique, sans complexité apparente.
 
-
 ## Au cas par cas
 
-Je me suis rendu compte que j’utilise cette solution dans plusieurs applications de façon assez similaire. J’ignore s’il s’agit d’une approche très répandue, mais j’imagine que de nombreux développeurs iOS font face à cette situation.
+Je me suis rendu compte que j’utilisais cette solution dans plusieurs applications de façon assez similaire. J’ignore s’il s’agit d’une approche très répandue, mais j’imagine que de nombreux développeurs iOS font face à cette situation.
 
 Ce problème me paraît vraiment intéressant car il s’agit d’un cas simple, mais pas complètement trivial. Si on en reste à une suite de `if`/`else`, le code paraît trop fragile. Si on essaie d’intégrer une bibliothèque spécialisée ou même juste une classe dédiée, le code peut rapidement devenir inutilement complexe. « Make things as simple as possible, but not simpler », pour reprendre [une citation bien célèbre](http://quoteinvestigator.com/2011/05/13/einstein-simple/).
 
