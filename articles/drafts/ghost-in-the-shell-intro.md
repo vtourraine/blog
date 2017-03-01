@@ -1,12 +1,14 @@
 # Introduction à « Ghost in the Shell »
 
-_Ghost in the Shell_ est une des franchises les plus reconnues de l’animation japonaise. L’adaptation cinéma qui arrive le mois prochain, portée par Scarlett Johansson et produite comme un des grands blockbusters de l’année, sera l’occasion pour un très large public de découvrir cette œuvre. Avec les nombreux mangas, livres, films, et séries animées sortis depuis 1989, cela mérite bien une introduction.
+_Ghost in the Shell_ est une des franchises les plus reconnues de l’animation japonaise. L’adaptation cinéma américaine qui arrive le mois prochain, produite comme un des grands blockbusters de l’année, sera l’occasion pour un très large public de découvrir cette œuvre. Avec les nombreux mangas, livres, films, et séries animées sortis depuis 1989, cela mérite bien une introduction.
 
 > TL;DR : commencez par le film _Ghost in the Shell_ de 1995, puis regardez la série animée _Stand Alone Complex_.
 
+Dans toutes ses itérations, _Ghost in the Shell_ est centré sur la « Section 9 », une unité d’élite anti-terroriste, et en particulier le Major Motoko Kusanagi. C’est une femme cyborg, dans un monde où la plupart des habitants ont recours à des prothèses cybernétiques, et où les machines s’interfacent avec les cerveaux humains.
+
 ## Manga : « The Ghost in the Shell »
 
-Ghost in the Shell est avant-tout un manga, écrit et dessiné par Masamune Shirow.
+Ghost in the Shell est avant-tout un manga, écrit et dessiné par Masamune Shirow. On y retrouve tous les thèmes et les personnages de la franchise, mais avec une tonalité oscillant entre le sérieux d’une œuvre de science-fiction dure, et un certain comique qui sera très largement effacé des futurs adaptations. Ce manga est publié en trois parties : _The Ghost in the Shell_, _2: Man-Machine Interface_ et _1.5: Human Error Processor_.
 
 ## Cinéma : « Ghost in the Shell » / « Innocence »
 
