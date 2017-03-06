@@ -6,7 +6,6 @@ Update:
 Keywords:  Swift  
 Summary:   Cela fait maintenant trois ans qu’Apple a présenté Swift, et le langage continue d’évoluer à grande vitesse. La troisième édition de dotSwift s’est déroulée à Paris le mois dernier, reflétant ces évolutions avec une communauté toujours aussi active.  
 Image:     http://www.vtourraine.net/blog/img/2017/dotswift-3/dotSwift-2017-steinberg-ravelli.jpg
-Thumbnail: 
 Language:  fr  
 
 
