@@ -1,4 +1,14 @@
-# Introduction à « Ghost in the Shell »
+Title:     Introduction à « Ghost in the Shell »  
+Author:    Vincent Tourraine  
+Email:     me@vtourraine.net  
+Date:      March 7, 2017  
+Update:   
+Keywords:  Sci-Fi, manga, film, série  
+Summary:   « Ghost in the Shell » est une des franchises les plus reconnues de l’animation japonaise. L’adaptation cinéma américaine qui arrive ce mois-ci, produite comme un des grands blockbusters de l’année, sera l’occasion pour un très large public de découvrir cette œuvre. Avec les nombreux mangas, livres, films, et séries animées sortis depuis 1989, cela mérite bien une introduction.
+Image:     http://www.vtourraine.net/blog/img/2017/ghost-in-the-shell-intro/gits-1989.jpg  
+Thumbnail: http://www.vtourraine.net/blog/img/2017/ghost-in-the-shell-intro/thumbnail-gits.jpg  
+Language:  fr  
+
 
 _Ghost in the Shell_ est une des franchises les plus reconnues de l’animation japonaise. L’adaptation cinéma américaine qui arrive ce mois-ci, produite comme un des grands blockbusters de l’année, sera l’occasion pour un très large public de découvrir cette œuvre. Avec les nombreux mangas, livres, films, et séries animées sortis depuis 1989, cela mérite bien une introduction.
 
@@ -18,7 +28,7 @@ On peut remarquer au passage que la franchise s’intitule _攻殻機動隊_ au 
 
 En 1995 sort la première adaptation sous la forme d’un long métrage d’animation, souvent qualifié de chef d’œuvre et/ou film culte. Le réalisateur Mamoru Oshii reprend les éléments du manga, mais pour se concentrer sur le questionnement de l’identité dans un monde de corps robotisés et d’intelligences artificielles. Son tour de force est d’incorporer ces réflexions philosophiques dans un film d’action musclé, qui bénéficie par ailleurs d’une forte identité visuelle. C’est beau, intelligent et exaltant. « The Matrix » est probablement le seul film comparable de cette qualité, ce qui n’est pas entièrement surprenant puisque les Wachowskis sont des grands fans du film d’Oshii.
 
-PS : il existe une réédition du film intitulée _Ghost in the Shell 2.0_, contenant notamment de nouveaux plans en 3D (le syndrome _Special Edition_). L’immense majorité des fans s’accorde à dire que cette version est à éviter.
+PS : il existe une réédition du film intitulée _Ghost in the Shell 2.0_, contenant notamment de nouveaux plans en 3D. L’immense majorité des fans s’accorde à dire que cette version est à proscrire.
 
 ![Ghost in the Shell (1995), image Production I.G](http://www.vtourraine.net/blog/img/2017/ghost-in-the-shell-intro/gits-1995.jpg)
 
@@ -34,18 +44,26 @@ _Stand Alone Complex_ a également été adapté sous la forme de livres, mangas
 
 ## Nouvelle série animée : « Arise »
 
-_Ghost in the Shell: Arise_ est un ensemble de cinq moyens métrages animés, sortis entre 2013 et 2015. Ils sont généralement présentés comme des _prequels_ aux films et à la série d’origine. Plus exactement, il s’agit d’une nouvelle interprétation des personnages habituels, avec des évènements se déroulant à la formation de la Section 9.
+_Ghost in the Shell: Arise_ est un ensemble de cinq moyens métrages animés, sortis entre 2013 et 2015. Ils sont généralement présentés comme des _prequels_ aux films et à la série d’origine. Plus exactement, il s’agit d’une nouvelle interprétation des personnages habituels, avec des évènements se déroulant à la formation de la Section 9.
 
 ![Ghost in the Shell: Arise, image Production I.G](http://www.vtourraine.net/blog/img/2017/ghost-in-the-shell-intro/gits-arise.jpg)
 
 Il existe également un long métrage de 2015 qui donne suite aux évènements de _Arise_. Attention, attention, ce film s’appelle _Ghost in the Shell: The New Movie_. À en croire les critiques sur Amazon, de nombreux acheteurs font la confusion en souhaitant acheter l’original.
 
-L’animation pour Arise est d’excellente qualité, et les intrigues collent parfaitement au style de la franchise. Mais ces épisodes n’ont pas vraiment la profondeur des films, ni l’inventivité de _Stand Alone Complex_. Pas indispensables, donc, mais plutôt divertissants si vous aimez le reste de la franchise.
+L’animation pour _Arise_ est d’excellente qualité, et les intrigues collent parfaitement au style de la franchise. Mais ces épisodes n’ont pas vraiment la profondeur des films, ni l’inventivité de _Stand Alone Complex_. Pas indispensables, donc, mais plutôt divertissants si vous aimez _Ghost in the Shell_.
 
 ## « Ghost in the Shell » (2017)
 
-Difficile de prédire comme va évoluer la franchise après la sortie du film américain. Indépendant de son succès ou de son échec, les thèmes portés par _Ghost in the Shell_ sont plus pertinents que jamais dans le contexte technologique, politique et sociétal actuel. La Section 9 et le Major ont de beaux jours devant eux.
+Difficile de prédire comme va évoluer la franchise après la sortie du film américain. Indépendamment de son succès ou de son échec, les thèmes portés par _Ghost in the Shell_ sont plus pertinents que jamais dans le contexte technologique, politique et sociétal actuel. La Section 9 et le Major ont de beaux jours devant eux.
 
 ## Liens
 
-//
+- [Ghost in the Shell (Wikipedia.org)](https://en.wikipedia.org/wiki/Ghost_in_the_Shell)
+- [The Ghost in the Shell, manga nouvelle édition 2017 (Amazon.fr)](https://www.amazon.fr/dp/2723497038)
+- [Ghost in the Shell (1995) (IMDb.com)](http://www.imdb.com/title/tt0113568)
+- [Ghost in the Shell (1995) (Letterboxd.com)](https://letterboxd.com/film/ghost-in-the-shell/)
+- [Ghost in the Shell (1995), Bluray nouvelle édition 2017 (Amazon.fr)](https://www.amazon.fr/dp/B01MT5QK1Z)
+- [Ghost in the Shell 2: Innocence (IMDb.com)](http://www.imdb.com/title/tt0347246)
+- [Ghost in the Shell 2: Innocence (Letterboxd.com)](https://letterboxd.com/film/ghost-in-the-shell-2-innocence/)
+- [Ghost in the Shell 2: Innocence (Netflix.fr)](https://www.netflix.com/title/70001548)
+- [Ghost in the Shell: Stand Alone Complex, Intégrale DVD (Amazon.fr)](https://www.amazon.fr/dp/B0065UE4Q0)
