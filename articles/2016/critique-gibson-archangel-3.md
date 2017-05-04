@@ -2,7 +2,7 @@ Title:     Archangel #3, par William Gibson
 Author:    Vincent Tourraine  
 Email:     me@vtourraine.net  
 Date:      Oct 12, 2016  
-Update:    
+Update:    May 4, 2017  
 Keywords:  critique, comic book, William Gibson    
 Summary:   Le nouveau chapitre d’Archangel vient tout juste d’être publié, après une longue attente. Il y a toujours une certaine frustration à suivre des chapitres séparés de plusieurs mois, mais on se console en se disant que les auteurs bénéficient du temps nécessaire pour préparer la suite.  
 Image:     http://www.vtourraine.net/blog/img/2016/critique-gibson-archangel-3/archangel-3-008-A.jpg  
@@ -42,3 +42,4 @@ Pour un premier comic book, Gibson et IDW ont sûrement raison de garder les cho
 - [Archangel #1](http://www.vtourraine.net/blog/2016/critique-gibson-archangel-1)
 - [Archangel #2](http://www.vtourraine.net/blog/2016/critique-gibson-archangel-2)
 - Archangel #3
+- [Archangel #4](http://www.vtourraine.net/blog/2017/critique-gibson-archangel-4)
