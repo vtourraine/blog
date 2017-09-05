@@ -1,11 +1,11 @@
 Title:     Un meilleur calendrier  
 Author:    Vincent Tourraine  
 Email:     me@vtourraine.net  
-Date:      August 1, 2017  
+Date:      September 5, 2017  
 Update:    
 Keywords:  app  
 Summary:   Avec la dernière mise à jour de Fantastical, John Gruber faisait remarquer que l’application offre maintenant toutes les fonctionnalités qu’il en attend.  
-Image:     
+Image:     http://www.vtourraine.net/blog/img/2017/meilleur-calendrier/fantastical-week-view.png  
 Language:  fr  
 
 
@@ -13,9 +13,11 @@ Avec la dernière mise à jour de [Fantastical](http://flexibits.com/fantastical
 
 > « It really is a great update. I’m not even sure what to ask for at this point. No app is ever “done”, but at this point Fantastical feels feature complete. »
 
+![Fantastical 2, image Flexibits](http://www.vtourraine.net/blog/img/2017/meilleur-calendrier/fantastical-week-view.png)
+
 J’utilise Fantastical, et l’application est absolument remarquable. Mais ce billet m’a donné envie d’imaginer quelles pourraient être ses prochaines fonctionnalités. Autrement dit, comment améliorer une app de calendrier pour (me) rendre encore davantage service.
 
-## Mode maison/travail
+## Mode maison, mode travail
 
 Le découpage entre les affaires professionnelles et personnelles me paraît suffisamment important pour mériter une gestion sur mesure. 
 
@@ -39,14 +41,14 @@ La prise en charge de toutes ces informations peut paraître accablante, mais je
 
 J’essaie de toujours garder un œil sur les prochains films, albums, livres, ou épisodes de séries TV. De nombreux sites web et apps sont dédiés à cette offre culturelle, mais il me semble que le calendrier pourrait jouer un rôle important.
 
-Tout d’abord, pour marquer la date des sorties à venir. Si un film m’intéresse, je veux savoir quand il sortira en salles. Si possible, avec une interface plaisante, mettant en valeur l’affiche, et permettant d’en savoir plus (éventuellement en redirigeant vers un service dédié comme IMDb). Pour celles et ceux qui regardent la télévision en direct (les pauvres), l’horaire précis devrait figurer avec la chaîne concernée. Idem pour les sports.
+Tout d’abord, pour marquer la date des sorties à venir. Si un film m’intéresse, je veux savoir quand il sortira en salles. Si possible, avec une interface plaisante, mettant en valeur l’affiche, et permettant d’en savoir plus (éventuellement en redirigeant vers un service dédié comme Letterboxd ou IMDb). Pour celles et ceux qui regardent la télévision en direct (les pauvres), l’horaire précis devrait figurer avec la chaîne concernée. Idem pour les sports.
 
 Mais la prise en charge du calendrier peut aller plus loin. Pour un film, en particulier, je pourrais appuyer sur un bouton pour me voir proposer les prochaines séances à proximité, directement dans mon agenda. Cette visualisation me paraît idéale pour prendre en compte les horaires disponibles, ainsi que la durée du film. Bien sûr, pouvoir réserver mon billet depuis le calendrier, pour ne retenir que la séance choisie.
 
 ## Toujours plus de fonctionnalités
 
-Ces propositions seraient indéniablement complexes à implémenter, notamment pour la prise en compte des données tierces (transports, sorties cinémas, etc). Complexes, mais pas irréalisables. Ces fonctionnalités existent, mais elles sont distribuées sur divers services. 
+Ces propositions seraient indéniablement complexes à implémenter, notamment pour la prise en compte des données tierces (transports, sorties cinémas, etc). Complexes, mais pas irréalisables. Ces fonctionnalités existent, mais elles sont aujourd’hui distribuées sur divers services. 
 
 Les dernières versions d’iOS ont sensiblement enrichi Maps en ouvrant son contenu avec des Extensions dédiées. Il me semble que Calendar pourrait bénéficier du même traitement.
 
-Lorsqu’il est question de planning, on peut facilement perdre du temps à essayer d’organiser son temps. Mais l’inverse est aussi vrai. Je pourrai passer plus de temps à trouver une meilleure conclusion à cet article, mais mon calendrier ne gère pas encore cet aspect.
+Lorsqu’il est question de planning, on peut facilement perdre du temps à essayer d’organiser son temps. Mais l’inverse est tout aussi vrai. Je pourrai passer plus de temps à trouver une meilleure conclusion à cet article, mais mon calendrier ne gère pas encore cet aspect.
