@@ -1,4 +1,13 @@
-# Things 3
+Title:     Things 3  
+Author:    Vincent Tourraine  
+Email:     me@vtourraine.net  
+Date:      September 7, 2017  
+Update:    
+Keywords:  app, iOS, macOS  
+Summary:   J’utilise Things 3 depuis sa sortie il y a quelques mois. C’est d’ailleurs une des rares applications que j’utilise quotidiennement aussi bien sur mobile que sur desktop, avec des cas d’utilisation souvent complémentaires. Cette nouvelle version me paraît familière à present, et je pense pouvoir en tirer un premier bilan.  
+Image:     http://www.vtourraine.net/blog/img/2017/things-3/things-3-macos.png  
+Language:  fr  
+
 
 J’utilise [Things 3](https://culturedcode.com/things/) depuis sa sortie il y a quelques mois. C’est d’ailleurs une des rares applications que j’utilise quotidiennement aussi bien sur mobile que sur desktop, avec des cas d’utilisation souvent complémentaires. Cette nouvelle version me paraît familière à present, et je pense pouvoir en tirer un premier bilan.
 
@@ -6,7 +15,7 @@ J’utilise [Things 3](https://culturedcode.com/things/) depuis sa sortie il y 
 
 Pour faire court, c’est une réussite. Things 3 garde les qualités de ses prédécesseurs, apporte certaines améliorations, et en profite pour rafraîchir son interface. Si vous appréciez Things 2, cette nouvelle version vous plaira (et mérite à mon avis son prix). Mais l’évolution est relativement mineure. Son mode de fonctionnement reste fondamentalement le même, et si l’application ne vous convenait pas auparavant, cette nouvelle version n’y changera probablement rien.
 
-Ce qui me plaît tellement avec Things, c’est son équilibre entre simplicité d’utilisation et fonctionnalités plus complexes, lorsque j’en ai besoin. Par comparaison, Omnifocus est trop complet, et Reminders trop simple.
+Ce qui me plaît tellement avec Things, c’est son équilibre entre simplicité d’utilisation et fonctionnalités plus complexes, lorsque j’en ai besoin. Par comparaison, OmniFocus est trop complet, et Reminders trop simple.
 
 Lors de la première présentation publique de Things 3, j’avais fait remarquer que cette mise à jour n’apportait aucune nouvelle fonctionnalité que j’attendais. Avec le recul, ce n’est pas tout à fait vrai.
 
@@ -24,9 +33,9 @@ Things 3 permet de mieux visualiser le planning des tâches au cours du temps. 
 L’application peut également s’intégrer aux calendriers déjà gérés par iOS/macOS, pour lister les événements de chaque journée dans « Today » et « Upcoming ». Cela permet de mettre en contexte les tâches concernées, selon l’emploi du temps. Les applications de calendrier proposent souvent une intégration des rappels, l’inverse est donc tout aussi intéressant.
 
 ## Interface
-Difficile de passer à côté. L’application cultive une interface utilisateur assez unique. Pour Things 2, on retrouvait des éléments assez classiques, mais avec une touche de personnalisation. C’est comme si l’application utilisait des versions alternatives d’AppKit et UIKit (souvent plus inspirées que celles proposées par Apple, soit dit en passant).
+Difficile de passer à côté. L’application cultive une interface utilisateur assez unique. Pour Things 2, on retrouvait des éléments plutôt classiques, mais avec une touche de personnalisation. C’est comme si l’application utilisait des versions alternatives d’AppKit et UIKit (souvent plus inspirées que celles proposées par Apple, soit dit en passant).
 
-Avec Things 3, l’application prend ses distances par rapport à macOS et iOS. L’écran ressemble davantage à une page blanche, sur laquelle les tâches sont soigneusement disposées. Il faudrait écrire des centaines de lignes pour décrire le fonctionnement de cette interface. C’est à la fois très proche des interactions natives, et en même temps complètement différent.
+Avec Things 3, l’application prend ses distances par rapport à macOS et iOS. L’écran ressemble davantage à une page blanche, sur laquelle les tâches sont soigneusement disposées. Il faudrait des centaines de lignes pour décrire le fonctionnement de cette interface. C’est à la fois très proche des interactions natives, et en même temps complètement différent.
 
 Et globalement, mon avis est assez neutre. Autant de personnalisation a un coût, pour le développeur comme pour l’utilisateur. C’est un travail absolument remarquable, et l’interface fonctionne très bien, à quelques incohérences près. Par exemple, la présence simultanée de menus contextuels avec ellipse (« ... ») et avec flèche (« v »), dont les sous-menus ne sont pas évidents à distinguer. Ces quelques aspects perfectibles sont d’autant plus gênants qu’ils sont justement spécifiques à l’application. Les interfaces standard pour iOS et macOS ne sont pas parfaites, mais à force d’habitude, on ne remarque plus ce genre de problèmes génériques. Pour Things, une interface unique, avec ses défauts et ses qualités.
 
@@ -38,7 +47,7 @@ J’imagine que les concepteurs de l’application redoutent la complexité tech
 À envisager pour Things 4 ?
 
 ## Pas de collaboratif
-Autre grand absent de Things : le collaboratif. Les données de l’application restent exclusivement personnelles. À vrai dire, je n’en resents pas le besoin, cette limitation me convient donc parfaitement (en tout cas, tel que j’utilise l’application aujourd’hui). Mais je conçois aussi que ce manque puisse disqualifier Things pour de nombreux utilisateurs.
+Autre grand absent de Things : le collaboratif. Les données de l’application restent exclusivement personnelles. À vrai dire, je n’en ressens pas le besoin, cette limitation me convient donc parfaitement (en tout cas, tel que j’utilise l’application aujourd’hui). Mais je conçois aussi que ce manque puisse disqualifier Things pour de nombreux utilisateurs.
 
 ![Things 3 iOS, image Cultured Code](http://www.vtourraine.net/blog/img/2017/things-3/things-3-ios.png)
 
