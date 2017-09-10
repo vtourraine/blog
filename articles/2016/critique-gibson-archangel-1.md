@@ -3,7 +3,7 @@ Author:    Vincent Tourraine
 Email:     me@vtourraine.net  
 Date:      May 22, 2016  
 Update:    Oct 12, 2016; May 4, 2017  
-Keywords:  critique, comic book, William Gibson    
+Keywords:  critique, Sci-Fi, livre, comic book, William Gibson    
 Summary:   « Archangel » est une nouvelle série de comic books. Très attendue, car écrite par William Gibson, célèbre auteur de romans de science-fiction (déjà évoqué sur ce blog). Le premier des 5 chapitres vient de sortir, je prévois d’en accompagner la publication avec une série de billets de blogs.  
 Image:     http://www.vtourraine.net/blog/img/2016/critique-gibson-archangel-1/archangel-1-010-B.jpg  
 Thumbnail: http://www.vtourraine.net/blog/img/2016/critique-gibson-archangel-1/thumbnail-archangel-1.png

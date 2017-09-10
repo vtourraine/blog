@@ -3,7 +3,7 @@ Author:    Vincent Tourraine
 Email:     me@vtourraine.net  
 Date:      Oct 12, 2016  
 Update:    May 4, 2017  
-Keywords:  critique, comic book, William Gibson    
+Keywords:  critique, Sci-Fi, livre, comic book, William Gibson    
 Summary:   Le nouveau chapitre d’Archangel vient tout juste d’être publié, après une longue attente. Il y a toujours une certaine frustration à suivre des chapitres séparés de plusieurs mois, mais on se console en se disant que les auteurs bénéficient du temps nécessaire pour préparer la suite.  
 Image:     http://www.vtourraine.net/blog/img/2016/critique-gibson-archangel-3/archangel-3-008-A.jpg  
 Thumbnail: http://www.vtourraine.net/blog/img/2016/critique-gibson-archangel-3/thumbnail-archangel-3.jpg  

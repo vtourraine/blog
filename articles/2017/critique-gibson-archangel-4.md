@@ -3,7 +3,7 @@ Author:    Vincent Tourraine
 Email:     me@vtourraine.net  
 Date:      May 4, 2017  
 Update:    
-Keywords:  critique, comic book, William Gibson    
+Keywords:  critique, Sci-Fi, livre, comic book, William Gibson    
 Summary:   Le nouveau chapitre d’Archangel est arrivé, avec encore davantage de retard que le précédent. La bonne nouvelle, c’est qu’on a maintenant une date de sortie pour la version hardcover qui rassemblera l’intégralité de ce comic book. Le cinquième et dernier chapitre devrait donc arriver (au plus tard) cet été.  
 Image:     http://www.vtourraine.net/blog/img/2017/critique-gibson-archangel-4/archangel-4-018-B.jpg  
 Thumbnail: http://www.vtourraine.net/blog/img/2017/critique-gibson-archangel-4/thumbnail-archangel-4.png  
