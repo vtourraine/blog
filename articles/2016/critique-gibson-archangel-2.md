@@ -2,7 +2,7 @@ Title:     Archangel #2, par William Gibson
 Author:    Vincent Tourraine  
 Email:     me@vtourraine.net  
 Date:      Jul 17, 2016  
-Update:    Oct 12, 2016; May 4, 2017  
+Update:    Oct 12, 2016; May 4, 2017; September 18, 2017  
 Keywords:  critique, Sci-Fi, livre, comic book, William Gibson    
 Summary:   Un rythme de publication exceptionnellement lent, pour une série exceptionnelle. Presque deux mois après le premier numéro, voici le deuxième chapitre d’Archangel, le comic book écrit par William Gibson et illustré par Butch Guice.  
 Image:     http://www.vtourraine.net/blog/img/2016/critique-gibson-archangel-2/archangel-2-005-A.jpg  
@@ -57,3 +57,4 @@ Globalement, on aimerait voir l’histoire prendre davantage son temps, pour év
 - Archangel #2
 - [Archangel #3](http://www.vtourraine.net/blog/2016/critique-gibson-archangel-3)
 - [Archangel #4](http://www.vtourraine.net/blog/2017/critique-gibson-archangel-4)
+- [Archangel #5](http://www.vtourraine.net/blog/2017/critique-gibson-archangel-5)

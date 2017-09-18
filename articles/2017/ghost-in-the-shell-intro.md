@@ -3,7 +3,7 @@ Author:    Vincent Tourraine
 Email:     me@vtourraine.net  
 Date:      March 7, 2017  
 Update:   
-Keywords:  Sci-Fi, manga, film, série  
+Keywords:  Sci-Fi, livre, manga, film, série  
 Summary:   « Ghost in the Shell » est une des franchises les plus reconnues de l’animation japonaise. L’adaptation cinéma américaine qui arrive ce mois-ci, produite comme un des grands blockbusters de l’année, sera l’occasion pour un très large public de découvrir cette œuvre. Avec les nombreux mangas, livres, films, et séries animées sortis depuis 1989, cela mérite bien une introduction.
 Image:     http://www.vtourraine.net/blog/img/2017/ghost-in-the-shell-intro/gits-1989.jpg  
 Thumbnail: http://www.vtourraine.net/blog/img/2017/ghost-in-the-shell-intro/thumbnail-gits.jpg  
