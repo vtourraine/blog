@@ -5,7 +5,7 @@ Date:      May 17, 2015
 Update:   
 Keywords:  Apple Watch, WatchKit, dev
 Summary:   Parmi les premières apps Apple Watch disponibles, on trouve de nombreux gestionnaires de rappels. Clear, Wunderlist, Things, tous ont répondu à l’appel de WatchKit. Tous ? Non ! Une application fait clairement défaut : Reminders, a.k.a. Rappels, l’application d’Apple. Vous pouvez demander à Siri de créer un nouveau rappel depuis votre montre, mais vous ne pouvez pas les consulter.  
-Image:     http://www.vtourraine.net/blog/img/2015/1list-rappels-apple-watch/1list-apple-watch.png  
+Image:     https://www.vtourraine.net/blog/img/2015/1list-rappels-apple-watch/1list-apple-watch.png  
 Language:  fr  
 
 Parmi les premières apps Apple Watch disponibles, on trouve de nombreux gestionnaires de rappels. Clear, Wunderlist, Things, tous ont répondu à l’appel de WatchKit. 
@@ -58,5 +58,5 @@ Les chiffres de fréquentation de la page App Store sont vraiment intéressants,
 C’est un peu ça, la vie de développeur indépendant. Pas mal d’incertitudes, des lancements plus ou moins improvisés, des chiffres parfois encourageants (mais globalement insignifiants), et surtout l’écriture d’un billet de blog pour boucler le tout.
  
 
-[1List Apple Watch]: http://www.vtourraine.net/blog/img/2015/1list-rappels-apple-watch/1list-apple-watch.png
-[1List Analytics]:   http://www.vtourraine.net/blog/img/2015/1list-rappels-apple-watch/1list-analytics.png
+[1List Apple Watch]: /blog/img/2015/1list-rappels-apple-watch/1list-apple-watch.png
+[1List Analytics]:   /blog/img/2015/1list-rappels-apple-watch/1list-analytics.png

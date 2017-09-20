@@ -5,7 +5,7 @@ Date:     April 4, 2015
 Update:   April 19, 2015  
 Keywords: Mix-IT, iOS, dev  
 Summary:  Mix-IT, c’est un peu la WWDC lyonnaise. L’année dernière, la conférence avait vendu tous les billets en 48 heures ; cette année il aura suffit de 3 heures.  
-Image:    http://www.vtourraine.net/blog/img/2015/app-mixit/iphone-views.jpg  
+Image:    https://www.vtourraine.net/blog/img/2015/app-mixit/iphone-views.jpg  
 Language: fr  
 
 
@@ -43,6 +43,6 @@ Si vous avez des suggestions et que vous êtes très rapides, on peut encore esp
 > ![Nombres de téléchargements de l’application][downloads]
 
 
-[iPhone views]: http://www.vtourraine.net/blog/img/2015/app-mixit/iphone-views.jpg
-[iPhone 3D map]: http://www.vtourraine.net/blog/img/2015/app-mixit/maps-3d.png
-[downloads]: http://www.vtourraine.net/blog/img/2015/app-mixit/downloads.jpg
+[iPhone views]: /blog/img/2015/app-mixit/iphone-views.jpg
+[iPhone 3D map]: /blog/img/2015/app-mixit/maps-3d.png
+[downloads]: /blog/img/2015/app-mixit/downloads.jpg

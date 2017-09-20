@@ -18,5 +18,5 @@ Ceci étant dit, je conserve aussi du temps libre afin de continuer à travaille
 [Shazino]: http://www.shazino.com
 [Damien]:  http://42.dmathieu.com/
 [Franck]:  http://www.verrot.fr/
-[Projets]: http://www.vtourraine.net/projects/
-[Blog]:    http://www.vtourraine.net/blog/
+[Projets]: /projects/
+[Blog]:    /blog/

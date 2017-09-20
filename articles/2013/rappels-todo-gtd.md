@@ -5,7 +5,7 @@ Date:     July 05, 2013
 Update:   
 Keywords: rappels, todo, GTD, app  
 Summary:  S’il y a bien une chose que j’envie aux ordinateurs, c’est leur mémoire. Il m’arrive constamment d’oublier des choses, même les plus élémentaires. Pour palier à cette fâcheuse tendance, j’utilise donc une application de rappels. Ou plutôt deux applications. Sans compter la dizaine d’autres que je garde installées, au cas où. C’est grave, docteur ?  
-Image:    http://www.vtourraine.net/blog/img/rappels-todo-gtd/things.jpg  
+Image:    https://www.vtourraine.net/blog/img/rappels-todo-gtd/things.jpg  
 Language: fr  
 Project:  1List  
 
@@ -53,7 +53,7 @@ Dans une certaine mesure, GitHub est l’outil par excellence de travail collabo
 Mais je m’égare. Une chose est sûre, ce ne sont pas les outils qui manquent. Voilà, mon cerveau peut se reposer tranquillement, tous mes rappels sont gérés et organisés comme il convient. Et pendant ce temps-là, j’attends toujours les implants cérébraux permettant d’améliorer ma mémoire.
 
 
-[Things]:  http://www.vtourraine.net/blog/img/rappels-todo-gtd/things.jpg
-[1List]:   http://www.vtourraine.net/blog/img/rappels-todo-gtd/onelist.png
-[Kickoff]: http://www.vtourraine.net/blog/img/rappels-todo-gtd/kickoff.png
-[Issues]:  http://www.vtourraine.net/blog/img/rappels-todo-gtd/github.jpg
+[Things]:  /blog/img/rappels-todo-gtd/things.jpg
+[1List]:   /blog/img/rappels-todo-gtd/onelist.png
+[Kickoff]: /blog/img/rappels-todo-gtd/kickoff.png
+[Issues]:  /blog/img/rappels-todo-gtd/github.jpg

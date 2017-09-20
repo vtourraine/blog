@@ -5,13 +5,13 @@ Date:      September 7, 2017
 Update:    
 Keywords:  app, iOS, macOS  
 Summary:   J’utilise Things 3 depuis sa sortie il y a quelques mois. C’est d’ailleurs une des rares applications que j’utilise quotidiennement aussi bien sur mobile que sur desktop, avec des cas d’utilisation souvent complémentaires. Cette nouvelle version me paraît familière à present, et je pense pouvoir en tirer un premier bilan.  
-Image:     http://www.vtourraine.net/blog/img/2017/things-3/things-3-macos.png  
+Image:     https://www.vtourraine.net/blog/img/2017/things-3/things-3-macos.png  
 Language:  fr  
 
 
 J’utilise [Things 3](https://culturedcode.com/things/) depuis sa sortie il y a quelques mois. C’est d’ailleurs une des rares applications que j’utilise quotidiennement aussi bien sur mobile que sur desktop, avec des cas d’utilisation souvent complémentaires. Cette nouvelle version me paraît familière à present, et je pense pouvoir en tirer un premier bilan.
 
-![Things 3 macOS, image Cultured Code](http://www.vtourraine.net/blog/img/2017/things-3/things-3-macos.png)
+![Things 3 macOS, image Cultured Code](/blog/img/2017/things-3/things-3-macos.png)
 
 Pour faire court, c’est une réussite. Things 3 garde les qualités de ses prédécesseurs, apporte certaines améliorations, et en profite pour rafraîchir son interface. Si vous appréciez Things 2, cette nouvelle version vous plaira (et mérite à mon avis son prix). Mais l’évolution est relativement mineure. Son mode de fonctionnement reste fondamentalement le même, et si l’application ne vous convenait pas auparavant, cette nouvelle version n’y changera probablement rien.
 
@@ -49,7 +49,7 @@ J’imagine que les concepteurs de l’application redoutent la complexité tech
 ## Pas de collaboratif
 Autre grand absent de Things : le collaboratif. Les données de l’application restent exclusivement personnelles. À vrai dire, je n’en ressens pas le besoin, cette limitation me convient donc parfaitement (en tout cas, tel que j’utilise l’application aujourd’hui). Mais je conçois aussi que ce manque puisse disqualifier Things pour de nombreux utilisateurs.
 
-![Things 3 iOS, image Cultured Code](http://www.vtourraine.net/blog/img/2017/things-3/things-3-ios.png)
+![Things 3 iOS, image Cultured Code](/blog/img/2017/things-3/things-3-ios.png)
 
 ## Conclusion
 Je me souviens avoir acheté la license pour Things 2 avec le tarif étudiant, il y a bien, bien longtemps. Depuis, j’ai essayé de nombreuses alternatives. J’en ai même développé une, mais je reviens toujours à Things.

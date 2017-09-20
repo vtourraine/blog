@@ -5,8 +5,8 @@ Date:      February 28, 2016
 Update:   
 Keywords:  iOS, app, making-of  
 Summary:   J’ai publié cette semaine la version 2.0 de Games Keeper, une app iOS qui remplace les feuilles de scores de jeux de société. Mise à jour autoproclamée majeure, qui me donne donc l’occasion de parler un peu de ce projet qui évolue doucement mais sûrement depuis sa première version de septembre 2013.  
-Image:     http://www.vtourraine.net/blog/img/2016/games-keeper-2-0/games-keeper-iphones.png  
-Thumbnail: http://www.vtourraine.net/blog/img/2016/games-keeper-2-0/thumbnail-icone-games-keeper.png  
+Image:     https://www.vtourraine.net/blog/img/2016/games-keeper-2-0/games-keeper-iphones.png  
+Thumbnail: https://www.vtourraine.net/blog/img/2016/games-keeper-2-0/thumbnail-icone-games-keeper.png  
 Language:  fr  
 
 
@@ -17,7 +17,7 @@ J’ai publié cette semaine la version 2.0 de [Games Keeper](http://www.studioa
 
 Commençons par le point le plus important : l’icône.
 
-![Icône : alpha, v1.0, v2.0](http://www.vtourraine.net/blog/img/2016/games-keeper-2-0/games-keeper-icons.png)
+![Icône : alpha, v1.0, v2.0](/blog/img/2016/games-keeper-2-0/games-keeper-icons.png)
 
 Pour rappel, je suis développeur avant d’être concepteur d’icône ou artiste graphique. L’application est sortie en même temps qu’iOS 7, la tendance était donc clairement à la simplicité des formes et des couleurs, et les choses n’ont pas vraiment changé depuis.
 
@@ -28,7 +28,7 @@ L’aspect qui me paraît peut-être le plus délicat concerne le choix des dég
 
 Parlons un peu des couleurs justement.
 
-![Interface principale : v1.0, v1.5, v2.0](http://www.vtourraine.net/blog/img/2016/games-keeper-2-0/games-keeper-iphones.png)
+![Interface principale : v1.0, v1.5, v2.0](/blog/img/2016/games-keeper-2-0/games-keeper-iphones.png)
 
 La version d’origine utilisait uniquement le violet. Plus tard, j’ai commencé à ajouter du orange pour mieux identifier certains boutons (le fameux problème de la visibilité des boutons sans bordures d’iOS 7).
 
@@ -41,7 +41,7 @@ Un autre défi constant dans la conception des interfaces : l’équilibre entr
 
 Plusieurs utilisateurs m’avaient demandé d’ajouter telle ou telle fonction. Avec cette version 2.0, j’ai donc ajouté de nouvelles options, mais en revoyant l’interface les concernant. À présent, un utilisateur qui veut commencer une nouvelle partie ne voit que la liste des joueurs ; il lui faudra appuyer sur un bouton pour afficher davantage d’options. Cette approche permet d’offrir plus de flexibilité, tout en simplifiant l’écran principal.
 
-![Interface nouvelle partie, affichage des options](http://www.vtourraine.net/blog/img/2016/games-keeper-2-0/games-options.png)
+![Interface nouvelle partie, affichage des options](/blog/img/2016/games-keeper-2-0/games-options.png)
 
 
 ## App

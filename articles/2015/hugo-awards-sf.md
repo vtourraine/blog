@@ -5,8 +5,8 @@ Date:      August 29, 2015
 Update:    
 Keywords:  Sci-Fi, livre  
 Summary:   Si vous vous intéressez à la science-fiction et à la fantasy, vous avez probablement déjà entendu parler des « Hugo Awards ». Depuis 1953, ils récompensent les meilleures publications, célébrant des auteurs tels que Philip K. Dick, Frank Herbert, ou encore Isaac Asimov. On peut raisonnablement estimer qu’il s’agit du trophée le plus prestigieux du monde de la SF. Les choses ont changé, cette année, lorsqu’un groupe d’auteurs déçus ont choisi de manipuler le processus de vote pour transformer les Hugos en tribune politique et idéologique. 
-Image:     http://www.vtourraine.net/blog/img/2015/hugo-awards-sf/john-cmar-award.jpg  
-Thumbnail: http://www.vtourraine.net/blog/img/2015/hugo-awards-sf/thumbnail-john-cmar-award.jpg  
+Image:     https://www.vtourraine.net/blog/img/2015/hugo-awards-sf/john-cmar-award.jpg  
+Thumbnail: https://www.vtourraine.net/blog/img/2015/hugo-awards-sf/thumbnail-john-cmar-award.jpg  
 Language:  fr  
 
 
@@ -51,8 +51,8 @@ Pour en savoir plus : [_Who Won Science Fiction’s Hugo Awards, and Why It Mat
 [wired who won]: http://www.wired.com/2015/08/won-science-fictions-hugo-awards-matters/
 [martin broken]: http://grrm.livejournal.com/417125.html
 [winners]: http://www.thehugoawards.org/2015/08/2014-hugo-award-winners-announced/
-[blog martian]: http://www.vtourraine.net/blog/2015/critique-weir-the-martian
-[blog gibson]: http://www.vtourraine.net/blog/tags/william-gibson
+[blog martian]: /blog/2015/critique-weir-the-martian
+[blog gibson]: /blog/tags/william-gibson
 
-[john cmar award]: http://www.vtourraine.net/blog/img/2015/hugo-awards-sf/john-cmar-award.jpg
-[johno winners]: http://www.vtourraine.net/blog/img/2015/hugo-awards-sf/johno-winners.jpg
+[john cmar award]: /blog/img/2015/hugo-awards-sf/john-cmar-award.jpg
+[johno winners]: /blog/img/2015/hugo-awards-sf/johno-winners.jpg

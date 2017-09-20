@@ -5,11 +5,11 @@ Date:      November 27, 2015
 Update:    
 Keywords:  Objective-C, Xcode, dev
 Summary:   Après les « nullability annotations » d’Xcode 6.3, voici les « generics » d’Xcode 7. L’intention est la même : faire évoluer Objective-C pour faciliter son interopérabilité avec Swift. Avec, au passage, l’occasion d’améliorer la qualité du code Objective-C pour lui-même, en permettant à Xcode de détecter toute une nouvelle catégorie de bugs.    
-Image:     http://www.vtourraine.net/blog/img/2015/objective-c-generics/xcode-warnings.png  
+Image:     https://www.vtourraine.net/blog/img/2015/objective-c-generics/xcode-warnings.png  
 Language:  fr  
 
 
-Après les [_nullability annotations_](http://www.vtourraine.net/blog/2015/objective-c-nullability) d’Xcode 6.3, voici les _generics_ d’Xcode 7. 
+Après les [_nullability annotations_](/blog/2015/objective-c-nullability) d’Xcode 6.3, voici les _generics_ d’Xcode 7. 
 
 L’intention est la même : faire évoluer Objective-C pour faciliter son interopérabilité avec Swift. Avec, au passage, l’occasion d’améliorer la qualité du code Objective-C pour lui-même, en permettant à Xcode de détecter toute une nouvelle catégorie de bugs.
 
@@ -78,4 +78,4 @@ Ces annotations sont importantes pour interagir avec un code tiers, venant d’A
 - [_What’s New in Xcode: New Features in Xcode 7_, Apple](https://developer.apple.com/library/prerelease/ios/documentation/DeveloperTools/Conceptual/WhatsNewXcode/Articles/xcode_7_0.html)
 - [_Using Swift with Cocoa and Objective-C: Interacting with Objective-C APIs_, Apple](https://developer.apple.com/library/prerelease/ios/documentation/Swift/Conceptual/BuildingCocoaApps/InteractingWithObjective-CAPIs.html#//apple_ref/doc/uid/TP40014216-CH4-ID35)
 
-[Xcode warning]: http://www.vtourraine.net/blog/img/2015/objective-c-generics/xcode-warnings.png
+[Xcode warning]: /blog/img/2015/objective-c-generics/xcode-warnings.png

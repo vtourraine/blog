@@ -5,8 +5,8 @@ Date:      February 21, 2015
 Update:    September 3, 2015  
 Keywords:  critique, livre, William Gibson  
 Summary:   Après mon billet du mois dernier consacré à « Pattern Recognition », voici la suite ; car comme toutes les bonnes choses, cette histoire constitue en fait une trilogie. « Spook Country » revient donc avec certains personnages du livre précédent, mais il ne s’agit pas d’un prolongement direct du récit   
-Image:     http://www.vtourraine.net/blog/img/2015/critique-gibson-spook-country/spook-country.jpg  
-Thumbnail: http://www.vtourraine.net/blog/img/2015/critique-gibson-spook-country/thumbnail-spook-country.jpg  
+Image:     https://www.vtourraine.net/blog/img/2015/critique-gibson-spook-country/spook-country.jpg  
+Thumbnail: https://www.vtourraine.net/blog/img/2015/critique-gibson-spook-country/thumbnail-spook-country.jpg  
 Language:  fr  
 
 ![_Spook Country_, photo Vincent Tourraine, CC BY-NC 4.0][Cover]
@@ -48,12 +48,12 @@ Encore en 2015, entre les Google Glass et les Microsoft HoloLens, le monde rattr
 
 ### Trilogie _Blue Ant_, billets de blog
 
-1. [_Pattern Recognition_](http://www.vtourraine.net/blog/2015/critique-gibson-pattern-recognition)
+1. [_Pattern Recognition_](/blog/2015/critique-gibson-pattern-recognition)
 2. _Spook Country_
-3. [_Zero History_](http://www.vtourraine.net/blog/2015/critique-gibson-zero-history)
+3. [_Zero History_](/blog/2015/critique-gibson-zero-history)
 
 
-[Cover]:  http://www.vtourraine.net/blog/img/2015/critique-gibson-spook-country/spook-country.jpg  
-[Gibson]: http://www.vtourraine.net/blog/img/2015/critique-gibson-spook-country/william-gibson-by-pmonaghan.jpg
+[Cover]:  /blog/img/2015/critique-gibson-spook-country/spook-country.jpg  
+[Gibson]: /blog/img/2015/critique-gibson-spook-country/william-gibson-by-pmonaghan.jpg
 
-[Pattern Recognition]: http://www.vtourraine.net/blog/2015/critique-gibson-pattern-recognition  
+[Pattern Recognition]: /blog/2015/critique-gibson-pattern-recognition  

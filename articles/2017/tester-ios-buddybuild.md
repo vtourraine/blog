@@ -5,7 +5,7 @@ Date:      May 30, 2017
 Update:    
 Keywords:  iOS, Xcode, dev  
 Summary:   Dès qu’une nouvelle version d’iOS arrive, on aimerait pouvoir abandonner les précédentes. D’une part, pour bénéficier des dernières APIs, mais aussi pour simplifier les conditions d’exécution du code. Or, avec un peu de pragmatisme, il convient généralement de supporter une ou deux versions antérieures afin de ne pas exclure une partie des utilisateurs potentiels.  
-Image:     http://www.vtourraine.net/blog/img/2017/tester-ios-buddybuild/buddybuild-configuration-1.png  
+Image:     https://www.vtourraine.net/blog/img/2017/tester-ios-buddybuild/buddybuild-configuration-1.png  
 Language:  fr  
 
 
@@ -26,9 +26,9 @@ Hélas, la gestion d’un serveur d’intégration continue (a.k.a. le _CI serve
 5. Une fois la première intégration terminée, allez dans les réglages de l’app (« App Settings »). Dans « Test settings », activez les tests (« Run Tests », « Only run Tests »).
 6. Enfin, cliquez sur « Configure » en face de « Run Tests » pour sélectionner les appareils et les versions d’iOS à tester. Sélectionnez au moins un appareil pour chaque version majeure d’iOS supportée par votre application.
 
-![Test settings, buddybuild](http://www.vtourraine.net/blog/img/2017/tester-ios-buddybuild/buddybuild-configuration-1.png)
+![Test settings, buddybuild](/blog/img/2017/tester-ios-buddybuild/buddybuild-configuration-1.png)
 
-![Device selection, buddybuild](http://www.vtourraine.net/blog/img/2017/tester-ios-buddybuild/buddybuild-configuration-2.png)
+![Device selection, buddybuild](/blog/img/2017/tester-ios-buddybuild/buddybuild-configuration-2.png)
 
 Je sais, je sais. Dis comme ça, ça paraît assez compliqué. Mais cette configuration est en fait plutôt rapide, et surtout, devrait vous faire gagner beaucoup de temps à l’avenir. À chaque fois que vous pousserez un nouveau commit, buddybuild se chargera d’exécuter votre test sur toutes les configurations sélectionnées. En cas d’échec, vous recevrez un mail. Le reste du temps, vous pourrez continuer à travailler sans trop vous soucier des anciennes versions d’iOS.
 

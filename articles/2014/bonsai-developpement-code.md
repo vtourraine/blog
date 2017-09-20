@@ -5,7 +5,7 @@ Date:     March 28, 2014
 Update:   
 Keywords: gestion de projets, projet
 Summary:  Tout le monde adore les métaphores, n’est-ce-pas ? Un ordinateur c’est comme une voiture. Ou un camion. Aujourd’hui j’ai l’impression que coder, c’est un peu comme entretenir un bonsai. Certains le considèrent comme du jardinage, d’autres comme un art. Et parfois, on peut ressentir une envie incontrôlable de tout brûler.  
-Image:    http://www.vtourraine.net/blog/img/bonsai-developpement-code/cotoneaster.jpg  
+Image:    https://www.vtourraine.net/blog/img/bonsai-developpement-code/cotoneaster.jpg  
 Language: fr  
 Project:  WizBox  
 
@@ -37,7 +37,7 @@ Le plus difficile est de choisir d’enlever quelque chose sans chercher à le r
 [“Cotoneaster” by Mike](https://www.flickr.com/photos/openeye/5428831/), © Attribution-ShareAlike License
 
 
-[Cotoneaster]: http://www.vtourraine.net/blog/img/bonsai-developpement-code/cotoneaster.jpg  
+[Cotoneaster]: /blog/img/bonsai-developpement-code/cotoneaster.jpg  
 [ParisLemon]: http://parislemon.com/post/74043316441/where-is-this-geotagged-place-wonders-instagram  
 [Wiki ReverseGeocoding]: http://en.wikipedia.org/wiki/Reverse_geocoding  
 [WizBox]: http://www.studioamanga.com/wizbox/  

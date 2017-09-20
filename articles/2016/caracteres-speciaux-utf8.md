@@ -5,8 +5,8 @@ Date:      February 21, 2016
 Update:   
 Keywords:  général  
 Summary:   Quand on passe ses journées à saisir des caractères avec un clavier (physique ou virtuel), on néglige trop souvent la diversité mise à notre disposition par l’écriture numérique. La préhistoire ASCII est derrière nous, il est grand temps de profiter des richesses d’UTF-8.  
-Image:     http://www.vtourraine.net/blog/img/2016/caracteres-speciaux-utf8/espace-guillemets.png  
-Thumbnail: http://www.vtourraine.net/blog/img/2016/caracteres-speciaux-utf8/thumbnail-espace-guillemets.png  
+Image:     https://www.vtourraine.net/blog/img/2016/caracteres-speciaux-utf8/espace-guillemets.png  
+Thumbnail: https://www.vtourraine.net/blog/img/2016/caracteres-speciaux-utf8/thumbnail-espace-guillemets.png  
 Language:  fr  
 
 
@@ -21,11 +21,11 @@ Je vais commencer par mon préféré : [l’espace insécable](https://fr.wikip
 
 La barre d’espace prend beaucoup de place sur un clavier, mais elle ne suffit pas vraiment à couvrir tous les espaces possibles. Oui, il existe plusieurs types d’espaces. Je ne les maîtrise pas tous, ma passion pour les caractères spéciaux a des limites. Mais l’espace insécable est vraiment un cas intéressant. Je l’utilise tous les jours, avec deux cas d’utilisation.
 
-![_OS… X_, extrait du blog [swift.org](https://swift.org/blog/swift-ci/)](http://www.vtourraine.net/blog/img/2016/caracteres-speciaux-utf8/espace-os-x.png)
+![_OS… X_, extrait du blog [swift.org](https://swift.org/blog/swift-ci/)](/blog/img/2016/caracteres-speciaux-utf8/espace-os-x.png)
 
 Pour certains mots, et en particulier certaines marques, il convient d’utiliser un espace insécable. Les exemples autour d’Apple ne manquent pas (OS X, iPad Air, App Store, etc), mais ça peut évidemment servir dans bien d’autres domaines.
 
-![_« … guerrier »_, extrait app [La Matinale du Monde](https://itunes.apple.com/app/la-matinale-du-monde/id973857028?mt=8)](http://www.vtourraine.net/blog/img/2016/caracteres-speciaux-utf8/espace-guillemets.png)
+![_« … guerrier »_, extrait app [La Matinale du Monde](https://itunes.apple.com/app/la-matinale-du-monde/id973857028?mt=8)](/blog/img/2016/caracteres-speciaux-utf8/espace-guillemets.png)
 
 Le deuxième cas, encore plus fréquent, concerne les signes de ponctuation en français. Avant les points-virgules, les points d’interrogation, les points d’exclamation et les deux-points, ou encore à l’intérieur des guillemets doubles. Petit rappel au passage : en anglais on ne place aucun espace devant les signes de ponctuation doubles (astuce pour repérer les français qui écrivent en anglais sur internet : cherchez les espaces). Pour être vraiment précis, il faudrait en fait utiliser une espace *fine* insécable dans la plupart des cas, mais l’espace classique insécable permet déjà d’éviter les cassures indésirables.
 

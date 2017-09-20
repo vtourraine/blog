@@ -5,7 +5,7 @@ Date:     December 13, 2014
 Update:   
 Keywords: blog, cms  
 Summary:  Ce n’est pas le printemps, mais ce blog vient de faire peau neuve. Je ne parle pas d’un petit sélecteur CSS légèrement modifié, non, c’est un reboot complet de l’interface et du moteur. Et ce ne serait pas vraiment un blog si je n’en profitais pas pour décrire ces changements sous la forme d’un billet. Dont acte.  
-Image:    http://www.vtourraine.net/blog/img/2014/blog-nouvelle-version-cms/article-new.png  
+Image:    https://www.vtourraine.net/blog/img/2014/blog-nouvelle-version-cms/article-new.png  
 Language: fr  
 Project:  
 
@@ -85,10 +85,10 @@ Avec cette transition, le blog a perdu quelques fonctionnalités, mais il a auss
 WordPress peut continuer à dormir tranquille, ce modeste CMS a pour seule ambition de satisfaire mes propres besoins. Voilà qui devrait suffire au moins pour les 3 prochaines années.
 
 
-[Home old]:    http://www.vtourraine.net/blog/img/2014/blog-nouvelle-version-cms/home-old.png
-[Home new]:    http://www.vtourraine.net/blog/img/2014/blog-nouvelle-version-cms/home-new.png
-[Article old]: http://www.vtourraine.net/blog/img/2014/blog-nouvelle-version-cms/article-old.png
-[Article new]: http://www.vtourraine.net/blog/img/2014/blog-nouvelle-version-cms/article-new.png
+[Home old]:    /blog/img/2014/blog-nouvelle-version-cms/home-old.png
+[Home new]:    /blog/img/2014/blog-nouvelle-version-cms/home-new.png
+[Article old]: /blog/img/2014/blog-nouvelle-version-cms/article-old.png
+[Article new]: /blog/img/2014/blog-nouvelle-version-cms/article-new.png
 
 [GitHub]:          https://github.com/vtourraine/blog
 [nanoc]:           http://nanoc.ws
@@ -98,5 +98,5 @@ WordPress peut continuer à dormir tranquille, ce modeste CMS a pour seule ambit
 [Haml]:            http://haml.info
 [Sass]:            http://sass-lang.com
 [Daring Fireball]: http://daringfireball.net/linked/2014/12/11/overcast-reviews.text
-[Source MD]:       http://www.vtourraine.net/blog/2014/ios-boutons-couleurs.md
+[Source MD]:       /blog/2014/ios-boutons-couleurs.md
 [Highlight.js]:    https://highlightjs.org

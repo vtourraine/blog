@@ -5,7 +5,7 @@ Date:     May 17, 2014
 Update:   October 25, 2014  
 Keywords: UI, Sci-Fi  
 Summary:  Comment prendre au sérieux les interfaces qu’on peut voir dans les films de science-fiction ? L’imagination des auteurs ne s’embarrasse pas des mêmes considérations pratiques qui guident tous les jours notre travail de développeurs et concepteurs. C’est souvent avec émerveillement, amusement, et une certaine méprise, que nous contemplons les délires de la science-fiction pour tout ce qui ressemble de proche ou de loin à un ordinateur.  
-Image:    http://www.vtourraine.net/blog/img/mixit-futur-interfaces-science-fiction/2001.jpg  
+Image:    https://www.vtourraine.net/blog/img/mixit-futur-interfaces-science-fiction/2001.jpg  
 Language: fr  
 Project:  
 
@@ -139,16 +139,16 @@ Un auteur (dont j’ai oublié le nom) s’est vu demandé dans une interview r�
 > _Mise à jour 25 octobre 2014 : la vidéo de ma session à Mix-IT est maintenant disponible sur InfoQ : [Looking at the future of User Interfaces in Sci-Fi][InfoQ]._
 
 
-[Alien]:           http://www.vtourraine.net/blog/img/mixit-futur-interfaces-science-fiction/Alien.jpg
-[Jurassic Park]:   http://www.vtourraine.net/blog/img/mixit-futur-interfaces-science-fiction/Jurassic%20Park.jpg
-[Minority Report]: http://www.vtourraine.net/blog/img/mixit-futur-interfaces-science-fiction/Minority%20Report.gif
-[2001]:            http://www.vtourraine.net/blog/img/mixit-futur-interfaces-science-fiction/2001.jpg
-[Dick Tracy]:      http://www.vtourraine.net/blog/img/mixit-futur-interfaces-science-fiction/Dick%20Tracy.jpg
-[Johnny Mnemonic]: http://www.vtourraine.net/blog/img/mixit-futur-interfaces-science-fiction/Johnny%20Mnemonic.jpg
-[Deep Space 9]:    http://www.vtourraine.net/blog/img/mixit-futur-interfaces-science-fiction/Deep%20Space%209.jpg
-[Her]:             http://www.vtourraine.net/blog/img/mixit-futur-interfaces-science-fiction/Her.jpg
-[BttF2]:           http://www.vtourraine.net/blog/img/mixit-futur-interfaces-science-fiction/Back%20to%20the%20Future.gif
-[Akira]:           http://www.vtourraine.net/blog/img/mixit-futur-interfaces-science-fiction/Akira.gif
+[Alien]:           /blog/img/mixit-futur-interfaces-science-fiction/Alien.jpg
+[Jurassic Park]:   /blog/img/mixit-futur-interfaces-science-fiction/Jurassic%20Park.jpg
+[Minority Report]: /blog/img/mixit-futur-interfaces-science-fiction/Minority%20Report.gif
+[2001]:            /blog/img/mixit-futur-interfaces-science-fiction/2001.jpg
+[Dick Tracy]:      /blog/img/mixit-futur-interfaces-science-fiction/Dick%20Tracy.jpg
+[Johnny Mnemonic]: /blog/img/mixit-futur-interfaces-science-fiction/Johnny%20Mnemonic.jpg
+[Deep Space 9]:    /blog/img/mixit-futur-interfaces-science-fiction/Deep%20Space%209.jpg
+[Her]:             /blog/img/mixit-futur-interfaces-science-fiction/Her.jpg
+[BttF2]:           /blog/img/mixit-futur-interfaces-science-fiction/Back%20to%20the%20Future.gif
+[Akira]:           /blog/img/mixit-futur-interfaces-science-fiction/Akira.gif
 
 [MixIT]: 					   http://www.mix-it.fr/session/378/looking-at-the-future-of-user-interfaces-in-sci-fi
 [Find My Friends]:   http://en.wikipedia.org/wiki/File:Find-my-Friends_iPad.jpg

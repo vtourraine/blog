@@ -5,7 +5,7 @@ Date:     December 16, 2011
 Update:   
 Keywords: Tiny Tower, jeux vidéo, iOS, Android, pixel
 Summary:  Je viens de découvrir « Tiny Tower », un jeu disponible pour iOS et Android, et j’essaie maintenant de comprendre comment un jeu si simple peut se révéler aussi addictif (le fourbe !), en particulier sur mobiles.  
-Image:    http://www.vtourraine.net/blog/img/tiny-tower-jeu-mobile/tower-overview.png  
+Image:    https://www.vtourraine.net/blog/img/tiny-tower-jeu-mobile/tower-overview.png  
 Language: fr  
 
 Je viens de découvrir « Tiny Tower », un jeu disponible pour iOS et Android, et j’essaie maintenant de comprendre comment un jeu si simple peut se révéler aussi addictif (le fourbe !), en particulier sur mobiles.
@@ -58,11 +58,11 @@ Je pourrais ajouter le fait d’avoir des graphismes à la mode *pixel-art*, qui
 - [« Tiny Tower » sur l’Android Market][Android]
 
 
-[Icone]:           http://www.vtourraine.net/blog/img/tiny-tower-jeu-mobile/tiny-tower-icone.png
-[Screenshot 1]:    http://www.vtourraine.net/blog/img/tiny-tower-jeu-mobile/tower-overview.png
-[Screenshot 2]:    http://www.vtourraine.net/blog/img/tiny-tower-jeu-mobile/tower.png
-[Screenshot bux]:  http://www.vtourraine.net/blog/img/tiny-tower-jeu-mobile/more-bux.png
-[Screenshot shop]: http://www.vtourraine.net/blog/img/tiny-tower-jeu-mobile/costume-shop.png
+[Icone]:           /blog/img/tiny-tower-jeu-mobile/tiny-tower-icone.png
+[Screenshot 1]:    /blog/img/tiny-tower-jeu-mobile/tower-overview.png
+[Screenshot 2]:    /blog/img/tiny-tower-jeu-mobile/tower.png
+[Screenshot bux]:  /blog/img/tiny-tower-jeu-mobile/more-bux.png
+[Screenshot shop]: /blog/img/tiny-tower-jeu-mobile/costume-shop.png
 
 [UITableView]: http://developer.apple.com/library/ios/#documentation/uikit/reference/UITableView_Class/Reference/Reference.html
 [App Store]:   http://itunes.apple.com/app/tiny-tower/id422667065?mt=8

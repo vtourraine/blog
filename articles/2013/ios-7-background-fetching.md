@@ -5,7 +5,7 @@ Date:     October 11, 2013
 Update:   
 Keywords: iOS, Xcode, Objective-C  
 Summary:  Entre iOS et les applications qui veulent travailler en tâche de fond, c’est compliqué. Le système a de bonnes raisons pour économiser les cycles de son processeur, tandis que les développeurs en veulent toujours plus. Bonne nouvelle, tout change avec iOS 7, le “background fetching” est maintenant ouvert à tous.  
-Image:    http://www.vtourraine.net/blog/img/ios-7-background-fetching/xcodeproj-back-fetch.png  
+Image:    https://www.vtourraine.net/blog/img/ios-7-background-fetching/xcodeproj-back-fetch.png  
 Language: fr  
 Project:  
 
@@ -117,8 +117,8 @@ Enlevez les textures et ajouter le background fetching : voilà une vraie applic
 - <a href="https://developer.apple.com/library/ios/documentation/uikit/reference/UIApplicationDelegate_Protocol/Reference/Reference.html">UIApplicationDelegate Protocol Reference</a>
 
 
-[Edit Project]:   http://www.vtourraine.net/blog/img/ios-7-background-fetching/xcodeproj-back-fetch-annotated.png
-[Fetch Settings]: http://www.vtourraine.net/blog/img/ios-7-background-fetching/back-fetch-settings-scaled.png
-[Edit Scheme]:    http://www.vtourraine.net/blog/img/ios-7-background-fetching/xcodeproj-back-fetch-scheme-annotated.png
+[Edit Project]:   /blog/img/ios-7-background-fetching/xcodeproj-back-fetch-annotated.png
+[Fetch Settings]: /blog/img/ios-7-background-fetching/back-fetch-settings-scaled.png
+[Edit Scheme]:    /blog/img/ios-7-background-fetching/xcodeproj-back-fetch-scheme-annotated.png
 
 [AFNetworking]: https://github.com/AFNetworking/AFNetworking

@@ -5,7 +5,7 @@ Date:      May 3, 2016
 Update:   
 Keywords:  Blu-ray  
 Summary:   Cette année encore, j’achète mes films en Blu-ray. C’est un peu embarrassant, accumuler ces rondelles plastiques à l’heure des plateformes de streaming, mais je trouve que c’est encore la meilleure solution disponible.  
-Image:     http://www.vtourraine.net/blog/img/2016/bluray-netflix/bluray-disc-opaque.png  
+Image:     https://www.vtourraine.net/blog/img/2016/bluray-netflix/bluray-disc-opaque.png  
 Language:  fr  
 
 
@@ -23,4 +23,4 @@ Le seul argument qui sauve en partie l’iTunes Store à mes yeux concerne la lo
 
 Le plus simple est peut-être encore d’aller dans une salle de cinéma (je plaisante).
 
-![Disque Blu-ray, image Wikimedia Commons (public domain) par [Cdnomad](https://commons.wikimedia.org/wiki/File%3ABluRayDiscBack.png)](http://www.vtourraine.net/blog/img/2016/bluray-netflix/bluray-disc.png)
+![Disque Blu-ray, image Wikimedia Commons (public domain) par [Cdnomad](https://commons.wikimedia.org/wiki/File%3ABluRayDiscBack.png)](/blog/img/2016/bluray-netflix/bluray-disc.png)

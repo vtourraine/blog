@@ -5,7 +5,7 @@ Date:     March 19, 2015
 Update:   
 Keywords: CocoaPods, dev
 Summary:  La première fois qu’on me l’a présenté, CocoaPods m’avait laissé sceptique. Gérer ses dépendances et configurer un workspace Xcode était déjà assez compliqué comme ça, pas besoin de rajouter un outil tiers par dessus tout le reste. Bien sûr, c’est pourtant exactement pour cela que CocoaPods est si intéressant, parce qu’aucun développeur Objective-C ne devrait avoir à configurer un workspace pour une quelconque dépendance, ou mettre à jour un code tiers en téléchargeant une archive zip sur GitHub pour ensuite déplacer manuellement un ensemble de fichiers.   
-Image:    http://www.vtourraine.net/blog/img/2015/selection-cocoapods/colours.jpg  
+Image:    https://www.vtourraine.net/blog/img/2015/selection-cocoapods/colours.jpg  
 Language: fr  
 
 
@@ -86,8 +86,8 @@ Avec iOS 7 et OS X 10.9, Apple a ajouté un nouvel ensemble d’API autour de 
 
 À cet égard, ce n’est pas seulement un pod, c’est un reflet de la communauté des développeurs iOS et OS X. Il suit et parfois devance les évolutions des plateformes et des outils fournis par Apple. Vivement le biopic.
 
-[Colours]:             http://www.vtourraine.net/blog/img//2015/selection-cocoapods/colours.jpg
-[PBWebViewController]: http://www.vtourraine.net/blog/img//2015/selection-cocoapods/pbwebviewcontroller.jpg
-[iRate]:               http://www.vtourraine.net/blog/img//2015/selection-cocoapods/irate.jpg
-[SVProgressHUD]:       http://www.vtourraine.net/blog/img//2015/selection-cocoapods/svprogresshud.gif
-[AFNetworking]:        http://www.vtourraine.net/blog/img//2015/selection-cocoapods/afnetworking.jpg
+[Colours]:             /blog/img//2015/selection-cocoapods/colours.jpg
+[PBWebViewController]: /blog/img//2015/selection-cocoapods/pbwebviewcontroller.jpg
+[iRate]:               /blog/img//2015/selection-cocoapods/irate.jpg
+[SVProgressHUD]:       /blog/img//2015/selection-cocoapods/svprogresshud.gif
+[AFNetworking]:        /blog/img//2015/selection-cocoapods/afnetworking.jpg

@@ -5,7 +5,7 @@ Date:     June 28, 2015
 Update:   
 Keywords: iOS, web, dev
 Summary:  Safari n’est pas exactement le navigateur favori des développeurs web. Il dispose cependant d’une fonctionnalité, un peu cachée et donc relativement méconnue, qui vaut vraiment le détour lorsqu’il s’agit de concevoir un site (ou une app) mobile. Je n’ai probablement pas à vous convaincre de l’intérêt du Web Inspector. Depuis Firebug jusqu’aux _DevTools_ de Chrome, la possibilité d’explorer le DOM avec une interface graphique est devenue incontournable. Mais comment faire pour un smartphone ou une tablette, quand le navigateur mobile ne dispose pas d’une telle fonctionnalité ? Dans le cas d’iOS, Safari s’en occupe très bien, encore faut-il savoir l’activer.  
-Image:    http://www.vtourraine.net/blog/img/2015/safari-inspect-ios-webview/safari-develop-menu.png  
+Image:    https://www.vtourraine.net/blog/img/2015/safari-inspect-ios-webview/safari-develop-menu.png  
 Language: fr  
 
 
@@ -25,7 +25,7 @@ Dans le cas d’iOS, Safari s’en occupe très bien. Encore faut-il savoir l’
 3. `Advanced`
 4. `Web Inspector`
 
-![iOS Settings](http://www.vtourraine.net/blog/img/2015/safari-inspect-ios-webview/ios-safari-settings.png)
+![iOS Settings](/blog/img/2015/safari-inspect-ios-webview/ios-safari-settings.png)
 
 **Activez le menu développeur dans Safari sur Mac :**
 
@@ -33,11 +33,11 @@ Dans le cas d’iOS, Safari s’en occupe très bien. Encore faut-il savoir l’
 2. `Advanced`
 3. `Show Develop menu in menu bar`
 
-![Safari Settings](http://www.vtourraine.net/blog/img/2015/safari-inspect-ios-webview/osx-safari-preferences.png)
+![Safari Settings](/blog/img/2015/safari-inspect-ios-webview/osx-safari-preferences.png)
 
 Vous pouvez maintenant ouvrir ce menu `Develop` sur votre ordinateur, et vous y trouverez une liste de tous les appareils branchés ayant activé cette fonctionnalité. Si Safari est ouvert sur iOS, il y apparaîtra, et il ne vous restera plus qu’à inspecter la page mobile, directement depuis votre Mac.
 
-![Safari Develop menu](http://www.vtourraine.net/blog/img/2015/safari-inspect-ios-webview/safari-develop-menu.png)
+![Safari Develop menu](/blog/img/2015/safari-inspect-ios-webview/safari-develop-menu.png)
 
 
 ## Bonus : inspecter une web view à l’intérieur d’une app

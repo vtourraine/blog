@@ -5,7 +5,7 @@ Date:     November 02, 2011
 Update:   
 Keywords: iOS, Making-of, gestion de projets, Xcode
 Summary:  Voici la première partie d’une série de billets présentant certains aspects de la création de mes dernières applications : ce qu’on pourrait donc appeler le making-of de MemO’clock et GeO’clock. Pour commencer, je vais justement aborder le problème d’avoir à gérer plusieurs applications similaires en parallèle.
-Image:    http://www.vtourraine.net/blog/img/ios-xcode-projets-parallele/drag-file-to-project.jpg
+Image:    https://www.vtourraine.net/blog/img/ios-xcode-projets-parallele/drag-file-to-project.jpg
 Language: fr
 
 Voici la première partie d’une série de billets présentant certains aspects de la création de mes dernières applications : ce qu’on pourrait donc appeler le making-of de MemO’clock et GeO’clock. Pour commencer, je vais justement aborder le problème d’avoir à gérer plusieurs applications similaires en parallèle.
@@ -64,7 +64,7 @@ Et voilà. La démarche est assez simple, et les commandes préprocesseur peuven
 Selon votre expérience des langages de programmation, cette solution pourra vous paraître surprenante, voire inappropriée. Elle permet en tout cas de maîtriser précisément votre code au moment de sa compilation. Libre à vous de l'utiliser selon votre besoin. Cette technique peut d'ailleurs trouver son utilité dans d'autres cas, rien ne vous empêche de vous en inspirer pour répondre à des problèmes différents. 
 
 
-[Drag file]: http://www.vtourraine.net/blog/img/ios-xcode-projets-parallele/drag-file-to-project.jpg
-[Add file reference]: http://www.vtourraine.net/blog/img/ios-xcode-projets-parallele/add-file-by-reference.jpg
-[Inspect file]: http://www.vtourraine.net/blog/img/ios-xcode-projets-parallele/inspect-file.jpg
-[Preprocessor]: http://www.vtourraine.net/blog/img/ios-xcode-projets-parallele/preprocessor.jpg
+[Drag file]: /blog/img/ios-xcode-projets-parallele/drag-file-to-project.jpg
+[Add file reference]: /blog/img/ios-xcode-projets-parallele/add-file-by-reference.jpg
+[Inspect file]: /blog/img/ios-xcode-projets-parallele/inspect-file.jpg
+[Preprocessor]: /blog/img/ios-xcode-projets-parallele/preprocessor.jpg

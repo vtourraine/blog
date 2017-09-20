@@ -90,5 +90,5 @@ Autant de pistes différentes et souvent complémentaires pour structurer un cod
 Évidemment, ce ne sont que mes modestes recommandations. Si vous avez d’autres suggestions, ou mieux, si vous avez des contre-arguments concernant les points évoqués, les commentaires sont là pour ça.
 
 
-[Xcode navigation]: http://www.vtourraine.net/blog/img/structure-code-objective-c/xcode-navigation.png
+[Xcode navigation]: /blog/img/structure-code-objective-c/xcode-navigation.png
 [LLVM Pragmas]:     http://clang.llvm.org/docs/UsersManual.html#controlling-diagnostics-via-pragmas

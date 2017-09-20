@@ -5,7 +5,7 @@ Date:     February 15, 2015
 Update:   
 Keywords: dev, Cocoa, OS X  
 Summary:  Coincé entre la déferlante iOS et la montée en puissance des web  apps, le développement OS X n’est pas franchement au centre des attentions. Il s’agit pourtant d’une plateforme toujours intéressante, pour plusieurs raisons.  
-Image:    http://www.vtourraine.net/blog/img/2015/intro-dev-mac-os-x/start-dev-mac-apps.png  
+Image:    https://www.vtourraine.net/blog/img/2015/intro-dev-mac-os-x/start-dev-mac-apps.png  
 Language: fr  
 
 Coincé entre la déferlante iOS et la montée en puissance des web  apps, le développement OS X n’est pas franchement au centre des attentions. Il s’agit pourtant d’une plateforme toujours intéressante, pour plusieurs raisons.
@@ -86,4 +86,4 @@ Tout ceci ne représente bien-sûr qu’une brève introduction. Je vous laisse 
 Si vous êtes intéressés par une présentation plus approfondie de la plateforme, n’hésitez-pas à me faire signe, il reste encore bien des billets de blog à écrire sur le sujet.
 
 
-[Start dev Mac apps]: http://www.vtourraine.net/blog/img/2015/intro-dev-mac-os-x/start-dev-mac-apps.png  
+[Start dev Mac apps]: /blog/img/2015/intro-dev-mac-os-x/start-dev-mac-apps.png  

@@ -74,10 +74,10 @@ Voilà pour les podcasts que j’écoute en priorité. À côté de ça, [ma bib
 Une chose est sûre : on ne manque pas d’émissions intéressantes, alors n’hésitez pas à partager dans les commentaires vos podcasts préférés.
 
 
-[Artwork Vergecast]:     http://www.vtourraine.net/blog/img/podcasts-tech-apple-news/artwork-vergecast.jpg
-[Artwork The Talk Show]: http://www.vtourraine.net/blog/img/podcasts-tech-apple-news/artwork-tts.jpg
-[Artwork ATP]:           http://www.vtourraine.net/blog/img/podcasts-tech-apple-news/artwork-atp.jpg
-[Artwork Developing P]:  http://www.vtourraine.net/blog/img/podcasts-tech-apple-news/artwork-dp.jpg
+[Artwork Vergecast]:     /blog/img/podcasts-tech-apple-news/artwork-vergecast.jpg
+[Artwork The Talk Show]: /blog/img/podcasts-tech-apple-news/artwork-tts.jpg
+[Artwork ATP]:           /blog/img/podcasts-tech-apple-news/artwork-atp.jpg
+[Artwork Developing P]:  /blog/img/podcasts-tech-apple-news/artwork-dp.jpg
 
 [The Verge]:             http://www.theverge.com
 [Vergecast Hiatus]:      http://www.theverge.com/2014/3/20/5530924/the-vergecast-is-going-on-hiatus-sound-off

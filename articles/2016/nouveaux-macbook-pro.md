@@ -5,7 +5,7 @@ Date:      October 28, 2016
 Update:    
 Keywords:  hardware  
 Summary:   Mon ordinateur personnel est un MacBook Pro 13” « Mid 2010 ».  
-Image:     http://www.vtourraine.net/blog/img/2016/nouveaux-macbook-pro/about-my-mac.png  
+Image:     https://www.vtourraine.net/blog/img/2016/nouveaux-macbook-pro/about-my-mac.png  
 Language:  fr  
 
 
@@ -13,7 +13,7 @@ Mon ordinateur personnel est un _MacBook Pro 13” « Mid 2010 »_.
 
 Acheté il y a six ans, donc, pour 1.032 €. Si ma mémoire est bonne, il s’agissait d’une configuration de base avec disque dur augmenté à 500 Go, bénéficiant de la remise pour les étudiants. Originellement avec 4 Go de mémoire vive, maintenant doublée via un fournisseur tiers. Le tout propulsé par un magnifique Core 2 Duo à 2,4 GHz.
 
-![« About This Mac »](http://www.vtourraine.net/blog/img/2016/nouveaux-macbook-pro/about-my-mac.png)
+![« About This Mac »](/blog/img/2016/nouveaux-macbook-pro/about-my-mac.png)
 
 Globalement, une machine de moyenne gamme à l’époque (pour un Mac), à un prix raisonnable. Vous imaginez bien que tout n’y est pas très rapide aujourd’hui. On est loin des performances possibles avec un SSD et un processeur plus récent.
 

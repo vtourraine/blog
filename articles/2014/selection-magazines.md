@@ -5,8 +5,8 @@ Date:      November 11, 2014
 Update:   
 Keywords:  magazines, news  
 Summary:   Heureusement que je ne compte pas le nombre de tweets qui me passent devant les yeux chaque jour, ou le nombre de pages web qui défilent sur mon écran. Mes écrans. Parfois plusieurs en même temps. Dans ce contexte, et en pleine déclin de l’information sur papier, lire un magazine me semble une occupation… intéressante. En contre-temps assumé des flux continus, mais toujours tenté par la transformation inexorable vers le numérique. Tout ça pour parler un peu de quelques magazines que j’apprécie, et sur leurs différentes approches du problème de la presse en 2014.  
-Image:     http://www.vtourraine.net/blog/img/selection-magazines/offscreen-spread.jpg  
-Thumbnail: http://www.vtourraine.net/blog/img/selection-magazines/thumbnail-offscreen-spread.jpg  
+Image:     https://www.vtourraine.net/blog/img/selection-magazines/offscreen-spread.jpg  
+Thumbnail: https://www.vtourraine.net/blog/img/selection-magazines/thumbnail-offscreen-spread.jpg  
 Language:  fr  
 Project:  
 
@@ -76,14 +76,14 @@ Les éditeurs continuent à imprimer des magazines (et des journaux et des livre
 À terme, il me paraît évident que le numérique s’imposera comme le moyen principal de distribution, et que le papier deviendra l’exception. J’espère donc qu’Offscreen sera toujours là pour illustrer cette formidable ironie.
 
 
-[Cover Humanoide]:     http://www.vtourraine.net/blog/img/selection-magazines/humanoide-cover.jpg
-[Cover Wired]:         http://www.vtourraine.net/blog/img/selection-magazines/wired-cover.jpg
-[Cover Offscreen]:     http://www.vtourraine.net/blog/img/selection-magazines/offscreen-cover.jpg
-[Spread Offscreen]:    http://www.vtourraine.net/blog/img/selection-magazines/offscreen-spread.jpg
-[Kai Brach]:           http://www.vtourraine.net/blog/img/selection-magazines/kai-brach-offscreen-2014.jpg
+[Cover Humanoide]:     /blog/img/selection-magazines/humanoide-cover.jpg
+[Cover Wired]:         /blog/img/selection-magazines/wired-cover.jpg
+[Cover Offscreen]:     /blog/img/selection-magazines/offscreen-cover.jpg
+[Spread Offscreen]:    /blog/img/selection-magazines/offscreen-spread.jpg
+[Kai Brach]:           /blog/img/selection-magazines/kai-brach-offscreen-2014.jpg
 
 [Le Figaro Humanoide]: http://www.lefigaro.fr/secteur/high-tech/2014/06/20/01007-20140620ARTFIG00186--humanoide-le-magazine-qui-veut-depoussierer-la-presse-high-tech.php
 [Download Humanoide]:  http://www.humanoidemagazine.com/le-n1-dhumanoide-est-gratuit-en-version-numerique/
 [Offscreen Blog]:      http://blog.offscreenmag.com/post/62076260574/talking-dollars
-[Blog The Magazine]:   http://www.vtourraine.net/blog/2012/the-magazine-newsstand
+[Blog The Magazine]:   /blog/2012/the-magazine-newsstand
 [The Magazine Book]:   http://glog.glennf.com/blog/2014/10/8/the-magazine-is-making-a-book-again-and-shutting-down-what

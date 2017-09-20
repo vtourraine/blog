@@ -5,7 +5,7 @@ Date:     September 18, 2012
 Update:   
 Keywords: iOS, iPhone, iPad, Xcode, Objective-C  
 Summary:  La dernière version d’iOS apporte son lot de nouveautés, pour la plupart déjà bien connues. Les développeurs ne sont pas en reste, avec de nombreuses API à (re)découvrir. J’en profite pour exposer les points qui me paraissent les plus intéressants.  
-Image:    http://www.vtourraine.net/blog/img/ios-6-api-sdk/maps-reimagined.png  
+Image:    https://www.vtourraine.net/blog/img/ios-6-api-sdk/maps-reimagined.png  
 Language: fr  
 Project:  
 
@@ -101,8 +101,8 @@ Encore une fois, Apple continue à étendre les capacités de son OS et des API 
 - [iOS 5.1 to iOS 6.0 API Differences](https://developer.apple.com/library/prerelease/ios/#releasenotes/General/iOS60APIDiffs/)
 
 
-[Maps]:             http://www.vtourraine.net/blog/img/ios-6-api-sdk/maps-reimagined.png
-[Passbook]:         http://www.vtourraine.net/blog/img/ios-6-api-sdk/passbook-syd-lax.png
-[Reminders]:        http://www.vtourraine.net/blog/img/ios-6-api-sdk/reminders.png
-[UICollectionView]: http://www.vtourraine.net/blog/img/ios-6-api-sdk/uicollectionview.png
-[Icone Xcode]:      http://www.vtourraine.net/blog/img/xcode-4-workspaces/xcode-icon.png
+[Maps]:             /blog/img/ios-6-api-sdk/maps-reimagined.png
+[Passbook]:         /blog/img/ios-6-api-sdk/passbook-syd-lax.png
+[Reminders]:        /blog/img/ios-6-api-sdk/reminders.png
+[UICollectionView]: /blog/img/ios-6-api-sdk/uicollectionview.png
+[Icone Xcode]:      /blog/img/xcode-4-workspaces/xcode-icon.png

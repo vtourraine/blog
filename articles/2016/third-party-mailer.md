@@ -5,7 +5,7 @@ Date:      April 10, 2016
 Update:   
 Keywords:  Swift, iOS, app, making-of  
 Summary:   J’ai publié cette semaine une nouvelle bibliothèque Swift pour iOS, qui permet d’interagir avec les clients mails tiers. On peut faire beaucoup de choses avec iOS en 2016, mais on ne peut toujours pas choisir son client mail.  
-Image:     http://www.vtourraine.net/blog/img/2016/third-party-mailer/contacts-settings.png  
+Image:     https://www.vtourraine.net/blog/img/2016/third-party-mailer/contacts-settings.png  
 Language:  fr  
 
 J’ai publié cette semaine [une nouvelle bibliothèque Swift](https://github.com/vtourraine/ThirdPartyMailer) pour iOS, qui permet d’interagir avec les clients mails tiers.
@@ -24,7 +24,7 @@ Ma bibliothèque, [ThirdPartyMailer](https://github.com/vtourraine/ThirdPartyMai
 
 J’utilise en fait ce code depuis plusieurs années, pour [mon app de carnet d’adresses](http://www.studioamanga.com/contacts/) qui permet donc de sélectionner un client mail par défaut. Au départ, il s’agissait uniquement de proposer Sparrow comme client alternatif. On peut maintenant utiliser Gmail, Dispatch, Spark et Airmail.
 
-![Sélection du client mail pour Contact[s]](http://www.vtourraine.net/blog/img/2016/third-party-mailer/contacts-settings.png)
+![Sélection du client mail pour Contact[s]](/blog/img/2016/third-party-mailer/contacts-settings.png)
 
 L’utilisateur peut ainsi initier la rédaction d’un mail avec le client de son choix, directement depuis ce carnet d’adresses.
 

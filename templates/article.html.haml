@@ -3,20 +3,20 @@
   %head
     %meta{:charset => "utf-8"}
     %title #{title}
-    %link{:rel => "stylesheet", :type => "text/css", :href => "#{blog_url}styles/default.css?upper"}
+    %link{:rel => "stylesheet", :type => "text/css", :href => "/blog/styles/default.css?abs"}
     -# %link{:rel => "stylesheet", :type => "text/css", :href => "../styles/default.css"}
-    %link{:rel => "stylesheet", :type => "text/css", :href => "http://fonts.googleapis.com/css?family=Nunito:300,700"}
+    %link{:rel => "stylesheet", :type => "text/css", :href => "https://fonts.googleapis.com/css?family=Nunito:300,700"}
 
     %link{:rel => "canonical", :href => "#{web_url}"}
 
-    %link{:rel => "shortcut icon", :href => "http://www.vtourraine.net/img/vt-16.png"}
-    %link{:rel => "apple-touch-icon-precomposed", :href => "http://www.vtourraine.net/img/vt-114.png"}
-    %link{:rel => "apple-touch-icon-precomposed", :href => "http://www.vtourraine.net/img/vt-72.png", :sizes => "72x72"}
-    %link{:rel => "alternate",  :type => "application/atom+xml", :href => "#{blog_url}feed.xml", :title => "Blog (Atom)"}
+    %link{:rel => "shortcut icon", :href => "/img/vt-16.png"}
+    %link{:rel => "apple-touch-icon-precomposed", :href => "/img/vt-114.png"}
+    %link{:rel => "apple-touch-icon-precomposed", :href => "/img/vt-72.png", :sizes => "72x72"}
+    %link{:rel => "alternate",  :type => "application/atom+xml", :href => "/blog/feed.xml", :title => "Blog (Atom)"}
     %link{:rel => "author", :href => "http://plus.google.com/117326560329576507699", :title => "Vincent Tourraine on Google+"}
-    %link{:rel => "stylesheet", :href => "#{blog_url}highlight/styles/default.css"}
+    %link{:rel => "stylesheet", :href => "/blog/highlight/styles/default.css"}
 
-    %script{:src => "#{blog_url}highlight/highlight.pack.js"}
+    %script{:src => "/blog/highlight/highlight.pack.js"}
     %script hljs.initHighlightingOnLoad();
 
     %meta{:name => "viewport", :content => "width=device-width, user-scalable=no"}
@@ -51,9 +51,9 @@
   %body.post
     %header
       #headline
-        %a{:href => "http://www.vtourraine.net/"} Vincent Tourraine
+        %a{:href => "/"} Vincent Tourraine
       #main
-        %a{:href => "#{blog_url}"} Blog
+        %a{:href => "/blog"} Blog
 
     %article.post
       %h1{:itemprop => "name"}
@@ -75,25 +75,25 @@
 
           (function() {
               var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-              dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+              dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
               (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
           })();
         %noscript 
-          Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
-        %a{:href => "http://disqus.com", :class => "dsq-brlink"} 
+          Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+        %a{:href => "https://disqus.com", :class => "dsq-brlink"} 
           blog comments powered by 
           %span.logo-disqus
             Disqus
 
     %footer
       %nav
-        %a{:href => "http://www.vtourraine.net"} Vincent Tourraine
+        %a{:href => "/"} Vincent Tourraine
         \/
-        %a{:href => "http://www.vtourraine.net/projects/"} Projets
+        %a{:href => "/projects/"} Projets
         \/
         %span Blog
         \/
-        %a{:href => "http://www.vtourraine.net/reblog/"} Reblog
+        %a{:href => "/reblog/"} Reblog
 
       #mail
         Contact :

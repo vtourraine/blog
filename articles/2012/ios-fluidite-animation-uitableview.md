@@ -58,7 +58,7 @@ Chaque application est différente, et les techniques évoquées au cours de ce 
 La dernière version de Contact[s], publiée cette semaine sur l’[App Store](http://itunes.apple.com/app/contact-s/id477281440?mt=8), propose donc enfin une interface vraiment fluide, pour la plus grande joie du développeur, et des utilisateurs. Tout est bien, qui finit bien.
 
 
-[Tweetie]:            http://www.vtourraine.net/blog/img/ios-fluidite-animation-uitableview/tweetie.jpg
-[Blended layers]:     http://www.vtourraine.net/blog/img/ios-fluidite-animation-uitableview/blended-layers.jpg
-[Blended Contacts]:   http://www.vtourraine.net/blog/img/ios-fluidite-animation-uitableview/blended-contacts.jpg
-[Blended Settings]:   http://www.vtourraine.net/blog/img/ios-fluidite-animation-uitableview/blended-settings.jpg
+[Tweetie]:            /blog/img/ios-fluidite-animation-uitableview/tweetie.jpg
+[Blended layers]:     /blog/img/ios-fluidite-animation-uitableview/blended-layers.jpg
+[Blended Contacts]:   /blog/img/ios-fluidite-animation-uitableview/blended-contacts.jpg
+[Blended Settings]:   /blog/img/ios-fluidite-animation-uitableview/blended-settings.jpg

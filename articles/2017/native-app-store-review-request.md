@@ -5,7 +5,7 @@ Date:      June 28, 2017
 Update:   
 Keywords:  dev, iOS  
 Summary:   L’importance des notations sur l’App Store a généralisé le concept du « Please rate this app ». Ces alertes encouragent, de façon plus ou moins insistante, l’utilisateur à laisser un avis sur l’App Store. Tout ça pour obtenir le plus de ★★★★★.  
-Image:     http://www.vtourraine.net/blog/img/2017/native-app-store-review-request/requestreview.png  
+Image:     https://www.vtourraine.net/blog/img/2017/native-app-store-review-request/requestreview.png  
 Language:  fr  
 
 
@@ -13,7 +13,7 @@ L’importance des notations sur l’App Store a généralisé le concept du _«
 
 Voilà pourquoi Apple fournit depuis iOS 10.3 une API pour standardiser cette démarche, et a très récemment modifié les règles de validation pour interdire les alertes non-officielles.
 
-![Demande d’avis (requestReview) avec iOS 10.3](http://www.vtourraine.net/blog/img/2017/native-app-store-review-request/requestreview.png)
+![Demande d’avis (requestReview) avec iOS 10.3](/blog/img/2017/native-app-store-review-request/requestreview.png)
 
 > **1.1.7 App Store Reviews:**  
 > Use the provided API to prompt users to review your app; this functionality allows customers to provide an App Store rating and review without the inconvenience of leaving your app, and we will disallow custom review prompts.

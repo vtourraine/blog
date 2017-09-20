@@ -5,8 +5,8 @@ Date:      September 12, 2015
 Update:   
 Keywords:  iOS, dev
 Summary:   Une nouvelle API à la fois simple d’utilisation et intéressante pour la plupart des apps : une combinaison comme on les aime. Avec iOS 9, on peut donc indexer le contenu d’une application, afin de rendre des données accessibles à tout moment depuis le champs de recherche système (a.k.a. « Spotlight »). Une opportunité plutôt rare dans un OS où chaque app est soigneusement sandboxée. Il faudra encore attendre pour une éventuelle API Siri, mais cette nouveauté constitue déjà une amélioration importante.  
-Image:     http://www.vtourraine.net/blog/img/2015/ios-9-indexer-spotlight/search-result-wake.png  
-Thumbnail: http://www.vtourraine.net/blog/img/2015/ios-9-indexer-spotlight/thumbnail-search.jpg  
+Image:     https://www.vtourraine.net/blog/img/2015/ios-9-indexer-spotlight/search-result-wake.png  
+Thumbnail: https://www.vtourraine.net/blog/img/2015/ios-9-indexer-spotlight/thumbnail-search.jpg  
 Language:  fr  
 
 Une nouvelle API à la fois simple d’utilisation et intéressante pour la plupart des apps : une combinaison comme on les aime.
@@ -151,7 +151,7 @@ Le code présenté dans cet article permet déjà une prise en charge à la fois
 - [_Core Spotlight Framework Reference: CSSearchableItem Class Reference_, Apple](https://developer.apple.com/library/prerelease/ios/documentation/CoreSpotlight/Reference/CSSearchableItem_Class/index.html#//apple_ref/occ/cl/CSSearchableItem)
 - [_Core Spotlight Framework Reference: CSSearchableItemAttributeSet Class Reference_, Apple](https://developer.apple.com/library/prerelease/ios/documentation/CoreSpotlight/Reference/CSSearchableItemAttributeSet_Class/index.html#//apple_ref/occ/cl/CSSearchableItemAttributeSet)
 
-[ios 9 icon]: http://www.vtourraine.net/blog/img/2015/ios-9-indexer-spotlight/ios-9.png
-[search result cell]: http://www.vtourraine.net/blog/img/2015/ios-9-indexer-spotlight/search-result-cell.png
-[search results]: http://www.vtourraine.net/blog/img/2015/ios-9-indexer-spotlight/search-result-wake.png
-[target spotlight]: http://www.vtourraine.net/blog/img/2015/ios-9-indexer-spotlight/target-spotlight.png
+[ios 9 icon]: /blog/img/2015/ios-9-indexer-spotlight/ios-9.png
+[search result cell]: /blog/img/2015/ios-9-indexer-spotlight/search-result-cell.png
+[search results]: /blog/img/2015/ios-9-indexer-spotlight/search-result-wake.png
+[target spotlight]: /blog/img/2015/ios-9-indexer-spotlight/target-spotlight.png

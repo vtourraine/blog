@@ -5,8 +5,8 @@ Date:      May 8, 2015
 Update:    
 Keywords:  critique, livre, Andy Weir, Sci-Fi  
 Summary:   Une expédition tourne mal. C’est la panique, l’évacuation précipitée. L’équipe regagne la navette de justesse et s’échappe de la planète rouge… abandonnant le pauvre Mark Watney, que tout le monde croyait mort. Seul sur Mars.  
-Image:     http://www.vtourraine.net/blog/img/2015/critique-weir-the-martian/the-martian.jpg  
-Thumbnail: http://www.vtourraine.net/blog/img/2015/critique-weir-the-martian/thumbnail-the-martian.jpg  
+Image:     https://www.vtourraine.net/blog/img/2015/critique-weir-the-martian/the-martian.jpg  
+Thumbnail: https://www.vtourraine.net/blog/img/2015/critique-weir-the-martian/thumbnail-the-martian.jpg  
 Language:  fr  
 
 Une expédition tourne mal. C’est la panique, l’évacuation précipitée. L’équipe regagne la navette de justesse et s’échappe de la planète rouge… abandonnant le pauvre Mark Watney, que tout le monde croyait mort.
@@ -68,6 +68,6 @@ _P.S._ : Vous trouvez que cette histoire ferait un bon film ? Vous n’avez soi
 - [_Hellas Chaos_, photo ESA](http://www.esa.int/spaceinimages/Images/2014/11/Hellas_Chaos), CC BY-SA 3.0 IGO
 
 
-[Cover]: http://www.vtourraine.net/blog/img/2015/critique-weir-the-martian/the-martian.jpg
-[Nili Fossae]: http://www.vtourraine.net/blog/img/2015/critique-weir-the-martian/nili-fossae.jpg
-[Hellas Chaos]: http://www.vtourraine.net/blog/img/2015/critique-weir-the-martian/hellas-chaos.jpg
+[Cover]: /blog/img/2015/critique-weir-the-martian/the-martian.jpg
+[Nili Fossae]: /blog/img/2015/critique-weir-the-martian/nili-fossae.jpg
+[Hellas Chaos]: /blog/img/2015/critique-weir-the-martian/hellas-chaos.jpg

@@ -5,8 +5,8 @@ Date:      October 3, 2015
 Update:    
 Keywords:  iOS, UIKit, dev  
 Summary:   Tous les ans c’est la même chose, Apple garde quelques API en surprise pour la sortie d’iOS au mois de septembre. Avec iOS 9 et les écrans 3D Touch des nouveaux iPhones, voici donc « Peek » et « Pop », qui remportent conjointement le prix de l’API au nom le plus ridicule à porter. Du côté du code, par contre, il est question de « view controller previewing » et de « commit » du preview, le tout restant associé à Force Touch.  
-Image:     http://www.vtourraine.net/blog/img/2015/ios-9-peek-pop/3d-touch-video.jpg  
-Thumbnail: http://www.vtourraine.net/blog/img/2015/ios-9-peek-pop/thumbnail-3d-touch-video.jpg  
+Image:     https://www.vtourraine.net/blog/img/2015/ios-9-peek-pop/3d-touch-video.jpg  
+Thumbnail: https://www.vtourraine.net/blog/img/2015/ios-9-peek-pop/thumbnail-3d-touch-video.jpg  
 Language:  fr  
 
 
@@ -127,8 +127,8 @@ Ces actions sont associées au view controller présenté, indifféremment de ce
 J’avais envie de tester cette API sur un projet relativement simple, et [l’application Mix-IT](https://itunes.apple.com/app/mix-it/id982003173?ls=1&mt=8) publiée cette année convenait parfaitement (un table view controller, et un view controller pour le détail). Comme le projet est par ailleurs open source, vous pouvez voir ce que ça donne, dans son ensemble, [sur GitHub](https://github.com/vtourraine/mixit/blob/master/mixit/Classes/AMGTalksViewController.m). 
 
 <video controls="controls" width="268" height="480">
-  <source src="http://www.vtourraine.net/blog/img/2015/ios-9-peek-pop/3d-touch-previewing-480.mov" type="video/quicktime"></source>
-  <source src="http://www.vtourraine.net/blog/img/2015/ios-9-peek-pop/3d-touch-previewing-480.webm" type="video/webm"></source>
+  <source src="/blog/img/2015/ios-9-peek-pop/3d-touch-previewing-480.mov" type="video/quicktime"></source>
+  <source src="/blog/img/2015/ios-9-peek-pop/3d-touch-previewing-480.webm" type="video/webm"></source>
   Votre navigateur ne peut pas afficher cette vidéo.
 </video>
 
@@ -145,5 +145,5 @@ La seule difficulté consistait à prendre en compte le search display controlle
 
 ![3D Touch, image [apple.com](http://apple.com)][3D Touch hero]
 
-[3D Touch hero]: http://www.vtourraine.net/blog/img/2015/ios-9-peek-pop/3d-touch-hero.jpg
-[3D Touch video]: http://www.vtourraine.net/blog/img/2015/ios-9-peek-pop/3d-touch-video.jpg
+[3D Touch hero]: /blog/img/2015/ios-9-peek-pop/3d-touch-hero.jpg
+[3D Touch video]: /blog/img/2015/ios-9-peek-pop/3d-touch-video.jpg

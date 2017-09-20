@@ -5,7 +5,7 @@ Date:     April 21, 2012
 Update:   
 Keywords: iPad, Retina, comic book, ComiXology  
 Summary:  Un iPad, ça permet notamment de lire des comic books. Le format est adapté, et l’écran Retina fait des merveilles. Dernière nouveauté proposée par comiXology : le format « CMX-HD ». Rapide aperçu, forcément en images.  
-Image:    http://www.vtourraine.net/blog/img/ipad-comic-books-retina-cmxhd/batman-full-page-cmxhd.png  
+Image:    https://www.vtourraine.net/blog/img/ipad-comic-books-retina-cmxhd/batman-full-page-cmxhd.png  
 Language: fr  
 Project:  
 
@@ -34,7 +34,7 @@ Espérons donc que l’application DC Comics sera vite mise à niveau. Les Aveng
 
 L’application DC Comics vient d’être [mise à jour](http://www.dccomics.com/blog/2012/05/15/dc-comics-ios-app-now-features-retina-display), avec le support du format CMX-DH.
 
-[Full normal]: http://www.vtourraine.net/blog/img/ipad-comic-books-retina-cmxhd/batman-full-page-normal.png
-[Full CMXHD]:  http://www.vtourraine.net/blog/img/ipad-comic-books-retina-cmxhd/batman-full-page-cmxhd.png
-[Zoom normal]: http://www.vtourraine.net/blog/img/ipad-comic-books-retina-cmxhd/batman-zoom-normal.png
-[Zoom CMXHD]:  http://www.vtourraine.net/blog/img/ipad-comic-books-retina-cmxhd/batman-zoom-cmxhd.png
+[Full normal]: /blog/img/ipad-comic-books-retina-cmxhd/batman-full-page-normal.png
+[Full CMXHD]:  /blog/img/ipad-comic-books-retina-cmxhd/batman-full-page-cmxhd.png
+[Zoom normal]: /blog/img/ipad-comic-books-retina-cmxhd/batman-zoom-normal.png
+[Zoom CMXHD]:  /blog/img/ipad-comic-books-retina-cmxhd/batman-zoom-cmxhd.png

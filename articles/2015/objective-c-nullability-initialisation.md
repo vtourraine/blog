@@ -5,11 +5,11 @@ Date:      August 11, 2015
 Update:    
 Keywords:  Objective-C, Xcode, dev
 Summary:   Mon dernier billet de blog présentait les « nullability annotations », en essayant d’expliquer comment elles contribuent à améliorer un code Objective-C. Avec un peu de recul, et après davantage de temps passé à les mettre en pratique, ces annotations me posent un problème. Un cas particulier, peut-être, mais absolument incontournable, puisqu’il s’agit de l’initialisation des objets.  
-Image:     http://www.vtourraine.net/blog/img/2015/objective-c-nullability/xcode-icon.png  
+Image:     https://www.vtourraine.net/blog/img/2015/objective-c-nullability/xcode-icon.png  
 Language:  fr  
 
 
-Mon dernier billet de blog présentait les [_nullability annotations_](http://www.vtourraine.net/blog/2015/objective-c-nullability), en essayant d’expliquer comment elles contribuent à améliorer un code Objective-C. Avec un peu de recul, et après davantage de temps passé à les mettre en pratique, ces annotations me posent _un_ problème. Un cas particulier, peut-être, mais absolument incontournable, puisqu’il s’agit de l’initialisation des objets.
+Mon dernier billet de blog présentait les [_nullability annotations_](/blog/2015/objective-c-nullability), en essayant d’expliquer comment elles contribuent à améliorer un code Objective-C. Avec un peu de recul, et après davantage de temps passé à les mettre en pratique, ces annotations me posent _un_ problème. Un cas particulier, peut-être, mais absolument incontournable, puisqu’il s’agit de l’initialisation des objets.
 
 
 ## if (self)

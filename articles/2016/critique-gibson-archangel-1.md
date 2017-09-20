@@ -5,24 +5,24 @@ Date:      May 22, 2016
 Update:    Oct 12, 2016; May 4, 2017; September 18, 2017  
 Keywords:  critique, Sci-Fi, livre, comic book, William Gibson    
 Summary:   « Archangel » est une nouvelle série de comic books. Très attendue, car écrite par William Gibson, célèbre auteur de romans de science-fiction (déjà évoqué sur ce blog). Le premier des 5 chapitres vient de sortir, je prévois d’en accompagner la publication avec une série de billets de blogs.  
-Image:     http://www.vtourraine.net/blog/img/2016/critique-gibson-archangel-1/archangel-1-010-B.jpg  
-Thumbnail: http://www.vtourraine.net/blog/img/2016/critique-gibson-archangel-1/thumbnail-archangel-1.png
+Image:     https://www.vtourraine.net/blog/img/2016/critique-gibson-archangel-1/archangel-1-010-B.jpg  
+Thumbnail: https://www.vtourraine.net/blog/img/2016/critique-gibson-archangel-1/thumbnail-archangel-1.png
 Language:  fr  
 
-_Archangel_ est une nouvelle série de comic books. Très attendue, car écrite par William Gibson, célèbre auteur de romans de science-fiction (déjà évoqué [sur ce blog](http://www.vtourraine.net/blog/tags/william-gibson)). Le premier des 5 chapitres vient de sortir, je prévois d’en accompagner la publication avec une série de billets de blogs.
+_Archangel_ est une nouvelle série de comic books. Très attendue, car écrite par William Gibson, célèbre auteur de romans de science-fiction (déjà évoqué [sur ce blog](/blog/tags/william-gibson)). Le premier des 5 chapitres vient de sortir, je prévois d’en accompagner la publication avec une série de billets de blogs.
 
-![Couverture Archangel #1, image IDW](http://www.vtourraine.net/blog/img/2016/critique-gibson-archangel-1/archangel-1-001.jpg)
+![Couverture Archangel #1, image IDW](/blog/img/2016/critique-gibson-archangel-1/archangel-1-001.jpg)
 
 _**SPOILER ALERT** : cet article dévoile certains éléments de l’intrigue d’Archangel #1._
 
 
 ## //
 
-![Extrait Archangel #1, page 3, image IDW](http://www.vtourraine.net/blog/img/2016/critique-gibson-archangel-1/archangel-1-003-A.jpg)
+![Extrait Archangel #1, page 3, image IDW](/blog/img/2016/critique-gibson-archangel-1/archangel-1-003-A.jpg)
 
 Tout commence en 2016, dans un présent qui n’est pas le nôtre. Une réalité parallèle post-apocalyptique, avec ses villes en ruines. Aucune explication donnée. Guerre nucléaire ? Désastre écologique ? Mais la bonne nouvelle, c’est que la chirurgie esthétique se porte bien, avec le vice-président Henderson qui subit des opérations pour ressembler… à son grand-père. Avec le sourire de celui qui s’apprête à faire un mauvais coup, pas d’ambiguïté le concernant, on a affaire au principal antagoniste de l’histoire.
 
-![Extrait Archangel #1, page 5, image IDW](http://www.vtourraine.net/blog/img/2016/critique-gibson-archangel-1/archangel-1-005-A.jpg)
+![Extrait Archangel #1, page 5, image IDW](/blog/img/2016/critique-gibson-archangel-1/archangel-1-005-A.jpg)
 
 Étape suivante : le « splitter », c’est-à-dire la machine à voyager dans le temps. On y découvre le major Torres, qui prépare le « transfert quantique » du vice-président et du commando qui l’accompagne. Les voilà arrivés en 1945 au Pentagon, au bureau d’un certain Henderson. La rencontre entre le petit-fils et le grand-père tourne court avec l’assassinat de l’aïeul par sa progéniture. L’acte est habilement suggéré par la teinte rouge sur la dernière case de la page. Cet évènement est doublement intéressant, puisqu’en plus d’exposer une partie du plan (forcément machiavélique) d’Henderson junior, il tranche un des principaux clichés du voyage dans le temps : [le paradoxe du grand-père](https://en.wikipedia.org/wiki/Grandfather_paradox).
 
@@ -36,7 +36,7 @@ Ce n’est pas un style que j’apprécie en général, mais c’était sans dou
 
 ## //
 
-![Extrait Archangel #1, page 10, image IDW](http://www.vtourraine.net/blog/img/2016/critique-gibson-archangel-1/archangel-1-010-B.jpg)
+![Extrait Archangel #1, page 10, image IDW](/blog/img/2016/critique-gibson-archangel-1/archangel-1-010-B.jpg)
 
 > _« Naomi reads Astounding, so she believes in the Future and has a flexible, imaginative mindset. »_  
 > William Gibson [(@GreatDismal)](https://twitter.com/GreatDismal/status/733373648036233216)
@@ -55,7 +55,7 @@ Ce premier chapitre remplit parfaitement sa mission. On se familiarise avec les 
 ### Série
 
 - Archangel #1
-- [Archangel #2](http://www.vtourraine.net/blog/2016/critique-gibson-archangel-2)
-- [Archangel #3](http://www.vtourraine.net/blog/2016/critique-gibson-archangel-3)
-- [Archangel #4](http://www.vtourraine.net/blog/2017/critique-gibson-archangel-4)
-- [Archangel #5](http://www.vtourraine.net/blog/2017/critique-gibson-archangel-5)
+- [Archangel #2](/blog/2016/critique-gibson-archangel-2)
+- [Archangel #3](/blog/2016/critique-gibson-archangel-3)
+- [Archangel #4](/blog/2017/critique-gibson-archangel-4)
+- [Archangel #5](/blog/2017/critique-gibson-archangel-5)

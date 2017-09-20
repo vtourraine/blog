@@ -5,7 +5,7 @@ Date:     October 18, 2011
 Update:   
 Keywords: iOS, iOS 5, Contacts, Twitter
 Summary:  Avec iOS 5, le carnet d’adresses bénéficie de nouveaux champs de saisie pour les réseaux sociaux. Voyons comment récupérer ces informations.
-Image:    http://www.vtourraine.net/blog/img/ios-contacts-twitter-carnet-adresses/contact.jpg
+Image:    https://www.vtourraine.net/blog/img/ios-contacts-twitter-carnet-adresses/contact.jpg
 Language: fr
 
 Avec iOS 5, le carnet d’adresses bénéficie de nouveaux champs de saisie pour les réseaux sociaux. Voyons comment récupérer ces informations.
@@ -84,4 +84,4 @@ Avec ces constantes, libre à vous de parcourir les données à votre dispositio
 - [ABPerson Reference](http://developer.apple.com/library/ios/#documentation/AddressBook/Reference/ABPersonRef_iPhoneOS/Reference/reference.html)
 
 
-[Contacts]: http://www.vtourraine.net/blog/img/ios-contacts-twitter-carnet-adresses/contact.jpg
+[Contacts]: /blog/img/ios-contacts-twitter-carnet-adresses/contact.jpg

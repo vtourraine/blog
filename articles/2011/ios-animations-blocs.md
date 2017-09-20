@@ -5,7 +5,7 @@ Date:     December 06, 2011
 Update:   
 Keywords: iOS, OS X, UI, animation, blocs
 Summary:  Comment créer une application attractive ? Vaste question, mais il me semble qu’il existe un critère, complètement objectif, vous permettant d’atteindre un certain niveau de finition : tous les éléments de l’interface doivent être animés. La bonne nouvelle, c’est qu’iOS le gère très facilement, comme nous allons le voir.
-Image:    http://www.vtourraine.net/blog/img/ios-animations-blocs/core-animation.png
+Image:    https://www.vtourraine.net/blog/img/ios-animations-blocs/core-animation.png
 Language: fr
 
 Comment créer une application attractive ? Vaste question, mais il me semble qu’il existe un critère, complètement objectif, vous permettant d’atteindre un certain niveau de finition : tous les éléments de l’interface doivent être animés. La bonne nouvelle, c’est qu’iOS le gère très facilement, comme nous allons le voir.
@@ -64,7 +64,7 @@ Vos utilisateurs appréciront sans doute la valeur ajoutée par ces animations. 
 - [Introduction to Core Animation Programming Guide](http://developer.apple.com/library/ios/#documentation/Cocoa/Conceptual/CoreAnimation_guide/Introduction/Introduction.html)
 
 
-[Navigation interface]: http://www.vtourraine.net/blog/img/ios-animations-blocs/navigation-interface.png
-[Core Animation]:       http://www.vtourraine.net/blog/img/ios-animations-blocs/core-animation.png
+[Navigation interface]: /blog/img/ios-animations-blocs/navigation-interface.png
+[Core Animation]:       /blog/img/ios-animations-blocs/core-animation.png
 
 [UINavigationController]: http://developer.apple.com/library/ios/#documentation/uikit/reference/UINavigationController_Class/Reference/Reference.html

@@ -5,8 +5,8 @@ Date:      April 26, 2015
 Update:   
 Keywords:  Apple Watch, WatchKit, dev
 Summary:   Comment développer des applications sans jamais avoir utilisé l’OS concerné, ni même la classe de produit en question ? C’est le casse-tête posé par Apple aux développeurs tiers depuis quelques mois avec WatchKit, le SDK de l’Apple Watch. Le grand jour est arrivé, la montre est enfin disponible (pour les pré-commandes les plus rapides), et l’App Store Apple Watch contient environ 3000 apps. Ce nombre est comparable aux apps iPad pour le lancement de la tablette, alors que l’iPhone n’avait de 500 apps pour l’ouverture de l’App Store en 2008. Dernier chiffre pour mettre tout ça en perspective, on trouve environ 1,4 million d’apps iPhone aujourd’hui.  
-Image:     http://www.vtourraine.net/blog/img/2015/watchkit-version-1/apple-watch-1.jpg  
-Thumbnail: http://www.vtourraine.net/blog/img/2015/watchkit-version-1/thumbnail-apple-watch.jpg  
+Image:     https://www.vtourraine.net/blog/img/2015/watchkit-version-1/apple-watch-1.jpg  
+Thumbnail: https://www.vtourraine.net/blog/img/2015/watchkit-version-1/thumbnail-apple-watch.jpg  
 Language:  fr  
 
 
@@ -43,8 +43,7 @@ Les supposées appréhensions formelles de l’équipe de Jony Ive et les limita
 
 _Images Wired/Apple : [iPhone Killer: The Secret History of the Apple Watch](http://www.wired.com/2015/04/the-apple-watch/)._
 
-[WatchKit apps]: http://www.vtourraine.net/blog/img/2015/watchkit-version-1/watchkit-apps.jpg
-[Watch Face 1]: http://www.vtourraine.net/blog/img/2015/watchkit-version-1/apple-watch-1.jpg
-[Watch Face 2]: http://www.vtourraine.net/blog/img/2015/watchkit-version-1/apple-watch-2.jpg
-[Watch Face 3]: http://www.vtourraine.net/blog/img/2015/watchkit-version-1/apple-watch-3.jpg
-
+[WatchKit apps]: /blog/img/2015/watchkit-version-1/watchkit-apps.jpg
+[Watch Face 1]: /blog/img/2015/watchkit-version-1/apple-watch-1.jpg
+[Watch Face 2]: /blog/img/2015/watchkit-version-1/apple-watch-2.jpg
+[Watch Face 3]: /blog/img/2015/watchkit-version-1/apple-watch-3.jpg

@@ -5,7 +5,7 @@ Date:     May 17, 2013
 Update:   
 Keywords: iOS, making-of, sync, Contacts, iPhone  
 Summary:  Inscrire un projet dans la durée, c’est bien. On aimerait pouvoir rester en état de refactoring permanent, construisant ligne après ligne le soft parfait. Seulement voilà, parfois, la meilleure solution est de tout supprimer, et de repartir de zéro.  
-Image:    http://www.vtourraine.net/blog/img/app-contacts-sync-url-schemes/contacts-coffee.jpg  
+Image:    https://www.vtourraine.net/blog/img/app-contacts-sync-url-schemes/contacts-coffee.jpg  
 Language: fr  
 Project:  Contacts
 
@@ -61,8 +61,8 @@ Voilà pour les points les plus importants. Pour le reste, je vous laisse [déco
 
 [PlaceIt](http://placeit.breezi.com/)
 
-[Contacts Wood]:   http://www.vtourraine.net/blog/img/app-contacts-sync-url-schemes/contacts-wood.png
-[Contacts Coffee]: http://www.vtourraine.net/blog/img/app-contacts-sync-url-schemes/contacts-coffee.jpg
+[Contacts Wood]:   /blog/img/app-contacts-sync-url-schemes/contacts-wood.png
+[Contacts Coffee]: /blog/img/app-contacts-sync-url-schemes/contacts-coffee.jpg
 
 [Contacts]:         http://www.studioamanga.com/contacts
 [Tweet icone]:      https://twitter.com/StudioAMANgA/status/130426884843507713

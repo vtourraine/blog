@@ -5,7 +5,7 @@ Date:     February 8, 2015
 Update:   
 Keywords: Swift  
 Summary:  La première conférence dédiée à Swift s’est déroulée à Paris. Une dizaine d’interventions en une demi-journée, c’est à la fois peu pour un tel évènement, et beaucoup pour un langage qui existe seulement depuis moins d’un an. Bravo à l’équipe des dotConferences pour l’organisation, et aux speakers pour être venus partager leurs expériences.   
-Image:    http://www.vtourraine.net/blog/img/2015/dotswift-swift/banner-dotswift.jpg   
+Image:    https://www.vtourraine.net/blog/img/2015/dotswift-swift/banner-dotswift.jpg   
 Language: fr  
 
 
@@ -34,7 +34,7 @@ C’est d’ailleurs amusant de constater la forte présence de la communauté C
 C’est peut-être le bon moment pour se lancer. La transition sera longue, et Objective-C est encore loin de disparaître. Mais la machine est bien lancée.
 
 
-[banner dotSwift]: http://www.vtourraine.net/blog/img/2015/dotswift-swift/banner-dotswift.jpg   
+[banner dotSwift]: /blog/img/2015/dotswift-swift/banner-dotswift.jpg   
 
 [dotSwift]:        http://www.dotswift.io  
 [blog Sinclair]:   http://blog.jaredsinclair.com/post/98402624705/beyond-objective-c-beyond-swift  

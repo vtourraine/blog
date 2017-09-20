@@ -5,7 +5,7 @@ Date:      June 17, 2015
 Update:   
 Keywords:  WWDC, iOS, OS X, watchOS, dev
 Summary:   On peut dire que la WWDC est vraiment devenue « worldwide » depuis qu’Apple diffuse les vidéos des sessions pendant le courant de la semaine, allant cette année jusqu’à proposer plusieurs retransmissions en direct. Bref, San Francisco ou pas, tout le monde peut bénéficier de cette avalanche d’informations. Nouvelles versions des OS, nouvelles API, il y a forcément beaucoup de choses à dire, je ne vais donc pas me priver d’y ajouter mon commentaire.  
-Image:     http://www.vtourraine.net/blog/img/2015/impressions-wwdc-2015/wwdc-15.png  
+Image:     https://www.vtourraine.net/blog/img/2015/impressions-wwdc-2015/wwdc-15.png  
 Language:  fr  
 
 
@@ -13,7 +13,7 @@ On peut dire que la WWDC est vraiment devenue « worldwide » depuis qu’Appl
 
 Nouvelles versions des OS, nouvelles API, il y a forcément beaucoup de choses à dire, je ne vais donc pas me priver d’y ajouter mon commentaire.
 
-![WWDC 2015, image Apple](http://www.vtourraine.net/blog/img/2015/impressions-wwdc-2015/wwdc-15.png)
+![WWDC 2015, image Apple](/blog/img/2015/impressions-wwdc-2015/wwdc-15.png)
 
 
 ## « Multitasking » iPad
@@ -63,7 +63,7 @@ Des nouveautés qui confirment l’importance des Extensions pour l’avenir d�
 
 ## watchOS 2
 
-Les complications sont arrivées. [J’attends](http://www.vtourraine.net/blog/2015/watchkit-version-1) toujours les cadrans tiers. Ceci dit, pour une première année, je reconnais qu’on a déjà de quoi bien s’amuser.
+Les complications sont arrivées. [J’attends](/blog/2015/watchkit-version-1) toujours les cadrans tiers. Ceci dit, pour une première année, je reconnais qu’on a déjà de quoi bien s’amuser.
 
 
 ## Swift 2

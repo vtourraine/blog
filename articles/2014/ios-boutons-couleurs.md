@@ -5,8 +5,8 @@ Date:      November 23, 2014
 Update:   
 Keywords:  iOS, UI, UIKit, WatchKit  
 Summary:   Une bonne année est passée depuis le grand chamboulement nommé iOS 7. Il m’aura bien fallu plusieurs mois avant d’appréhender confortablement ce nouveau langage visuel, et adapter mes applications. Cette année avec iOS 8 c’est le retour au calme, avec une mise-à-jour en douceur de l’interface. Seulement voilà, l’Apple Watch pointe à l’horizon, et les grands débats reprennent. Un point me chagrine en particulier : les boutons et leurs couleurs.  
-Image:     http://www.vtourraine.net/blog/img/ios-boutons-couleurs/watchkit-buttons.png  
-Thumbnail: http://www.vtourraine.net/blog/img/ios-boutons-couleurs/thumbnail-watchkit-buttons.jpg  
+Image:     https://www.vtourraine.net/blog/img/ios-boutons-couleurs/watchkit-buttons.png  
+Thumbnail: https://www.vtourraine.net/blog/img/ios-boutons-couleurs/thumbnail-watchkit-buttons.jpg  
 Language:  fr  
 Project:    
 
@@ -54,12 +54,12 @@ La montre doit _« faire tomber les barrières entre le matériel et le logicie
 
 Tout ça est un peu perturbant. Les directives et les styles par défaut proposés par Apple existent pour définir un socle commun sur lequel les développeurs peuvent s’appuyer pour s’assurer que les utilisateurs sauront s’approprier facilement n’importe quel logiciel. On retrouve les mêmes allers-retours pour la conception des sites web, avec les nombreuses évolutions du classique lien bleu souligné.
 
-J’attends maintenant avec impatience la prochaine WWDC, pour voir comment le couple OS&nbsp;X/iOS s’accommodera du nouveau membre de la famille.
+J’attends maintenant avec impatience la prochaine WWDC, pour voir comment le couple OS X/iOS s’accommodera du nouveau membre de la famille.
 
 
-[iOS Calendar]: http://www.vtourraine.net/blog/img/ios-boutons-couleurs/ios-calendar.png  
-[iOS Maps]:     http://www.vtourraine.net/blog/img/ios-boutons-couleurs/ios-maps.png  
-[WatchKit]:     http://www.vtourraine.net/blog/img/ios-boutons-couleurs/watchkit-buttons.png  
+[iOS Calendar]: /blog/img/ios-boutons-couleurs/ios-calendar.png  
+[iOS Maps]:     /blog/img/ios-boutons-couleurs/ios-maps.png  
+[WatchKit]:     /blog/img/ios-boutons-couleurs/watchkit-buttons.png  
 
 [Mrgan]:    http://mrgan.tumblr.com/post/50108095253/let-a-button-be-a-button  
 [WatchHIG]: https://developer.apple.com/library/prerelease/ios/documentation/UserExperience/Conceptual/WatchHumanInterfaceGuidelines/ColorandTypography.html#//apple_ref/doc/uid/TP40014992-CH9-SW1

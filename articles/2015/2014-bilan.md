@@ -46,4 +46,4 @@ _Très bonne année 2015 à toutes et à tous._
 [VTAck]:      https://github.com/vtourraine/VTAcknowledgementsViewController
 [CocoaPods]:  http://www.cocoapods.org
 [dotSwift]:   http://www.dotswift.io
-[bilan 2013]: http://www.vtourraine.net/blog/2014/2013-bilan
+[bilan 2013]: /blog/2014/2013-bilan

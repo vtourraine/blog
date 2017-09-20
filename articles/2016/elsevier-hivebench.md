@@ -9,7 +9,7 @@ Image:
 Language: fr  
 
 
-Voilà maintenant presque cinq ans que je travaille chez [Shazino](http://www.vtourraine.net/blog/2011/rejoins-equipe-shazino). Notre principale application, [Hivebench](https://www.hivebench.com), vient d’être rachetée. C’est l’occasion pour moi de rejoindre Elsevier, son nouveau propriétaire, afin de poursuivre mon travail sur les applications iOS et OS X.
+Voilà maintenant presque cinq ans que je travaille chez [Shazino](/blog/2011/rejoins-equipe-shazino). Notre principale application, [Hivebench](https://www.hivebench.com), vient d’être rachetée. C’est l’occasion pour moi de rejoindre Elsevier, son nouveau propriétaire, afin de poursuivre mon travail sur les applications iOS et OS X.
 
 Côté développement, tout continue à peu près comme avant. Pour le reste, il s’agit de passer d’une petite start-up française à un grand groupe international employant environ 30000 personnes, incontournable dans le domaine de la recherche, et l’objet de nombreuses critiques. Autant dire que certaines choses seront vraisemblablement différentes.
 

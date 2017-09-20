@@ -5,13 +5,13 @@ Date:      February 3, 2017
 Update:   
 Keywords:  Swift  
 Summary:   Cela fait maintenant trois ans qu’Apple a présenté Swift, et le langage continue d’évoluer à grande vitesse. La troisième édition de dotSwift s’est déroulée à Paris le mois dernier, reflétant ces évolutions avec une communauté toujours aussi active.  
-Image:     http://www.vtourraine.net/blog/img/2017/dotswift-3/dotSwift-2017-steinberg-ravelli.jpg
+Image:     https://www.vtourraine.net/blog/img/2017/dotswift-3/dotSwift-2017-steinberg-ravelli.jpg
 Language:  fr  
 
 
 Cela fait maintenant trois ans qu’Apple a présenté Swift, et le langage continue d’évoluer à grande vitesse. La troisième édition de [dotSwift](https://www.dotswift.io) s’est déroulée à Paris le mois dernier, reflétant ces évolutions avec une communauté toujours aussi active.
 
-![Daniel Steinberg à dotSwift 2017, [photo Nicolas Ravelli](https://www.flickr.com/photos/97226415@N08/32512442512), CC BY-NC-SA 2.0](http://www.vtourraine.net/blog/img/2017/dotswift-3/dotSwift-2017-steinberg-ravelli.jpg)
+![Daniel Steinberg à dotSwift 2017, [photo Nicolas Ravelli](https://www.flickr.com/photos/97226415@N08/32512442512), CC BY-NC-SA 2.0](/blog/img/2017/dotswift-3/dotSwift-2017-steinberg-ravelli.jpg)
 
 Le format de dotSwift reste le même. Un après-midi, des sessions de vingt minutes accompagnées de quelques lightning talks, l’ensemble animé par le toujours excellent Daniel Steinberg. Il pilote par ailleurs les deux journées de formation à Swift accompagnant la conférence. J’apprécie vraiment d’avoir une conférence dense et rapide, concentrée sur une demi-journée. J’ai toujours une réserve sur la durée des sessions. Elles sont trop courtes pour aborder un sujet avec un minimum de complexité, mais elles sont trop longues pour certains sujets qui fonctionneraient mieux sous la forme d’un lightning talk. Dans l’ensemble ça reste un bon compromis, mais je serais intéressé par un format plus flexible.
 
@@ -24,5 +24,5 @@ Un an après l’ouverture open-source du projet par Apple, j’aurais égalemen
 
 ## Éditions précédentes
 
-- [dotSwift 2015](http://www.vtourraine.net/blog/2015/dotswift-swift)
-- [dotSwift 2016](http://www.vtourraine.net/blog/2016/dotswift-2)
+- [dotSwift 2015](/blog/2015/dotswift-swift)
+- [dotSwift 2016](/blog/2016/dotswift-2)

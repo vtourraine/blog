@@ -5,11 +5,11 @@ Date:     March 29, 2015
 Update:   
 Keywords: Swift, dev
 Summary:  Je ne me suis pas franchement jeté sur Swift après l’annonce de la WWDC 2014, mais dotSwift est passé par là, et voici maintenant ma première application Swift disponible sur l’App Store (pour être précis, l’application principale est en Swift, l’extension du clavier est encore en Objective-C). À défaut d’être original, je pense que c’est le bon moment pour un premier bilan de ma courte expérience avec ce nouveau langage qui s’annonce, rappelons-le, comme l’avenir du développement pour les plateformes Apple.  
-Image:    http://www.vtourraine.net/blog/img/2015/premiere-app-swift/swift-icon.png  
+Image:    https://www.vtourraine.net/blog/img/2015/premiere-app-swift/swift-icon.png  
 Language: fr  
 
 
-Je ne me suis pas franchement jeté sur Swift après l’annonce de la WWDC 2014, mais [dotSwift](http://www.vtourraine.net/blog/2015/dotswift-swift) est passé par là, et voici maintenant ma première application Swift [disponible sur l’App Store](https://itunes.apple.com/app/scikey-scientific-keyboard/id927863083?mt=8) (pour être précis, l’application principale est en Swift, l’extension du clavier est encore en Objective-C).
+Je ne me suis pas franchement jeté sur Swift après l’annonce de la WWDC 2014, mais [dotSwift](/blog/2015/dotswift-swift) est passé par là, et voici maintenant ma première application Swift [disponible sur l’App Store](https://itunes.apple.com/app/scikey-scientific-keyboard/id927863083?mt=8) (pour être précis, l’application principale est en Swift, l’extension du clavier est encore en Objective-C).
 
 ![Icône Swift, image Apple][Icon Swift]
 
@@ -88,4 +88,4 @@ Il y a sûrement un risque, avec ces fonctions comme avec la plupart des concept
 On savait qu’Apple pouvait convaincre beaucoup de monde de l’intérêt d’acheter une montre en 2015, on sait maintenant qu’ils peuvent aussi convaincre de nombreux développeurs d’essayer un nouveau langage de programmation. 
 
 
-[Icon Swift]: http://www.vtourraine.net/blog/img/2015/premiere-app-swift/swift-icon.png  
+[Icon Swift]: /blog/img/2015/premiere-app-swift/swift-icon.png  

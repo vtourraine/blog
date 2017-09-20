@@ -5,7 +5,7 @@ Date:     February 25, 2012
 Update:   
 Keywords: mobile, UI, UX, making-of  
 Summary:  Je sais, ça paraît ridicule, et pourtant en termes d’interface utilisateur mobile, l’appui prolongé est un vaste sujet à lui seul. Avec une multiplicité déroutante de cas d’utilisation, c’est un peu le grand incompris du multi-touch. En voilà un sujet intéressant.  
-Image:    http://www.vtourraine.net/blog/img/app-mobile-ui-appui-prolonge/touch-hold.png  
+Image:    https://www.vtourraine.net/blog/img/app-mobile-ui-appui-prolonge/touch-hold.png  
 Language: fr  
 Project:  Contacts  
 
@@ -56,16 +56,16 @@ Un peu d'assistance, pour ce grand incompris du multi-touch.
 - Icônes gestes multi-touch : [Gesturecons](http://gesturecons.com/)
 
 
-[Touch gesture]: http://www.vtourraine.net/blog/img/app-mobile-ui-appui-prolonge/touch-hold.png
-[Popover Notes]: http://www.vtourraine.net/blog/img/app-mobile-ui-appui-prolonge/notes-popover.jpg
-[Popover Music]: http://www.vtourraine.net/blog/img/app-mobile-ui-appui-prolonge/music-popover.jpg
-[Contact[s] action sheet]: http://www.vtourraine.net/blog/img/app-mobile-ui-appui-prolonge/contacts-action-sheet.png
+[Touch gesture]: /blog/img/app-mobile-ui-appui-prolonge/touch-hold.png
+[Popover Notes]: /blog/img/app-mobile-ui-appui-prolonge/notes-popover.jpg
+[Popover Music]: /blog/img/app-mobile-ui-appui-prolonge/music-popover.jpg
+[Contact[s] action sheet]: /blog/img/app-mobile-ui-appui-prolonge/contacts-action-sheet.png
 
 [UITextField]: 									https://developer.apple.com/library/ios/documentation/uikit/reference/UITextField_Class/
 [Mail drafts]: 									http://gizmodo.com/5887459/how-to-quickly-open-saved-email-drafts-in-ios
 [Mobile HIG]: 									https://developer.apple.com/library/ios/#documentation/UserExperience/Conceptual/MobileHIG/Introduction/Introduction.html
 [UILongPressGestureRecognizer]: https://developer.apple.com/library/ios/#DOCUMENTATION/UIKit/Reference/UILongPressGestureRecognizer_Class/Reference/Reference.html
 [Duarte]: 										  https://plus.google.com/114892667463719782631
-[Blog guide utilisation]: 			http://www.vtourraine.net/blog/app-mobile-guide-utilisation
+[Blog guide utilisation]: 			/blog/app-mobile-guide-utilisation
 [Contact[s]]: 									http://www.studioamanga.com/contacts/
 [UIActionSheet]: 								https://developer.apple.com/library/ios/documentation/uikit/reference/UIActionSheet_Class/

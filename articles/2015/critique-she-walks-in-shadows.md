@@ -5,8 +5,8 @@ Date:      October 13, 2015
 Update:    
 Keywords:  critique, livre, H. P. Lovecraft  
 Summary:   « She Walks in Shadows » est un recueil de nouvelles inspirées par H. P. Lovecraft. Cet univers a déjà été étendu par de nombreux auteurs et sous toutes les formes possibles, mais cette publication se distingue en se concentrant exclusivement sur des personnages féminins. Si vous connaissez déjà l’œuvre lovecraftienne, cette perspective devrait vous intriguer. Et si vous ne connaissez pas ses récits, il s’agit d’une opportunité intéressante pour découvrir sa mythologie.
-Image:     http://www.vtourraine.net/blog/img/2015/critique-she-walks-in-shadows/she-walks-in-shadow-head.jpg  
-Thumbnail: http://www.vtourraine.net/blog/img/2015/critique-she-walks-in-shadows/she-walks-in-shadow-thumbnail.jpg  
+Image:     https://www.vtourraine.net/blog/img/2015/critique-she-walks-in-shadows/she-walks-in-shadow-head.jpg  
+Thumbnail: https://www.vtourraine.net/blog/img/2015/critique-she-walks-in-shadows/she-walks-in-shadow-thumbnail.jpg  
 Language:  fr  
 
 _She Walks in Shadows_ est un recueil de nouvelles inspirées par H. P. Lovecraft. Cet univers a déjà été étendu par de nombreux auteurs et sous toutes les formes possibles, mais cette publication se distingue en se concentrant exclusivement sur des personnages féminins. Si vous connaissez déjà l’œuvre [lovecraftienne](https://fr.wiktionary.org/wiki/lovecraftien#fr), cette perspective devrait vous intriguer. Et si vous ne connaissez pas ses récits, il s’agit d’une opportunité intéressante pour découvrir sa mythologie.
@@ -84,5 +84,5 @@ Dans son ensemble, la diversité de sujet et de forme dépasse complètement l�
 [amazon]:    http://www.amazon.fr/dp/B014NLK4EI
 [indiegogo]: https://www.indiegogo.com/projects/she-walks-in-shadows#/
 
-[cover medium]: http://www.vtourraine.net/blog/img/2015/critique-she-walks-in-shadows/she-walks-in-shadow-cover-medium.jpg
-[cover header]: http://www.vtourraine.net/blog/img/2015/critique-she-walks-in-shadows/she-walks-in-shadow-head.jpg
+[cover medium]: /blog/img/2015/critique-she-walks-in-shadows/she-walks-in-shadow-cover-medium.jpg
+[cover header]: /blog/img/2015/critique-she-walks-in-shadows/she-walks-in-shadow-head.jpg

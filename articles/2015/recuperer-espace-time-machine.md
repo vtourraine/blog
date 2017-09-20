@@ -5,7 +5,7 @@ Date:     January 31, 2015
 Update:   
 Keywords: Mac, OS X  
 Summary:  C’est une banalité sur laquelle il convient d’insister : tout le monde devrait utiliser un système de sauvegarde et restauration de données (« backup software »).   
-Image:    http://www.vtourraine.net/blog/img/2015/recuperer-espace-time-machine/time-machine.jpg  
+Image:    https://www.vtourraine.net/blog/img/2015/recuperer-espace-time-machine/time-machine.jpg  
 Language: fr  
 
 
@@ -58,4 +58,4 @@ Pour éviter ce genre d’acrobaties, il serait préférable d’établir des pa
 *Note : ce billet est directement adapté des informations trouvées sur [Reclaiming a TimeMachine Volume’s Disk Space](http://blog.hawkimedia.com/2012/08/reclaiming-a-timemachine-volumes-disk-space/) (en anglais).*
 
 
-[Time Machine]: http://www.vtourraine.net/blog/img/2015/recuperer-espace-time-machine/time-machine.jpg  
+[Time Machine]: /blog/img/2015/recuperer-espace-time-machine/time-machine.jpg  

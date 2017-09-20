@@ -5,7 +5,7 @@ Date:      February 26, 2015
 Update:   
 Keywords:  trackup  
 Summary:   Je cherchais un moyen simple pour gérer à la fois l’historique et la roadmap d’un projet. C’est comme ça que s’est formé « Trackup », un format à base de Markdown que j’utilise maintenant depuis plusieurs mois pour toutes mes applications iOS. Bien sûr, le format fonctionne parfaitement avec un simple éditeur de texte. Mais pour proposer des choses plus intéressantes, il me fallait une application spécialisée.   
-Image:     http://www.vtourraine.net/blog/img/2015/trackup-editor/trackup-editor-icon.jpg   
+Image:     https://www.vtourraine.net/blog/img/2015/trackup-editor/trackup-editor-icon.jpg   
 Language:  fr  
 
 Je cherchais un moyen simple pour gérer à la fois l’historique et la roadmap d’un projet. C’est comme ça que s’est formé « [Trackup][Blog Trackup] », un format à base de Markdown que j’utilise maintenant depuis plusieurs mois pour toutes mes applications iOS.
@@ -34,9 +34,9 @@ Trivial, on est d’accord. Mais le résultat me plaît bien. Vous pouvez voir c
 Le plus pragmatique serait sans doute de proposer une version équivalente en ligne de commande, qui permettrait ainsi d’automatiser la génération des Release Notes, voire même leur mise en ligne. Pour l’écriture des billets de blog à leur sujet, ça restera en mode manuel.
 
 
-[Trackup Editor Icon]: http://www.vtourraine.net/blog/img/2015/trackup-editor/trackup-editor-icon.jpg  
-[Trackup Editor Screenshot]: http://www.vtourraine.net/blog/img/2015/trackup-editor/trackup-editor-screenshot.jpg  
+[Trackup Editor Icon]: /blog/img/2015/trackup-editor/trackup-editor-icon.jpg  
+[Trackup Editor Screenshot]: /blog/img/2015/trackup-editor/trackup-editor-screenshot.jpg  
 
-[Blog Trackup]: http://www.vtourraine.net/blog/2013/markdown-trackup-format  
+[Blog Trackup]: /blog/2013/markdown-trackup-format  
 [GitHub]: https://github.com/vtourraine/trackup  
 [Travis]: https://travis-ci.org/vtourraine/trackup  

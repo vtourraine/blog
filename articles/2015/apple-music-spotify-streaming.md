@@ -5,7 +5,7 @@ Date:      July 11, 2015
 Update:   
 Keywords:  Apple Music, Spotify, musique
 Summary:   La semaine dernière, Apple a largement revu son offre musicale. L’iPod et son Digital Hub continuent de s’éclipser (au revoir MP3), pour laisser place à des appareils connectés qui diffusent de la musique à la demande (bonjour streaming). Voici donc Apple Music. Compte-tenu du succès prolongé de l’iTunes Store, on peut comprendre qu’Apple prenne son temps pour pivoter, au risque d’en faire trop peu, trop tard.  
-Image:     http://www.vtourraine.net/blog/img/2015/apple-music-spotify-streaming/beats-1-instagram.jpg  
+Image:     https://www.vtourraine.net/blog/img/2015/apple-music-spotify-streaming/beats-1-instagram.jpg  
 Language:  fr  
 
 La semaine dernière, Apple a largement revu son offre musicale. L’iPod et son Digital Hub continuent de s’éclipser (au revoir MP3), pour laisser place à des appareils connectés qui diffusent de la musique à la demande (bonjour streaming). 
@@ -17,7 +17,7 @@ Voici donc [Apple Music](http:/www.apple.com/music). Compte-tenu du succès prol
 
 ## Spotify
 
-J’écoute principalement ma musique avec [Spotify](http://www.vtourraine.net/blog/2012/musique-spotify-premiers-pas) depuis trois ans. L’entreprise suédoise (fait assez rare pour être mentionné) maîtrise remarquablement sa plateforme de streaming, et cherche maintenant à se [diversifier](https://news.spotify.com/us/2015/05/20/say-hello-to-the-most-entertaining-spotify-ever/) : musique de running, podcast, et même vidéo. 
+J’écoute principalement ma musique avec [Spotify](/blog/2012/musique-spotify-premiers-pas) depuis trois ans. L’entreprise suédoise (fait assez rare pour être mentionné) maîtrise remarquablement sa plateforme de streaming, et cherche maintenant à se [diversifier](https://news.spotify.com/us/2015/05/20/say-hello-to-the-most-entertaining-spotify-ever/) : musique de running, podcast, et même vidéo. 
 
 On retrouve un peu la trajectoire d’iTunes, qui s’est étoffé progressivement, à l’excès, au point de se trouver régulièrement qualifié d’« usine à gaz » (non, pour le #cloud ça n’aide pas) et constamment critiqué pour son interface confuse. Spotify est allé jusqu’à proposer ces dernières années des _apps_, qui permettaient d’enrichir le concept de playlist. Je les trouvaient intéressantes, mais elles ont maintenant disparu. Officiellement car elles s’adaptaient mal au mobile, et probablement par manque d’engagement de la part des utilisateurs comme des éditeurs de ces apps. Encore une fois, la comparaison avec iTunes — qui lui contient toujours l’App Store sur le Mac — ne manque pas d’ironie. 
 
@@ -89,6 +89,6 @@ Par ailleurs, la radio Beats 1 est disponible gratuitement pour tous les utilisa
 On n’a pas encore trouvé la solution ultime pour écouter de la musique, mais on y travaille. 
 
 
-[Apple Music]: http://www.vtourraine.net/blog/img/2015/apple-music-spotify-streaming/apple-music.jpg  
-[Beats 1]:     http://www.vtourraine.net/blog/img/2015/apple-music-spotify-streaming/beats-1-instagram.jpg  
-[Spotify]:     http://www.vtourraine.net/blog/img/2015/apple-music-spotify-streaming/spotify-apps.jpg  
+[Apple Music]: /blog/img/2015/apple-music-spotify-streaming/apple-music.jpg  
+[Beats 1]:     /blog/img/2015/apple-music-spotify-streaming/beats-1-instagram.jpg  
+[Spotify]:     /blog/img/2015/apple-music-spotify-streaming/spotify-apps.jpg  

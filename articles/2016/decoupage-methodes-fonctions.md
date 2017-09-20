@@ -25,4 +25,4 @@ Voici donc quelques recommandations :
 - Limiter les fonctions à un seul niveau d’abstraction
 - Pas de copier-coller
 
-Tout cela peut paraître évident, ou horriblement contraignant. On trouve souvent ce genre de consignes pour des exercices de programmation, lors des [code retreats](http://coderetreat.org) par exemple. Je trouve utile de garder ces recommandations en tête, pour les appliquer autant que possible. 
+Tout cela peut paraître évident, ou horriblement contraignant. On trouve souvent ce genre de consignes pour des exercices de programmation, lors des [code retreats](http://coderetreat.org) par exemple. Je trouve utile de garder ces recommandations en tête, pour les appliquer autant que possible.

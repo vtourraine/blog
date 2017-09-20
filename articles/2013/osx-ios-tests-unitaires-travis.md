@@ -5,7 +5,7 @@ Date:     May 06, 2013
 Update:   
 Keywords: OS X, iOS, Objective-C, TDD, Travis  
 Summary:  Il faut savoir regarder la vérité en face : les projets OS X et surtout iOS incluant des tests unitaires sont plutôt rares. Les contraintes techniques entourant les plateformes d’Apple compliquent leur intégration, et donc leur mise en œuvre. Mais rassurez-vous, les choses s’améliorent.  
-Image:    http://www.vtourraine.net/blog/img/osx-ios-tests-unitaires-travis/travis.png  
+Image:    https://www.vtourraine.net/blog/img/osx-ios-tests-unitaires-travis/travis.png  
 Language: fr  
 Project:  
 
@@ -51,4 +51,4 @@ Ce genre de mécanisme n’étant pas supporté par Apple, il demande un certain
 Dans la mesure du possible, je préfère donc restreindre les tests unitaires pour un projet iOS au modèle et à une partie des contrôleurs (cf. MVC) pouvant être inclus et exécutés depuis une application OS X. Concrètement, ne pas tester l’interface, et se concentrer sur la fameuse “logique métier”. Il est difficile de tester efficacement les vues d’une application, et encore plus un contexte d’exécution et d’enchainement de ces vues. Il me semble donc plus judicieux et plus efficace dans la plupart des cas d’utiliser un second projet de type OS X, testant le code utilisé pour l’application iOS. Dans ces conditions, les outils standards d’Apple fonctionnent parfaitement. À vous de choisir entre une (supposée) couverture à 100%, et la stabilité d’exécution des tests. Non, les tests ne sont pas une finalité, mais oui, ils peuvent vous faire gagner du temps.
 
 
-[TravisCI]: http://www.vtourraine.net/blog/img/osx-ios-tests-unitaires-travis/travis.png
+[TravisCI]: /blog/img/osx-ios-tests-unitaires-travis/travis.png

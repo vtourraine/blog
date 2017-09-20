@@ -5,7 +5,7 @@ Date:     January 08, 2012
 Update:   
 Keywords: musique, iTunes, iPod, Digital Hub, Spotify  
 Summary:  Pour changer un peu des sujets trop techniques qui dominent ce blog, je vais m’arrêter un moment sur mes habitudes musicales. C’est un sujet qui me tient à cœur, et cette fois il s’agit d’un billet sur le blog de Stéphane Caron qui m’a laissé songeur, et qui m’amène à ce billet.  
-Image:    http://www.vtourraine.net/blog/img/musique-itunes-digital-hub/ipod-ads.jpg  
+Image:    https://www.vtourraine.net/blog/img/musique-itunes-digital-hub/ipod-ads.jpg  
 Language: fr  
 Project:  
 
@@ -69,7 +69,7 @@ Certains artistes ont [pris note](http://forum.nin.com/bb/read.php?30,767183,767
 Aujourd'hui, ces initiatives sont encore trop limitées pour me motiver aujourd'hui à changer d'écosystème, mais je suis impatient de voir leur évolution dans les années à venir.
 
 
-[Pub iPod]: 		 http://www.vtourraine.net/blog/img/musique-itunes-digital-hub/ipod-ads.jpg
-[Digital Hub]: 	 http://www.vtourraine.net/blog/img/musique-itunes-digital-hub/digital-hub-keynote.jpg
-[Icone Shuffle]: http://www.vtourraine.net/blog/img/musique-itunes-digital-hub/shuffle-icon.png
-[Spotify]:	 		 http://www.vtourraine.net/blog/img/musique-itunes-digital-hub/spotify.jpg
+[Pub iPod]:      /blog/img/musique-itunes-digital-hub/ipod-ads.jpg
+[Digital Hub]:   /blog/img/musique-itunes-digital-hub/digital-hub-keynote.jpg
+[Icone Shuffle]: /blog/img/musique-itunes-digital-hub/shuffle-icon.png
+[Spotify]:       /blog/img/musique-itunes-digital-hub/spotify.jpg

@@ -5,13 +5,13 @@ Date:     February 12, 2016
 Update:   
 Keywords: dev, watchOS, WatchKit  
 Summary:  J’ai récemment eu l’occasion de mettre à jour une application pour watchOS 2. Un peu en retard, pour un OS disponible depuis septembre dernier. Mais ce passage n’est pas anodin, car le mode de fonctionnement des apps s’en trouve littéralement renversé.  
-Image:    http://www.vtourraine.net/blog/img/2016/watchos-2-transition/dev-watchos-2.png  
+Image:    https://www.vtourraine.net/blog/img/2016/watchos-2-transition/dev-watchos-2.png  
 Language: fr  
 
 
 J’ai récemment eu l’occasion de mettre à jour [une application][labtimer] pour watchOS 2. Un peu en retard, pour un OS disponible depuis septembre dernier. Mais ce passage n’est pas anodin, car le mode de fonctionnement des apps s’en trouve littéralement renversé.
 
-![_Developing for watchOS 2_, image [developer.apple.com](https://developer.apple.com/watchos/)](http://www.vtourraine.net/blog/img/2016/watchos-2-transition/dev-watchos-2.png)
+![_Developing for watchOS 2_, image [developer.apple.com](https://developer.apple.com/watchos/)](/blog/img/2016/watchos-2-transition/dev-watchos-2.png)
 
 Avec watchOS 1, les apps tierces pour Apple Watch étaient pilotées à distance, depuis une _App Extension_ se trouvant sur l’iPhone associé. Avec watchOS 2, cette Extension se trouve maintenant sur la montre elle-même, ce qui donne des apps « natives ». Il s’agit d’une amélioration significative, qui permet aux apps de s’exécuter beaucoup plus rapidement, et surtout d’être utilisables même lorsque l’iPhone n’est pas à portée. 
 

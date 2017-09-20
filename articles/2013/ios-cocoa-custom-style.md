@@ -5,7 +5,7 @@ Date:     March 08, 2013
 Update:   
 Keywords: iOS, UIKit, Cocoa, style  
 Summary:  UIKit est votre ami. Si vous connaissez le développement iOS, vous maîtrisez déjà la plupart des éléments graphiques proposés par UIKit. Cette palette vous permet de construire rapidement une interface, à l’aide d’éléments standards, prêts à l’emploi. Comment faire alors pour personnaliser cette interface, pour rendre votre application unique et reconnaissable ?  
-Image:    http://www.vtourraine.net/blog/img/ios-cocoa-custom-style/drawrect.png  
+Image:    https://www.vtourraine.net/blog/img/ios-cocoa-custom-style/drawrect.png  
 Language: fr  
 Project:  
 
@@ -155,8 +155,8 @@ J’espère que ces quelques pistes vous aideront à personnaliser vos apps de f
 On peut passer des heures à mettre péniblement en place une interface, ou connaître la méthode magique qui permet de faire la même chose en une simple ligne de code. Comme souvent, la documentation officielle est votre amie. Et n’oubliez pas que la seule chose pire qu’une interface non customisée, c’est une interface mal customisée.
 
 
-[UIBarButtonItems]: http://www.vtourraine.net/blog/img/ios-cocoa-custom-style/appearance-barbuttonitem.png
-[CALayer]:          http://www.vtourraine.net/blog/img/ios-cocoa-custom-style/calayer.png
-[Resizable]:        http://www.vtourraine.net/blog/img/ios-cocoa-custom-style/resizable.png
-[Pattern]:          http://www.vtourraine.net/blog/img/ios-cocoa-custom-style/pattern.png
-[DrawRect]:         http://www.vtourraine.net/blog/img/ios-cocoa-custom-style/drawrect.png
+[UIBarButtonItems]: /blog/img/ios-cocoa-custom-style/appearance-barbuttonitem.png
+[CALayer]:          /blog/img/ios-cocoa-custom-style/calayer.png
+[Resizable]:        /blog/img/ios-cocoa-custom-style/resizable.png
+[Pattern]:          /blog/img/ios-cocoa-custom-style/pattern.png
+[DrawRect]:         /blog/img/ios-cocoa-custom-style/drawrect.png

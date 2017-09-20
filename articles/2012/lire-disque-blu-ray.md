@@ -5,7 +5,7 @@ Date:     May 27, 2012
 Update:   
 Keywords: Blu-ray, OS X, Windows  
 Summary:  Comment lire un disque Blu-ray ? Si vous pensez que la solution “acheter un lecteur Blu-ray” est correcte, vous allez être déçus. Récit d’un week-end passé à lutter contre des mécanismes de “gestion des droits numériques”, a.k.a. DRM, tout ça pour regarder un film.  
-Image:    http://www.vtourraine.net/blog/img/lire-disque-blu-ray/bluray.png  
+Image:    https://www.vtourraine.net/blog/img/lire-disque-blu-ray/bluray.png  
 Language: fr  
 Project:  
 
@@ -46,7 +46,7 @@ Au delà du support physique, c’est un nouveau mode de consommation qui se pro
 Voilà qui aurait grandement simplifié mon problème. 
 
 
-[Blu-ray]: http://www.vtourraine.net/blog/img/lire-disque-blu-ray/bluray.png
+[Blu-ray]: /blog/img/lire-disque-blu-ray/bluray.png
 
 [Millenium]:          http://video.fnac.com/a4047734/Millenium-Les-hommes-qui-n-aimaient-pas-les-femmes-Blu-Ray-Daniel-Craig-Blu-Ray
 [Samsung SE]:         http://www.amazon.co.uk/Samsung-SE-506AB-External-Slimline-Blue-ray/dp/B005M3UICU

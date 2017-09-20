@@ -5,7 +5,7 @@ Date:     December 11, 2011
 Update:   
 Keywords: webOS, Palm, HP  
 Summary:  Cette fois, l’affaire est pliée. HP se décide finalement à débrancher webOS (pardon, open-sourcer), au terme d’une année fatale pour Palm et son environnement mobile. L’heure du bilan qui fait mal.
-Image:    http://www.vtourraine.net/blog/img/palm-webos-hp-mauvais-exemple/palm-m100-ipod-touch.jpg  
+Image:    https://www.vtourraine.net/blog/img/palm-webos-hp-mauvais-exemple/palm-m100-ipod-touch.jpg  
 Language: fr
 
 Cette fois, l’affaire est pliée. HP se décide finalement à débrancher webOS (pardon, open-sourcer), au terme d’une année fatale pour Palm et son environnement mobile. L’heure du bilan qui fait mal.
@@ -54,10 +54,10 @@ Enfin, l’acquisition par HP en 2010, qui devait permettre de distribuer webOS 
 J’ai encore du mal à comprendre comment un environnement aussi abouti peut disparaître si rapidement. Les leçons à en tirer sont nombreuses pour Google, Apple et les autres prétendants au titre. On peut bien sûr se réjouir de voir les bonnes idées de webOS déjà réinjectées dans ses concurrents, mais Palm pouvait espérer un sort moins tragique.
 
 
-[Palm logo]: 					http://www.vtourraine.net/blog/img/palm-webos-hp-mauvais-exemple/palm-logo.png
-[m100 iPod touch]: 		http://www.vtourraine.net/blog/img/palm-webos-hp-mauvais-exemple/palm-m100-ipod-touch.jpg
-[Veer Pre3 TouchPad]: http://www.vtourraine.net/blog/img/palm-webos-hp-mauvais-exemple/veer-pre3-touchpad.jpg
-[webOS logo]: 				http://www.vtourraine.net/blog/img/palm-webos-hp-mauvais-exemple/webos-logo.png
+[Palm logo]: 					/blog/img/palm-webos-hp-mauvais-exemple/palm-logo.png
+[m100 iPod touch]: 		/blog/img/palm-webos-hp-mauvais-exemple/palm-m100-ipod-touch.jpg
+[Veer Pre3 TouchPad]: /blog/img/palm-webos-hp-mauvais-exemple/veer-pre3-touchpad.jpg
+[webOS logo]: 				/blog/img/palm-webos-hp-mauvais-exemple/webos-logo.png
 
 [The Verge webOS]: http://www.theverge.com/2011/12/9/2623943/webos-being-open-sourced-says-hp/in/2388197
 [Palm m100]: 			 http://en.wikipedia.org/wiki/Palm_m100

@@ -5,7 +5,7 @@ Date:     January 23, 2012
 Update:   
 Keywords: Tutoriel, Xcode, Workspace, iOS, OS X, projet, frameworks, Cedar  
 Summary:  Arrivés avec Xcode 4, les workspaces vous permettent de gérer plusieurs projets simultanément. Voyons comment mettre en place cet outil afin d’utiliser efficacement une bibliothèque ou un framework tiers.  
-Image:    http://www.vtourraine.net/blog/img/xcode-4-workspaces/xcode-4-workspaces.png  
+Image:    https://www.vtourraine.net/blog/img/xcode-4-workspaces/xcode-4-workspaces.png  
 Language: fr  
 Project:  
 
@@ -119,8 +119,8 @@ Comme vous le voyez, le processus est assez pénible, loin des promesses d'Xcode
 Si vous utilisez une technique similaire en réglant les problèmes évoqués ici, ça m'intéressait beaucoup d'en savoir plus. En espérant qu'une prochaine version d'Xcode améliore un peu tout ça.
 
 
-[Icone Xcode]:    http://www.vtourraine.net/blog/img/xcode-4-workspaces/xcode-icon.png
-[Xcode project]:  http://www.vtourraine.net/blog/img/xcode-4-workspaces/project-navigator.png
-[Link binaries]:  http://www.vtourraine.net/blog/img/xcode-4-workspaces/link-binaries.png
-[Create project]: http://www.vtourraine.net/blog/img/xcode-4-workspaces/create-project-git.jpg
-[Scheme]:         http://www.vtourraine.net/blog/img/xcode-4-workspaces/scheme.jpg
+[Icone Xcode]:    /blog/img/xcode-4-workspaces/xcode-icon.png
+[Xcode project]:  /blog/img/xcode-4-workspaces/project-navigator.png
+[Link binaries]:  /blog/img/xcode-4-workspaces/link-binaries.png
+[Create project]: /blog/img/xcode-4-workspaces/create-project-git.jpg
+[Scheme]:         /blog/img/xcode-4-workspaces/scheme.jpg

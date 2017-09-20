@@ -5,7 +5,7 @@ Date:     October 19, 2012
 Update:   November 12, 2014  
 Keywords: iOS, Newsstand, presse  
 Summary:  Vous avez sans doute entendu parler d’Instapaper, le service pour “lire plus tard”, concept génial décliné à l’infini. Son créateur, Marco Arment, vient de lancer une nouvelle application, sobrement baptisée “The Magazine”. Elle pourrait bien sonner le renouveau de Newsstand, le kiosque iOS.  
-Image:    http://www.vtourraine.net/blog/img/the-magazine-newsstand/the-magazine.png  
+Image:    https://www.vtourraine.net/blog/img/the-magazine-newsstand/the-magazine.png  
 Language: fr  
 Project:  
 
@@ -44,7 +44,7 @@ Au lancement de l’iPad, toute la presse voyait l’appareil comme le futur de 
 Cette semaine, Newsweek a annoncé [la fin de son édition papier](http://www.theverge.com/2012/10/18/3520544/newsweek-all-digital-publication). Aujourd’hui, c’est la [Journée de la presse en ligne](http://www.spiil.org/20121018/suivez-direct-journee-de-presse-ligne-spiil), organisée par le Spiil. Je ne suis pas inquiet pour l’avenir de la presse, je crois même que le meilleur est à venir. 
 
 
-> *Mise à jour du 12 novembre 2014* : triste nouvelle, « The Magazine » n’est plus. Son éditeur [a annoncé](http://glog.glennf.com/blog/2014/10/8/the-magazine-is-making-a-book-again-and-shutting-down-what) que la parution cessera fin 2014, à cause de la chute (lente mais constante) du nombre d’abonnés. J’en parle dans le contexte de ma récente [sélection de magazines](http://www.vtourraine.net/blog/selection-magazines).
+> *Mise à jour du 12 novembre 2014* : triste nouvelle, « The Magazine » n’est plus. Son éditeur [a annoncé](http://glog.glennf.com/blog/2014/10/8/the-magazine-is-making-a-book-again-and-shutting-down-what) que la parution cessera fin 2014, à cause de la chute (lente mais constante) du nombre d’abonnés. J’en parle dans le contexte de ma récente [sélection de magazines](/blog/selection-magazines).
 
 
 ### Licence photo
@@ -52,5 +52,5 @@ Cette semaine, Newsweek a annoncé [la fin de son édition papier](http://www.th
 - [The Magazine Cover Art](http://dribbble.com/shots/766068-The-Magazine-Cover-Art) par Pacific Helm
 
 
-[The Magazine Covers]: http://www.vtourraine.net/blog/img/the-magazine-newsstand/the-magazine.png
-[Newsstand]: http://www.vtourraine.net/blog/img/the-magazine-newsstand/newstand-iPad.jpg
+[The Magazine Covers]: /blog/img/the-magazine-newsstand/the-magazine.png
+[Newsstand]: /blog/img/the-magazine-newsstand/newstand-iPad.jpg

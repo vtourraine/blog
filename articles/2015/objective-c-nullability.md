@@ -5,7 +5,7 @@ Date:      July 26, 2015
 Update:    November 29, 2015  
 Keywords:  Objective-C, Xcode, dev
 Summary:   J’adore quand Xcode trouve des bugs dans mon code. C’est un peu comme si une IA passait mon travail en revue pour m’aider à l’améliorer. Le pair-programming du futur, sans doute.    
-Image:     http://www.vtourraine.net/blog/img/2015/objective-c-nullability/xcode-icon.png  
+Image:     https://www.vtourraine.net/blog/img/2015/objective-c-nullability/xcode-icon.png  
 Language:  fr  
 
 J’adore quand Xcode trouve des bugs dans mon code. C’est un peu comme si une IA passait mon travail en revue pour m’aider à l’améliorer. Le pair-programming du futur, sans doute.
@@ -92,7 +92,7 @@ Je ne vais pas prétendre que les _nullability annotations_ vont résoudre tous 
 
 [Blog]: https://developer.apple.com/swift/blog/?id=25
 [Xcode 7]: https://developer.apple.com/library/prerelease/ios/documentation/DeveloperTools/Conceptual/WhatsNewXcode/Articles/xcode_7_0.html
-[generics]: http://www.vtourraine.net/blog/2015/objective-c-generics
+[generics]: /blog/2015/objective-c-generics
 
-[Xcode icon]: http://www.vtourraine.net/blog/img/2015/objective-c-nullability/xcode-icon.png
-[Xcode nullability warning]: http://www.vtourraine.net/blog/img/2015/objective-c-nullability/xcode-nullability-warning.png
+[Xcode icon]: /blog/img/2015/objective-c-nullability/xcode-icon.png
+[Xcode nullability warning]: /blog/img/2015/objective-c-nullability/xcode-nullability-warning.png

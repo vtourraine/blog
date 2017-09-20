@@ -57,6 +57,6 @@ _Très bonne année 2012 à tous._
 [Atos Worldline]:    http://www.atosworldline.com/
 [INSA]:              http://if.insa-lyon.fr/
 [Rolin-Guilbault]:   http://www.rolin-guilbault.com/
-[Memoclock]:         http://www.vtourraine.net/projects/memoclock/
-[Blog Shazino]:      http://www.vtourraine.net/blog/rejoins-equipe-shazino
+[Memoclock]:         /projects/memoclock/
+[Blog Shazino]:      /blog/rejoins-equipe-shazino
 [Shazino]:           http://www.shazino.com/

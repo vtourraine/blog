@@ -5,8 +5,8 @@ Date:      April 11, 2015
 Update:    September 3, 2015  
 Keywords:  critique, livre, William Gibson  
 Summary:   Lorsque les personnages d’un récit évoluent séparément à la recherche d’un objectif commun, on peut raisonnablement s’attendre à une conclusion les réunissant. Ici, il faut ouvrir « Zero History » pour voir Hollis Henry la journaliste et Milgrim l’informateur clandestin rassemblés autour d’une nouvelle quête. Après les évènements de « Spook Country », c’est encore une fois Hubertus Bigend qui les recrute pour sa nouvelle obsession : une marque de jeans, confidentielle au point d’être intraçable.  
-Image:     http://www.vtourraine.net/blog/img/2015/critique-gibson-zero-history/zero-history.jpg  
-Thumbnail: http://www.vtourraine.net/blog/img/2015/critique-gibson-zero-history/thumbnail-zero-history.jpg  
+Image:     https://www.vtourraine.net/blog/img/2015/critique-gibson-zero-history/zero-history.jpg  
+Thumbnail: https://www.vtourraine.net/blog/img/2015/critique-gibson-zero-history/thumbnail-zero-history.jpg  
 Language:  fr  
 
 
@@ -49,13 +49,13 @@ Tout ceci ne vous dit pas si j’ai aimé le livre. Au petit jeu du classement, 
 
 ### Trilogie _Blue Ant_, billets de blog
 
-1. [_Pattern Recognition_](http://www.vtourraine.net/blog/2015/critique-gibson-pattern-recognition)
-2. [_Spook Country_](http://www.vtourraine.net/blog/2015/critique-gibson-spook-country)
+1. [_Pattern Recognition_](/blog/2015/critique-gibson-pattern-recognition)
+2. [_Spook Country_](/blog/2015/critique-gibson-spook-country)
 3. _Zero History_
 
 
-[Cover]:  http://www.vtourraine.net/blog/img/2015/critique-gibson-zero-history/zero-history.jpg  
-[Gibson]: http://www.vtourraine.net/blog/img/2015/critique-gibson-zero-history/william-gibson-by-jon-lim.jpg
+[Cover]:  /blog/img/2015/critique-gibson-zero-history/zero-history.jpg  
+[Gibson]: /blog/img/2015/critique-gibson-zero-history/william-gibson-by-jon-lim.jpg
 
-[Pattern Recognition]: http://www.vtourraine.net/blog/2015/critique-gibson-pattern-recognition  
-[Spook Country]: http://www.vtourraine.net/blog/2015/critique-gibson-spook-country  
+[Pattern Recognition]: /blog/2015/critique-gibson-pattern-recognition  
+[Spook Country]: /blog/2015/critique-gibson-spook-country  

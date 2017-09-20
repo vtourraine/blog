@@ -6,8 +6,8 @@ Update:    February 21, 2015
            September 3, 2015  
 Keywords:  critique, livre, William Gibson  
 Summary:   Cette année, j’ai envie d’essayer des choses un peu différentes avec ce blog, alors pourquoi pas une critique de livre ?  
-Image:     http://www.vtourraine.net/blog/img/critique-gibson-pattern-recognition/pattern-recognition.jpg  
-Thumbnail: http://www.vtourraine.net/blog/img/critique-gibson-pattern-recognition/thumbnail-pattern-recognition.jpg  
+Image:     https://www.vtourraine.net/blog/img/critique-gibson-pattern-recognition/pattern-recognition.jpg  
+Thumbnail: https://www.vtourraine.net/blog/img/critique-gibson-pattern-recognition/thumbnail-pattern-recognition.jpg  
 Language:  fr  
 
 
@@ -53,9 +53,9 @@ Pour un roman de début de XXIème siècle, je trouve que c’est réussi.
 ### Trilogie _Blue Ant_, billets de blog
 
 1. _Pattern Recognition_
-2. [_Spook Country_](http://www.vtourraine.net/blog/2015/critique-gibson-spook-country)
-3. [_Zero History_](http://www.vtourraine.net/blog/2015/critique-gibson-zero-history)
+2. [_Spook Country_](/blog/2015/critique-gibson-spook-country)
+3. [_Zero History_](/blog/2015/critique-gibson-zero-history)
 
 
-[Cover]:  http://www.vtourraine.net/blog/img/critique-gibson-pattern-recognition/pattern-recognition.jpg
-[Gibson]: http://www.vtourraine.net/blog/img/critique-gibson-pattern-recognition/william-gibson-by-david-alliet.jpg
+[Cover]:  /blog/img/critique-gibson-pattern-recognition/pattern-recognition.jpg
+[Gibson]: /blog/img/critique-gibson-pattern-recognition/william-gibson-by-david-alliet.jpg

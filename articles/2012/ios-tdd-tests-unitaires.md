@@ -5,7 +5,7 @@ Date:     April 18, 2012
 Update:   
 Keywords: iOS, Xcode, Objective-C, TDD, OCUnit  
 Summary:  Le développement iOS bénéficie d’un langage solide (Objective-C) et d’un SDK moderne (Cocoa Touch). Il existe pourtant un aspect technique, généralement considéré comme essentiel, sur lequel la plateforme est en retard flagrant : les tests unitaires, et le “Test-Driven Development” (TDD) en particulier. C’est le moment de s’y mettre.  
-Image:    http://www.vtourraine.net/blog/img/ios-tdd-tests-unitaires/xcode-ocunit.png  
+Image:    https://www.vtourraine.net/blog/img/ios-tdd-tests-unitaires/xcode-ocunit.png  
 Language: fr  
 Project:  
 
@@ -36,8 +36,8 @@ Les ressources pour se former à la pratique des tests unitaires sur iOS sont ra
 Une fois les bases assimilées, il ne reste plus qu'à plonger dans [OCMock](http://ocmock.org/), [OCHamcrest](http://jonreid.github.com/OCHamcrest/) et autres [Cedar](https://github.com/pivotal/cedar). Autant de sujets qui méritent des billets dédiés, peut-être pour plus tard. Ça vous laisse le temps pour vous familiariser avec OCUnit. `‘Cmd’+‘U’`.
 
 
-[Xcode OCUnit]: http://www.vtourraine.net/blog/img/ios-tdd-tests-unitaires/xcode-ocunit.png
-[TDD iOS dev]:  http://www.vtourraine.net/blog/img/ios-tdd-tests-unitaires/graham-lee-tdd-ios.png
+[Xcode OCUnit]: /blog/img/ios-tdd-tests-unitaires/xcode-ocunit.png
+[TDD iOS dev]:  /blog/img/ios-tdd-tests-unitaires/graham-lee-tdd-ios.png
 
 [Doc Unit Testing]: http://developer.apple.com/library/ios/#documentation/DeveloperTools/Conceptual/UnitTesting/00-About_Unit_Testing/about.html
 [WWDC]:             https://developer.apple.com/wwdc/

@@ -5,7 +5,7 @@ Date:      September 5, 2017
 Update:    
 Keywords:  app  
 Summary:   Avec la dernière mise à jour de Fantastical, John Gruber faisait remarquer que l’application offre maintenant toutes les fonctionnalités qu’il en attend.  
-Image:     http://www.vtourraine.net/blog/img/2017/meilleur-calendrier/fantastical-week-view.png  
+Image:     https://www.vtourraine.net/blog/img/2017/meilleur-calendrier/fantastical-week-view.png  
 Language:  fr  
 
 
@@ -13,7 +13,7 @@ Avec la dernière mise à jour de [Fantastical](http://flexibits.com/fantastical
 
 > « It really is a great update. I’m not even sure what to ask for at this point. No app is ever “done”, but at this point Fantastical feels feature complete. »
 
-![Fantastical 2, image Flexibits](http://www.vtourraine.net/blog/img/2017/meilleur-calendrier/fantastical-week-view.png)
+![Fantastical 2, image Flexibits](/blog/img/2017/meilleur-calendrier/fantastical-week-view.png)
 
 J’utilise Fantastical, et l’application est absolument remarquable. Mais ce billet m’a donné envie d’imaginer quelles pourraient être ses prochaines fonctionnalités. Autrement dit, comment améliorer une app de calendrier pour (me) rendre encore davantage service.
 

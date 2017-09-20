@@ -5,7 +5,7 @@ Date:     May 12, 2012
 Update:   
 Keywords: musique, Spotify  
 Summary:  J’ai déjà évoqué sur ce blog l’importance de la musique dans mon petit monde numérique. iPod, iTunes, vous voyez le paysage. J’abordais notamment le sujet des nouveaux services de musique à la demande, vous expliquant pourquoi ils ne me convenaient pas. Disons que je suis curieux. Me voici donc maintenant abonné à Spotify. Alors ?  
-Image:    http://www.vtourraine.net/blog/img/musique-itunes-digital-hub/spotify.jpg  
+Image:    https://www.vtourraine.net/blog/img/musique-itunes-digital-hub/spotify.jpg  
 Language: fr  
 Project:  
 
@@ -20,7 +20,7 @@ J’ai déjà évoqué sur ce blog l’importance de la musique dans mon petit m
 
 Plus important, la grande majorité des utilisateurs ne synchronisent que très rarement, voire jamais, leurs appareils. Apple le sait, et s’adapte (lentement) : synchro OTA, backup iCloud, etc. En ce qui concerne la musique, la [nouvelle offre d’Apple](http://www.apple.com/itunes/itunes-match/) est originale, permettant de légaliser sa collection de mp3, mais n’apporte aucune innovation.
 
-Si je devais repartir de zéro, sans collection existante, que choisirais-je ? Il est peut-être temps de passer à [autre chose](http://www.vtourraine.net/blog/musique-itunes-digital-hub).
+Si je devais repartir de zéro, sans collection existante, que choisirais-je ? Il est peut-être temps de passer à [autre chose](/blog/musique-itunes-digital-hub).
 
 
 ## Spotify, Rdio, Mog, Pandora, Deezer…
@@ -67,4 +67,4 @@ C’est justement une des promesses de ce type de services : rien ne m’apparti
 Ensuite, tout est possible : partager, stocker, organiser, analyser et bien-sûr écouter.
 
 
-[Spotify]: http://www.vtourraine.net/blog/img/musique-itunes-digital-hub/spotify.jpg
+[Spotify]: /blog/img/musique-itunes-digital-hub/spotify.jpg

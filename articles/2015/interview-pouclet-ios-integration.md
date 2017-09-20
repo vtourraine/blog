@@ -5,8 +5,8 @@ Date:      January 18, 2015
 Update:    
 Keywords:  interview, livre, iOS, CI  
 Summary:   Avant même le lancement du premier SDK en 2008, les développeurs iPhone OS/iOS ont toujours eu un temps d’avance sur Apple. L’intégration continue fait partie de ces sujets trop longtemps ignorés, et reste encore aujourd’hui bien discrète lors des WWDC.  
-Image:     http://www.vtourraine.net/blog/img/interview-pouclet-ios-integration/pouclet-ios-integration.jpg  
-Thumbnail: http://www.vtourraine.net/blog/img/interview-pouclet-ios-integration/pouclet-ios-integration-thumbnail.jpg  
+Image:     https://www.vtourraine.net/blog/img/interview-pouclet-ios-integration/pouclet-ios-integration.jpg  
+Thumbnail: https://www.vtourraine.net/blog/img/interview-pouclet-ios-integration/pouclet-ios-integration-thumbnail.jpg  
 Language:  fr  
 
 
@@ -67,5 +67,5 @@ _Je remercie Romain pour avoir pris le temps de répondre à mes questions, mais
 ![Romain Pouclet (à droite), photo Romain Pouclet, DR][Avatar]
 
 
-[Cover]:  http://www.vtourraine.net/blog/img/interview-pouclet-ios-integration/pouclet-ios-integration.jpg
-[Avatar]: http://www.vtourraine.net/blog/img/interview-pouclet-ios-integration/pouclet-github-avatar.jpg
+[Cover]:  /blog/img/interview-pouclet-ios-integration/pouclet-ios-integration.jpg
+[Avatar]: /blog/img/interview-pouclet-ios-integration/pouclet-github-avatar.jpg

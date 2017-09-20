@@ -5,7 +5,7 @@ Date:     February 05, 2012
 Update:   
 Keywords: mobile, UI, UX, making-of  
 Summary:  Les applications mobiles arrivent rarement avec un manuel d’utilisation, et personne ne s’en plaint. A priori, c’est donc une excellente nouvelle, mais ce n’est pas une raison pour ne pas guider ses utilisateurs, lorsque cela devient nécessaire. Étude de cas.  
-Image:    http://www.vtourraine.net/blog/img/app-mobile-guide-utilisation/contacts-popover-front.png  
+Image:    https://www.vtourraine.net/blog/img/app-mobile-guide-utilisation/contacts-popover-front.png  
 Language: fr  
 Project:  Contacts  
 
@@ -28,8 +28,8 @@ Et ça marche : depuis cette mise à jour, plus aucun mail à ce sujet.
 *Mission accomplie*, ouf.
 
 
-[Contacts Popover 1]: http://www.vtourraine.net/blog/img/app-mobile-guide-utilisation/contacts-popover-front.png
-[Contacts Popover 2]: http://www.vtourraine.net/blog/img/app-mobile-guide-utilisation/contacts-popover-back.png
+[Contacts Popover 1]: /blog/img/app-mobile-guide-utilisation/contacts-popover-front.png
+[Contacts Popover 2]: /blog/img/app-mobile-guide-utilisation/contacts-popover-back.png
 
 [Contacts]: http://www.studioamanga.com/contacts/
 [MobilePatterns]: http://mobile-patterns.com/empty-data-sets

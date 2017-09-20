@@ -5,8 +5,8 @@ Date:      September 19, 2015
 Update:   
 Keywords:  Sci-Fi, film
 Summary:   « The Force Awakens » arrive dans quelques mois. Je sais que beaucoup évitent scrupuleusement toute info non-officielle, afin de garder un maximum de surprises pour la sortie du film. Une approche tout à fait respectable. Moi ? Je me jette sur toutes les leaks que j’arrive à trouver.    
-Image:     http://www.vtourraine.net/blog/img/2015/leak-spoiler-star-wars/kylo-ren-poster.jpg  
-Thumbnail: http://www.vtourraine.net/blog/img/2015/leak-spoiler-star-wars/thumbnail-stormtroopers.jpg  
+Image:     https://www.vtourraine.net/blog/img/2015/leak-spoiler-star-wars/kylo-ren-poster.jpg  
+Thumbnail: https://www.vtourraine.net/blog/img/2015/leak-spoiler-star-wars/thumbnail-stormtroopers.jpg  
 Language:  fr  
 
 
@@ -82,7 +82,7 @@ En attendant le film, bien sûr (et tous les autres qui suivront).
 
 ![Poster Kylo Ren, image Lucasfilm][kylo ren poster]
 
-[star wars slate]:      http://www.vtourraine.net/blog/img/2015/leak-spoiler-star-wars/star-wars-slate.jpg
-[kylo ren swu concept]: http://www.vtourraine.net/blog/img/2015/leak-spoiler-star-wars/kylo-ren-swu-concept.jpg
-[kylo ren ir concept]:  http://www.vtourraine.net/blog/img/2015/leak-spoiler-star-wars/kylo-ren-ir-concept.jpg
-[kylo ren poster]:      http://www.vtourraine.net/blog/img/2015/leak-spoiler-star-wars/kylo-ren-poster.jpg
+[star wars slate]:      /blog/img/2015/leak-spoiler-star-wars/star-wars-slate.jpg
+[kylo ren swu concept]: /blog/img/2015/leak-spoiler-star-wars/kylo-ren-swu-concept.jpg
+[kylo ren ir concept]:  /blog/img/2015/leak-spoiler-star-wars/kylo-ren-ir-concept.jpg
+[kylo ren poster]:      /blog/img/2015/leak-spoiler-star-wars/kylo-ren-poster.jpg
