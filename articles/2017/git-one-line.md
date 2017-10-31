@@ -17,7 +17,7 @@ Git est un outil formidable, mais souvent difficile à maîtriser à cause de sa
 
 Cette commande bien connue dispose d’une option sans doute peu utilisée, qui permet de condenser les résultats de façon à ce que chaque commit tienne sur une ligne de texte. Pour cela, il suffit de taper `git log --oneline`. Concrètement, vous obtenez uniquement la première ligne du commit, avec quelques informations très basiques. 
 
-![git log --oneline (a.k.a. « got lol »)](/blog/img/2017/git-one-line/git-lol.png)
+![git log --oneline (a.k.a. « git lol »)](/blog/img/2017/git-one-line/git-lol.png)
 
 Dans la plupart des cas, ça me paraît amplement suffisant pour se situer dans l’historique des commits.
 
