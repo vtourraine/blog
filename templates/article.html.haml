@@ -3,7 +3,7 @@
   %head
     %meta{:charset => "utf-8"}
     %title #{title}
-    %link{:rel => "stylesheet", :type => "text/css", :href => "/blog/styles/default.css?abs"}
+    %link{:rel => "stylesheet", :type => "text/css", :href => "/blog/styles/default.css?nocomm"}
     -# %link{:rel => "stylesheet", :type => "text/css", :href => "../styles/default.css"}
     %link{:rel => "stylesheet", :type => "text/css", :href => "https://fonts.googleapis.com/css?family=Nunito:300,700"}
 
@@ -67,23 +67,24 @@
 
       #{body}
 
-    .comments
-      #disqus_thread
-        :javascript
-          var disqus_shortname = 'vtourraine';
-          var disqus_url = '#{disqus_url}';
+    - if date.year < 2017
+      .comments
+        #disqus_thread
+          :javascript
+            var disqus_shortname = 'vtourraine';
+            var disqus_url = '#{disqus_url}';
 
-          (function() {
-              var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-              dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
-              (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-          })();
-        %noscript 
-          Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
-        %a{:href => "https://disqus.com", :class => "dsq-brlink"} 
-          blog comments powered by 
-          %span.logo-disqus
-            Disqus
+            (function() {
+                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+          %noscript 
+            Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+          %a{:href => "https://disqus.com", :class => "dsq-brlink"} 
+            blog comments powered by 
+            %span.logo-disqus
+              Disqus
 
     %footer
       %nav
