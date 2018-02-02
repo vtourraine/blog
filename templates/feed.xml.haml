@@ -22,5 +22,5 @@
       %summary #{article.summary}
       %content{:type => "html", :"xml:lang" => "fr"}
         <![CDATA[
-        #{article.body}
+        #{article.body.gsub('img src="/blog/img','img src="https://www.vtourraine.net/blog/img')}
         ]]>
