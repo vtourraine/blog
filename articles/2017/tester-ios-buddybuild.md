@@ -2,11 +2,16 @@ Title:     Tester plusieurs versions d’iOS avec buddybuild
 Author:    Vincent Tourraine  
 Email:     me@vtourraine.net  
 Date:      May 30, 2017  
-Update:    
+Update:    March 6, 2018  
 Keywords:  iOS, Xcode, dev  
 Summary:   Dès qu’une nouvelle version d’iOS arrive, on aimerait pouvoir abandonner les précédentes. D’une part, pour bénéficier des dernières APIs, mais aussi pour simplifier les conditions d’exécution du code. Or, avec un peu de pragmatisme, il convient généralement de supporter une ou deux versions antérieures afin de ne pas exclure une partie des utilisateurs potentiels.  
 Image:     https://www.vtourraine.net/blog/img/2017/tester-ios-buddybuild/buddybuild-configuration-1.png  
 Language:  fr  
+
+
+> ⚠️ **Mise à jour, mars 2018**
+> Depuis la publication de cet article, [BuddyBuild a été racheté par Apple](https://www.buddybuild.com/blog/buddybuild-is-now-part-of-apple). En conséquence, l’offre gratuite de BuddyBuild n’est plus disponible. À moins de disposer d’un compte BuddyBuild payant avant l’annonce du rachat, il n’est donc plus possible de mettre en pratique les recommandations de l’article ci-dessous.
+> C’est bien dommage, mais cela nous laisse espérer que ces fonctionnalités seront peut-être un jour offertes par Apple.
 
 
 Dès qu’une nouvelle version d’iOS arrive, on aimerait pouvoir abandonner les précédentes. D’une part, pour bénéficier des dernières APIs, mais aussi pour simplifier les conditions d’exécution du code. Or, avec un peu de pragmatisme, il convient généralement de supporter une ou deux versions antérieures afin de ne pas exclure une partie des utilisateurs potentiels.
