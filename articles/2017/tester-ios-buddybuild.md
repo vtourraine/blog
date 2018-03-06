@@ -10,7 +10,9 @@ Language:  fr
 
 
 > ⚠️ **Mise à jour, mars 2018**
-> Depuis la publication de cet article, [BuddyBuild a été racheté par Apple](https://www.buddybuild.com/blog/buddybuild-is-now-part-of-apple). En conséquence, l’offre gratuite de BuddyBuild n’est plus disponible. À moins de disposer d’un compte BuddyBuild payant avant l’annonce du rachat, il n’est donc plus possible de mettre en pratique les recommandations de l’article ci-dessous.
+> 
+> Depuis la publication de cet article, [buddybuild a été racheté par Apple](https://www.buddybuild.com/blog/buddybuild-is-now-part-of-apple). En conséquence, l’offre gratuite de buddybuild n’est plus disponible. À moins de disposer d’un compte buddybuild payant _avant_ l’annonce du rachat, il n’est donc plus possible de mettre en pratique les recommandations de l’article ci-dessous.
+> 
 > C’est bien dommage, mais cela nous laisse espérer que ces fonctionnalités seront peut-être un jour offertes par Apple.
 
 
