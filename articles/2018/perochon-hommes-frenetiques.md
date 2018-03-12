@@ -29,12 +29,12 @@ Le style d’écriture très classique de cette époque crée une certaine dista
 
 C’est d’autant plus remarquable en considérant sa place dans la bibliographie de l’auteur. Né à Courlay, dans la campagne deux-sévrienne, Ernest Pérochon s’est illustré avec des romans réalistes décrivant la vie paysanne. À part quelques ouvrages pour la jeunesse, tous ses livres parlent de la vie quotidienne à la campagne du début du XXe siècle. Il a remporté le prix Goncourt en 1920 pour [*Nêne*](https://fr.wikipedia.org/wiki/Nêne), l’histoire d’une servante de ferme. *Les Hommes Frénétiques* est une exception, on pourrait parler d’anomalie, qui rend sa radicalité encore plus fascinante. Dans des interviews de l’époque (judicieusement citées dans la réédition de 1971), Ernest Pérochon explique qu’il voit ce livre comme une tentative d’exorciser ses peurs concernant l’avenir de la société et, peut-être, de prévenir une telle situation en avertissant le public des dangers d’un développement scientifique incontrôlé. Il est mort en 1942, trois ans seulement avant les bombardements atomiques d’Hiroshima et Nagasaki. Encore aujourd’hui en 2018, cette mise en garde paraît hélas toujours d’actualité.
 
-> _Harrisson, inlassablement, répétait le même avertissement : la conquête de l’éther serait fatale à la civislisation si l’on ne trouvait pas, chez tous, une prudence toujours plus grande et une sincère volonté de paix._
+> « Harrisson, inlassablement, répétait le même avertissement : la conquête de l’éther serait fatale à la civislisation si l’on ne trouvait pas, chez tous, une prudence toujours plus grande et une sincère volonté de paix.
 > 
-> _Pressé de tous côtés par des contradicteurs ignorants, Harrisson, avec une sorte de répugnance et d’effroi, poussait sa pensée à ses dernières limites._
+> Pressé de tous côtés par des contradicteurs ignorants, Harrisson, avec une sorte de répugnance et d’effroi, poussait sa pensée à ses dernières limites.
 > 
-> _Le savant, dont la passion de recherches avait empli la vie, en venait presque à maudire la curiosité humaine. Un soir, comme il parlait aux parallèles d’Asie, il finit par s’écrier :_
+> Le savant, dont la passion de recherches avait empli la vie, en venait presque à maudire la curiosité humaine. Un soir, comme il parlait aux parallèles d’Asie, il finit par s’écrier :
 > 
-> _– Je vous dis qu’il faut avant tout organiser et surveiller le travail scientifique !... Je vous en adjure : surveillez la science ou tuez-la !... Il n’est pas de tâche plus urgente ! Il n’est pas d’autre moyen de salut !_
+> – Je vous dis qu’il faut avant tout organiser et surveiller le travail scientifique !... Je vous en adjure : surveillez la science ou tuez-la !... Il n’est pas de tâche plus urgente ! Il n’est pas d’autre moyen de salut ! »
 
 À sa sortie, le livre était comparé aux romans d’H.G. Wells. On peut constater que *Les Hommes Frénétiques* n’a pas marqué l’histoire de la science-fiction. C’est toujours difficile de juger, même avec du recul, de l’impact culturel d’une œuvre. Une chose est sûre, j’aurais adoré qu’Ernest Pérochon continue à écrire des livres d’anticipation. Encore aujourd’hui, peu d’auteurs savent offrir un tel mélange de style et d’imagination.
