@@ -1,4 +1,4 @@
-Title:     Hugo 2018 : lire (gratuitement) les meilleures histoires courtes  
+Title:     Hugo Awards 2018 : lire (gratuitement) les meilleures histoires courtes  
 Author:    Vincent Tourraine  
 Email:     me@vtourraine.net  
 Date:      April 4, 2018  
