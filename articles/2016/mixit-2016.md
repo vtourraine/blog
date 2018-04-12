@@ -3,7 +3,7 @@ Author:    Vincent Tourraine
 Email:     me@vtourraine.net  
 Date:      April 17, 2016  
 Update:    May 24, 2016  
-Keywords:  Mix-IT, iOS, app, dev  
+Keywords:  mixit, iOS, app, dev  
 Summary:   La nouvelle édition de Mix-IT se déroulera la semaine prochaine, c’était donc le bon moment pour mettre à jour mon app iOS permettant d’en consulter le programme, initialement publiée l’année dernière.  
 Image:     https://www.vtourraine.net/blog/img/2016/mixit-2016/screenshot-session.png  
 Language:  fr  
