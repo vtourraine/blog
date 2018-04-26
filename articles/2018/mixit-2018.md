@@ -2,7 +2,7 @@ Title:     MiXiT 2018
 Author:    Vincent Tourraine  
 Email:     me@vtourraine.net  
 Date:      April 12, 2018  
-Update:    
+Update:    April 26, 2018  
 Keywords:  mixit, iOS, app, dev  
 Summary:   MiXiT est une conférence très sympathique pour beaucoup de raisons, mais notamment parce qu’elle propose une API simple pour consulter le programme. Je trouve que c’est une excellente occasion pour construire une petite application.  
 Image:     https://www.vtourraine.net/blog/img/2018/mixit-2018/iphone-x-screenshots-v4.png  
@@ -15,3 +15,7 @@ Je viens tout juste de mettre à jour l’application pour l’édition 2018, sa
 ![Application MiXiT](/blog/img/2018/mixit-2018/iphone-x-screenshots-v4.png)
 
 Si vous êtes curieux, le code source est disponible sur [GitHub](https://github.com/vtourraine/mixit). Et si vous êtes motivé, j’accepte les pull requests avec plaisir.
+
+> _Mise à jour du 26 avril 2018_  
+>   
+> Au final, l’application a été téléchargée 51 fois (sur 600 participants pour MiXiT), avec 425 sessions (statistiques partielles, selon les réglages de confidentialité iOS).
