@@ -3,7 +3,7 @@ Author:    Vincent Tourraine
 Email:     me@vtourraine.net  
 Date:      June 18, 2016  
 Update:    
-Keywords:  WWDC, unit test    
+Keywords:  WWDC, unit test   
 Summary:   Dans le cadre de la WWDC 2016, voici un compte-rendu de la session « Advanced Testing and Continuous Integration ». Des informations trop renversantes pour être mentionnées lors du keynote, accrochez-vous bien.  
 Image:     https://www.vtourraine.net/blog/img/2016/wwdc-2016-testing/409-1-summary.png  
 Thumbnail: https://www.vtourraine.net/blog/img/2016/wwdc-2016-testing/thumbnail-wwdc-2016-testing.jpg  
