@@ -24,3 +24,8 @@ Air Grenoble est disponible sur l’App Store depuis plus d’un an. L’arrivé
 Je vous préviens tout de suite, cette mise à jour n’apportera rien de révolutionnaire. Une révision graphique par-ci, une nouvelle API par-là, une dose de refactoring. Les modifications habituelles pour un projet d’application mobile.
 
 Si ça vous intéresse, n’hésitez pas à revenir sur ce blog chaque semaine, ou abonnez-vous au [flux RSS](https://www.vtourraine.net/blog/feed.xml) ou à [mon compte Twitter](https://twitter.com/vtourraine).
+
+## Liste des articles Air Grenoble 2
+
+1. Air Grenoble 2 : mise à jour pas-à-pas
+2. [Nouvelle icône pour Air Grenoble 2](http://www.vtourraine.net/blog/2018/air-grenoble-2-icone)
