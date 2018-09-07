@@ -28,5 +28,6 @@ Si ça vous intéresse, n’hésitez pas à revenir sur ce blog chaque semaine, 
 ## Liste des articles Air Grenoble 2
 
 1. Air Grenoble 2 : mise à jour pas-à-pas
-2. [Nouvelle icône pour Air Grenoble 2](http://www.vtourraine.net/blog/2018/air-grenoble-2-icone)
-3. [Nuages animés avec UIKit](http://www.vtourraine.net/blog/2018/air-grenoble-2-clouds-view)
+2. [Nouvelle icône pour Air Grenoble 2](https://www.vtourraine.net/blog/2018/air-grenoble-2-icone)
+3. [Nuages animés avec UIKit](https://www.vtourraine.net/blog/2018/air-grenoble-2-clouds-view)
+4. [Table view minimaliste avec Swift](https://www.vtourraine.net/blog/2018/air-grenoble-2-table-view)
