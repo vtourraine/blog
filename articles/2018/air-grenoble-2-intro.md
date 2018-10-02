@@ -32,3 +32,4 @@ Si ça vous intéresse, n’hésitez pas à revenir sur ce blog chaque semaine, 
 3. [Nuages animés avec UIKit](https://www.vtourraine.net/blog/2018/air-grenoble-2-clouds-view)
 4. [Table view minimaliste avec Swift](https://www.vtourraine.net/blog/2018/air-grenoble-2-table-view)
 5. [Siri Shortcuts](https://www.vtourraine.net/blog/2018/air-grenoble-2-siri-shortcuts)
+6. [Passer des données avec Shortcuts](https://www.vtourraine.net/blog/2018/air-grenoble-2-shortcuts-pasteboard)
