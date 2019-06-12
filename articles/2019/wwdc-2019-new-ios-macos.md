@@ -2,7 +2,7 @@ Title:     Notes WWDC 2019 : What’s New in iOS and macOS Design
 Author:    Vincent Tourraine  
 Email:     me@vtourraine.net  
 Date:      June 7, 2019  
-Update:    
+Update:    June 12, 2019  
 Keywords:  dev, iOS, macOS  
 Summary:   Mes notes pour la session 801 de la WWDC 2019 : What’s New in iOS and macOS Design  
 Image:     
@@ -26,7 +26,7 @@ Full black background to blend in with the hardware, with variants
 ### Modal presentation
 - New card-like appearance by default
 - Dismiss with gesture (good for one-hand manipulation)
-- Can prevent automatic dismissal
+- Can prevent automatic dismissal (set `isModalInPresentation` to `false`)
 - Apps still need to always include visible button
 
 ### Contextual menus
