@@ -3,7 +3,7 @@ Author:    Vincent Tourraine
 Email:     me@vtourraine.net  
 Date:      June 13, 2019  
 Update:    
-Keywords:  dev, iOS  
+Keywords:  dev, iOS, macOS  
 Summary:   Mes notes pour la session 239 de la WWDC 2019 : Great Developer Habits.  
 Image:     
 Language:  fr  
