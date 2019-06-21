@@ -4,12 +4,12 @@ Email:     me@vtourraine.net
 Date:      June 11, 2019  
 Update:    
 Keywords:  dev, macOS, iOS, web  
-Summary:   Mes notes pour la session 511 de la WWDC 2019 : Supporting Dark Mode in Your Web Content  
+Summary:   Mes notes pour la session 511 de la WWDC 2019 : Supporting Dark Mode in Your Web Content.  
 Image:     
 Language:  fr  
 
 
-Référence : [Session 511 - Supporting Dark Mode in Your Web Content](https://developer.apple.com/videos/play/wwdc2019/511/)
+Référence : [Session 511 - Supporting Dark Mode in Your Web Content](https://developer.apple.com/wwdc19/511)
 
 
 Dark Mode supported in:

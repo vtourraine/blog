@@ -4,11 +4,11 @@ Email:     me@vtourraine.net
 Date:      June 12, 2019  
 Update:    
 Keywords:  dev, iOS  
-Summary:   Mes notes pour la session 221 de la WWDC 2019 : Introducing PencilKit  
+Summary:   Mes notes pour la session 221 de la WWDC 2019 : Introducing PencilKit.  
 Image:     
 Language:  fr  
 
-Référence : [Session 221 - Introducing PencilKit](https://developer.apple.com/videos/play/wwdc2019/221/)
+Référence : [Session 221 - Introducing PencilKit](https://developer.apple.com/wwdc19/221)
 
 Pencil on iPad, new in iOS 13:
 - Lower latency

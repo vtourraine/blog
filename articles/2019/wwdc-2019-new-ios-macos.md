@@ -4,12 +4,12 @@ Email:     me@vtourraine.net
 Date:      June 7, 2019  
 Update:    June 12, 2019  
 Keywords:  dev, iOS, macOS  
-Summary:   Mes notes pour la session 801 de la WWDC 2019 : What’s New in iOS and macOS Design  
+Summary:   Mes notes pour la session 801 de la WWDC 2019 : What’s New in iOS and macOS Design.  
 Image:     
 Language:  fr  
 
 
-Référence : [Session 801 - What’s New in iOS and macOS Design](https://developer.apple.com/videos/play/wwdc2019/801/)
+Référence : [Session 801 - What’s New in iOS and macOS Design](https://developer.apple.com/wwdc19/801)
 
 ## iOS
 
@@ -27,7 +27,7 @@ Full black background to blend in with the hardware, with variants
 - New card-like appearance by default
 - Dismiss with gesture (good for one-hand manipulation)
 - Can prevent automatic dismissal (set `isModalInPresentation` to `false`)
-- Apps still need to always include visible button
+- Apps still need to always include a visible button to dismiss the controller
 
 ### Contextual menus
 - Based on Peek and Pop, but works on all devices (tap and hold)

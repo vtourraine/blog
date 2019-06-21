@@ -4,12 +4,12 @@ Email:     me@vtourraine.net
 Date:      June 9, 2019  
 Update:    
 Keywords:  dev, iOS  
-Summary:   Mes notes pour la session 214 de la WWDC 2019 : Implementing Dark Mode on iOS  
+Summary:   Mes notes pour la session 214 de la WWDC 2019 : Implementing Dark Mode on iOS.  
 Image:     
 Language:  fr  
 
 
-Référence : [Session 214 - Implementing Dark Mode on iOS](https://developer.apple.com/videos/play/wwdc2019/214/)
+Référence : [Session 214 - Implementing Dark Mode on iOS](https://developer.apple.com/wwdc19/214)
 
 
 ## Dark Mode is a new look

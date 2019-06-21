@@ -4,12 +4,12 @@ Email:     me@vtourraine.net
 Date:      June 8, 2019  
 Update:    
 Keywords:  dev, iOS, macOS  
-Summary:   Mes notes pour la session 206 de la WWDC 2019 : Introducing SF Symbols  
+Summary:   Mes notes pour la session 206 de la WWDC 2019 : Introducing SF Symbols.  
 Image:     
 Language:  fr  
 
 
-Référence : [Session 206 - Introducing SF Symbols](https://developer.apple.com/videos/play/wwdc2019/206/)
+Référence : [Session 206 - Introducing SF Symbols](https://developer.apple.com/wwdc19/206)
 
 - Vector (scalable)
 - Weights (very thin to very bold)

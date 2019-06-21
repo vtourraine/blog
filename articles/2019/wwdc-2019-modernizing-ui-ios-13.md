@@ -2,7 +2,7 @@ Title:     Notes WWDC 2019 : Modernizing Your UI for iOS 13
 Author:    Vincent Tourraine  
 Email:     me@vtourraine.net  
 Date:      June 19, 2019  
-Update:    
+Update:    June 21, 2019  
 Keywords:  dev, iOS  
 Summary:   Mes notes pour la session 224 de la WWDC 2019 : Modernizing Your UI for iOS 13.  
 Image:     
@@ -64,7 +64,7 @@ class EmailController: UIViewController, UIAdaptivePresentationControllerDelegat
 }
 ```
 
-Appearance callbacks: for page and form sheets with iOS 13 SDK, the presenting view controller is not removed from the view hierarchy, therefore the `viewWill/Did/Appear/Disappear` methods are not called. Use the new “attempt to dismiss” methods instead.
+Appearance callbacks: for page and form sheets with iOS 13 SDK, the presenting view controller is not removed from the view hierarchy, therefore the `viewWill/Did/Appear/Disappear` methods are not called. Use the new “attempt to dismiss” and other `UIPresentationController` methods instead. Note that these methods are only called if the controller is dismissed with the gestures. If the controller is dismissed programmatically, you need to handle the corresponding event yourself (with a custom delegate, for instance).
 
 ## Search
 `UISearchController`: can now hide elements of the search bar (scope, cancel button), search text field exposed
