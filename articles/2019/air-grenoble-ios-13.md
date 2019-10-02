@@ -2,7 +2,7 @@ Title:     Air Grenoble pour iOS 13
 Author:    Vincent Tourraine  
 Email:     me@vtourraine.net  
 Date:      September 20, 2019  
-Update:    
+Update:    October 2, 2019  
 Keywords:  iOS, app, dev  
 Summary:   Air Grenoble souffle sa deuxième bougie avec la sortie d’une version 2.3 accompagnant iOS 13. Voici le tour des nouveautés.  
 Image:     https://www.vtourraine.net/blog/img/2019/air-grenoble-ios-13/air-grenoble-info.png  
@@ -46,3 +46,7 @@ En théorie, il suffit de configurer une des propriétés de la réponse déjà 
 ![Intent definition pour Extension Siri](/blog/img/2019/air-grenoble-ios-13/intentdefinition-response-output.png)
 
 Au final, une petite déception, mais surtout plusieurs améliorations appréciables, avec un minimum d’efforts de ma part. Une mise à jour comme je les aime.
+
+> Mise à jour, 2 octobre 2019
+> 
+> J’ai enfin compris comment activer le Siri Shortcut Output. Il fallait activer “Intent is user-configurable”, même s’il n’y a aucun paramètre en entrée. [Ça fonctionne tout de suite beaucoup mieux.](https://twitter.com/vtourraine/status/1176877927838965761)
