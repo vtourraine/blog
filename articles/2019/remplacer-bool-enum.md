@@ -4,7 +4,7 @@ Email:     me@vtourraine.net
 Date:      March 25, 2019  
 Update:    
 Keywords:  dev, Swift, Objective-C  
-Summary:   J’ai découvert cette astuce avec un billet de Paul Hudson, sur une idée partagée en 2016 par [Maciej Konieczny. Plutôt que d’utiliser des booléens, il est souvent préférable de déclarer des énumérations à deux valeurs.  
+Summary:   J’ai découvert cette astuce avec un billet de Paul Hudson, sur une idée partagée en 2016 par Maciej Konieczny. Plutôt que d’utiliser des booléens, il est souvent préférable de déclarer des énumérations à deux valeurs.  
 Image:     
 Language:  fr  
 
