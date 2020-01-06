@@ -32,6 +32,7 @@ blog.generate_index_year 2016, haml_options
 blog.generate_index_year 2017, haml_options
 blog.generate_index_year 2018, haml_options
 blog.generate_index_year 2019, haml_options
+blog.generate_index_year 2020, haml_options
 blog.generate_index_tag "livre", haml_options
 blog.generate_index_tag "comic book", haml_options
 blog.generate_index_tag "William Gibson", haml_options
