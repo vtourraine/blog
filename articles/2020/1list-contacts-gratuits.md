@@ -2,7 +2,7 @@ Title:     1List et Contact[s] disponibles gratuitement
 Author:    Vincent Tourraine  
 Email:     me@vtourraine.net  
 Date:      February 13, 2020  
-Update:    
+Update:    February 19, 2020  
 Keywords:  iOS, app  
 Summary:   À partir de cette semaine, vous pouvez télécharger deux de mes applications, 1List et Contact[s], totalement gratuitement. Pas de publicité à l’intérieur, pas d’achat in-app, et non, vos données personnelles ne sont pas revendues. Juste gratuites.  
 Image:     
@@ -21,3 +21,13 @@ Mais je pense toujours que ces applications ont de la valeur. Je vais peut-être
 
 - [Télécharger 1List sur l’App Store](https://itunes.apple.com/app/1list-fast-simple-reminders/id579440241?mt=8&at=1000lMiD)
 - [Télécharger Contact[s] sur l’App Store](https://itunes.apple.com/app/contact-s-2/id639507613?mt=8&at=1000lMiD)
+
+
+
+> _Mise à jour du 19 février 2020_  
+>
+> Que se passe-t-il quand une application payante devient gratuite ? Elle est mise en valeur sur l’App Store, ce qui permet de booster considérablement le nombre de téléchargements... pour environ 24 heures. Voici le résultat en images pour 1List et Contact[s], avec les statistiques de téléchargement de la semaine.
+> 
+> ![Téléchargements 1List](/blog/img/2020/1list-contacts-gratuits/1list-trends.jpg)
+> 
+> ![Téléchargements Contact[s]](/blog/img/2020/1list-contacts-gratuits/contacts-trends.jpg)
