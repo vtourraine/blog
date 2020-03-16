@@ -2,6 +2,7 @@ class Index
   attr_accessor :articles
   attr_accessor :title
   attr_reader :blog_url
+  attr_accessor :page_path
 
   def initialize
     @articles = Array.new 

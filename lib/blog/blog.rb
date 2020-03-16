@@ -46,6 +46,7 @@ class Blog
     index = Index.new
     index.title = year.to_s
     index.articles = @articles.select { |a| a.date.year == year }
+    index.page_path = year.to_s
 
     log_string = 'Generating index year: “' + year.to_s + '” (' + index.articles.count.to_s + ' articles)'
     puts log_string.colorize(:light_blue)
@@ -60,6 +61,7 @@ class Blog
     log_string = 'Generating index tag: “' + tag + '” (' + index.articles.count.to_s + ' articles)'
     puts log_string.colorize(:light_blue)
     tag_slug = tag.downcase.gsub(' ', '-')
+    index.page_path = "tags/" + tag_slug
     index.generate_index("templates/index-custom.html.haml", RENDERED_DIRECTORY+"tags/" + tag_slug + ".html", haml_options)
   end
 

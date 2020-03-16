@@ -3,11 +3,12 @@
   %head
     %meta{:charset => "utf-8"}
     %title Vincent Tourraine - Blog #{title}
+
     %link{:rel => "stylesheet", :type => "text/css", :href => "#{blog_url}styles/default.css?d4"}
     / %link{:rel => "stylesheet", :type => "text/css", :href => "styles/default.css"}
     %link{:rel => "stylesheet", :type => "text/css", :href => "https://fonts.googleapis.com/css?family=Nunito:300,700"}
-
     %link{:rel => "alternate", :type => "application/atom+xml", :href => "#{blog_url}feed.xml", :title => "Blog (Atom)"}
+    %link{:rel => "canonical", :href => "#{blog_url}#{page_path}"}
 
     %meta{:name => "viewport", :content => "width=device-width, user-scalable=no"}
 
