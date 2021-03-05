@@ -4,7 +4,7 @@ Email:     me@vtourraine.net
 Date:      February 26, 2021  
 Update:    
 Keywords:  sci-fi, livre  
-Summary:   J’avais beaucoup entendu parler de *Shangri-La*, une bande dessinée de science-fiction par l’auteur grenoblois Mathieu Bablet. J’étais donc impatient de la lire.  
+Summary:   J’avais beaucoup entendu parler de « Shangri-La », une bande dessinée de science-fiction par l’auteur grenoblois Mathieu Bablet. J’étais donc impatient de la lire.  
 Image:     
 Language:  fr  
 
