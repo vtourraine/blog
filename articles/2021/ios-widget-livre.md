@@ -2,7 +2,7 @@ Title:     Un livre, un widget
 Author:    Vincent Tourraine  
 Email:     me@vtourraine.net  
 Date:      April 14, 2021  
-Update:    
+Update:    April 15, 2021  
 Keywords:  livre, iOS  
 Summary:   J’aime lire des ebooks, mais je dois reconnaître que, comparés aux livres en papier posés sur une table ou un coin de bureau, on a tendance à les oublier. Ils restent cachés dans une liseuse électronique, ou, pire, à l’intérieur d’une application sur un téléphone ou tablette.  
 Image:     https://www.vtourraine.net/blog/img/2021/ios-widget-livre/iphone-widget-livre.jpg  
@@ -11,7 +11,7 @@ Language:  fr
 
 J’aime lire des ebooks, mais je dois reconnaître que, comparés aux livres en papier posés sur une table ou un coin de bureau, on a tendance à les oublier. Ils restent cachés dans une liseuse électronique, ou, pire, à l’intérieur d’une application sur un téléphone ou tablette.
 
-Il y a plusieurs années, je me souviens avoir vu sur Twitter quelqu’un ([Bryan Irace](https://twitter.com/irace), peut-être ?) qui conseillait d’utiliser la couverture du livre comme fond d’écran. J’aime l’idée, mais je crois avoir trouvé une meilleure solution avec les widgets iOS 14.
+Ce constat me rappelle [un article de Bryan Irace](https://irace.me/reading) qui conseillait d’utiliser la couverture du livre comme fond d’écran. À chaque fois que vous regardez votre téléphone, le livre est là, vous invitant à en reprendre la lecture. J’aime l’idée, mais je crois avoir trouvé une meilleure solution avec les widgets iOS 14.
 
 ![iPhone avec widget pour le livre *Hummingbird Salamender*](/blog/img/2021/ios-widget-livre/iphone-widget-livre.jpg)
 
