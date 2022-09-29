@@ -3,7 +3,7 @@ Author:   Vincent Tourraine
 Email:    me@vtourraine.net  
 Date:     September 26, 2022  
 Update:   
-Keywords: dev, iOS, SwiftUI  
+Keywords: dev, iOS
 Summary:  AcknowList existe parce que CocoaPods propose une liste des licences pour un projet : le fichier « acknowledgments.plist ». Que faire pour Swift Package Manager ? On peut toujours intégrer des licences manuellement, mais sans fichier de référence, l’intégration n’est pas vraiment satisfaisante. Quand soudain je découvre le fichier « Package.resolved ».  
 Image:    
 Language: fr  
