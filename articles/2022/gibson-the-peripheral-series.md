@@ -6,7 +6,6 @@ Update:
 Keywords:  Sci-Fi, series, William Gibson  
 Summary:   C’est la série que j’attendais le plus cette année. Pourtant, on ne peut pas dire qu’on manque de choses intéressantes à regarder. « The Peripheral » arrive sur Amazon Prime Video le 21 octobre, et j’ai hâte.  
 Image:     https://www.vtourraine.net/blog/img/2022/gibson-the-peripheral-series/the-peripheral.jpg  
-Thumbnail: 
 Language:  fr  
 
 
