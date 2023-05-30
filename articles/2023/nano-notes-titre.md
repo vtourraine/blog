@@ -1,4 +1,4 @@
-Title:    Nano Notes avec titres formattés  
+Title:    Nano Notes avec titres formatés  
 Author:   Vincent Tourraine  
 Email:    me@vtourraine.net  
 Date:     May 16, 2023  
