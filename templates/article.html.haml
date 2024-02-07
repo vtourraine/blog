@@ -33,6 +33,14 @@
     %meta{:name => "twitter:image",       :content => "#{image_url}"}
     %meta{:name => "twitter:url",         :content => "#{web_url}"}
 
+    -# Open Graph
+    %meta{:name => "og:title", :content => "#{title}"}
+    %meta{:name => "og:type", :content => "article"}
+    %meta{:name => "og:url", :content => "#{web_url}"}
+    %meta{:name => "og:description", :content => "#{summary}"}
+    - if image_url
+      %meta{:name => "og:image", :content => "#{image_url}"}
+
   %body.post
     %header
       #headline
