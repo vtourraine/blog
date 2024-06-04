@@ -2,7 +2,7 @@ Title:     SF Symbols et l’icône des Réglages
 Author:    Vincent Tourraine  
 Email:     me@vtourraine.net  
 Date:      January 22, 2020  
-Update:    
+Update:    June 4, 2024  
 Keywords:  dev, iOS  
 Summary:   Les SF Symbols sont une collection d’icônes standardisées pour iOS 13, mise à disposition par Apple pour les applications tierces. J’apprécie énormément de pouvoir les inclure dans mes propres applications, me débarrassant au passage des alternatives plus ou moins satisfaisantes que j’utilisais jusqu’à présent. Il y a juste un problème.  
 Image:     https://www.vtourraine.net/blog/img/2020/sf-symbols-gear/onelist-settings-gear.png  
@@ -24,3 +24,7 @@ Pour mes applications, j’ai toujours utilisé une icône de roue dentée plus 
 Il faut toujours du temps pour s’habituer aux changements. iOS 13 est disponible depuis plusieurs mois maintenant, mes applications ont toutes été mises à jour avec ces SF Symbols. Mais rien n’y fait, cette icône me paraît toujours inadaptée.
 
 J’ai bien conscience de ne pas avoir beaucoup d’arguments concrets pour défendre cette opinion. Cet article n’est pas très constructif. Pour iOS 14, je rêve seulement d’une icône « gear » avec quelques dents en moins.
+
+> Mise à jour, 4 juin 2024
+>
+> C’est assez rare pour être souligné : mon souhait a été exaucé ! L’icône « gear » est restée la même, mais Apple ajouté dès iOS 14 une icône alternative, « gearshape », qui reprend la forme conventionnelle décrite dans cet article. Merci Apple.
