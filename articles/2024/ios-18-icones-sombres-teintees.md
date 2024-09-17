@@ -2,7 +2,7 @@ Title:    Personnaliser les icônes sombres et teintées avec iOS 18
 Author:   Vincent Tourraine  
 Email:    me@vtourraine.net  
 Date:     September 16, 2024  
-Update:   
+Update:   September 17, 2024  
 Keywords: dev, iOS  
 Summary:  Avec iOS 18, les icônes évoluent. L’utilisateur peut maintenant personnaliser son écran d’accueil avec des icônes sombres ou teintées. Quel impact pour les développeurs ?  
 Image:    https://www.vtourraine.net/blog/img/2024/ios-18-icones-sombres-teintees/xcode-icons-3.jpg  
@@ -12,6 +12,8 @@ Language: fr
 Avec iOS 18, les icônes évoluent. L’utilisateur peut maintenant personnaliser son écran d’accueil avec des icônes sombres (« dark ») ou teintées (« tinted »).
 
 Quel impact pour les développeurs ? Si vous ne changez rien à votre application, iOS adapte automatiquement votre icône. La pertinence du résultat est... variable, selon les couleurs et le graphisme de l’icône d’origine. Pour garantir un résultat de qualité, vous avez donc tout intérêt à fournir vous-même des variantes, soigneusement conçues pour chaque mode.
+
+![Personnalisation des icônes avec iOS 18](/blog/img/2024/ios-18-icones-sombres-teintees/ios-18-icons.jpg)
 
 ## Créer les fichiers
 
