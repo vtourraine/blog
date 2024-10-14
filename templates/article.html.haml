@@ -18,12 +18,14 @@
     %meta{:name => "viewport", :content => "width=device-width, user-scalable=no"}
 
     %meta{:itemprop => "author", :content => "Vincent Tourraine"}
-
     %meta{:itemprop => "inLanguage", :content => "fr"}
     %meta{:itemprop => "datePublished", :content => "#{date}"}
     %meta{:itemprop => "image", :content => "#{image_url}"}
     - if thumbnail_url
       %meta{:itemprop => "thumbnailUrl", :content => "#{thumbnail_url}"}
+
+    -# Fediverse attribution
+    %meta{:name => "fediverse:creator", :content => "@vtourraine@techhub.social"}
 
     -# Twitter cards
     %meta{:name => "twitter:card",        :content => "summary"}
