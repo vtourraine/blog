@@ -37,6 +37,7 @@ blog.generate_index_year 2021, haml_options
 blog.generate_index_year 2022, haml_options
 blog.generate_index_year 2023, haml_options
 blog.generate_index_year 2024, haml_options
+blog.generate_index_year 2025, haml_options
 blog.generate_index_tag "livre", haml_options
 blog.generate_index_tag "comic book", haml_options
 blog.generate_index_tag "William Gibson", haml_options
