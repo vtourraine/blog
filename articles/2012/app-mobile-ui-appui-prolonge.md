@@ -44,7 +44,7 @@ Plus précisément, il s'agit d'un simple bouton "+" permettant d'ajouter un con
 
 En cas d'hésitation, un utilisateur a naturellement tendance à garder son doigt appuyé sur un bouton. C'est précisément le genre de situation où l'accompagnement est important, voire nécessaire. L'utilisateur hésite à finir son geste par manque d'assurance ? J'en profite pour lui proposer un choix plus détaillé, plus didactique.
 
-![Contact[s] action sheet, Studio AMANgA][Contact[s] action sheet]
+![Contact[s] action sheet, Studio AMANgA][Contacts action sheet]
 
 Il s'agit donc d'une approche permettant de dissimuler la complexité d'une application, tout en apportant *intelligemment* un renseignement ou un choix à l'utilisateur lorsqu'il en aura *a priori* besoin. 
 
@@ -59,7 +59,7 @@ Un peu d'assistance, pour ce grand incompris du multi-touch.
 [Touch gesture]: /blog/img/app-mobile-ui-appui-prolonge/touch-hold.png
 [Popover Notes]: /blog/img/app-mobile-ui-appui-prolonge/notes-popover.jpg
 [Popover Music]: /blog/img/app-mobile-ui-appui-prolonge/music-popover.jpg
-[Contact[s] action sheet]: /blog/img/app-mobile-ui-appui-prolonge/contacts-action-sheet.png
+[Contacts action sheet]: /blog/img/app-mobile-ui-appui-prolonge/contacts-action-sheet.png
 
 [UITextField]: 									https://developer.apple.com/library/ios/documentation/uikit/reference/UITextField_Class/
 [Mail drafts]: 									http://gizmodo.com/5887459/how-to-quickly-open-saved-email-drafts-in-ios
